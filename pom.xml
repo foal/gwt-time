@@ -117,6 +117,12 @@
 	<build>
 		<resources>
 			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.java</include>
+				</includes>
+			</resource>
+			<resource>
 				<directory>src/main/resources</directory>
 			</resource>
 			<resource>
@@ -145,7 +151,7 @@
 				<groupId>net.ltgt.gwt.maven</groupId>
 				<artifactId>gwt-maven-plugin</artifactId>
 				<configuration>
-					<moduleName>org.jresearch.threetenbp.gwt.module</moduleName>
+					<moduleName>org.jresearch.threetenbp.gwt.threetenbpGwt</moduleName>
 					<moduleShortName>threetenbpGwt</moduleShortName>
 					<relocateSuperSource>true</relocateSuperSource>
 					<relocateTestSuperSource>true</relocateTestSuperSource>
@@ -153,6 +159,12 @@
 						<testArg>-testMethodTimeout</testArg>
 						<testArg>30</testArg>
 					</testArgs>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-source-plugin</artifactId>
+				<configuration>
+					<skipSource>true</skipSource>
 				</configuration>
 			</plugin>
 			<!-- Setup testing -->

@@ -42,7 +42,7 @@ public abstract class AbstractTest extends GWTTestCase {
 
 	@Override
 	public String getModuleName() {
-		return "org.jresearch.threetenbp.gwt.module";
+		return "org.jresearch.threetenbp.gwt.threetenbpGwt";
 	}
 
 	@Override

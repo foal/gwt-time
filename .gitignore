@@ -17,6 +17,7 @@
 /*.launch
 /*.dic
 /*.mvn/
+*.iml
 
 **/TempTest.java
 /.idea/
