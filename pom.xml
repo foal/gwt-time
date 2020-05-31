@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.jresearch</groupId>
@@ -133,8 +135,10 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<!-- <source>13</source>
-					<target>13</target> -->
+					<source>13</source>
+					<target>13</target>
+					<verbose>true</verbose>
+					<showWarnings>true</showWarnings>
 					<annotationProcessorPaths>
 						<path>
 							<groupId>org.immutables</groupId>
@@ -147,10 +151,22 @@
 							<version>${time.apt.ver}</version>
 						</path>
 					</annotationProcessorPaths>
-					<!-- <compilerArgs>
-						<arg>-/-patch-module</arg><arg>java.base=${project.basedir}/src/main/java</arg>
-					</compilerArgs> -->
+					<compilerArgs>
+						<arg>--patch-module=java.base=${settings.localRepository}\org\jresearch\gwt\time\org.jresearch.gwt.time.patch\1.4.11-SNAPSHOT\org.jresearch.gwt.time.patch-1.4.11-SNAPSHOT.jar</arg>
+m					</compilerArgs>
 				</configuration>
+				<!-- <dependencies>
+					<dependency>
+						<groupId>jakarta.xml.bind</groupId>
+						<artifactId>jakarta.xml.bind-api</artifactId>
+						<version>2.3.3</version>
+					</dependency>
+					<dependency>
+						<groupId>org.glassfish.jaxb</groupId>
+						<artifactId>jaxb-runtime</artifactId>
+						<version>2.3.3</version>
+					</dependency>
+				</dependencies> -->
 			</plugin>
 			<plugin>
 				<artifactId>maven-dependency-plugin</artifactId>
@@ -213,8 +229,17 @@
 	<!-- ==================================================================== -->
 	<dependencies>
 		<dependency>
+			<groupId>com.google.jsinterop</groupId>
+			<artifactId>jsinterop-annotations</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>com.google.errorprone</groupId>
 			<artifactId>error_prone_annotations</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.jresearch.gwt.time</groupId>
+			<artifactId>org.jresearch.gwt.time.patch</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jresearch.gwt.time</groupId>
@@ -255,13 +280,15 @@
 			<version>${gwt-xhr.ver}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.google.jsinterop</groupId>
-			<artifactId>jsinterop-annotations</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>com.google.gwt</groupId>
 			<artifactId>gwt-user</artifactId>
 			<scope>provided</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>com.google.jsinterop</groupId>
+					<artifactId>jsinterop-annotations</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.google.gwt</groupId>
@@ -297,6 +324,11 @@
 			<groupId>org.immutables</groupId>
 			<artifactId>value-annotations</artifactId>
 		</dependency>
+		<!-- <dependency>
+			<groupId>org.glassfish.jaxb</groupId>
+			<artifactId>jaxb-runtime</artifactId>
+			<version>2.3.3</version>
+		</dependency> -->
 	</dependencies>
 
 

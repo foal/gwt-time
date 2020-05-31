@@ -6,9 +6,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Stream;
 
-import org.jresearch.gwt.time.apt.base.Bases;
-
-public class Cldrs extends Bases {
+public class Cldrs {
 
 	private static final Map<String, Region> TERRITORY_INDEX = new HashMap<>(Region.values().length);
 
