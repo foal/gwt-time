@@ -243,7 +243,7 @@ public final class TzdbZoneRulesProvider extends ZoneRulesProvider {
 			ZoneRules rule = ruleData[index];
 			if (rule == null) {
 				ArrayBuffer arrayBuffer = encodeRuleData[index];
-				rule = (ZoneRules) Ser.read(ByteBuffer.wrapArrayBuffer(arrayBuffer));
+				rule = (ZoneRules) Ser.read(org.gwtproject.nio.TypedArrayHelper.wrap(arrayBuffer));
 				ruleData[index] = rule;
 				encodeRuleData[index] = null;
 			}

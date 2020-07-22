@@ -239,11 +239,11 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.jresearch.dominokit</groupId>
-			<artifactId>domino-slf4j-logger</artifactId>
-			<version>${gwt-slf4j.ver}</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.jresearch.dominokit</groupId>-->
+<!--			<artifactId>domino-slf4j-logger</artifactId>-->
+<!--			<version>${gwt-slf4j.ver}</version>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>org.jresearch.gwtproject.nio</groupId>
 			<artifactId>gwt-nio</artifactId>

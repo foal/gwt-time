@@ -1,8 +1,8 @@
 package org.jresearch.threetenbp.gwt.client;
 
 import java.nio.ByteBuffer;
-import java.time.zone.Providers;
-import java.time.zone.ZoneRulesProvider;
+//import java.time.zone.Providers;
+//import java.time.zone.ZoneRulesProvider;
 import java.util.Locale;
 import java.util.stream.Stream;
 
@@ -60,8 +60,8 @@ public class Support {
 								LOGGER.trace("tz asynch initialization");
 								ArrayBuffer buffer = Js.cast(xhr.getResponseArrayBuffer());
 								ByteBuffer data = TypedArrayHelper.wrap(buffer);
-								ZoneRulesProvider provider = Providers.of(data);
-								ZoneRulesProvider.registerProvider(provider);
+//								ZoneRulesProvider provider = Providers.of(data);
+//								ZoneRulesProvider.registerProvider(provider);
 								tzTnitialized = true;
 							}
 						} else {
@@ -82,8 +82,8 @@ public class Support {
 			String tzData = bundle.tzdbEncoded().getText();
 			ArrayBuffer buffer = Support.decodeArrayBuffer(tzData);
 			ByteBuffer data = TypedArrayHelper.wrap(buffer);
-			ZoneRulesProvider provider = Providers.of(data);
-			ZoneRulesProvider.registerProvider(provider);
+//			ZoneRulesProvider provider = Providers.of(data);
+//			ZoneRulesProvider.registerProvider(provider);
 			tzTnitialized = true;
 		}
 	}

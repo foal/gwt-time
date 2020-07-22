@@ -3394,7 +3394,7 @@ public final class DateTimeFormatterBuilder {
 
         @Override
         public int parse(DateTimeParseContext context, CharSequence text, int position) {
-			LOGGER.debug("parse {} from position {} in context {}", text, position, context);
+//			LOGGER.debug("parse {} from position {} in context {}", text, position, context);
             // this is a poor implementation that handles some but not all of the spec
             // JDK8 has a lot of extra information here
             Map<String, String> ids = new TreeMap<String, String>(LENGTH_COMPARATOR);

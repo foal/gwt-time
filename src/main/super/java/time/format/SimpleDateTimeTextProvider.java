@@ -87,7 +87,7 @@ final class SimpleDateTimeTextProvider extends DateTimeTextProvider {
     //-----------------------------------------------------------------------
     @Override
     public String getText(TemporalField field, long value, TextStyle style, Locale locale) {
-		LOGGER.trace("Return text for field {}, value {}, style {}, locale {}", field, value, style, locale);
+//		LOGGER.trace("Return text for field {}, value {}, style {}, locale {}", field, value, style, locale);
         Object store = findStore(field, locale);
         if (store instanceof LocaleStore) {
             return ((LocaleStore) store).getText(value, style);
