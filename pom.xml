@@ -233,9 +233,9 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.jresearch.gwtproject</groupId>
-			<artifactId>typedarrays</artifactId>
-			<version>${gwt-typedarrays.ver}</version>
+			<groupId>org.gwtproject.typedarrays</groupId>
+			<artifactId>gwt-typedarrays</artifactId>
+			<version>HEAD-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.google.elemental2</groupId>
@@ -251,28 +251,18 @@
 			<version>${gwt-slf4j.ver}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.jresearch.gwtproject.nio</groupId>
+			<groupId>org.treblereel.gwt.nio</groupId>
 			<artifactId>gwt-nio</artifactId>
-			<version>${gwt-nio.ver}</version>
+			<version>1.0</version>
 		</dependency>
 		<dependency>
-			<groupId>org.jresearch.gwtproject.xhr</groupId>
+			<groupId>org.gwtproject.xhr</groupId>
 			<artifactId>gwt-xhr</artifactId>
-			<version>${gwt-xhr.ver}</version>
+			<version>HEAD-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.google.jsinterop</groupId>
 			<artifactId>jsinterop-annotations</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.google.gwt</groupId>
-			<artifactId>gwt-user</artifactId>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.google.gwt</groupId>
-			<artifactId>gwt-dev</artifactId>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
@@ -302,6 +292,21 @@
 		<dependency>
 			<groupId>org.immutables</groupId>
 			<artifactId>value-annotations</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.gwtproject.regexp</groupId>
+			<artifactId>gwt-regexp</artifactId>
+			<version>HEAD-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-user</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-dev</artifactId>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
@@ -435,5 +440,9 @@
 		<gwt-xhr.ver>1.1</gwt-xhr.ver>
 		<gwt-slf4j.ver>1.0-rc.4</gwt-slf4j.ver>
 		<time.apt.ver>1.0.7-SNAPSHOT</time.apt.ver>
+		<gwt.version>2.9.0</gwt.version>
+		<elemental.ver>1.0.0</elemental.ver>
+		<jsinterop-annotations.ver>2.0.0</jsinterop-annotations.ver>
+		<jsinterop-base.ver>1.0.0</jsinterop-base.ver>
 	</properties>
 </project>

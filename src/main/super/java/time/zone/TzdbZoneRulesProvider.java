@@ -43,6 +43,7 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.TreeMap;
 
+import org.gwtproject.nio.TypedArrayHelper;
 import org.gwtproject.typedarrays.client.ArrayBufferNative;
 import org.gwtproject.typedarrays.client.Int8ArrayNative;
 
@@ -243,7 +244,7 @@ public final class TzdbZoneRulesProvider extends ZoneRulesProvider {
 			ZoneRules rule = ruleData[index];
 			if (rule == null) {
 				ArrayBuffer arrayBuffer = encodeRuleData[index];
-				rule = (ZoneRules) Ser.read(ByteBuffer.wrapArrayBuffer(arrayBuffer));
+				rule = (ZoneRules) Ser.read(TypedArrayHelper.wrap(arrayBuffer));
 				ruleData[index] = rule;
 				encodeRuleData[index] = null;
 			}

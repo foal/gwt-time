@@ -55,8 +55,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-import com.google.gwt.regexp.shared.MatchResult;
-import com.google.gwt.regexp.shared.RegExp;
+import org.gwtproject.regexp.shared.MatchResult;
+import org.gwtproject.regexp.shared.RegExp;
 
 /**
  * A time-based amount of time, such as '34.5 seconds'.

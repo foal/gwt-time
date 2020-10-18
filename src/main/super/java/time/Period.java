@@ -53,8 +53,8 @@ import java.util.Objects;
 //import java.util.regex.Matcher;
 //import java.util.regex.Pattern;
 
-import com.google.gwt.regexp.shared.MatchResult;
-import com.google.gwt.regexp.shared.RegExp;
+import org.gwtproject.regexp.shared.MatchResult;
+import org.gwtproject.regexp.shared.RegExp;
 
 /**
  * A date-based amount of time, such as '2 years, 3 months and 4 days'.
@@ -413,7 +413,8 @@ public final class Period
      *
      * @return true if this period is zero-length
      */
-    public boolean isZero() {
+    @Override
+	public boolean isZero() {
         return (this == ZERO);
     }
 
@@ -424,7 +425,8 @@ public final class Period
      *
      * @return true if any unit of this period is negative
      */
-    public boolean isNegative() {
+    @Override
+	public boolean isNegative() {
         return years < 0 || months < 0 || days < 0;
     }
 
@@ -549,7 +551,8 @@ public final class Period
      * @return a {@code Period} based on this period with the requested period added, not null
      * @throws ArithmeticException if numeric overflow occurs
      */
-    public Period plus(TemporalAmount amountToAdd) {
+    @Override
+	public Period plus(TemporalAmount amountToAdd) {
         Period amount = Period.from(amountToAdd);
         return create(
                 Math.addExact(years, amount.years),
@@ -633,7 +636,8 @@ public final class Period
      * @return a {@code Period} based on this period with the requested period subtracted, not null
      * @throws ArithmeticException if numeric overflow occurs
      */
-    public Period minus(TemporalAmount amountToSubtract) {
+    @Override
+	public Period minus(TemporalAmount amountToSubtract) {
         Period amount = Period.from(amountToSubtract);
         return create(
                 Math.subtractExact(years, amount.years),
@@ -704,7 +708,8 @@ public final class Period
      * @return a {@code Period} based on this period with the amounts multiplied by the scalar, not null
      * @throws ArithmeticException if numeric overflow occurs
      */
-    public Period multipliedBy(int scalar) {
+    @Override
+	public Period multipliedBy(int scalar) {
         if (this == ZERO || scalar == 1) {
             return this;
         }
@@ -720,7 +725,8 @@ public final class Period
      * @return a {@code Period} based on this period with the amounts negated, not null
      * @throws ArithmeticException if numeric overflow occurs
      */
-    public Period negated() {
+    @Override
+	public Period negated() {
         return multipliedBy(-1);
     }
 
@@ -745,7 +751,8 @@ public final class Period
      * @return a {@code Period} based on this period with excess months normalized to years, not null
      * @throws ArithmeticException if numeric overflow occurs
      */
-    public Period normalized() {
+    @Override
+	public Period normalized() {
         long totalMonths = toTotalMonths();
         long splitYears = totalMonths / 12;
         int splitMonths = (int) (totalMonths % 12);  // no overflow
