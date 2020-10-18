@@ -235,7 +235,7 @@
 		<dependency>
 			<groupId>org.gwtproject.typedarrays</groupId>
 			<artifactId>gwt-typedarrays</artifactId>
-			<version>HEAD-SNAPSHOT</version>
+			<version>${gwt-typedarrays.ver}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.google.elemental2</groupId>
@@ -253,12 +253,12 @@
 		<dependency>
 			<groupId>org.treblereel.gwt.nio</groupId>
 			<artifactId>gwt-nio</artifactId>
-			<version>1.0</version>
+			<version>${gwt-nio.ver}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.gwtproject.xhr</groupId>
 			<artifactId>gwt-xhr</artifactId>
-			<version>HEAD-SNAPSHOT</version>
+			<version>${gwt-xhr.ver}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.google.jsinterop</groupId>
@@ -296,7 +296,7 @@
 		<dependency>
 			<groupId>org.gwtproject.regexp</groupId>
 			<artifactId>gwt-regexp</artifactId>
-			<version>HEAD-SNAPSHOT</version>
+			<version>${gwt-regexp.ver}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.google.gwt</groupId>
@@ -435,11 +435,12 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<linkXRef>false</linkXRef>
 		<tz.database.version>2020b</tz.database.version> -->
-		<gwt-typedarrays.ver>1.2</gwt-typedarrays.ver>
-		<gwt-nio.ver>0.1</gwt-nio.ver>
-		<gwt-xhr.ver>1.1</gwt-xhr.ver>
+		<gwt-regexp.ver>HEAD-SNAPSHOT</gwt-regexp.ver>
+		<gwt-typedarrays.ver>HEAD-SNAPSHOT</gwt-typedarrays.ver>
+		<gwt-nio.ver>1.0</gwt-nio.ver>
+		<gwt-xhr.ver>HEAD-SNAPSHOT</gwt-xhr.ver>
 		<gwt-slf4j.ver>1.0-rc.4</gwt-slf4j.ver>
-		<time.apt.ver>1.0.7-SNAPSHOT</time.apt.ver>
+		<time.apt.ver>2.0.0-SNAPSHOT</time.apt.ver>
 		<gwt.version>2.9.0</gwt.version>
 		<elemental.ver>1.0.0</elemental.ver>
 		<jsinterop-annotations.ver>2.0.0</jsinterop-annotations.ver>
