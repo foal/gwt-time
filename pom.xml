@@ -217,6 +217,15 @@
 	</build>
 
 	<!-- ==================================================================== -->
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.gwtproject.core</groupId>
+				<artifactId>gwt-core</artifactId>
+				<version>${gwt-core.ver}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 	<dependencies>
 		<dependency>
 			<groupId>com.google.errorprone</groupId>
@@ -440,10 +449,11 @@
 		<gwt-nio.ver>1.0</gwt-nio.ver>
 		<gwt-xhr.ver>HEAD-SNAPSHOT</gwt-xhr.ver>
 		<gwt-slf4j.ver>1.0-rc.4</gwt-slf4j.ver>
-		<time.apt.ver>2.0.0-SNAPSHOT</time.apt.ver>
+		<time.apt.ver>2.0.1-SNAPSHOT</time.apt.ver>
 		<gwt.version>2.9.0</gwt.version>
-		<elemental.ver>1.0.0</elemental.ver>
+		<elemental.ver>1.1.0</elemental.ver>
 		<jsinterop-annotations.ver>2.0.0</jsinterop-annotations.ver>
 		<jsinterop-base.ver>1.0.0</jsinterop-base.ver>
+		<gwt-core.ver>1.0.0-RC1</gwt-core.ver>
 	</properties>
 </project>
