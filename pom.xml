@@ -179,6 +179,7 @@
 					<moduleShortName>threetenbpGwt</moduleShortName>
 					<relocateSuperSource>true</relocateSuperSource>
 					<relocateTestSuperSource>true</relocateTestSuperSource>
+					<enableAssertions>false</enableAssertions>
 					<testArgs>
 						<testArg>-testMethodTimeout</testArg>
 						<testArg>30</testArg>
