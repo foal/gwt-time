@@ -168,6 +168,7 @@
 						<ignoredUnusedDeclaredDependency>org.jresearch.dominokit:domino-slf4j-logger</ignoredUnusedDeclaredDependency>
 						<ignoredUnusedDeclaredDependency>com.google.jsinterop:base</ignoredUnusedDeclaredDependency>
 						<ignoredUnusedDeclaredDependency>org.jresearch.gwt.time:org.jresearch.gwt.time.apt.annotation</ignoredUnusedDeclaredDependency>
+						<ignoredUnusedDeclaredDependency>org.gwtproject.regexp:gwt-regexp</ignoredUnusedDeclaredDependency>
 					</ignoredUnusedDeclaredDependencies>
 				</configuration>
 			</plugin>
@@ -445,8 +446,8 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<linkXRef>false</linkXRef>
 		<tz.database.version>2020b</tz.database.version> -->
-		<gwt-regexp.ver>HEAD-SNAPSHOT</gwt-regexp.ver>
-		<gwt-typedarrays.ver>HEAD-SNAPSHOT</gwt-typedarrays.ver>
+		<gwt-regexp.ver>1.0.0-RC1</gwt-regexp.ver>
+		<gwt-typedarrays.ver>1.0.0-RC1</gwt-typedarrays.ver>
 		<gwt-nio.ver>1.0</gwt-nio.ver>
 		<gwt-xhr.ver>HEAD-SNAPSHOT</gwt-xhr.ver>
 		<gwt-slf4j.ver>1.0-rc.4</gwt-slf4j.ver>
