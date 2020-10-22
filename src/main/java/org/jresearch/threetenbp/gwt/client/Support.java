@@ -8,6 +8,7 @@ import java.util.stream.Stream;
 
 import javax.annotation.Nonnull;
 
+import org.gwtproject.core.client.ScriptInjector;
 import org.gwtproject.nio.TypedArrayHelper;
 import org.gwtproject.typedarrays.shared.Uint8Array;
 import org.gwtproject.xhr.client.ReadyStateChangeHandler;
@@ -20,7 +21,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.gwt.core.client.GWT;
-import com.google.gwt.core.client.ScriptInjector;
 
 import elemental2.core.ArrayBuffer;
 import jsinterop.base.Js;
