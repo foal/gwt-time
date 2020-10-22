@@ -219,16 +219,12 @@
 	</build>
 
 	<!-- ==================================================================== -->
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.gwtproject.core</groupId>
-				<artifactId>gwt-core</artifactId>
-				<version>${gwt-core.ver}</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
 	<dependencies>
+		<dependency>
+			<groupId>org.gwtproject.core</groupId>
+			<artifactId>gwt-core</artifactId>
+			<version>${gwt-core.ver}</version>
+		</dependency>
 		<dependency>
 			<groupId>com.google.errorprone</groupId>
 			<artifactId>error_prone_annotations</artifactId>
