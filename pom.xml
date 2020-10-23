@@ -253,7 +253,7 @@
 			<artifactId>slf4j-api</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.jresearch.dominokit</groupId>
+			<groupId>org.dominokit</groupId>
 			<artifactId>domino-slf4j-logger</artifactId>
 			<version>${gwt-slf4j.ver}</version>
 		</dependency>
@@ -446,7 +446,7 @@
 		<gwt-typedarrays.ver>1.0.0-RC1</gwt-typedarrays.ver>
 		<gwt-nio.ver>1.0</gwt-nio.ver>
 		<gwt-xhr.ver>HEAD-SNAPSHOT</gwt-xhr.ver>
-		<gwt-slf4j.ver>1.0-rc.4</gwt-slf4j.ver>
+		<gwt-slf4j.ver>1.0.0</gwt-slf4j.ver>
 		<time.apt.ver>2.0.1-SNAPSHOT</time.apt.ver>
 		<gwt.version>2.9.0</gwt.version>
 		<elemental.ver>1.1.0</elemental.ver>
