@@ -445,7 +445,7 @@
 		<gwt-nio.ver>1.0</gwt-nio.ver>
 		<gwt-xhr.ver>1.0.0-RC1</gwt-xhr.ver>
 		<gwt-slf4j.ver>1.0.0</gwt-slf4j.ver>
-		<time.apt.ver>2.0.2</time.apt.ver>
+		<time.apt.ver>2.0.3-SNAPSHOT</time.apt.ver>
 		<gwt.version>2.9.0</gwt.version>
 		<elemental.ver>1.1.0</elemental.ver>
 		<jsinterop-annotations.ver>2.0.0</jsinterop-annotations.ver>
