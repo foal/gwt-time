@@ -3,7 +3,6 @@ package org.jresearch.threetenbp.gwt.client;
 import java.util.Locale;
 
 import org.gwtproject.typedarrays.shared.Uint8Array;
-import org.jresearch.threetenbp.gwt.client.cldr.LocaleInfo;
 import org.junit.Test;
 
 import com.google.gwt.junit.client.GWTTestCase;
@@ -58,7 +57,7 @@ public class GwtSupportTest extends GWTTestCase {
 
 	@Test
 	public void testSupportedLocalesOfDateTimeFormat() {
-		Locale[] test = new Locale[] { LocaleInfo.AGQ_CM, LocaleInfo.DE_DE };
+		Locale[] test = new Locale[] { Support.toLocale("agq-CM"), Support.toLocale("de-DE") };
 		Locale[] result = Support.supportedLocalesOfDateTimeFormat(test);
 		assertNotNull(result);
 		assertEquals(2, result.length);
@@ -66,7 +65,7 @@ public class GwtSupportTest extends GWTTestCase {
 
 	@Test
 	public void testSupportedLocalesOfNumberFormat() {
-		Locale[] test = new Locale[] { LocaleInfo.AGQ_CM, LocaleInfo.DE_DE };
+		Locale[] test = new Locale[] { Support.toLocale("agq-CM"), Support.toLocale("de-DE") };
 		Locale[] result = Support.supportedLocalesOfNumberFormat(test);
 		assertNotNull(result);
 		assertEquals(2, result.length);

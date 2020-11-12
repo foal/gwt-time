@@ -43,7 +43,6 @@ import java.util.stream.Stream;
 import org.jresearch.gwt.time.apt.base.Bases;
 import org.jresearch.gwt.time.apt.base.Chrono;
 import org.jresearch.threetenbp.gwt.client.Support;
-import org.jresearch.threetenbp.gwt.client.cldr.LocaleInfo;
 import org.jresearch.threetenbp.gwt.client.cldr.PatternCoordinates;
 import org.jresearch.threetenbp.gwt.client.cldr.PatternInfo;
 
@@ -66,7 +65,7 @@ final class SimpleDateTimeFormatStyleProvider extends DateTimeFormatStyleProvide
     @Override
 	// GWT Specific
     public Locale[] getAvailableLocales() {
-		return Support.supportedLocalesOfDateTimeFormat(LocaleInfo.LOCALES);
+		return Support.supportedLocalesOfDateTimeFormat(Locale.getAvailableLocales());
     }
 
     @Override
@@ -135,7 +134,7 @@ final class SimpleDateTimeFormatStyleProvider extends DateTimeFormatStyleProvide
 		if (variant.isEmpty()) {
 			String country = locale.getCountry();
 			if (country.isEmpty()) {
-				return LocaleInfo.ROOT;
+				return Locale.ROOT;
 			}
 			return new Locale(locale.getLanguage());
 		}

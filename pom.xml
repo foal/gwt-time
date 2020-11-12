@@ -165,6 +165,7 @@
 						<ignoredUnusedDeclaredDependency>org.jresearch.gwt.time:org.jresearch.gwt.time.apt.annotation</ignoredUnusedDeclaredDependency>
 						<ignoredUnusedDeclaredDependency>org.gwtproject.regexp:gwt-regexp</ignoredUnusedDeclaredDependency>
 						<ignoredUnusedDeclaredDependency>org.dominokit:domino-slf4j-logger</ignoredUnusedDeclaredDependency>
+						<ignoredUnusedDeclaredDependency>org.jresearch.gwt.locale:org.jresearch.gwt.locale</ignoredUnusedDeclaredDependency>
 					</ignoredUnusedDeclaredDependencies>
 				</configuration>
 			</plugin>
@@ -216,6 +217,11 @@
 
 	<!-- ==================================================================== -->
 	<dependencies>
+		<dependency>
+			<groupId>org.jresearch.gwt.locale</groupId>
+			<artifactId>org.jresearch.gwt.locale</artifactId>
+			<version>${gwt-locale.ver}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.gwtproject.core</groupId>
 			<artifactId>gwt-core</artifactId>
@@ -450,5 +456,6 @@
 		<jsinterop-annotations.ver>2.0.0</jsinterop-annotations.ver>
 		<jsinterop-base.ver>1.0.0</jsinterop-base.ver>
 		<gwt-core.ver>1.0.0-RC1</gwt-core.ver>
+		<gwt-locale.ver>1.0.0-SNAPSHOT</gwt-locale.ver>
 	</properties>
 </project>

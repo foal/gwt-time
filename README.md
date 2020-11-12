@@ -33,18 +33,26 @@ The impementation contains all actual data from CLDR
 
 ### Using
 
-* Add project dependency to pom.xml
+* For GWT 2.8.2 add the following project dependency to pom.xml
 ```
 <dependency>
     <groupId>org.jresearch.gwt.time</groupId>
     <artifactId>org.jresearch.gwt.time</artifactId>
-    <version>1.4.11</version>
+    <version>1.4.12</version>
+</dependency>
+```
+* For GWT 2.9.0 add the following  project dependency to pom.xml
+```
+<dependency>
+    <groupId>org.jresearch.gwt.time</groupId>
+    <artifactId>org.jresearch.gwt.time</artifactId>
+    <version>2.0.0</version>
 </dependency>
 ```
 * Add `<inherits name="org.jresearch.threetenbp.gwt.module"/>` to your module.gwt.xml, if you use gwt-maven-plugin form Thomas Broyer (https://github.com/tbroyer/gwt-maven-plugin) it will be done automatically
 
 ### Unimplemented or partial implemented features
-* Compatibility with [GWT 2.9.0](https://github.com/foal/gwt-time/issues/3) and J2CL
+* Compatibility with J2CL
 * Updates from Java 9-14
 * Localization for IsoFields.QUARTER_OF_YEAR (hard code English quarter text)
 * Chronology prints as ID (take it from browser)
@@ -82,8 +90,8 @@ Pull requests must _not_ be copied from the JDK, because the GPL license is inco
 
 
 ### Building from sources
-
-* check out
+* check out [APT project](https://github.com/foal/gwt-time-apt) and INSTALL (`mvn clean install`) it.
+* check out this project
 * `mvn clean install`
 * The project use the parent pom located on Sonatype snapshot repository.
 ```
