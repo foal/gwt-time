@@ -32,7 +32,6 @@ import org.jresearch.threetenbp.gwt.client.format.TestTextPrinter;
 import org.jresearch.threetenbp.gwt.client.format.TestZoneIdParser;
 import org.jresearch.threetenbp.gwt.client.format.TestZoneOffsetParser;
 import org.jresearch.threetenbp.gwt.client.format.TestZoneOffsetPrinter;
-import org.jresearch.threetenbp.gwt.client.locale.TestLocale;
 import org.jresearch.threetenbp.gwt.client.temporal.TestChronoField;
 import org.jresearch.threetenbp.gwt.client.temporal.TestChronoUnit;
 import org.jresearch.threetenbp.gwt.client.temporal.TestIsoFields;
@@ -129,7 +128,6 @@ public class GwtTreetenBpSuite {
 		suite.addTestSuite(TestDateTimeParsing.class);
 		suite.addTestSuite(TestDateTimeTextPrinting.class);
 		suite.addTestSuite(TestDecimalStyle.class);
-		suite.addTestSuite(TestLocale.class);
 		// $JUnit-END$
 
 		return suite;

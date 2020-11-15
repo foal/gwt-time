@@ -163,22 +163,18 @@ public class Support {
 	public static Locale[] supportedLocalesOfDateTimeFormat(Locale[] locales) {
 		String[] a = Stream.of(locales).map(l -> l.toLanguageTag()).filter(l -> !"und".equalsIgnoreCase(l)).toArray(String[]::new);
 		String[] supportedLocales = SupportJs.supportedLocalesOfDateTimeFormat(a);
-		return Stream.of(supportedLocales).map(Support::toLocale).toArray(Locale[]::new);
+		return Stream.of(supportedLocales).map(Support::jsRootToJava).map(Locale::forLanguageTag).toArray(Locale[]::new);
 	}
 
 	@Nonnull
 	public static Locale[] supportedLocalesOfNumberFormat(Locale[] locales) {
 		String[] a = Stream.of(locales).map(l -> l.toLanguageTag()).filter(l -> !"und".equalsIgnoreCase(l)).toArray(String[]::new);
 		String[] supportedLocales = SupportJs.supportedLocalesOfNumberFormat(a);
-		return Stream.of(supportedLocales).map(Support::toLocale).toArray(Locale[]::new);
+		return Stream.of(supportedLocales).map(Support::jsRootToJava).map(Locale::forLanguageTag).toArray(Locale[]::new);
 	}
 
-	public static Locale toLocale(String langTag) {
-		return Stream.of(Locale.getAvailableLocales()).filter(l -> langTag.equalsIgnoreCase(l.toLanguageTag())).findAny().orElseGet(() -> createLocale(langTag));
-	}
-
-	public static Locale createLocale(String languageTag) {
-		return Locale.forLanguageTag(languageTag);
+	public static String jsRootToJava(String tag) {
+		return "root".equalsIgnoreCase(tag) ? "" : tag;
 	}
 
 }

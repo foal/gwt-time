@@ -57,7 +57,7 @@ public class GwtSupportTest extends GWTTestCase {
 
 	@Test
 	public void testSupportedLocalesOfDateTimeFormat() {
-		Locale[] test = new Locale[] { Support.toLocale("agq-CM"), Support.toLocale("de-DE") };
+		Locale[] test = new Locale[] { Locale.forLanguageTag("agq-CM"), Locale.forLanguageTag("de-DE") };
 		Locale[] result = Support.supportedLocalesOfDateTimeFormat(test);
 		assertNotNull(result);
 		assertEquals(2, result.length);
@@ -65,7 +65,7 @@ public class GwtSupportTest extends GWTTestCase {
 
 	@Test
 	public void testSupportedLocalesOfNumberFormat() {
-		Locale[] test = new Locale[] { Support.toLocale("agq-CM"), Support.toLocale("de-DE") };
+		Locale[] test = new Locale[] { Locale.forLanguageTag("agq-CM"), Locale.forLanguageTag("de-DE") };
 		Locale[] result = Support.supportedLocalesOfNumberFormat(test);
 		assertNotNull(result);
 		assertEquals(2, result.length);
