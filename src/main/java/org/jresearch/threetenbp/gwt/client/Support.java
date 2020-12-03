@@ -1,89 +1,74 @@
 package org.jresearch.threetenbp.gwt.client;
 
-import java.nio.ByteBuffer;
-import java.time.zone.Providers;
 import java.time.zone.ZoneRulesProvider;
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 import java.util.stream.Stream;
 
 import javax.annotation.Nonnull;
 
 import org.gwtproject.core.client.ScriptInjector;
-import org.gwtproject.nio.TypedArrayHelper;
 import org.gwtproject.typedarrays.shared.Uint8Array;
-import org.gwtproject.xhr.client.ReadyStateChangeHandler;
-import org.gwtproject.xhr.client.XMLHttpRequest;
-import org.gwtproject.xhr.client.XMLHttpRequest.ResponseType;
 import org.jresearch.threetenbp.gwt.client.loader.TimeJsBundle;
+import org.jresearch.threetenbp.gwt.client.zone.GwtZoneRuleProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.gwt.core.client.GWT;
 
 import elemental2.core.ArrayBuffer;
-import jsinterop.base.Js;
 
 @SuppressWarnings("nls")
 public class Support {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(Support.class);
 
-	private static final TimeJsBundle bundle = GWT.create(TimeJsBundle.class);
+	public static final TimeJsBundle bundle = GWT.create(TimeJsBundle.class);
+	private static final Map<String, GwtZoneRuleProvider> gwtZoneRuleProviders = new HashMap<>();
 
 	private static boolean commonInitialized = false;
-	private static boolean tzTnitializing = false;
-	private static boolean tzTnitialized = false;
-
-	static {
-		init();
-	}
+	private static boolean loadAsync = true;
 
 	public static void init() {
 		if (!commonInitialized) {
-			LOGGER.trace("common initialization");
+			LOGGER.debug("common initialization");
 			ScriptInjector.fromString(bundle.support().getText()).setWindow(ScriptInjector.TOP_WINDOW).inject();
 			ScriptInjector.fromString(bundle.base64binary().getText()).setWindow(ScriptInjector.TOP_WINDOW).inject();
 			commonInitialized = true;
-			XMLHttpRequest request = XMLHttpRequest.create();
-			request.open("GET", bundle.tzdb().getSafeUri().asString());
-			request.setResponseType(ResponseType.ArrayBuffer);
-			request.setOnReadyStateChange(new ReadyStateChangeHandler() {
-				@SuppressWarnings({ "synthetic-access", "boxing" })
-				@Override
-				public void onReadyStateChange(XMLHttpRequest xhr) {
-					if (xhr.getReadyState() == XMLHttpRequest.DONE) {
-						if (xhr.getStatus() == 200) {
-							if (!tzTnitialized && !tzTnitializing) {
-								tzTnitializing = true;
-								LOGGER.trace("tz asynch initialization");
-								ArrayBuffer buffer = Js.cast(xhr.getResponseArrayBuffer());
-								ByteBuffer data = TypedArrayHelper.wrap(buffer);
-								ZoneRulesProvider provider = Providers.of(data);
-								ZoneRulesProvider.registerProvider(provider);
-								tzTnitialized = true;
-							}
-						} else {
-							LOGGER.error("Can't load TZDB asynch. Response status: {} {}", xhr.getStatus(),
-									xhr.getStatusText());
-						}
-					}
-				}
-			});
-			request.send();
+			if (loadAsync) {
+				gwtZoneRuleProviders.values().stream()
+						.filter(GwtZoneRuleProvider::isAsyncInitializeSupported)
+						.forEach(GwtZoneRuleProvider::initiatedAsyncInitialize);
+			}
 		}
 	}
 
 	public static void initTzData() {
-		if (!tzTnitialized && !tzTnitializing) {
-			tzTnitializing = true;
-			LOGGER.trace("tz synch initialization");
-			String tzData = bundle.tzdbEncoded().getText();
-			ArrayBuffer buffer = Support.decodeArrayBuffer(tzData);
-			ByteBuffer data = TypedArrayHelper.wrap(buffer);
-			ZoneRulesProvider provider = Providers.of(data);
-			ZoneRulesProvider.registerProvider(provider);
-			tzTnitialized = true;
+		LOGGER.debug("initTzData called");
+		if (!commonInitialized) {
+			// prevent from asynch load
+			loadAsync = false;
+			init();
 		}
+		if (!isTzTnitialized()) {
+			gwtZoneRuleProviders.values().forEach(GwtZoneRuleProvider::initialize);
+		}
+	}
+
+	public static void registerGwtZoneRuleProvider(GwtZoneRuleProvider gwtZoneRuleProvider) {
+		if (!gwtZoneRuleProviders.containsKey(gwtZoneRuleProvider.getProviderId())) {
+			LOGGER.debug("Register GWT zone rule provider: {}", gwtZoneRuleProvider.getProviderId());
+			gwtZoneRuleProviders.put(gwtZoneRuleProvider.getProviderId(), gwtZoneRuleProvider);
+			if (gwtZoneRuleProvider.isAsyncInitializeSupported()) {
+				gwtZoneRuleProvider.initiatedAsyncInitialize();
+			}
+			ZoneRulesProvider.refresh();
+		}
+	}
+
+	public static boolean isTzTnitialized() {
+		return !gwtZoneRuleProviders.isEmpty() && gwtZoneRuleProviders.values().stream().allMatch(GwtZoneRuleProvider::isInitialized);
 	}
 
 	public static float getTimestamp() {

@@ -3427,7 +3427,7 @@ public final class DateTimeFormatterBuilder {
 			String style = textStyle.asNormal() == TextStyle.FULL ? "long" : "short";
             for (String id : ZoneId.getAvailableZoneIds()) {
                 ids.put(id, id);
-				LOGGER.trace("put key {} for ZoneId {}", id, id);
+				LOGGER.debug("put key {} for ZoneId {}", id, id);
 				// GWT Specific
 				String textWinter = Support.displayTimeZone(false, id, style, context.getLocale().toLanguageTag());
 //                TimeZone tz = TimeZone.getTimeZone(id);
@@ -3435,14 +3435,14 @@ public final class DateTimeFormatterBuilder {
 //                String textWinter = tz.getDisplayName(false, tzstyle, context.getLocale());
 				if (id.startsWith("Etc/") || (!textWinter.startsWith("GMT+") && !textWinter.startsWith("GMT-"))) {
 					ids.put(normalizedZoneCustomId(textWinter), id);
-					LOGGER.trace("put key {} for ZoneId {}", normalizedZoneCustomId(textWinter), id);
+					LOGGER.debug("put key {} for ZoneId {}", normalizedZoneCustomId(textWinter), id);
                 }
 				// GWT Specific
 //              String textSummer = tz.getDisplayName(true, tzstyle, context.getLocale());
 				String textSummer = Support.displayTimeZone(true, id, style, context.getLocale().toLanguageTag());
 				if (id.startsWith("Etc/") || (!textSummer.startsWith("GMT+") && !textSummer.startsWith("GMT-"))) {
 					ids.put(normalizedZoneCustomId(textSummer), id);
-					LOGGER.trace("put key {} for ZoneId {}", normalizedZoneCustomId(textSummer), id);
+					LOGGER.debug("put key {} for ZoneId {}", normalizedZoneCustomId(textSummer), id);
                 }
             }
             for (Entry<String, String> entry : ids.entrySet()) {
@@ -3484,9 +3484,9 @@ public final class DateTimeFormatterBuilder {
                 return result;
             } catch (DateTimeException dte) {
                 return ~position;
-            }       
+			}
 		}
-			
+
 		private String normalizedZoneCustomId(String zoneCustomId) {
 			String result = zoneCustomId;
 			int length = zoneCustomId.length();

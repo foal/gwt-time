@@ -31,6 +31,8 @@
  */
 package org.jresearch.threetenbp.gwt.client;
 
+import org.jresearch.threetenbp.gwt.client.zone.GwtTzdbZoneRuleProvider;
+
 import com.google.gwt.junit.client.GWTTestCase;
 
 /**
@@ -38,7 +40,7 @@ import com.google.gwt.junit.client.GWTTestCase;
  */
 public abstract class AbstractTest extends GWTTestCase {
 
-	private static boolean firstTest = true;;
+	private static boolean firstTest = true;
 
 	@Override
 	public String getModuleName() {
@@ -55,7 +57,7 @@ public abstract class AbstractTest extends GWTTestCase {
 	}
 
 	public void gwtSetUpOnce() {
-		// nothing
+		Support.registerGwtZoneRuleProvider(new GwtTzdbZoneRuleProvider());
 	}
 
 //    private static final String SERIALISATION_DATA_FOLDER = "src/test/resources/";

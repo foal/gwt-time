@@ -34,9 +34,7 @@ package java.time.zone;
 import static java.time.temporal.TemporalAdjusters.nextOrSame;
 import static java.time.temporal.TemporalAdjusters.previousOrSame;
 
-import java.io.IOException;
 import java.io.Serializable;
-import java.nio.ByteBuffer;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -258,29 +256,30 @@ public final class ZoneOffsetTransitionRule implements Serializable {
      * @return the created object, not null
      * @throws IOException if an error occurs
      */
-    static ZoneOffsetTransitionRule readExternal(ByteBuffer in) throws IOException {
-        int data = in.getInt();
-        Month month = Month.of(data >>> 28);
-        int dom = ((data & (63 << 22)) >>> 22) - 32;
-        int dowByte = (data & (7 << 19)) >>> 19;
-        DayOfWeek dow = dowByte == 0 ? null : DayOfWeek.of(dowByte);
-        int timeByte = (data & (31 << 14)) >>> 14;
-        TimeDefinition defn = TimeDefinition.values()[(data & (3 << 12)) >>> 12];
-        int stdByte = (data & (255 << 4)) >>> 4;
-        int beforeByte = (data & (3 << 2)) >>> 2;
-        int afterByte = (data & 3);
-        int timeOfDaysSecs = (timeByte == 31 ? in.getInt() : timeByte * 3600);
-        ZoneOffset std = (stdByte == 255 ? ZoneOffset.ofTotalSeconds(in.getInt()) : ZoneOffset.ofTotalSeconds((stdByte - 128) * 900));
-        ZoneOffset before = (beforeByte == 3 ? ZoneOffset.ofTotalSeconds(in.getInt()) : ZoneOffset.ofTotalSeconds(std.getTotalSeconds() + beforeByte * 1800));
-        ZoneOffset after = (afterByte == 3 ? ZoneOffset.ofTotalSeconds(in.getInt()) : ZoneOffset.ofTotalSeconds(std.getTotalSeconds() + afterByte * 1800));
-        // only bit of validation that we need to copy from public of() method
-        if (dom < -28 || dom > 31 || dom == 0) {
-            throw new IllegalArgumentException("Day of month indicator must be between -28 and 31 inclusive excluding zero");
-        }
-        LocalTime time = LocalTime.ofSecondOfDay(Math.floorMod(timeOfDaysSecs, SECS_PER_DAY));
-        int adjustDays = Math.floorDiv(timeOfDaysSecs, SECS_PER_DAY);
-        return new ZoneOffsetTransitionRule(month, dom, dow, time, adjustDays, defn, std, before, after);
-    }
+//GWT specific
+//    static ZoneOffsetTransitionRule readExternal(ByteBuffer in) throws IOException {
+//        int data = in.getInt();
+//        Month month = Month.of(data >>> 28);
+//        int dom = ((data & (63 << 22)) >>> 22) - 32;
+//        int dowByte = (data & (7 << 19)) >>> 19;
+//        DayOfWeek dow = dowByte == 0 ? null : DayOfWeek.of(dowByte);
+//        int timeByte = (data & (31 << 14)) >>> 14;
+//        TimeDefinition defn = TimeDefinition.values()[(data & (3 << 12)) >>> 12];
+//        int stdByte = (data & (255 << 4)) >>> 4;
+//        int beforeByte = (data & (3 << 2)) >>> 2;
+//        int afterByte = (data & 3);
+//        int timeOfDaysSecs = (timeByte == 31 ? in.getInt() : timeByte * 3600);
+//        ZoneOffset std = (stdByte == 255 ? ZoneOffset.ofTotalSeconds(in.getInt()) : ZoneOffset.ofTotalSeconds((stdByte - 128) * 900));
+//        ZoneOffset before = (beforeByte == 3 ? ZoneOffset.ofTotalSeconds(in.getInt()) : ZoneOffset.ofTotalSeconds(std.getTotalSeconds() + beforeByte * 1800));
+//        ZoneOffset after = (afterByte == 3 ? ZoneOffset.ofTotalSeconds(in.getInt()) : ZoneOffset.ofTotalSeconds(std.getTotalSeconds() + afterByte * 1800));
+//        // only bit of validation that we need to copy from public of() method
+//        if (dom < -28 || dom > 31 || dom == 0) {
+//            throw new IllegalArgumentException("Day of month indicator must be between -28 and 31 inclusive excluding zero");
+//        }
+//        LocalTime time = LocalTime.ofSecondOfDay(Math.floorMod(timeOfDaysSecs, SECS_PER_DAY));
+//        int adjustDays = Math.floorDiv(timeOfDaysSecs, SECS_PER_DAY);
+//        return new ZoneOffsetTransitionRule(month, dom, dow, time, adjustDays, defn, std, before, after);
+//    }
 
     //-----------------------------------------------------------------------
     /**

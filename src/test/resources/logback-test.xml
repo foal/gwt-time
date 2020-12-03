@@ -7,6 +7,9 @@
     </encoder>
   </appender>
 
+  <logger name="com.gargoylesoftware.htmlunit.WebConsole" level="TRACE" />
+
+
   <root level="WARN">
     <appender-ref ref="STDOUT" />
   </root>

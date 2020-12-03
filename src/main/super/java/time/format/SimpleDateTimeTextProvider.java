@@ -87,7 +87,7 @@ final class SimpleDateTimeTextProvider extends DateTimeTextProvider {
     //-----------------------------------------------------------------------
     @Override
     public String getText(TemporalField field, long value, TextStyle style, Locale locale) {
-		LOGGER.trace("Return text for field {}, value {}, style {}, locale {}", field, value, style, locale);
+		LOGGER.debug("Return text for field {}, value {}, style {}, locale {}", field, value, style, locale);
         Object store = findStore(field, locale);
         if (store instanceof LocaleStore) {
             return ((LocaleStore) store).getText(value, style);
@@ -240,7 +240,7 @@ final class SimpleDateTimeTextProvider extends DateTimeTextProvider {
             Long f7 = 7L;
 
 			String[] array = Support.displayWeekdays("long", false, locale.toLanguageTag());
-			LOGGER.trace("weekdays, long, locale {}, formated {}", locale, array);
+			LOGGER.debug("weekdays, long, locale {}, formated {}", locale, array);
             Map<Long, String> map = new HashMap<Long, String>();
 			map.put(f1, array[0]);
 			map.put(f2, array[1]);
@@ -252,7 +252,7 @@ final class SimpleDateTimeTextProvider extends DateTimeTextProvider {
             styleMap.put(TextStyle.FULL, map);
 
 			array = Support.displayWeekdays("long", true, locale.toLanguageTag());
-			LOGGER.trace("weekdays, long, locale {}, standalone {}", locale, array);
+			LOGGER.debug("weekdays, long, locale {}, standalone {}", locale, array);
 			map = new HashMap<Long, String>();
 			map.put(f1, array[0]);
 			map.put(f2, array[1]);

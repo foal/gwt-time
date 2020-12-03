@@ -29,7 +29,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package java.time.zone;
+package org.jresearch.threetenbp.gwt.client.zone;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -129,11 +129,11 @@ final class Ser {
     private static Object readInternal(byte type, ByteBuffer in) throws IOException {
         switch (type) {
             case SZR:
-                return StandardZoneRules.readExternal(in);
+				return TzdbStandardZoneRules.readExternal(in);
             case ZOT:
-                return ZoneOffsetTransition.readExternal(in);
+				return TzdbZoneOffsetTransition.readExternal(in);
             case ZOTRULE:
-                return ZoneOffsetTransitionRule.readExternal(in);
+				return TzdbZoneOffsetTransitionRule.readExternal(in);
             default:
             	//GWT change
                 throw new IOException("Unknown serialized type");
