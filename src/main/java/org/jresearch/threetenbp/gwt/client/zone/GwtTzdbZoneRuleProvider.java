@@ -1,7 +1,6 @@
 package org.jresearch.threetenbp.gwt.client.zone;
 
 import java.nio.ByteBuffer;
-import java.time.zone.Providers;
 import java.time.zone.ZoneRulesProvider;
 
 import org.gwtproject.nio.TypedArrayHelper;
@@ -39,7 +38,7 @@ public class GwtTzdbZoneRuleProvider implements GwtZoneRuleProvider {
 			String tzData = Support.bundle.tzdbEncoded().getText();
 			ArrayBuffer buffer = Support.decodeArrayBuffer(tzData);
 			ByteBuffer data = TypedArrayHelper.wrap(buffer);
-			ZoneRulesProvider provider = Providers.of(data);
+			ZoneRulesProvider provider = new TzdbZoneRulesProvider(data);
 			if (!initialized) {
 				ZoneRulesProvider.registerProvider(provider);
 			}
@@ -65,7 +64,7 @@ public class GwtTzdbZoneRuleProvider implements GwtZoneRuleProvider {
 								LOGGER.debug("TZDB async initialization started");
 								ArrayBuffer buffer = Js.cast(xhr.getResponseArrayBuffer());
 								ByteBuffer data = TypedArrayHelper.wrap(buffer);
-								ZoneRulesProvider provider = Providers.of(data);
+								ZoneRulesProvider provider = new TzdbZoneRulesProvider(data);
 								if (!initialized) {
 									ZoneRulesProvider.registerProvider(provider);
 								}
