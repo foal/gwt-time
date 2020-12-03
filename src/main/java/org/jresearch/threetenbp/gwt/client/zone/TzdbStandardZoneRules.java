@@ -34,8 +34,9 @@ package org.jresearch.threetenbp.gwt.client.zone;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.time.ZoneOffset;
-import java.time.zone.StandardZoneRules;
+import java.time.zone.Providers;
 import java.time.zone.ZoneOffsetTransitionRule;
+import java.time.zone.ZoneRules;
 
 public final class TzdbStandardZoneRules {
 
@@ -50,7 +51,7 @@ public final class TzdbStandardZoneRules {
      * @return the created object, not null
      * @throws IOException if an error occurs
      */
-    static StandardZoneRules readExternal(ByteBuffer in) throws IOException {
+	static ZoneRules readExternal(ByteBuffer in) throws IOException {
         int stdSize = in.getInt();
         long[] stdTrans = new long[stdSize];
         for (int i = 0; i < stdSize; i++) {
@@ -74,7 +75,7 @@ public final class TzdbStandardZoneRules {
         for (int i = 0; i < ruleSize; i++) {
 			rules[i] = TzdbZoneOffsetTransitionRule.readExternal(in);
         }
-		return new StandardZoneRules(stdTrans, stdOffsets, savTrans, savOffsets, rules);
+		return Providers.of(stdTrans, stdOffsets, savTrans, savOffsets, rules);
     }
 
 }
