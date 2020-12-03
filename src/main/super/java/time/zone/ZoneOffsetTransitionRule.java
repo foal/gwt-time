@@ -66,11 +66,6 @@ public final class ZoneOffsetTransitionRule implements Serializable {
      * Serialization version.
      */
     private static final long serialVersionUID = 6889046316657758795L;
-    /**
-     * The number of seconds per day.
-     */
-    //GWT Specific
-    public static final int SECS_PER_DAY = 86400;
 
     /**
      * The month of the month-day of the first day of the cutover week.

@@ -33,6 +33,7 @@ package org.jresearch.threetenbp.gwt.client.zone;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
+import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.time.zone.ZoneOffsetTransition;
 
@@ -56,7 +57,7 @@ public final class TzdbZoneOffsetTransition {
         if (before.equals(after)) {
             throw new IllegalArgumentException("Offsets must not be equal");
         }
-        return new ZoneOffsetTransition(epochSecond, before, after);
+		return ZoneOffsetTransition.of(LocalDateTime.ofEpochSecond(epochSecond, 0, before), before, after);
     }
 
 }

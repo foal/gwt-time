@@ -42,6 +42,11 @@ import java.time.zone.ZoneOffsetTransitionRule.TimeDefinition;
 
 public final class TzdbZoneOffsetTransitionRule {
 
+	/**
+	 * The number of seconds per day.
+	 */
+	public static final int SECS_PER_DAY = 86400;
+
 	private TzdbZoneOffsetTransitionRule() {
 		// prevent instantiation
 	}
@@ -72,9 +77,9 @@ public final class TzdbZoneOffsetTransitionRule {
         if (dom < -28 || dom > 31 || dom == 0) {
             throw new IllegalArgumentException("Day of month indicator must be between -28 and 31 inclusive excluding zero");
         }
-		LocalTime time = LocalTime.ofSecondOfDay(Math.floorMod(timeOfDaysSecs, ZoneOffsetTransitionRule.SECS_PER_DAY));
-		int adjustDays = Math.floorDiv(timeOfDaysSecs, ZoneOffsetTransitionRule.SECS_PER_DAY);
-        return new ZoneOffsetTransitionRule(month, dom, dow, time, adjustDays, defn, std, before, after);
+		LocalTime time = LocalTime.ofSecondOfDay(Math.floorMod(timeOfDaysSecs, SECS_PER_DAY));
+		int adjustDays = Math.floorDiv(timeOfDaysSecs, SECS_PER_DAY);
+		return ZoneOffsetTransitionRule.of(month, dom, dow, time, adjustDays != 0, defn, std, before, after);
     }
 
 }
