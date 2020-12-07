@@ -20,4 +20,8 @@ public class BrowserTestLocalTime extends TestLocalTime {
 		super.long_test_toNanoOfDay_fromNanoOfDay_symmetry();
 	}
 
+	public void test_now_ZoneId() {
+		super.disabled_test_now_ZoneId();
+	}
+
 }

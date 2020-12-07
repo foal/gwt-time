@@ -228,18 +228,18 @@ public class TestLocalTime extends AbstractDateTimeTest {
 	}
 
 	@Test
-	public void test_now_ZoneId() {
+	public void disabled_test_now_ZoneId() {
 		ZoneId zone = ZoneId.of("UTC+01:02:03");
 		LocalTime expected = LocalTime.now(Clock.system(zone));
 		LocalTime test = LocalTime.now(zone);
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < 1000; i++) {
 			if (expected.equals(test)) {
 				return;
 			}
 			expected = LocalTime.now(Clock.system(zone));
 			test = LocalTime.now(zone);
 		}
-		assertEquals(test, expected);
+		assertEquals(expected, test);
 	}
 
 	// -----------------------------------------------------------------------
@@ -1607,10 +1607,12 @@ public class TestLocalTime extends AbstractDateTimeTest {
 			int min = 59;
 			int sec = 0;
 
+			@Override
 			public boolean hasNext() {
 				return i <= 3660;
 			}
 
+			@Override
 			public Object[] next() {
 				final Object[] ret = new Object[] { i, hour, min, sec };
 				i += delta;
@@ -1633,6 +1635,7 @@ public class TestLocalTime extends AbstractDateTimeTest {
 				return ret;
 			}
 
+			@Override
 			public void remove() {
 				throw new UnsupportedOperationException();
 			}
@@ -1724,10 +1727,12 @@ public class TestLocalTime extends AbstractDateTimeTest {
 			int sec = 0;
 			long nanos = 0;
 
+			@Override
 			public boolean hasNext() {
 				return i <= 3660 * 1000000000L;
 			}
 
+			@Override
 			public Object[] next() {
 				final Object[] ret = new Object[] { i, hour, min, sec, (int) nanos };
 				i += delta;
@@ -1755,6 +1760,7 @@ public class TestLocalTime extends AbstractDateTimeTest {
 				return ret;
 			}
 
+			@Override
 			public void remove() {
 				throw new UnsupportedOperationException();
 			}
@@ -2100,10 +2106,12 @@ public class TestLocalTime extends AbstractDateTimeTest {
 			int min = 59;
 			int sec = 0;
 
+			@Override
 			public boolean hasNext() {
 				return i >= -3660;
 			}
 
+			@Override
 			public Object[] next() {
 				final Object[] ret = new Object[] { i, hour, min, sec };
 				i -= delta;
@@ -2126,6 +2134,7 @@ public class TestLocalTime extends AbstractDateTimeTest {
 				return ret;
 			}
 
+			@Override
 			public void remove() {
 				throw new UnsupportedOperationException();
 			}
@@ -2232,10 +2241,12 @@ public class TestLocalTime extends AbstractDateTimeTest {
 			int sec = 0;
 			long nanos = 0;
 
+			@Override
 			public boolean hasNext() {
 				return i >= -3660 * 1000000000L;
 			}
 
+			@Override
 			public Object[] next() {
 				final Object[] ret = new Object[] { i, hour, min, sec, (int) nanos };
 				i -= delta;
@@ -2263,6 +2274,7 @@ public class TestLocalTime extends AbstractDateTimeTest {
 				return ret;
 			}
 
+			@Override
 			public void remove() {
 				throw new UnsupportedOperationException();
 			}
