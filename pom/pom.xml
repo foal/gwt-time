@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.jresearch</groupId>
@@ -7,13 +9,17 @@
 		<version>29-SNAPSHOT</version>
 	</parent>
 	<groupId>org.jresearch.gwt.time</groupId>
-	<artifactId>org.jresearch.gwt.time</artifactId>
-	<packaging>gwt-lib</packaging>
+	<artifactId>org.jresearch.gwt.time.pom</artifactId>
+	<packaging>pom</packaging>
 
 	<name>JRS: GWT port of JSR-310 (java.time)</name>
 	<description>JRS: GWT port of JSR-310 (java.time) based on ThreeTen backport project (https://www.threeten.org/threetenbp)</description>
 	<version>2.0.2-SNAPSHOT</version>
 	<url>https://github.com/foal/gwt-time</url>
+
+	<modules>
+		<module>../time</module>
+	</modules>
 
 	<!-- ==================================================================== -->
 	<developers>
@@ -118,7 +124,7 @@
 		</repository>
 	</repositories>
 	<!-- ==================================================================== -->
-	<build>
+	<!-- <build> -->
 		<!-- <resources>
 			<resource>
 				<directory>src/main/resources</directory>
@@ -132,14 +138,14 @@
 			</resource>
 		</resources> -->
 		<!-- define build -->
-		<plugins>
+		<!-- <plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
+				<configuration>  -->
 					<!-- <source>13</source>
 					<target>13</target> -->
-					<annotationProcessorPaths>
+					<!--<annotationProcessorPaths>
 						<path>
 							<groupId>org.immutables</groupId>
 							<artifactId>value</artifactId>
@@ -150,16 +156,16 @@
 							<artifactId>org.jresearch.gwt.time.apt.processor</artifactId>
 							<version>${time.apt.ver}</version>
 						</path>
-					</annotationProcessorPaths>
+					</annotationProcessorPaths>  -->
 					<!-- <compilerArgs>
 						<arg>-/-patch-module</arg><arg>java.base=${project.basedir}/src/main/java</arg>
 					</compilerArgs> -->
-				</configuration>
+				<!-- </configuration>
 			</plugin>
 			<plugin>
-				<artifactId>maven-dependency-plugin</artifactId>
+				<artifactId>maven-dependency-plugin</artifactId> -->
 				<!-- To correct work of GWT Super source -->
-				<configuration>
+				<!-- <configuration>
 					<ignoredUnusedDeclaredDependencies>
 						<ignoredUnusedDeclaredDependency>com.google.jsinterop:base</ignoredUnusedDeclaredDependency>
 						<ignoredUnusedDeclaredDependency>org.jresearch.gwt.time:org.jresearch.gwt.time.apt.annotation</ignoredUnusedDeclaredDependency>
@@ -183,7 +189,7 @@
 						<testArg>30</testArg>
 					</testArgs>
 				</configuration>
-			</plugin>
+			</plugin> -->
 			<!-- Setup testing -->
 			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -212,117 +218,58 @@
 					</properties>
 				</configuration>
 			</plugin> -->
-		</plugins>
-	</build>
+		<!-- </plugins>
+	</build>  -->
 
 	<!-- ==================================================================== -->
-	<dependencies>
-		<dependency>
-			<groupId>org.jresearch.gwt.locale</groupId>
-			<artifactId>org.jresearch.gwt.locale</artifactId>
-			<version>${gwt-locale.ver}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.gwtproject.core</groupId>
-			<artifactId>gwt-core</artifactId>
-			<version>${gwt-core.ver}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.google.errorprone</groupId>
-			<artifactId>error_prone_annotations</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.jresearch.gwt.time</groupId>
-			<artifactId>org.jresearch.gwt.time.apt.annotation</artifactId>
-			<version>${time.apt.ver}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.google.code.findbugs</groupId>
-			<artifactId>jsr305</artifactId>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.gwtproject.typedarrays</groupId>
-			<artifactId>gwt-typedarrays</artifactId>
-			<version>${gwt-typedarrays.ver}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.google.elemental2</groupId>
-			<artifactId>elemental2-core</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-api</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.dominokit</groupId>
-			<artifactId>domino-slf4j-logger</artifactId>
-			<version>${gwt-slf4j.ver}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.treblereel.gwt.nio</groupId>
-			<artifactId>gwt-nio</artifactId>
-			<version>${gwt-nio.ver}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.gwtproject.xhr</groupId>
-			<artifactId>gwt-xhr</artifactId>
-			<version>${gwt-xhr.ver}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.google.jsinterop</groupId>
-			<artifactId>jsinterop-annotations</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>jcl-over-slf4j</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.eclipse.jetty.websocket</groupId>
-			<artifactId>websocket-client</artifactId>
-			<version>9.2.14.v20151106</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.google.jsinterop</groupId>
-			<artifactId>base</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.immutables</groupId>
-			<artifactId>value-annotations</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.gwtproject.regexp</groupId>
-			<artifactId>gwt-regexp</artifactId>
-			<version>${gwt-regexp.ver}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.google.gwt</groupId>
-			<artifactId>gwt-user</artifactId>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.google.gwt</groupId>
-			<artifactId>gwt-dev</artifactId>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.jresearch.gwt.locale</groupId>
+				<artifactId>org.jresearch.gwt.locale</artifactId>
+				<version>${gwt-locale.ver}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.gwtproject.core</groupId>
+				<artifactId>gwt-core</artifactId>
+				<version>${gwt-core.ver}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.jresearch.gwt.time</groupId>
+				<artifactId>org.jresearch.gwt.time.apt.annotation</artifactId>
+				<version>${time.apt.ver}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.gwtproject.typedarrays</groupId>
+				<artifactId>gwt-typedarrays</artifactId>
+				<version>${gwt-typedarrays.ver}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.dominokit</groupId>
+				<artifactId>domino-slf4j-logger</artifactId>
+				<version>${gwt-slf4j.ver}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.treblereel.gwt.nio</groupId>
+				<artifactId>gwt-nio</artifactId>
+				<version>${gwt-nio.ver}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.gwtproject.xhr</groupId>
+				<artifactId>gwt-xhr</artifactId>
+				<version>${gwt-xhr.ver}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.gwtproject.regexp</groupId>
+				<artifactId>gwt-regexp</artifactId>
+				<version>${gwt-regexp.ver}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 
 	<!-- ==================================================================== -->
-	<profiles>
+	<!-- <profiles> -->
 		<!-- Deployment profile, activated by -Doss.repo -->
 		<!-- <profile>
 			<id>tzdb-update</id>
@@ -397,7 +344,7 @@
 				</plugins>
 			</build>
 		</profile> -->
-	</profiles>
+	<!-- </profiles> -->
 
 	<!-- ==================================================================== -->
 	<properties>
