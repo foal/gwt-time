@@ -138,58 +138,7 @@
 			</resource>
 		</resources> -->
 		<!-- define build -->
-		<!-- <plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>  -->
-					<!-- <source>13</source>
-					<target>13</target> -->
-					<!--<annotationProcessorPaths>
-						<path>
-							<groupId>org.immutables</groupId>
-							<artifactId>value</artifactId>
-							<version>${immutables.ver}</version>
-						</path>
-						<path>
-							<groupId>org.jresearch.gwt.time</groupId>
-							<artifactId>org.jresearch.gwt.time.apt.processor</artifactId>
-							<version>${time.apt.ver}</version>
-						</path>
-					</annotationProcessorPaths>  -->
-					<!-- <compilerArgs>
-						<arg>-/-patch-module</arg><arg>java.base=${project.basedir}/src/main/java</arg>
-					</compilerArgs> -->
-				<!-- </configuration>
-			</plugin>
-			<plugin>
-				<artifactId>maven-dependency-plugin</artifactId> -->
-				<!-- To correct work of GWT Super source -->
-				<!-- <configuration>
-					<ignoredUnusedDeclaredDependencies>
-						<ignoredUnusedDeclaredDependency>com.google.jsinterop:base</ignoredUnusedDeclaredDependency>
-						<ignoredUnusedDeclaredDependency>org.jresearch.gwt.time:org.jresearch.gwt.time.apt.annotation</ignoredUnusedDeclaredDependency>
-						<ignoredUnusedDeclaredDependency>org.gwtproject.regexp:gwt-regexp</ignoredUnusedDeclaredDependency>
-						<ignoredUnusedDeclaredDependency>org.dominokit:domino-slf4j-logger</ignoredUnusedDeclaredDependency>
-						<ignoredUnusedDeclaredDependency>org.jresearch.gwt.locale:org.jresearch.gwt.locale</ignoredUnusedDeclaredDependency>
-					</ignoredUnusedDeclaredDependencies>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>net.ltgt.gwt.maven</groupId>
-				<artifactId>gwt-maven-plugin</artifactId>
-				<configuration>
-					<moduleName>org.jresearch.threetenbp.gwt.module</moduleName>
-					<moduleShortName>threetenbpGwt</moduleShortName>
-					<relocateSuperSource>true</relocateSuperSource>
-					<relocateTestSuperSource>true</relocateTestSuperSource>
-					<enableAssertions>false</enableAssertions>
-					<testArgs>
-						<testArg>-testMethodTimeout</testArg>
-						<testArg>30</testArg>
-					</testArgs>
-				</configuration>
-			</plugin> -->
+		<!-- <plugins> -->
 			<!-- Setup testing -->
 			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
