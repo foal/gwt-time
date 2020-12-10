@@ -51,7 +51,7 @@ import java.util.Objects;
 import java.util.Set;
 //import java.util.TimeZone;
 
-import org.jresearch.threetenbp.gwt.client.Support;
+import org.jresearch.threetenbp.gwt.time.client.Support;
 
 /**
  * A time-zone ID, such as {@code Europe/Paris}.

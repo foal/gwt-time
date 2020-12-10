@@ -54,7 +54,7 @@
 				<groupId>net.ltgt.gwt.maven</groupId>
 				<artifactId>gwt-maven-plugin</artifactId>
 				<configuration>
-					<moduleName>org.jresearch.threetenbp.gwt.module</moduleName>
+					<moduleName>org.jresearch.threetenbp.gwt.time.module</moduleName>
 					<moduleShortName>threetenbpGwt</moduleShortName>
 					<relocateSuperSource>true</relocateSuperSource>
 					<relocateTestSuperSource>true</relocateTestSuperSource>

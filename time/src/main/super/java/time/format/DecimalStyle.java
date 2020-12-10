@@ -39,8 +39,8 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
-import org.jresearch.threetenbp.gwt.client.DecimalProperty;
-import org.jresearch.threetenbp.gwt.client.Support;
+import org.jresearch.threetenbp.gwt.time.client.DecimalProperty;
+import org.jresearch.threetenbp.gwt.time.client.Support;
 
 /**
  * Localized symbols used in date and time formatting.

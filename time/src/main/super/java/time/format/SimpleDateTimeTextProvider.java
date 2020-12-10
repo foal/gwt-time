@@ -54,7 +54,7 @@ import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
-import org.jresearch.threetenbp.gwt.client.Support;
+import org.jresearch.threetenbp.gwt.time.client.Support;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

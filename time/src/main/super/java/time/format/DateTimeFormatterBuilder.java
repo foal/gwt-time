@@ -78,7 +78,7 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.TreeMap;
 
-import org.jresearch.threetenbp.gwt.client.Support;
+import org.jresearch.threetenbp.gwt.time.client.Support;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

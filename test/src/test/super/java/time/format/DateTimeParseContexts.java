@@ -4,7 +4,7 @@ import java.time.chrono.Chronology;
 import java.time.temporal.TemporalField;
 import java.util.Locale;
 
-import org.jresearch.threetenbp.gwt.client.format.wrap.ParsedTestWrapper;
+import org.jresearch.threetenbp.gwt.test.client.format.wrap.ParsedTestWrapper;
 
 public class DateTimeParseContexts {
 

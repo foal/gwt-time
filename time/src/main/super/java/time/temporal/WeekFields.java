@@ -56,9 +56,9 @@ import java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
-import org.jresearch.threetenbp.gwt.client.cldr.Cldrs;
-import org.jresearch.threetenbp.gwt.client.cldr.Region;
-import org.jresearch.threetenbp.gwt.client.cldr.WeekInfo;
+import org.jresearch.threetenbp.gwt.time.client.cldr.Cldrs;
+import org.jresearch.threetenbp.gwt.time.client.cldr.Region;
+import org.jresearch.threetenbp.gwt.time.client.cldr.WeekInfo;
 
 /**
  * Localized definitions of the day-of-week, week-of-month and week-of-year fields.

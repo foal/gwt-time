@@ -42,9 +42,9 @@ import java.util.stream.Stream;
 
 import org.jresearch.gwt.time.apt.base.Bases;
 import org.jresearch.gwt.time.apt.base.Chrono;
-import org.jresearch.threetenbp.gwt.client.Support;
-import org.jresearch.threetenbp.gwt.client.cldr.PatternCoordinates;
-import org.jresearch.threetenbp.gwt.client.cldr.PatternInfo;
+import org.jresearch.threetenbp.gwt.time.client.Support;
+import org.jresearch.threetenbp.gwt.time.client.cldr.PatternCoordinates;
+import org.jresearch.threetenbp.gwt.time.client.cldr.PatternInfo;
 
 /**
  * The Service Provider Implementation to obtain date-time formatters for a style.
