@@ -33,7 +33,6 @@ package org.jresearch.threetenbp.gwt.client.format;
 
 import static java.time.temporal.ChronoField.MONTH_OF_YEAR;
 
-import java.time.DateTimeException;
 import java.time.format.SignStyle;
 import java.time.temporal.TemporalField;
 

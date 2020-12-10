@@ -3,13 +3,17 @@ package org.jresearch.threetenbp.gwt.client.zone;
 import java.nio.ByteBuffer;
 import java.time.zone.ZoneRulesProvider;
 
+import org.gwtproject.core.client.ScriptInjector;
 import org.gwtproject.nio.TypedArrayHelper;
 import org.gwtproject.xhr.client.ReadyStateChangeHandler;
 import org.gwtproject.xhr.client.XMLHttpRequest;
 import org.gwtproject.xhr.client.XMLHttpRequest.ResponseType;
-import org.jresearch.threetenbp.gwt.client.Support;
+import org.jresearch.threetenbp.gwt.client.TzdbJs;
+import org.jresearch.threetenbp.gwt.client.loader.TzdbJsBundle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.google.gwt.core.client.GWT;
 
 import elemental2.core.ArrayBuffer;
 import jsinterop.base.Js;
@@ -17,6 +21,8 @@ import jsinterop.base.Js;
 public class GwtTzdbZoneRuleProvider implements GwtZoneRuleProvider {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(GwtTzdbZoneRuleProvider.class);
+
+	private static final TzdbJsBundle bundle = GWT.create(TzdbJsBundle.class);
 
 	private boolean initialized = false;
 
@@ -35,8 +41,9 @@ public class GwtTzdbZoneRuleProvider implements GwtZoneRuleProvider {
 		LOGGER.debug("TZDB sync initialization called");
 		if (!initialized) {
 			LOGGER.debug("TZDB sync initialization started");
-			String tzData = Support.bundle.tzdbEncoded().getText();
-			ArrayBuffer buffer = Support.decodeArrayBuffer(tzData);
+			ScriptInjector.fromString(bundle.base64binary().getText()).setWindow(ScriptInjector.TOP_WINDOW).inject();
+			String tzData = bundle.tzdbEncoded().getText();
+			ArrayBuffer buffer = TzdbJs.decodeArrayBuffer(tzData);
 			ByteBuffer data = TypedArrayHelper.wrap(buffer);
 			ZoneRulesProvider provider = new TzdbZoneRulesProvider(data);
 			if (!initialized) {
@@ -52,7 +59,7 @@ public class GwtTzdbZoneRuleProvider implements GwtZoneRuleProvider {
 		LOGGER.debug("TZDB async initialization called");
 		if (!initialized) {
 			XMLHttpRequest request = XMLHttpRequest.create();
-			request.open("GET", Support.bundle.tzdb().getSafeUri().asString());
+			request.open("GET", bundle.tzdb().getSafeUri().asString());
 			request.setResponseType(ResponseType.ArrayBuffer);
 			request.setOnReadyStateChange(new ReadyStateChangeHandler() {
 				@SuppressWarnings({ "synthetic-access", "boxing" })

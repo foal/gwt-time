@@ -40,7 +40,6 @@ import java.time.temporal.TemporalQueries;
 
 import org.jresearch.threetenbp.gwt.client.format.wrap.DateTimeParseContextTestWrapper;
 import org.jresearch.threetenbp.gwt.client.format.wrap.NumberPrinterParserTestWrapper;
-import org.jresearch.threetenbp.gwt.client.format.wrap.OffsetIdPrinterParserTestWrapper;
 import org.junit.Test;
 
 /**

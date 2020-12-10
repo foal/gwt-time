@@ -1,31 +1,14 @@
 package org.jresearch.threetenbp.gwt.client;
 
-import java.time.ZoneId;
-
-import org.jresearch.threetenbp.gwt.client.zone.GwtTzdbZoneRuleProvider;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.gwt.junit.client.GWTTestCase;
 
-public class GwtTest extends GWTTestCase {
+public class GwtTest extends AbstractTest {
 
-	private static Logger LOGGER = LoggerFactory.getLogger("com.google.gwt.junit.client.GWTTestCase");
-
-	/**
-	 * Must refer to a valid module that sources this class.
-	 */
-	@Override
-	public String getModuleName() {
-		return "org.jresearch.threetenbp.gwt.module";
-	}
-
-	@Test
-	public void testTzdbProviderInit() {
-		Support.registerGwtZoneRuleProvider(new GwtTzdbZoneRuleProvider());
-		ZoneId.of("Europe/Paris");
-	}
+	private static Logger LOGGER = LoggerFactory.getLogger(GWTTestCase.class);
 
 	@Test
 	public void testLogging() {

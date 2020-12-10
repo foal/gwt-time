@@ -66,7 +66,6 @@ import java.util.Map;
 import java.util.Objects;
 
 import org.jresearch.threetenbp.gwt.client.AbstractTest;
-import org.jresearch.threetenbp.gwt.client.format.wrap.ReducedPrinterParserTestWrapper;
 import org.junit.Test;
 
 /**
@@ -1208,10 +1207,12 @@ public class TestDateTimeFormatters extends AbstractTest {
 			private int week = 1;
 			private int day = 1;
 
+			@Override
 			public boolean hasNext() {
 				return !date.isAfter(endDate);
 			}
 
+			@Override
 			public Object[] next() {
 				StringBuilder sb = new StringBuilder("2004-W");
 				if (week < 10) {
@@ -1228,6 +1229,7 @@ public class TestDateTimeFormatters extends AbstractTest {
 				return ret;
 			}
 
+			@Override
 			public void remove() {
 				throw new UnsupportedOperationException();
 			}

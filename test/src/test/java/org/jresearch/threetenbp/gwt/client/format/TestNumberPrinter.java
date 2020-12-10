@@ -39,7 +39,6 @@ import java.time.LocalDate;
 import java.time.format.SignStyle;
 
 import org.jresearch.threetenbp.gwt.client.format.wrap.NumberPrinterParserTestWrapper;
-import org.jresearch.threetenbp.gwt.client.format.wrap.OffsetIdPrinterParserTestWrapper;
 import org.jresearch.threetenbp.gwt.client.temporal.MockFieldValue;
 import org.junit.Test;
 

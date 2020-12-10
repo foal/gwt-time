@@ -4,6 +4,5 @@
 
 	<inherits name="org.jresearch.gwt.time.apt.module"/>
 	<inherits name="com.google.gwt.regexp.RegExp" />
-	<inherits name="org.gwtproject.nio.GwtNioSupport" />
 
 </module>

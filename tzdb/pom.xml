@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.jresearch.gwt.time</groupId>
+		<artifactId>org.jresearch.gwt.time.pom</artifactId>
+		<version>2.0.2-SNAPSHOT</version>
+		<relativePath>../pom/pom.xml</relativePath>
+	</parent>
+	<artifactId>org.jresearch.gwt.time.tzdb</artifactId>
+	<packaging>gwt-lib</packaging>
+
+	<name>JRS: GWT port of JSR-310 (java.time), TZDB loader</name>
+
+	<!-- ==================================================================== -->
+	<build>
+		<!-- define build -->
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<!-- <source>13</source>
+					<target>13</target> -->
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<!-- To correct work of GWT Super source -->
+				<configuration>
+					<ignoredUnusedDeclaredDependencies>
+						<ignoredUnusedDeclaredDependency>org.dominokit:domino-slf4j-logger</ignoredUnusedDeclaredDependency>
+					</ignoredUnusedDeclaredDependencies>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>net.ltgt.gwt.maven</groupId>
+				<artifactId>gwt-maven-plugin</artifactId>
+				<configuration>
+					<moduleName>org.jresearch.threetenbp.gwt.tzdb.module</moduleName>
+					<moduleShortName>threetenbpTzdbGwt</moduleShortName>
+					<relocateSuperSource>true</relocateSuperSource>
+					<relocateTestSuperSource>true</relocateTestSuperSource>
+					<enableAssertions>false</enableAssertions>
+					<testArgs>
+						<testArg>-testMethodTimeout</testArg>
+						<testArg>30</testArg>
+					</testArgs>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<!-- ==================================================================== -->
+	<dependencies>
+		<dependency>
+			<groupId>org.jresearch.gwt.time</groupId>
+			<artifactId>org.jresearch.gwt.time</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.gwtproject.core</groupId>
+			<artifactId>gwt-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.findbugs</groupId>
+			<artifactId>jsr305</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.gwtproject.typedarrays</groupId>
+			<artifactId>gwt-typedarrays</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.elemental2</groupId>
+			<artifactId>elemental2-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.dominokit</groupId>
+			<artifactId>domino-slf4j-logger</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.treblereel.gwt.nio</groupId>
+			<artifactId>gwt-nio</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.gwtproject.xhr</groupId>
+			<artifactId>gwt-xhr</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.jsinterop</groupId>
+			<artifactId>jsinterop-annotations</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty.websocket</groupId>
+			<artifactId>websocket-client</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.jsinterop</groupId>
+			<artifactId>base</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-user</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-dev</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

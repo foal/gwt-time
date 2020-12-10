@@ -1,7 +1,5 @@
 package java.time;
 
-import java.time.LocalTime;
-
 public class LocalTimes {
 
 	private LocalTimes() {

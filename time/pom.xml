@@ -12,7 +12,7 @@
 	<artifactId>org.jresearch.gwt.time</artifactId>
 	<packaging>gwt-lib</packaging>
 
-	<name>JRS: GWT port of JSR-310 (java.time)</name>
+	<name>JRS: GWT port of JSR-310 (java.time), implementation</name>
 	<description>JRS: GWT port of JSR-310 (java.time) based on ThreeTen backport project (https://www.threeten.org/threetenbp)</description>
 
 	<!-- ==================================================================== -->
@@ -44,8 +44,6 @@
 				<!-- To correct work of GWT Super source -->
 				<configuration>
 					<ignoredUnusedDeclaredDependencies>
-						<ignoredUnusedDeclaredDependency>com.google.jsinterop:base</ignoredUnusedDeclaredDependency>
-						<ignoredUnusedDeclaredDependency>org.jresearch.gwt.time:org.jresearch.gwt.time.apt.annotation</ignoredUnusedDeclaredDependency>
 						<ignoredUnusedDeclaredDependency>org.gwtproject.regexp:gwt-regexp</ignoredUnusedDeclaredDependency>
 						<ignoredUnusedDeclaredDependency>org.dominokit:domino-slf4j-logger</ignoredUnusedDeclaredDependency>
 						<ignoredUnusedDeclaredDependency>org.jresearch.gwt.locale:org.jresearch.gwt.locale</ignoredUnusedDeclaredDependency>
@@ -94,14 +92,6 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.gwtproject.typedarrays</groupId>
-			<artifactId>gwt-typedarrays</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.google.elemental2</groupId>
-			<artifactId>elemental2-core</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<scope>test</scope>
@@ -109,14 +99,6 @@
 		<dependency>
 			<groupId>org.dominokit</groupId>
 			<artifactId>domino-slf4j-logger</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.treblereel.gwt.nio</groupId>
-			<artifactId>gwt-nio</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.gwtproject.xhr</groupId>
-			<artifactId>gwt-xhr</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.google.jsinterop</groupId>
@@ -141,10 +123,6 @@
 			<groupId>org.eclipse.jetty.websocket</groupId>
 			<artifactId>websocket-client</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.google.jsinterop</groupId>
-			<artifactId>base</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.immutables</groupId>

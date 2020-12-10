@@ -32,7 +32,6 @@
 package org.jresearch.threetenbp.gwt.client.format;
 
 import org.jresearch.threetenbp.gwt.client.format.wrap.SettingsParserTestWrapper;
-import org.junit.Test;
 
 /**
  * Test SettingsParserTestWrapper.

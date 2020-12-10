@@ -9,15 +9,12 @@ import java.util.stream.Stream;
 import javax.annotation.Nonnull;
 
 import org.gwtproject.core.client.ScriptInjector;
-import org.gwtproject.typedarrays.shared.Uint8Array;
 import org.jresearch.threetenbp.gwt.client.loader.TimeJsBundle;
 import org.jresearch.threetenbp.gwt.client.zone.GwtZoneRuleProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.gwt.core.client.GWT;
-
-import elemental2.core.ArrayBuffer;
 
 @SuppressWarnings("nls")
 public class Support {
@@ -34,7 +31,6 @@ public class Support {
 		if (!commonInitialized) {
 			LOGGER.debug("common initialization");
 			ScriptInjector.fromString(bundle.support().getText()).setWindow(ScriptInjector.TOP_WINDOW).inject();
-			ScriptInjector.fromString(bundle.base64binary().getText()).setWindow(ScriptInjector.TOP_WINDOW).inject();
 			commonInitialized = true;
 			if (loadAsync) {
 				gwtZoneRuleProviders.values().stream()
@@ -132,16 +128,6 @@ public class Support {
 	@Nonnull
 	public static DecimalProperty displayNumber(String locale) {
 		return SupportJs.displayNumber(locale);
-	}
-
-	@Nonnull
-	public static ArrayBuffer decodeArrayBuffer(String base64) {
-		return SupportJs.decodeArrayBuffer(base64);
-	}
-
-	@Nonnull
-	public static Uint8Array decode(String base64) {
-		return SupportJs.decode(base64);
 	}
 
 	@Nonnull

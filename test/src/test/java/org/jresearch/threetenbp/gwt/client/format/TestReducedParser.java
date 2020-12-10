@@ -37,7 +37,6 @@ import static java.time.temporal.ChronoField.YEAR;
 import java.time.temporal.TemporalField;
 import java.time.temporal.TemporalQueries;
 
-import org.jresearch.threetenbp.gwt.client.format.wrap.NumberPrinterParserTestWrapper;
 import org.jresearch.threetenbp.gwt.client.format.wrap.ReducedPrinterParserTestWrapper;
 import org.junit.Test;
 

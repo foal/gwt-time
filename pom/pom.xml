@@ -12,13 +12,16 @@
 	<artifactId>org.jresearch.gwt.time.pom</artifactId>
 	<packaging>pom</packaging>
 
-	<name>JRS: GWT port of JSR-310 (java.time)</name>
+	<name>JRS: GWT port of JSR-310 (java.time), POM</name>
 	<description>JRS: GWT port of JSR-310 (java.time) based on ThreeTen backport project (https://www.threeten.org/threetenbp)</description>
 	<version>2.0.2-SNAPSHOT</version>
 	<url>https://github.com/foal/gwt-time</url>
 
 	<modules>
 		<module>../time</module>
+		<module>../tzdb</module>
+		<module>../bom</module>
+		<module>../test</module>
 	</modules>
 
 	<!-- ==================================================================== -->
@@ -173,6 +176,16 @@
 	<!-- ==================================================================== -->
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>org.jresearch.gwt.time</groupId>
+				<artifactId>org.jresearch.gwt.time</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.jresearch.gwt.time</groupId>
+				<artifactId>org.jresearch.gwt.time.tzdb</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>org.jresearch.gwt.locale</groupId>
 				<artifactId>org.jresearch.gwt.locale</artifactId>
