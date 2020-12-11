@@ -4,11 +4,9 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.gwt.junit.client.GWTTestCase;
-
 public class GwtTest extends AbstractTest {
 
-	private static Logger LOGGER = LoggerFactory.getLogger(GWTTestCase.class);
+	private static Logger LOGGER = LoggerFactory.getLogger(GwtTest.class);
 
 	@Test
 	public void testLogging() {

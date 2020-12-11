@@ -363,6 +363,6 @@
 		<jsinterop-annotations.ver>2.0.0</jsinterop-annotations.ver>
 		<jsinterop-base.ver>1.0.0</jsinterop-base.ver>
 		<gwt-core.ver>1.0.0-RC1</gwt-core.ver>
-		<gwt-locale.ver>1.0.1</gwt-locale.ver>
+		<gwt-locale.ver>1.0.1-SNAPSHOT</gwt-locale.ver>
 	</properties>
 </project>
