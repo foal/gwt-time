@@ -50,8 +50,8 @@
 				<!-- To correct work of GWT Super source -->
 				<configuration>
 					<ignoredUnusedDeclaredDependencies>
-						<ignoredUnusedDeclaredDependency>org.jresearch.gwt.locale:org.jresearch.gwt.locale</ignoredUnusedDeclaredDependency>
 						<ignoredUnusedDeclaredDependency>org.jresearch.gwt.time:org.jresearch.gwt.time</ignoredUnusedDeclaredDependency>
+						<ignoredUnusedDeclaredDependency>org.jresearch.gwt.locale:org.jresearch.gwt.locale</ignoredUnusedDeclaredDependency>
 					</ignoredUnusedDeclaredDependencies>
 				</configuration>
 			</plugin>
