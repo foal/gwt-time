@@ -34,7 +34,7 @@ The impementation contains all actual data from CLDR
 ### Using
 
 * For GWT 2.8.2 add the following project dependency to pom.xml
-```
+```xml
 <dependency>
     <groupId>org.jresearch.gwt.time</groupId>
     <artifactId>org.jresearch.gwt.time</artifactId>
@@ -42,7 +42,7 @@ The impementation contains all actual data from CLDR
 </dependency>
 ```
 * For GWT 2.9.0 add the following  project dependency to pom.xml
-```
+```xml
 <dependency>
     <groupId>org.jresearch.gwt.time</groupId>
     <artifactId>org.jresearch.gwt.time</artifactId>
@@ -94,7 +94,7 @@ Pull requests must _not_ be copied from the JDK, because the GPL license is inco
 * check out this project
 * `mvn clean install`
 * The project use the parent pom located on Sonatype snapshot repository.
-```
+```xml
 <repositories>
     <repository>
         <id>oss.sonatype.org-snapshot</id>

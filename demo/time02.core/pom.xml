@@ -24,7 +24,6 @@
 		<dependency>
 			<groupId>org.jresearch.gwt.locale</groupId>
 			<artifactId>org.jresearch.gwt.locale.cldr</artifactId>
-			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jresearch.gwt.time</groupId>

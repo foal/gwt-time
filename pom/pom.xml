@@ -194,6 +194,11 @@
 				<version>${gwt-locale.ver}</version>
 			</dependency>
 			<dependency>
+				<groupId>org.jresearch.gwt.locale</groupId>
+				<artifactId>org.jresearch.gwt.locale.cldr</artifactId>
+				<version>${gwt-locale-cldr.ver}</version>
+			</dependency>
+			<dependency>
 				<groupId>org.gwtproject.core</groupId>
 				<artifactId>gwt-core</artifactId>
 				<version>${gwt-core.ver}</version>
@@ -368,5 +373,6 @@
 		<jsinterop-base.ver>1.0.0</jsinterop-base.ver>
 		<gwt-core.ver>1.0.0-RC1</gwt-core.ver>
 		<gwt-locale.ver>1.0.2-SNAPSHOT</gwt-locale.ver>
+		<gwt-locale-cldr.ver>1.0.1-SNAPSHOT</gwt-locale-cldr.ver>
 	</properties>
 </project>
