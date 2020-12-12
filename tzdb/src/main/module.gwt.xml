@@ -6,4 +6,5 @@
 	<inherits name="com.google.gwt.regexp.RegExp" />
 	<inherits name="org.gwtproject.nio.GwtNioSupport" />
 
+	<entry-point class="org.jresearch.threetenbp.gwt.tzdb.client.TzdbEntryPoint" />
 </module>

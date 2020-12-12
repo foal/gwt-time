@@ -21,6 +21,10 @@ public class SupportJs {
 
 	@Nonnull
 	@JsMethod(namespace = JsPackage.GLOBAL)
+	public static native int getMinutesOffset();
+
+	@Nonnull
+	@JsMethod(namespace = JsPackage.GLOBAL)
 	public static native void sleep(int milliseconds);
 
 	/**

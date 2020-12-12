@@ -4,5 +4,7 @@
 
 	<inherits name="org.jresearch.gwt.time.apt.module"/>
 	<inherits name="com.google.gwt.regexp.RegExp" />
+	<inherits name="com.google.gwt.resources.Resources" />
 
+	<entry-point class="org.jresearch.threetenbp.gwt.time.client.TimeEntryPoint" />
 </module>

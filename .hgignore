@@ -1,0 +1,16 @@
+syntax: glob
+**/target/**
+**/WEB-INF/classes/**
+**/.project
+**/.classpath
+**/.settings/**
+**/.spring*
+**/gwt-unitCache/**
+**/.externalToolBuilders/**
+*/war/**
+flexess/src/META-INF/MANIFEST.MF
+app/src/META-INF/MANIFEST.MF
+utils/src/META-INF/MANIFEST.MF
+**/rebel.xml
+**/timing.properties
+**/www-test/**

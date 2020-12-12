@@ -52,6 +52,8 @@ import java.util.Set;
 //import java.util.TimeZone;
 
 import org.jresearch.threetenbp.gwt.time.client.Support;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * A time-zone ID, such as {@code Europe/Paris}.
@@ -133,6 +135,9 @@ import org.jresearch.threetenbp.gwt.time.client.Support;
  * modelling offset-based IDs. This difference is visible in serialization.
  */
 public abstract class ZoneId implements Serializable {
+
+	// GWT specific
+	private static final Logger LOGGER = LoggerFactory.getLogger(ZoneId.class);
 
 	/**
 	 * A map of zone overrides to enable the short time-zone names to be used.
@@ -231,9 +236,15 @@ public abstract class ZoneId implements Serializable {
 	 * @throws ZoneRulesException if the converted zone region ID cannot be found
 	 */
 	public static ZoneId systemDefault() {
-		//GWT specific
+		// GWT specific
 		String browserZone = Support.getTimezone();
-		return browserZone == null ? ZoneOffset.UTC : ZoneId.of(browserZone);
+		try {
+			return ZoneId.of(browserZone);
+		} catch (ZoneRulesException e) {
+			LOGGER.warn("Can't resolve system default zone {}: {}. Fallback to zone offset", browserZone, e.getMessage());
+		}
+		int minutesOffset = Support.getMinutesOffset();
+		return ZoneOffset.ofTotalSeconds(minutesOffset * 60);
 	}
 
 	/**
@@ -398,8 +409,8 @@ public abstract class ZoneId implements Serializable {
 	 * @throws DateTimeException if unable to convert to a {@code ZoneId}
 	 */
 	public static ZoneId from(TemporalAccessor temporal) {
-    	//GWT specific
-    	Objects.requireNonNull(temporal);
+		// GWT specific
+		Objects.requireNonNull(temporal);
 		ZoneId obj = temporal.query(TemporalQueries.zone());
 		if (obj == null) {
 			throw new DateTimeException("Unable to obtain ZoneId from TemporalAccessor: " + temporal + ", type "

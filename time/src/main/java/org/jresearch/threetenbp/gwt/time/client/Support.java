@@ -71,6 +71,10 @@ public class Support {
 		return SupportJs.getTimestamp();
 	}
 
+	public static int getMinutesOffset() {
+		return SupportJs.getMinutesOffset();
+	}
+
 	@Nonnull
 	public static String getTimezone() {
 		return SupportJs.getTimezone();

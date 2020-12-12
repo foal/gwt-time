@@ -20,6 +20,10 @@
 		<module>../tzdb</module>
 		<module>../bom</module>
 		<module>../test</module>
+		<module>../demo/time01.core</module>
+		<module>../demo/time02.core</module>
+		<module>../demo/time03.core</module>
+		<module>../demo/time04.core</module>
 	</modules>
 
 	<!-- ==================================================================== -->
@@ -357,12 +361,12 @@
 		<gwt-nio.ver>1.1</gwt-nio.ver>
 		<gwt-xhr.ver>1.0.0-RC1</gwt-xhr.ver>
 		<gwt-slf4j.ver>1.0.1</gwt-slf4j.ver>
-		<time.apt.ver>2.0.4</time.apt.ver>
+		<time.apt.ver>2.0.5-SNAPSHOT</time.apt.ver>
 		<gwt.version>2.9.0</gwt.version>
 		<elemental.ver>1.1.0</elemental.ver>
 		<jsinterop-annotations.ver>2.0.0</jsinterop-annotations.ver>
 		<jsinterop-base.ver>1.0.0</jsinterop-base.ver>
 		<gwt-core.ver>1.0.0-RC1</gwt-core.ver>
-		<gwt-locale.ver>1.0.1-SNAPSHOT</gwt-locale.ver>
+		<gwt-locale.ver>1.0.2-SNAPSHOT</gwt-locale.ver>
 	</properties>
 </project>

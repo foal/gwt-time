@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset=UTF-8>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Time Demo</title>
+	<script type="text/javascript" src="demo/demo.nocache.js"></script>
+</head>
+<body>
+	<h1>Time statistics (with TZDB, with CLDR locales)</h1>
+	<div>Time works: <span id="reportTime">html</span></div>
+	<div>Zone works: <span id="reportTimeZone">html</span></div>
+	<div>Locale.getAvailableLocales(): <span id="reportAvailableGeneralLocale">html</span> (base + CLDR)</div>
+	<div>DecimalStyle.getAvailableLocales(): <span id="reportAvailableDecimalStyleLocale">html</span> (supported by browser Intl implementation)</div>
+	<div>DateTimeFormatStyleProvider.getAvailableLocales(): <span id="reportAvailableDateTimeFormatLocale">html</span> (supported by browser Intl implementation)</div>
+	<!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+	<noscript>
+		<div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">Your web browser must have JavaScript enabled in order for this application to display correctly.</div>
+	</noscript>
+</body>
+</html>
