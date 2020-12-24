@@ -84,6 +84,10 @@
 			<url>https://github.com/sjmisterm</url>
 		</contributor>
 		<contributor>
+			<name>Björn Raupach</name>
+			<url>https://github.com/raupachz</url>
+		</contributor>
+		<contributor>
 			<name>Roger Riggs</name>
 			<url>https://github.com/RogerRiggs</url>
 		</contributor>
@@ -360,11 +364,11 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<linkXRef>false</linkXRef>
-		<tz.database.version>2020b</tz.database.version> -->
+		<tz.database.version>2020d</tz.database.version> -->
 		<gwt-regexp.ver>1.0.0-RC1</gwt-regexp.ver>
-		<gwt-typedarrays.ver>1.0.0-RC2</gwt-typedarrays.ver>
+		<gwt-typedarrays.ver>1.3-SNAPSHOT</gwt-typedarrays.ver>
 		<gwt-nio.ver>1.1</gwt-nio.ver>
-		<gwt-xhr.ver>1.0.0-RC1</gwt-xhr.ver>
+		<gwt-xhr.ver>1.2-SNAPSHOT</gwt-xhr.ver>
 		<gwt-slf4j.ver>1.0.1</gwt-slf4j.ver>
 		<time.apt.ver>2.0.4</time.apt.ver>
 		<gwt.version>2.9.0</gwt.version>

@@ -25,26 +25,18 @@ public class Support {
 	private static final Map<String, GwtZoneRuleProvider> gwtZoneRuleProviders = new HashMap<>();
 
 	private static boolean commonInitialized = false;
-	private static boolean loadAsync = true;
 
 	public static void init() {
 		if (!commonInitialized) {
 			LOGGER.debug("common initialization");
 			ScriptInjector.fromString(bundle.support().getText()).setWindow(ScriptInjector.TOP_WINDOW).inject();
 			commonInitialized = true;
-			if (loadAsync) {
-				gwtZoneRuleProviders.values().stream()
-						.filter(GwtZoneRuleProvider::isAsyncInitializeSupported)
-						.forEach(GwtZoneRuleProvider::initiatedAsyncInitialize);
-			}
 		}
 	}
 
 	public static void initTzData() {
 		LOGGER.debug("initTzData called");
 		if (!commonInitialized) {
-			// prevent from asynch load
-			loadAsync = false;
 			init();
 		}
 		if (!isTzTnitialized()) {
@@ -56,9 +48,6 @@ public class Support {
 		if (!gwtZoneRuleProviders.containsKey(gwtZoneRuleProvider.getProviderId())) {
 			LOGGER.debug("Register GWT zone rule provider: {}", gwtZoneRuleProvider.getProviderId());
 			gwtZoneRuleProviders.put(gwtZoneRuleProvider.getProviderId(), gwtZoneRuleProvider);
-			if (gwtZoneRuleProvider.isAsyncInitializeSupported()) {
-				gwtZoneRuleProvider.initiatedAsyncInitialize();
-			}
 			ZoneRulesProvider.refresh();
 		}
 	}

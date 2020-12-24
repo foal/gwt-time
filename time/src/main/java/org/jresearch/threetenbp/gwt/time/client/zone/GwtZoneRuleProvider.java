@@ -6,10 +6,6 @@ public interface GwtZoneRuleProvider {
 
 	boolean isInitialized();
 
-	boolean isAsyncInitializeSupported();
-
 	void initialize();
-
-	void initiatedAsyncInitialize();
 
 }

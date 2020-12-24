@@ -1975,4 +1975,41 @@ public class TestDuration extends AbstractTest {
 		assertEquals(t.toString(), expected);
 	}
 
+    //-------------------------------------------------------work in progress
+    // toPartXxx()
+    //-----------------------------------------------------------------------
+//    @DataProvider(name="ToPart")
+//    Object[][] provider_toPart() {
+//        return new Object[][]{
+//                {"PT0S", 0, 0, 0, 0, 0, 0},
+//                {"P1DT1H1M1.123456789S", 1, 1, 1, 1, 123, 123456789},
+//                {"-P1DT1H1M1.123456789S", -1, -1, -1, -2, 876, 876543211},
+//                {"PT9999999.9S", 115, 17, 46, 39, 900, 900000000},
+//                {"-PT9999999.9S", -115, -17, -46, -40, 100, 100000000},
+//                {"-PT2S", 0, 0, 0, -2, 0, 0},
+//                {"-PT1.999999999S", 0, 0, 0, -2, 0, 1}
+//
+//        };
+//    }
+
+// Commented out because these methods is absent in Java 8
+//    @Test(dataProvider = "ToPart")
+//	public void test_toPart() {
+//		Object[][] data = provider_toPart();
+//		for (int i = 0; i < data.length; i++) {
+//			Object[] objects = data[i];
+//			test_toPart((String) objects[0], (long) objects[1], (int) objects[2], (int) objects[3], (int) objects[4], (int) objects[5], (int) objects[6]);
+//		}
+//	}
+
+//    public void test_toPart(String text, long daysPart, int hoursPart, int minutesPart, int secondsPart, int millisPart, int nanosPart) {
+//        Duration test = Duration.parse(text);
+//        assertEquals(test.toDaysPart(), daysPart);
+//        assertEquals(test.toHoursPart(), hoursPart);
+//        assertEquals(test.toMinutesPart(), minutesPart);
+//        assertEquals(test.toSecondsPart(), secondsPart);
+//        assertEquals(test.toMillisPart(), millisPart);
+//        assertEquals(test.toNanosPart(), nanosPart);
+//    }
+
 }
