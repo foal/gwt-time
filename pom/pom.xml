@@ -205,7 +205,7 @@
 			<dependency>
 				<groupId>org.gwtproject.core</groupId>
 				<artifactId>gwt-core</artifactId>
-				<version>${gwt-core.ver}</version>
+				<version>${gwt29-core.ver}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.jresearch.gwt.time</groupId>
@@ -215,7 +215,7 @@
 			<dependency>
 				<groupId>org.gwtproject.typedarrays</groupId>
 				<artifactId>gwt-typedarrays</artifactId>
-				<version>${gwt-typedarrays.ver}</version>
+				<version>${gwt29-typedarrays.ver}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.dominokit</groupId>
@@ -225,17 +225,17 @@
 			<dependency>
 				<groupId>org.treblereel.gwt.nio</groupId>
 				<artifactId>gwt-nio</artifactId>
-				<version>${gwt-nio.ver}</version>
+				<version>${gwt29-nio.ver}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.gwtproject.xhr</groupId>
 				<artifactId>gwt-xhr</artifactId>
-				<version>${gwt-xhr.ver}</version>
+				<version>${gwt29-xhr.ver}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.gwtproject.regexp</groupId>
 				<artifactId>gwt-regexp</artifactId>
-				<version>${gwt-regexp.ver}</version>
+				<version>${gwt29-regexp.ver}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -365,17 +365,17 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<linkXRef>false</linkXRef>
 		<tz.database.version>2020d</tz.database.version> -->
-		<gwt-regexp.ver>1.0.0-RC1</gwt-regexp.ver>
-		<gwt-typedarrays.ver>1.3-SNAPSHOT</gwt-typedarrays.ver>
-		<gwt-nio.ver>1.1</gwt-nio.ver>
-		<gwt-xhr.ver>1.2-SNAPSHOT</gwt-xhr.ver>
+		<gwt29-regexp.ver>1.0.0-RC1</gwt29-regexp.ver>
+		<gwt29-typedarrays.ver>1.0.0-RC2</gwt29-typedarrays.ver>
+		<gwt29-nio.ver>1.1</gwt29-nio.ver>
+		<gwt29-xhr.ver>1.0.0-RC1</gwt29-xhr.ver>
 		<gwt-slf4j.ver>1.0.1</gwt-slf4j.ver>
 		<time.apt.ver>2.0.5-SNAPSHOT</time.apt.ver>
 		<gwt.version>2.9.0</gwt.version>
 		<elemental.ver>1.1.0</elemental.ver>
 		<jsinterop-annotations.ver>2.0.0</jsinterop-annotations.ver>
 		<jsinterop-base.ver>1.0.0</jsinterop-base.ver>
-		<gwt-core.ver>1.0.0-RC1</gwt-core.ver>
+		<gwt29-core.ver>1.0.0-RC1</gwt29-core.ver>
 		<gwt-locale.ver>1.0.2-SNAPSHOT</gwt-locale.ver>
 		<gwt-locale-cldr.ver>1.0.2-SNAPSHOT</gwt-locale-cldr.ver>
 	</properties>
