@@ -23,6 +23,7 @@
 				<configuration>
 					<!-- <source>13</source>
 					<target>13</target> -->
+					<showWarnings>true</showWarnings>
 					<annotationProcessorPaths>
 						<path>
 							<groupId>org.immutables</groupId>
