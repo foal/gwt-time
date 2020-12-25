@@ -228,11 +228,6 @@
 				<version>${gwt29-nio.ver}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.gwtproject.xhr</groupId>
-				<artifactId>gwt-xhr</artifactId>
-				<version>${gwt29-xhr.ver}</version>
-			</dependency>
-			<dependency>
 				<groupId>org.gwtproject.regexp</groupId>
 				<artifactId>gwt-regexp</artifactId>
 				<version>${gwt29-regexp.ver}</version>
@@ -368,7 +363,6 @@
 		<gwt29-regexp.ver>1.0.0-RC1</gwt29-regexp.ver>
 		<gwt29-typedarrays.ver>1.0.0-RC2</gwt29-typedarrays.ver>
 		<gwt29-nio.ver>1.1</gwt29-nio.ver>
-		<gwt29-xhr.ver>1.0.0-RC1</gwt29-xhr.ver>
 		<gwt-slf4j.ver>1.0.1</gwt-slf4j.ver>
 		<time.apt.ver>2.0.5-SNAPSHOT</time.apt.ver>
 		<gwt.version>2.9.0</gwt.version>

@@ -88,10 +88,6 @@
 			<artifactId>gwt-nio</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.gwtproject.xhr</groupId>
-			<artifactId>gwt-xhr</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>com.google.jsinterop</groupId>
 			<artifactId>jsinterop-annotations</artifactId>
 		</dependency>
