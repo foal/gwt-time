@@ -133,7 +133,7 @@
 		</repository>
 	</repositories>
 	<!-- ==================================================================== -->
-	<!-- <build> -->
+	<build>
 		<!-- <resources>
 			<resource>
 				<directory>src/main/resources</directory>
@@ -147,7 +147,15 @@
 			</resource>
 		</resources> -->
 		<!-- define build -->
-		<!-- <plugins> -->
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>8</source>
+					<target>8</target>
+				</configuration>
+			</plugin>
 			<!-- Setup testing -->
 			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -176,8 +184,8 @@
 					</properties>
 				</configuration>
 			</plugin> -->
-		<!-- </plugins>
-	</build>  -->
+		</plugins>
+	</build>
 
 	<!-- ==================================================================== -->
 	<dependencyManagement>
@@ -370,7 +378,7 @@
 		<jsinterop-annotations.ver>2.0.0</jsinterop-annotations.ver>
 		<jsinterop-base.ver>1.0.0</jsinterop-base.ver>
 		<gwt29-core.ver>1.0.0-RC1</gwt29-core.ver>
-		<gwt-locale.ver>1.0.2-SNAPSHOT</gwt-locale.ver>
-		<gwt-locale-cldr.ver>1.0.2-SNAPSHOT</gwt-locale-cldr.ver>
+		<gwt-locale.ver>1.0.3-SNAPSHOT</gwt-locale.ver>
+		<gwt-locale-cldr.ver>1.0.3-SNAPSHOT</gwt-locale-cldr.ver>
 	</properties>
 </project>
