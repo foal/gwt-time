@@ -14,3 +14,4 @@ utils/src/META-INF/MANIFEST.MF
 **/rebel.xml
 **/timing.properties
 **/www-test/**
+pom/verzuj.cmd
