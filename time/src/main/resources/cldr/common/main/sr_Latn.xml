@@ -135,9 +135,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="elx">elamitski</language>
 			<language type="en">engleski</language>
 			<language type="en_GB">engleski (Velika Britanija)</language>
-			<language type="en_GB" alt="short">engleski (UK)</language>
 			<language type="en_US">engleski (Sjedinjene Američke Države)</language>
-			<language type="en_US" alt="short">engleski (SAD)</language>
 			<language type="enm">srednjeengleski</language>
 			<language type="eo">esperanto</language>
 			<language type="es">španski</language>
@@ -935,7 +933,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="SX">Sveti Martin (Holandija)</territory>
 			<territory type="SY">Sirija</territory>
 			<territory type="SZ">Svazilend</territory>
-			<territory type="SZ" alt="variant">Svazilend</territory>
 			<territory type="TA">Tristan da Kunja</territory>
 			<territory type="TC">Ostrva Turks i Kaikos</territory>
 			<territory type="TD">Čad</territory>
@@ -982,11 +979,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="ZW">Zimbabve</territory>
 			<territory type="ZZ">Nepoznat region</territory>
 		</territories>
-		<subdivisions>
-			<subdivision type="gbeng">Engleska</subdivision>
-			<subdivision type="gbsct">Škotska</subdivision>
-			<subdivision type="gbwls">Vels</subdivision>
-		</subdivisions>
 		<variants>
 			<variant type="1901">Tradicionalna nemačka ortografija</variant>
 			<variant type="1994">Standardnizovana resijanska ortografija</variant>
@@ -1716,9 +1708,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 					</eraNames>
 					<eraAbbr>
 						<era type="0">p. n. e.</era>
-						<era type="0" alt="variant">p. n. e.</era>
 						<era type="1">n. e.</era>
-						<era type="1" alt="variant">n. e.</era>
 					</eraAbbr>
 					<eraNarrow>
 						<era type="0">p.n.e.</era>
@@ -9335,15 +9325,15 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</unit>
 			<unit type="length-furlong">
 				<displayName>furlonzi</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
+				<unitPattern count="one">{0} fur</unitPattern>
 				<unitPattern count="few">{0} fur</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
+				<unitPattern count="other">{0} fur</unitPattern>
 			</unit>
 			<unit type="length-fathom">
 				<displayName>hv</displayName>
 				<unitPattern count="one">{0} fth</unitPattern>
 				<unitPattern count="few">{0} fth</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
+				<unitPattern count="other">{0} fth</unitPattern>
 			</unit>
 			<unit type="length-nautical-mile">
 				<displayName>nmi</displayName>
@@ -9918,15 +9908,15 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</unit>
 			<unit type="length-furlong">
 				<displayName>furlonzi</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
+				<unitPattern count="one">{0} fur</unitPattern>
 				<unitPattern count="few">{0} fur</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
+				<unitPattern count="other">{0} fur</unitPattern>
 			</unit>
 			<unit type="length-fathom">
 				<displayName>hv</displayName>
 				<unitPattern count="one">{0} fth</unitPattern>
 				<unitPattern count="few">{0} fth</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
+				<unitPattern count="other">{0} fth</unitPattern>
 			</unit>
 			<unit type="mass-kilogram">
 				<displayName>kg</displayName>

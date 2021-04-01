@@ -42,7 +42,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="ang">Oudengels</language>
 			<language type="anp">Angika</language>
 			<language type="ar">Arabisch</language>
-			<language type="ar_001">↑↑↑</language>
 			<language type="arc">Aramees</language>
 			<language type="arn">Mapudungun</language>
 			<language type="aro">Araona</language>
@@ -141,8 +140,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="dar">Dargwa</language>
 			<language type="dav">Taita</language>
 			<language type="de">Duits</language>
-			<language type="de_AT">↑↑↑</language>
-			<language type="de_CH">↑↑↑</language>
 			<language type="del">Delaware</language>
 			<language type="den">Slavey</language>
 			<language type="dgr">Dogrib</language>
@@ -167,18 +164,9 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="el">Grieks</language>
 			<language type="elx">Elamitisch</language>
 			<language type="en">Engels</language>
-			<language type="en_AU">↑↑↑</language>
-			<language type="en_CA">↑↑↑</language>
-			<language type="en_GB">↑↑↑</language>
-			<language type="en_GB" alt="short">Engels (VK)</language>
-			<language type="en_US">↑↑↑</language>
-			<language type="en_US" alt="short">Engels (VS)</language>
 			<language type="enm">Middelengels</language>
 			<language type="eo">Esperanto</language>
 			<language type="es">Spaans</language>
-			<language type="es_419">↑↑↑</language>
-			<language type="es_ES">↑↑↑</language>
-			<language type="es_MX">↑↑↑</language>
 			<language type="esu">Yupik</language>
 			<language type="et">Estisch</language>
 			<language type="eu">Baskisch</language>
@@ -196,8 +184,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="fo">Faeröers</language>
 			<language type="fon">Fon</language>
 			<language type="fr">Frans</language>
-			<language type="fr_CA">↑↑↑</language>
-			<language type="fr_CH">↑↑↑</language>
 			<language type="frc">Cajun-Frans</language>
 			<language type="frm">Middelfrans</language>
 			<language type="fro">Oudfrans</language>
@@ -417,7 +403,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="niu">Niueaans</language>
 			<language type="njo">Ao Naga</language>
 			<language type="nl">Nederlands</language>
-			<language type="nl_BE">↑↑↑</language>
 			<language type="nmg">Ngumba</language>
 			<language type="nn">Noors - Nynorsk</language>
 			<language type="nnh">Ngiemboon</language>
@@ -466,8 +451,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="ps">Pasjtoe</language>
 			<language type="ps" alt="variant">Pashto</language>
 			<language type="pt">Portugees</language>
-			<language type="pt_BR">↑↑↑</language>
-			<language type="pt_PT">↑↑↑</language>
 			<language type="qu">Quechua</language>
 			<language type="quc">K’iche’</language>
 			<language type="qug">Kichwa</language>
@@ -479,7 +462,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="rm">Reto-Romaans</language>
 			<language type="rn">Kirundi</language>
 			<language type="ro">Roemeens</language>
-			<language type="ro_MD">↑↑↑</language>
 			<language type="rof">Rombo</language>
 			<language type="rom">Romani</language>
 			<language type="root">Root</language>
@@ -548,7 +530,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="sux">Soemerisch</language>
 			<language type="sv">Zweeds</language>
 			<language type="sw">Swahili</language>
-			<language type="sw_CD">↑↑↑</language>
 			<language type="swb">Shimaore</language>
 			<language type="syc">Klassiek Syrisch</language>
 			<language type="syr">Syrisch</language>
@@ -631,7 +612,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="yo">Yoruba</language>
 			<language type="yrl">Nheengatu</language>
 			<language type="yue">Kantonees</language>
-			<language type="yue" alt="menu">Kantonees</language>
 			<language type="za">Zhuang</language>
 			<language type="zap">Zapotec</language>
 			<language type="zbl">Blissymbolen</language>
@@ -640,9 +620,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="zgh">Standaard Marokkaanse Tamazight</language>
 			<language type="zh">Chinees</language>
 			<language type="zh" alt="menu">Mandarijn</language>
-			<language type="zh_Hans">↑↑↑</language>
 			<language type="zh_Hans" alt="long">Mandarijn (vereenvoudigd)</language>
-			<language type="zh_Hant">↑↑↑</language>
 			<language type="zh_Hant" alt="long">Mandarijn (traditioneel)</language>
 			<language type="zu">Zoeloe</language>
 			<language type="zun">Zuni</language>
@@ -928,7 +906,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<territory type="CG" alt="variant">Congo (Republiek)</territory>
 			<territory type="CH">Zwitserland</territory>
 			<territory type="CI">Ivoorkust</territory>
-			<territory type="CI" alt="variant">↑↑↑</territory>
 			<territory type="CK">Cookeilanden</territory>
 			<territory type="CL">Chili</territory>
 			<territory type="CM">Kameroen</territory>
@@ -1158,11 +1135,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<territory type="ZW">Zimbabwe</territory>
 			<territory type="ZZ">onbekend gebied</territory>
 		</territories>
-		<subdivisions>
-			<subdivision type="gbeng">Engeland</subdivision>
-			<subdivision type="gbsct">Schotland</subdivision>
-			<subdivision type="gbwls">Wales</subdivision>
-		</subdivisions>
 		<variants>
 			<variant type="1901">Traditionele Duitse spelling</variant>
 			<variant type="1994">Gestandaardiseerde Resiaanse spelling</variant>
@@ -1486,43 +1458,19 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		<exemplarCharacters type="index" draft="contributed">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
 		<exemplarCharacters type="numbers">[\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9]</exemplarCharacters>
 		<exemplarCharacters type="punctuation">[\- ‐ ‑ – — , ; \: ! ? . … ' ‘ ’ &quot; “ ” ( ) \[ \] § @ * / \&amp; # † ‡ ′ ″]</exemplarCharacters>
-		<ellipsis type="final">↑↑↑</ellipsis>
-		<ellipsis type="initial">↑↑↑</ellipsis>
-		<ellipsis type="medial">↑↑↑</ellipsis>
-		<ellipsis type="word-final">↑↑↑</ellipsis>
-		<ellipsis type="word-initial">↑↑↑</ellipsis>
-		<ellipsis type="word-medial">↑↑↑</ellipsis>
-		<moreInformation>↑↑↑</moreInformation>
 		<parseLenients scope="date" level="lenient">
-			<parseLenient sample="-" draft="contributed">↑↑↑</parseLenient>
 			<parseLenient sample=":" draft="contributed">[\:∶]</parseLenient>
 		</parseLenients>
 		<parseLenients scope="general" level="lenient">
-			<parseLenient sample="." draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="’" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="%" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="‰" draft="contributed">↑↑↑</parseLenient>
 			<parseLenient sample="$" draft="contributed">[\$﹩＄$]</parseLenient>
-			<parseLenient sample="£" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="¥" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="₩" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="₹" draft="contributed">↑↑↑</parseLenient>
 		</parseLenients>
 		<parseLenients scope="number" level="lenient">
 			<parseLenient sample="-" draft="contributed">[\-‒⁻₋−➖﹣－]</parseLenient>
-			<parseLenient sample="," draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="+" draft="contributed">↑↑↑</parseLenient>
-		</parseLenients>
-		<parseLenients scope="number" level="stricter">
-			<parseLenient sample="," draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="." draft="contributed">↑↑↑</parseLenient>
 		</parseLenients>
 	</characters>
 	<delimiters>
 		<quotationStart>‘</quotationStart>
 		<quotationEnd>’</quotationEnd>
-		<alternateQuotationStart>↑↑↑</alternateQuotationStart>
-		<alternateQuotationEnd>↑↑↑</alternateQuotationEnd>
 	</delimiters>
 	<dates>
 		<calendars>
@@ -1610,55 +1558,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback draft="contributed">{0} - {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d" draft="contributed">d–d</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Gy">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
 							<greatestDifference id="a" draft="contributed">h a – h a</greatestDifference>
@@ -2710,15 +2611,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback draft="contributed">{0} – {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d" draft="contributed">d–d</greatestDifference>
 						</intervalFormatItem>
@@ -2997,55 +2889,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback draft="contributed">{0} - {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d" draft="contributed">d–d</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Gy">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
 							<greatestDifference id="a" draft="contributed">h a – h a</greatestDifference>
@@ -4085,15 +3930,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback draft="contributed">{0} – {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d" draft="contributed">d–d</greatestDifference>
 						</intervalFormatItem>
@@ -4372,55 +4208,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback draft="contributed">{0} - {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d" draft="contributed">d–d</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Gy">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
 							<greatestDifference id="a" draft="contributed">h a – h a</greatestDifference>
@@ -4619,15 +4408,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback>{0} - {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B">↑↑↑</greatestDifference>
-							<greatestDifference id="h">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B">↑↑↑</greatestDifference>
-							<greatestDifference id="h">↑↑↑</greatestDifference>
-							<greatestDifference id="m">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d">d–d</greatestDifference>
 						</intervalFormatItem>
@@ -4868,9 +4648,9 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						</dayWidth>
 						<dayWidth type="narrow">
 							<day type="sun">Z</day>
-							<day type="mon">↑↑↑</day>
+							<day type="mon">M</day>
 							<day type="tue">D</day>
-							<day type="wed">↑↑↑</day>
+							<day type="wed">W</day>
 							<day type="thu">D</day>
 							<day type="fri">V</day>
 							<day type="sat">Z</day>
@@ -4906,9 +4686,9 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						</dayWidth>
 						<dayWidth type="narrow">
 							<day type="sun">Z</day>
-							<day type="mon">↑↑↑</day>
+							<day type="mon">M</day>
 							<day type="tue">D</day>
-							<day type="wed">↑↑↑</day>
+							<day type="wed">W</day>
 							<day type="thu">D</day>
 							<day type="fri">V</day>
 							<day type="sat">Z</day>
@@ -5175,15 +4955,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</appendItems>
 					<intervalFormats>
 						<intervalFormatFallback>{0} - {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B">↑↑↑</greatestDifference>
-							<greatestDifference id="h">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B">↑↑↑</greatestDifference>
-							<greatestDifference id="h">↑↑↑</greatestDifference>
-							<greatestDifference id="m">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d">d–d</greatestDifference>
 						</intervalFormatItem>
@@ -5326,17 +5097,17 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<monthWidth type="abbreviated">
 							<month type="1">Tisjrie</month>
 							<month type="2">Chesjwan</month>
-							<month type="3">↑↑↑</month>
-							<month type="4">↑↑↑</month>
+							<month type="3">Kislev</month>
+							<month type="4">Tevet</month>
 							<month type="5">Sjevat</month>
 							<month type="6">Adar A</month>
-							<month type="7">↑↑↑</month>
+							<month type="7">Adar</month>
 							<month type="7" yeartype="leap">Adar B</month>
-							<month type="8">↑↑↑</month>
+							<month type="8">Nisan</month>
 							<month type="9">Ijar</month>
-							<month type="10">↑↑↑</month>
+							<month type="10">Sivan</month>
 							<month type="11">Tammoez</month>
-							<month type="12">↑↑↑</month>
+							<month type="12">Av</month>
 							<month type="13">Elloel</month>
 						</monthWidth>
 						<monthWidth type="narrow">
@@ -5358,17 +5129,17 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<monthWidth type="wide">
 							<month type="1">Tisjrie</month>
 							<month type="2">Chesjwan</month>
-							<month type="3">↑↑↑</month>
-							<month type="4">↑↑↑</month>
+							<month type="3">Kislev</month>
+							<month type="4">Tevet</month>
 							<month type="5">Sjevat</month>
 							<month type="6">Adar A</month>
-							<month type="7">↑↑↑</month>
+							<month type="7">Adar</month>
 							<month type="7" yeartype="leap">Adar B</month>
-							<month type="8">↑↑↑</month>
+							<month type="8">Nisan</month>
 							<month type="9">Ijar</month>
-							<month type="10">↑↑↑</month>
+							<month type="10">Sivan</month>
 							<month type="11">Tammoez</month>
-							<month type="12">↑↑↑</month>
+							<month type="12">Av</month>
 							<month type="13">Elloel</month>
 						</monthWidth>
 					</monthContext>
@@ -5376,17 +5147,17 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<monthWidth type="abbreviated">
 							<month type="1">Tisjrie</month>
 							<month type="2">Chesjwan</month>
-							<month type="3">↑↑↑</month>
-							<month type="4">↑↑↑</month>
+							<month type="3">Kislev</month>
+							<month type="4">Tevet</month>
 							<month type="5">Sjevat</month>
 							<month type="6">Adar A</month>
-							<month type="7">↑↑↑</month>
+							<month type="7">Adar</month>
 							<month type="7" yeartype="leap">Adar B</month>
-							<month type="8">↑↑↑</month>
+							<month type="8">Nisan</month>
 							<month type="9">Ijar</month>
-							<month type="10">↑↑↑</month>
+							<month type="10">Sivan</month>
 							<month type="11">Tammoez</month>
-							<month type="12">↑↑↑</month>
+							<month type="12">Av</month>
 							<month type="13">Elloel</month>
 						</monthWidth>
 						<monthWidth type="narrow">
@@ -5408,17 +5179,17 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<monthWidth type="wide">
 							<month type="1">Tisjrie</month>
 							<month type="2">Chesjwan</month>
-							<month type="3">↑↑↑</month>
-							<month type="4">↑↑↑</month>
+							<month type="3">Kislev</month>
+							<month type="4">Tevet</month>
 							<month type="5">Sjevat</month>
 							<month type="6">Adar A</month>
-							<month type="7">↑↑↑</month>
+							<month type="7">Adar</month>
 							<month type="7" yeartype="leap">Adar B</month>
-							<month type="8">↑↑↑</month>
+							<month type="8">Nisan</month>
 							<month type="9">Ijar</month>
-							<month type="10">↑↑↑</month>
+							<month type="10">Sivan</month>
 							<month type="11">Tammoez</month>
-							<month type="12">↑↑↑</month>
+							<month type="12">Av</month>
 							<month type="13">Elloel</month>
 						</monthWidth>
 					</monthContext>
@@ -5506,55 +5277,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback draft="contributed">{0} - {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d" draft="contributed">d–d</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Gy">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
 							<greatestDifference id="a" draft="contributed">h a – h a</greatestDifference>
@@ -5825,55 +5549,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback draft="contributed">{0} - {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d" draft="contributed">d–d</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Gy">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
 							<greatestDifference id="a" draft="contributed">h a – h a</greatestDifference>
@@ -5975,14 +5652,14 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<monthContext type="format">
 						<monthWidth type="abbreviated">
 							<month type="1">Moeh.</month>
-							<month type="2">↑↑↑</month>
-							<month type="3">↑↑↑</month>
-							<month type="4">↑↑↑</month>
+							<month type="2">Saf.</month>
+							<month type="3">Rab. I</month>
+							<month type="4">Rab. II</month>
 							<month type="5">Joem. I</month>
 							<month type="6">Joem. II</month>
-							<month type="7">↑↑↑</month>
+							<month type="7">Raj.</month>
 							<month type="8">Sja.</month>
-							<month type="9">↑↑↑</month>
+							<month type="9">Ram.</month>
 							<month type="10">Sjaw.</month>
 							<month type="11">Doe al k.</month>
 							<month type="12">Doe al h.</month>
@@ -6003,14 +5680,14 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">Moeharram</month>
-							<month type="2">↑↑↑</month>
+							<month type="2">Safar</month>
 							<month type="3">Rabiʻa al awal</month>
 							<month type="4">Rabiʻa al thani</month>
 							<month type="5">Joemadʻal awal</month>
 							<month type="6">Joemadʻal thani</month>
-							<month type="7">↑↑↑</month>
+							<month type="7">Rajab</month>
 							<month type="8">Sjaʻaban</month>
-							<month type="9">↑↑↑</month>
+							<month type="9">Ramadan</month>
 							<month type="10">Sjawal</month>
 							<month type="11">Doe al kaʻaba</month>
 							<month type="12">Doe al hizja</month>
@@ -6019,14 +5696,14 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<monthContext type="stand-alone">
 						<monthWidth type="abbreviated">
 							<month type="1">Moeh.</month>
-							<month type="2">↑↑↑</month>
-							<month type="3">↑↑↑</month>
-							<month type="4">↑↑↑</month>
+							<month type="2">Saf.</month>
+							<month type="3">Rab. I</month>
+							<month type="4">Rab. II</month>
 							<month type="5">Joem. I</month>
 							<month type="6">Joem. II</month>
-							<month type="7">↑↑↑</month>
+							<month type="7">Raj.</month>
 							<month type="8">Sja.</month>
-							<month type="9">↑↑↑</month>
+							<month type="9">Ram.</month>
 							<month type="10">Sjaw.</month>
 							<month type="11">Doe al k.</month>
 							<month type="12">Doe al h.</month>
@@ -6047,14 +5724,14 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">Moeharram</month>
-							<month type="2">↑↑↑</month>
+							<month type="2">Safar</month>
 							<month type="3">Rabiʻa al awal</month>
 							<month type="4">Rabiʻa al thani</month>
 							<month type="5">Joemadʻal awal</month>
 							<month type="6">Joemadʻal thani</month>
-							<month type="7">↑↑↑</month>
+							<month type="7">Rajab</month>
 							<month type="8">Sjaʻaban</month>
-							<month type="9">↑↑↑</month>
+							<month type="9">Ramadan</month>
 							<month type="10">Sjawal</month>
 							<month type="11">Doe al kaʻaba</month>
 							<month type="12">Doe al hizja</month>
@@ -6144,55 +5821,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback draft="contributed">{0} - {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d" draft="contributed">d–d</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Gy">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
 							<greatestDifference id="a" draft="contributed">h a – h a</greatestDifference>
@@ -6528,7 +6158,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<era type="233" draft="contributed">Taishō</era>
 						<era type="234" draft="contributed">Shōwa</era>
 						<era type="235" draft="contributed">Heisei</era>
-						<era type="236">↑↑↑</era>
 					</eraNames>
 					<eraAbbr>
 						<era type="0" draft="contributed">Taika (645–650)</era>
@@ -6767,7 +6396,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<era type="233" draft="contributed">Taishō</era>
 						<era type="234" draft="contributed">Shōwa</era>
 						<era type="235" draft="contributed">Heisei</era>
-						<era type="236">↑↑↑</era>
 					</eraAbbr>
 					<eraNarrow>
 						<era type="0" draft="contributed">Taika (645–650)</era>
@@ -7006,7 +6634,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<era type="233" draft="contributed">T</era>
 						<era type="234" draft="contributed">S</era>
 						<era type="235" draft="contributed">H</era>
-						<era type="236">↑↑↑</era>
 					</eraNarrow>
 				</eras>
 				<dateFormats>
@@ -7081,55 +6708,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback draft="contributed">{0} - {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d" draft="contributed">d–d</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Gy">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
 							<greatestDifference id="a" draft="contributed">h a – h a</greatestDifference>
@@ -7400,55 +6980,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback draft="contributed">{0} - {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d" draft="contributed">d–d</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Gy">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
 							<greatestDifference id="a" draft="contributed">h a – h a</greatestDifference>
@@ -7632,55 +7165,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback draft="contributed">{0} - {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d" draft="contributed">d–d</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Gy">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="h">
 							<greatestDifference id="a" draft="contributed">h a – h a</greatestDifference>
@@ -9760,59 +9246,26 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard draft="contributed">Acre-standaardtijd</standard>
 					<daylight draft="contributed">Acre-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Afghanistan">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Afghaanse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Africa_Central">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Centraal-Afrikaanse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Africa_Eastern">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Oost-Afrikaanse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Africa_Southern">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Zuid-Afrikaanse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Africa_Western">
 				<long>
@@ -9820,11 +9273,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>West-Afrikaanse standaardtijd</standard>
 					<daylight>West-Afrikaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Alaska">
 				<long>
@@ -9844,11 +9292,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard draft="contributed">Alma-Ata-standaardtijd</standard>
 					<daylight draft="contributed">Alma-Ata-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Amazon">
 				<long>
@@ -9856,11 +9299,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Amazone-standaardtijd</standard>
 					<daylight>Amazone-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="America_Central">
 				<long>
@@ -9916,11 +9354,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard draft="contributed">Anadyr-standaardtijd</standard>
 					<daylight draft="contributed">Anadyr-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Apia">
 				<long>
@@ -9928,11 +9361,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Apia-standaardtijd</standard>
 					<daylight>Apia-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Aqtau">
 				<long>
@@ -9940,11 +9368,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard draft="contributed">Aqtau-standaardtijd</standard>
 					<daylight draft="contributed">Aqtau-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Aqtobe">
 				<long>
@@ -9952,11 +9375,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard draft="contributed">Aqtöbe-standaardtijd</standard>
 					<daylight draft="contributed">Aqtöbe-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Arabian">
 				<long>
@@ -9964,11 +9382,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Arabische standaardtijd</standard>
 					<daylight>Arabische zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Argentina">
 				<long>
@@ -9976,11 +9389,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Argentijnse standaardtijd</standard>
 					<daylight>Argentijnse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Argentina_Western">
 				<long>
@@ -9988,11 +9396,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>West-Argentijnse standaardtijd</standard>
 					<daylight>West-Argentijnse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Armenia">
 				<long>
@@ -10000,11 +9403,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Armeense standaardtijd</standard>
 					<daylight>Armeense zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Atlantic">
 				<long>
@@ -10024,11 +9422,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Midden-Australische standaardtijd</standard>
 					<daylight>Midden-Australische zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Australia_CentralWestern">
 				<long>
@@ -10036,11 +9429,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Midden-Australische westelijke standaardtijd</standard>
 					<daylight>Midden-Australische westelijke zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Australia_Eastern">
 				<long>
@@ -10048,11 +9436,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Oost-Australische standaardtijd</standard>
 					<daylight>Oost-Australische zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Australia_Western">
 				<long>
@@ -10060,11 +9443,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>West-Australische standaardtijd</standard>
 					<daylight>West-Australische zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Azerbaijan">
 				<long>
@@ -10072,11 +9450,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Azerbeidzjaanse standaardtijd</standard>
 					<daylight>Azerbeidzjaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Azores">
 				<long>
@@ -10084,11 +9457,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Azoren-standaardtijd</standard>
 					<daylight>Azoren-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Bangladesh">
 				<long>
@@ -10096,35 +9464,16 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Bengalese standaardtijd</standard>
 					<daylight>Bengalese zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Bhutan">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Bhutaanse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Bolivia">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Boliviaanse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Brasilia">
 				<long>
@@ -10132,23 +9481,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Braziliaanse standaardtijd</standard>
 					<daylight>Braziliaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Brunei">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Bruneise tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Cape_Verde">
 				<long>
@@ -10156,35 +9493,16 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Kaapverdische standaardtijd</standard>
 					<daylight>Kaapverdische zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Casey">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard draft="contributed">Casey tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Chamorro">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Chamorro-tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Chatham">
 				<long>
@@ -10192,11 +9510,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Chatham-standaardtijd</standard>
 					<daylight>Chatham-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Chile">
 				<long>
@@ -10204,11 +9517,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Chileense standaardtijd</standard>
 					<daylight>Chileense zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="China">
 				<long>
@@ -10216,11 +9524,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Chinese standaardtijd</standard>
 					<daylight>Chinese zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Choibalsan">
 				<long>
@@ -10228,35 +9531,16 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Tsjojbalsan-standaardtijd</standard>
 					<daylight>Tsjojbalsan-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Christmas">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Christmaseilandse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Cocos">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Cocoseilandse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Colombia">
 				<long>
@@ -10264,11 +9548,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Colombiaanse standaardtijd</standard>
 					<daylight>Colombiaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Cook">
 				<long>
@@ -10276,11 +9555,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Cookeilandse standaardtijd</standard>
 					<daylight>Cookeilandse halve zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Cuba">
 				<long>
@@ -10288,47 +9562,21 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Cubaanse standaardtijd</standard>
 					<daylight>Cubaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Davis">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Davis-tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="DumontDUrville">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Dumont-d’Urville-tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="East_Timor">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Oost-Timorese tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Easter">
 				<long>
@@ -10336,23 +9584,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Paaseilandse standaardtijd</standard>
 					<daylight>Paaseilandse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Ecuador">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Ecuadoraanse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Europe_Central">
 				<long>
@@ -10380,15 +9616,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</metazone>
 			<metazone type="Europe_Further_Eastern">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Verder-oostelijk-Europese tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Europe_Western">
 				<long>
@@ -10408,11 +9637,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Falklandeilandse standaardtijd</standard>
 					<daylight>Falklandeilandse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Fiji">
 				<long>
@@ -10420,59 +9644,26 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Fijische standaardtijd</standard>
 					<daylight>Fijische zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="French_Guiana">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Frans-Guyaanse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="French_Southern">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Franse zuidelijke en Antarctische tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Galapagos">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Galapagoseilandse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Gambier">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Gambiereilandse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Georgia">
 				<long>
@@ -10480,34 +9671,18 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Georgische standaardtijd</standard>
 					<daylight>Georgische zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Gilbert_Islands">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Gilberteilandse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="GMT">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Greenwich Mean Time</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
 				<short>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard draft="contributed">GMT</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</short>
 			</metazone>
 			<metazone type="Greenland_Eastern">
@@ -10516,11 +9691,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Oost-Groenlandse standaardtijd</standard>
 					<daylight>Oost-Groenlandse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Greenland_Western">
 				<long>
@@ -10528,47 +9698,21 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>West-Groenlandse standaardtijd</standard>
 					<daylight>West-Groenlandse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Guam">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard draft="contributed">Guamese standaardtijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Gulf">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Golf-standaardtijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Guyana">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Guyaanse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Hawaii_Aleutian">
 				<long>
@@ -10588,11 +9732,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Hongkongse standaardtijd</standard>
 					<daylight>Hongkongse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Hovd">
 				<long>
@@ -10600,83 +9739,36 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Hovd-standaardtijd</standard>
 					<daylight>Hovd-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="India">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Indiase tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Indian_Ocean">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Indische Oceaan-tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Indochina">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Indochinese tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Indonesia_Central">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Centraal-Indonesische tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Indonesia_Eastern">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Oost-Indonesische tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Indonesia_Western">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>West-Indonesische tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Iran">
 				<long>
@@ -10684,11 +9776,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Iraanse standaardtijd</standard>
 					<daylight>Iraanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Irkutsk">
 				<long>
@@ -10696,11 +9783,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Irkoetsk-standaardtijd</standard>
 					<daylight>Irkoetsk-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Israel">
 				<long>
@@ -10708,11 +9790,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Israëlische standaardtijd</standard>
 					<daylight>Israëlische zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Japan">
 				<long>
@@ -10720,11 +9797,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Japanse standaardtijd</standard>
 					<daylight>Japanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Kamchatka">
 				<long>
@@ -10732,35 +9804,16 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard draft="contributed">Petropavlovsk-Kamtsjatski-standaardtijd</standard>
 					<daylight draft="contributed">Petropavlovsk-Kamtsjatski-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Kazakhstan_Eastern">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Oost-Kazachse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Kazakhstan_Western">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>West-Kazachse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Korea">
 				<long>
@@ -10768,23 +9821,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Koreaanse standaardtijd</standard>
 					<daylight>Koreaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Kosrae">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Kosraese tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Krasnoyarsk">
 				<long>
@@ -10792,47 +9833,21 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Krasnojarsk-standaardtijd</standard>
 					<daylight>Krasnojarsk-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Kyrgystan">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Kirgizische tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Lanka">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard draft="contributed">Lanka-tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Line_Islands">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Line-eilandse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Lord_Howe">
 				<long>
@@ -10840,11 +9855,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Lord Howe-eilandse standaardtijd</standard>
 					<daylight>Lord Howe-eilandse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Macau">
 				<long>
@@ -10852,23 +9862,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard draft="contributed">Macause standaardtijd</standard>
 					<daylight draft="contributed">Macause zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Macquarie">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Macquarie-eilandse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Magadan">
 				<long>
@@ -10876,59 +9874,26 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Magadan-standaardtijd</standard>
 					<daylight>Magadan-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Malaysia">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Maleisische tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Maldives">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Maldivische tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Marquesas">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Marquesaseilandse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Marshall_Islands">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Marshalleilandse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Mauritius">
 				<long>
@@ -10936,23 +9901,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Mauritiaanse standaardtijd</standard>
 					<daylight>Mauritiaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Mawson">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Mawson-tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Mexico_Northwest">
 				<long>
@@ -10960,11 +9913,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Noordwest-Mexicaanse standaardtijd</standard>
 					<daylight>Noordwest-Mexicaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Mexico_Pacific">
 				<long>
@@ -10972,11 +9920,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Mexicaanse Pacific-standaardtijd</standard>
 					<daylight>Mexicaanse Pacific-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Mongolia">
 				<long>
@@ -10984,11 +9927,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Ulaanbaatar-standaardtijd</standard>
 					<daylight>Ulaanbaatar-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Moscow">
 				<long>
@@ -10996,47 +9934,21 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Moskou-standaardtijd</standard>
 					<daylight>Moskou-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Myanmar">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Myanmarese tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Nauru">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Nauruaanse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Nepal">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Nepalese tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="New_Caledonia">
 				<long>
@@ -11044,11 +9956,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Nieuw-Caledonische standaardtijd</standard>
 					<daylight>Nieuw-Caledonische zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="New_Zealand">
 				<long>
@@ -11056,11 +9963,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Nieuw-Zeelandse standaardtijd</standard>
 					<daylight>Nieuw-Zeelandse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Newfoundland">
 				<long>
@@ -11068,23 +9970,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Newfoundland-standaardtijd</standard>
 					<daylight>Newfoundland-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Niue">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Niuese tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Norfolk">
 				<long>
@@ -11092,11 +9982,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Norfolkeilandse standaardtijd</standard>
 					<daylight>Norfolkeilandse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Noronha">
 				<long>
@@ -11104,23 +9989,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Fernando de Noronha-standaardtijd</standard>
 					<daylight>Fernando de Noronha-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="North_Mariana">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard draft="contributed">Noordelijk Mariaanse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Novosibirsk">
 				<long>
@@ -11128,11 +10001,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Novosibirsk-standaardtijd</standard>
 					<daylight>Novosibirsk-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Omsk">
 				<long>
@@ -11140,11 +10008,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Omsk-standaardtijd</standard>
 					<daylight>Omsk-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Pakistan">
 				<long>
@@ -11152,35 +10015,16 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Pakistaanse standaardtijd</standard>
 					<daylight>Pakistaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Palau">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Belause tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Papua_New_Guinea">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Papoea-Nieuw-Guineese tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Paraguay">
 				<long>
@@ -11188,11 +10032,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Paraguayaanse standaardtijd</standard>
 					<daylight>Paraguayaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Peru">
 				<long>
@@ -11200,11 +10039,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Peruaanse standaardtijd</standard>
 					<daylight>Peruaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Philippines">
 				<long>
@@ -11212,23 +10046,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Filipijnse standaardtijd</standard>
 					<daylight>Filipijnse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Phoenix_Islands">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Phoenixeilandse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Pierre_Miquelon">
 				<long>
@@ -11236,47 +10058,21 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Saint Pierre en Miquelon-standaardtijd</standard>
 					<daylight>Saint Pierre en Miquelon-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Pitcairn">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Pitcairneilandse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Ponape">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Pohnpei-tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Pyongyang">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Pyongyang-tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Qyzylorda">
 				<long>
@@ -11284,35 +10080,16 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard draft="contributed">Qyzylorda-standaardtijd</standard>
 					<daylight draft="contributed">Qyzylorda-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Reunion">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Réunionse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Rothera">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Rothera-tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Sakhalin">
 				<long>
@@ -11320,11 +10097,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Sachalin-standaardtijd</standard>
 					<daylight>Sachalin-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Samara">
 				<long>
@@ -11332,11 +10104,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard draft="contributed">Samara-standaardtijd</standard>
 					<daylight draft="contributed">Samara-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Samoa">
 				<long>
@@ -11344,95 +10111,41 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Samoaanse standaardtijd</standard>
 					<daylight>Samoaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Seychelles">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Seychelse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Singapore">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Singaporese standaardtijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Solomon">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Salomonseilandse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="South_Georgia">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Zuid-Georgische tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Suriname">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Surinaamse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Syowa">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Syowa-tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Tahiti">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Tahitiaanse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Taipei">
 				<long>
@@ -11440,35 +10153,16 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Taipei-standaardtijd</standard>
 					<daylight>Taipei-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Tajikistan">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Tadzjiekse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Tokelau">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Tokelau-eilandse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Tonga">
 				<long>
@@ -11476,23 +10170,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Tongaanse standaardtijd</standard>
 					<daylight>Tongaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Truk">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Chuukse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Turkmenistan">
 				<long>
@@ -11500,23 +10182,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Turkmeense standaardtijd</standard>
 					<daylight>Turkmeense zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Tuvalu">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Tuvaluaanse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Uruguay">
 				<long>
@@ -11524,11 +10194,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Uruguayaanse standaardtijd</standard>
 					<daylight>Uruguayaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Uzbekistan">
 				<long>
@@ -11536,11 +10201,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Oezbeekse standaardtijd</standard>
 					<daylight>Oezbeekse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Vanuatu">
 				<long>
@@ -11548,23 +10208,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Vanuatuaanse standaardtijd</standard>
 					<daylight>Vanuatuaanse zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Venezuela">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Venezolaanse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Vladivostok">
 				<long>
@@ -11572,11 +10220,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Vladivostok-standaardtijd</standard>
 					<daylight>Vladivostok-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Volgograd">
 				<long>
@@ -11584,47 +10227,21 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Wolgograd-standaardtijd</standard>
 					<daylight>Wolgograd-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Vostok">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Vostok-tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Wake">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Wake-eilandse tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Wallis">
 				<long>
-					<generic draft="contributed">↑↑↑</generic>
 					<standard>Wallis en Futunase tijd</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Yakutsk">
 				<long>
@@ -11632,11 +10249,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Jakoetsk-standaardtijd</standard>
 					<daylight>Jakoetsk-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 			<metazone type="Yekaterinburg">
 				<long>
@@ -11644,11 +10256,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					<standard>Jekaterinenburg-standaardtijd</standard>
 					<daylight>Jekaterinenburg-zomertijd</daylight>
 				</long>
-				<short>
-					<generic draft="contributed">↑↑↑</generic>
-					<standard draft="contributed">↑↑↑</standard>
-					<daylight draft="contributed">↑↑↑</daylight>
-				</short>
 			</metazone>
 		</timeZoneNames>
 	</dates>
@@ -11658,20 +10265,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<native draft="contributed">latn</native>
 		</otherNumberingSystems>
 		<minimumGroupingDigits draft="contributed">1</minimumGroupingDigits>
-		<symbols numberSystem="adlm">
-			<decimal draft="contributed">↑↑↑</decimal>
-			<group draft="contributed">↑↑↑</group>
-			<list draft="contributed">↑↑↑</list>
-			<percentSign draft="contributed">↑↑↑</percentSign>
-			<plusSign draft="contributed">↑↑↑</plusSign>
-			<minusSign draft="contributed">↑↑↑</minusSign>
-			<exponential draft="contributed">↑↑↑</exponential>
-			<superscriptingExponent draft="contributed">↑↑↑</superscriptingExponent>
-			<perMille draft="contributed">↑↑↑</perMille>
-			<infinity draft="contributed">↑↑↑</infinity>
-			<nan draft="contributed">↑↑↑</nan>
-			<timeSeparator draft="contributed">↑↑↑</timeSeparator>
-		</symbols>
 		<symbols numberSystem="arab">
 			<decimal draft="contributed">٫</decimal>
 			<group draft="contributed">٬</group>
@@ -11973,7 +10566,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<percentSign>%</percentSign>
 			<plusSign draft="contributed">+</plusSign>
 			<minusSign draft="contributed">-</minusSign>
-			<approximatelySign>↑↑↑</approximatelySign>
 			<exponential>E</exponential>
 			<superscriptingExponent>×</superscriptingExponent>
 			<perMille>‰</perMille>
@@ -12303,13 +10895,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<nan draft="contributed">NaN</nan>
 			<timeSeparator draft="contributed">:</timeSeparator>
 		</symbols>
-		<decimalFormats numberSystem="adlm">
-			<decimalFormatLength>
-				<decimalFormat>
-					<pattern draft="contributed">↑↑↑</pattern>
-				</decimalFormat>
-			</decimalFormatLength>
-		</decimalFormats>
 		<decimalFormats numberSystem="arab">
 			<decimalFormatLength>
 				<decimalFormat>
@@ -12681,13 +11266,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				</decimalFormat>
 			</decimalFormatLength>
 		</decimalFormats>
-		<scientificFormats numberSystem="adlm">
-			<scientificFormatLength>
-				<scientificFormat>
-					<pattern draft="contributed">↑↑↑</pattern>
-				</scientificFormat>
-			</scientificFormatLength>
-		</scientificFormats>
 		<scientificFormats numberSystem="arab">
 			<scientificFormatLength>
 				<scientificFormat>
@@ -13003,13 +11581,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				</scientificFormat>
 			</scientificFormatLength>
 		</scientificFormats>
-		<percentFormats numberSystem="adlm">
-			<percentFormatLength>
-				<percentFormat>
-					<pattern draft="contributed">↑↑↑</pattern>
-				</percentFormat>
-			</percentFormatLength>
-		</percentFormats>
 		<percentFormats numberSystem="arab">
 			<percentFormatLength>
 				<percentFormat>
@@ -13325,18 +11896,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				</percentFormat>
 			</percentFormatLength>
 		</percentFormats>
-		<currencyFormats numberSystem="adlm">
-			<currencyFormatLength>
-				<currencyFormat type="standard">
-					<pattern draft="contributed">↑↑↑</pattern>
-				</currencyFormat>
-				<currencyFormat type="accounting">
-					<pattern draft="contributed">↑↑↑</pattern>
-				</currencyFormat>
-			</currencyFormatLength>
-			<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-			<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-		</currencyFormats>
 		<currencyFormats numberSystem="arab">
 			<currencyFormatLength>
 				<currencyFormat type="standard">
@@ -13927,7 +12486,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="one">Afghaanse afghani</displayName>
 				<displayName count="other">Afghaanse afghani</displayName>
 				<symbol draft="contributed">AFN</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ALK">
 				<displayName draft="contributed">Albanese lek (1946–1965)</displayName>
@@ -13946,7 +12504,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="one">Armeense dram</displayName>
 				<displayName count="other">Armeense dram</displayName>
 				<symbol draft="contributed">AMD</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ANG">
 				<displayName>Nederlands-Antilliaanse gulden</displayName>
@@ -14040,7 +12597,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="one">Azerbeidzjaanse manat</displayName>
 				<displayName count="other">Azerbeidzjaanse manat</displayName>
 				<symbol draft="contributed">AZN</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BAD">
 				<displayName>Bosnische dinar</displayName>
@@ -14556,7 +13112,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="one">Ghanese cedi</displayName>
 				<displayName count="other">Ghanese cedi</displayName>
 				<symbol draft="contributed">GHS</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GIP">
 				<displayName>Gibraltarees pond</displayName>
@@ -15555,7 +14110,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName draft="contributed">Uruguayaanse nominale salarisindexeenheid</displayName>
 				<displayName count="one" draft="contributed">Uruguayaanse nominale salarisindexeenheid</displayName>
 				<displayName count="other" draft="contributed">Uruguayaanse nominale salarisindexeenheid</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="UZS">
 				<displayName>Oezbeekse sum</displayName>
@@ -15827,12 +14381,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">ZWR</symbol>
 			</currency>
 		</currencies>
-		<miscPatterns numberSystem="adlm">
-			<pattern type="approximately" draft="contributed">↑↑↑</pattern>
-			<pattern type="atLeast" draft="contributed">↑↑↑</pattern>
-			<pattern type="atMost" draft="contributed">↑↑↑</pattern>
-			<pattern type="range" draft="contributed">↑↑↑</pattern>
-		</miscPatterns>
 		<miscPatterns numberSystem="arab">
 			<pattern type="approximately" draft="contributed">~{0}</pattern>
 			<pattern type="atLeast" draft="contributed">{0}+</pattern>
@@ -16173,46 +14721,22 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<compoundUnit type="10p24">
 				<unitPrefixPattern>yotta{0}</unitPrefixPattern>
 			</compoundUnit>
-			<compoundUnit type="1024p1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p4">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p5">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p7">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p8">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
 			<compoundUnit type="per">
 				<compoundUnitPattern>{0} per {1}</compoundUnitPattern>
 			</compoundUnit>
 			<compoundUnit type="power2">
 				<compoundUnitPattern1>vierkante {0}</compoundUnitPattern1>
 				<compoundUnitPattern1 count="one">vierkante {0}</compoundUnitPattern1>
-				<compoundUnitPattern1 count="one" gender="common">↑↑↑</compoundUnitPattern1>
+				<compoundUnitPattern1 count="one" gender="common">vierkante {0}</compoundUnitPattern1>
 				<compoundUnitPattern1 count="other">vierkante {0}</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other" gender="common">↑↑↑</compoundUnitPattern1>
+				<compoundUnitPattern1 count="other" gender="common">vierkante {0}</compoundUnitPattern1>
 			</compoundUnit>
 			<compoundUnit type="power3">
 				<compoundUnitPattern1>kubieke {0}</compoundUnitPattern1>
 				<compoundUnitPattern1 count="one">kubieke {0}</compoundUnitPattern1>
-				<compoundUnitPattern1 count="one" gender="common">↑↑↑</compoundUnitPattern1>
+				<compoundUnitPattern1 count="one" gender="common">kubieke {0}</compoundUnitPattern1>
 				<compoundUnitPattern1 count="other">kubieke {0}</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other" gender="common">↑↑↑</compoundUnitPattern1>
+				<compoundUnitPattern1 count="other" gender="common">kubieke {0}</compoundUnitPattern1>
 			</compoundUnit>
 			<compoundUnit type="times">
 				<compoundUnitPattern>{0}{1}</compoundUnitPattern>
@@ -16310,11 +14834,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0} vierkante inch</unitPattern>
 				<perUnitPattern>{0} per vierkante inch</perUnitPattern>
 			</unit>
-			<unit type="area-dunam">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="concentr-karat">
 				<displayName>karaat</displayName>
 				<unitPattern count="one">{0} karaat</unitPattern>
@@ -16350,11 +14869,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>basispunt</displayName>
 				<unitPattern count="one">{0} basispunt</unitPattern>
 				<unitPattern count="other">{0} basispunten</unitPattern>
-			</unit>
-			<unit type="concentr-mole">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="consumption-liter-per-kilometer">
 				<displayName>liter per kilometer</displayName>
@@ -16431,7 +14945,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="digital-bit">
 				<displayName>bit</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
+				<unitPattern count="one">{0} bit</unitPattern>
 				<unitPattern count="other">{0} bits</unitPattern>
 			</unit>
 			<unit type="duration-century">
@@ -16645,11 +15159,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="one">dot</unitPattern>
 				<unitPattern count="other">{0} dot</unitPattern>
 			</unit>
-			<unit type="length-earth-radius">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="length-kilometer">
 				<gender>common</gender>
 				<displayName>kilometer</displayName>
@@ -16776,16 +15285,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="one">{0} lux</unitPattern>
 				<unitPattern count="other">{0} lux</unitPattern>
 			</unit>
-			<unit type="light-candela">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="light-lumen">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="light-solar-luminosity">
 				<gender>common</gender>
 				<displayName>solar luminosity</displayName>
@@ -16877,7 +15376,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<unit type="mass-grain">
 				<gender>common</gender>
 				<displayName>grein</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
+				<unitPattern count="one">{0} grein</unitPattern>
 				<unitPattern count="other">{0} grein</unitPattern>
 			</unit>
 			<unit type="power-gigawatt">
@@ -17200,7 +15699,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="volume-jigger">
 				<gender>common</gender>
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">{0} jigger</unitPattern>
 				<unitPattern count="other">{0} jiggers</unitPattern>
 			</unit>
@@ -17225,102 +15723,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</coordinateUnit>
 		</unitLength>
 		<unitLength type="short">
-			<compoundUnit type="10p-1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-9">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-12">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-15">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-18">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-21">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-24">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p9">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p12">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p15">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p18">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p21">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p24">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p4">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p5">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p7">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p8">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
 			<compoundUnit type="per">
 				<compoundUnitPattern>{0}/{1}</compoundUnitPattern>
-			</compoundUnit>
-			<compoundUnit type="power2">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="one">↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
-			</compoundUnit>
-			<compoundUnit type="power3">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="one">↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
 			</compoundUnit>
 			<compoundUnit type="times">
 				<compoundUnitPattern>{0}{1}</compoundUnitPattern>
@@ -17410,11 +15814,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0} in²</unitPattern>
 				<perUnitPattern>{0} per in²</perUnitPattern>
 			</unit>
-			<unit type="area-dunam">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="concentr-karat">
 				<displayName>K</displayName>
 				<unitPattern count="one">{0} K</unitPattern>
@@ -17444,16 +15843,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>promille</displayName>
 				<unitPattern count="one">{0}‰</unitPattern>
 				<unitPattern count="other">{0}‰</unitPattern>
-			</unit>
-			<unit type="concentr-permyriad">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="concentr-mole">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="consumption-liter-per-kilometer">
 				<displayName>l/km</displayName>
@@ -17647,30 +16036,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="one">{0} kWh</unitPattern>
 				<unitPattern count="other">{0} kWh</unitPattern>
 			</unit>
-			<unit type="energy-electronvolt">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="energy-british-thermal-unit">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="energy-therm-us">
 				<displayName>US therm</displayName>
 				<unitPattern count="one">{0} US therm</unitPattern>
 				<unitPattern count="other">{0} US therms</unitPattern>
-			</unit>
-			<unit type="force-pound-force">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="force-newton">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="frequency-gigahertz">
 				<displayName>GHz</displayName>
@@ -17728,14 +16097,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0} dpi</unitPattern>
 			</unit>
 			<unit type="graphics-dot">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">{0} dot</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="length-earth-radius">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
+				<unitPattern count="other">{0} dot</unitPattern>
 			</unit>
 			<unit type="length-kilometer">
 				<displayName>km</displayName>
@@ -17842,30 +16205,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="one">{0} pt</unitPattern>
 				<unitPattern count="other">{0} pt</unitPattern>
 			</unit>
-			<unit type="length-solar-radius">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="light-lux">
 				<displayName>lx</displayName>
 				<unitPattern count="one">{0} lx</unitPattern>
 				<unitPattern count="other">{0} lx</unitPattern>
-			</unit>
-			<unit type="light-candela">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="light-lumen">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="light-solar-luminosity">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="mass-metric-ton">
 				<displayName>t</displayName>
@@ -17925,21 +16268,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>CD</displayName>
 				<unitPattern count="one">{0} CD</unitPattern>
 				<unitPattern count="other">{0} CD</unitPattern>
-			</unit>
-			<unit type="mass-dalton">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="mass-earth-mass">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="mass-solar-mass">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="mass-grain">
 				<displayName>grein</displayName>
@@ -18016,16 +16344,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="one">{0} hPa</unitPattern>
 				<unitPattern count="other">{0} hPa</unitPattern>
 			</unit>
-			<unit type="pressure-kilopascal">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="pressure-megapascal">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="speed-kilometer-per-hour">
 				<displayName>km/u</displayName>
 				<unitPattern count="one">{0} km/u</unitPattern>
@@ -18065,11 +16383,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>K</displayName>
 				<unitPattern count="one">{0} K</unitPattern>
 				<unitPattern count="other">{0} K</unitPattern>
-			</unit>
-			<unit type="torque-pound-force-foot">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="torque-newton-meter">
 				<displayName>Nm</displayName>
@@ -18196,11 +16509,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="one">{0} fl oz</unitPattern>
 				<unitPattern count="other">{0} fl oz</unitPattern>
 			</unit>
-			<unit type="volume-fluid-ounce-imperial">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="volume-tablespoon">
 				<displayName>el</displayName>
 				<unitPattern count="one">{0} el</unitPattern>
@@ -18210,11 +16518,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>tl</displayName>
 				<unitPattern count="one">{0} tl</unitPattern>
 				<unitPattern count="other">{0} tl</unitPattern>
-			</unit>
-			<unit type="volume-barrel">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="volume-dessert-spoon">
 				<displayName>des l</displayName>
@@ -18236,11 +16539,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="one">{0} fl dr</unitPattern>
 				<unitPattern count="other">{0} fl dr</unitPattern>
 			</unit>
-			<unit type="volume-jigger">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="volume-pinch">
 				<displayName>snufje</displayName>
 				<unitPattern count="one">{0} snufje</unitPattern>
@@ -18260,102 +16558,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</coordinateUnit>
 		</unitLength>
 		<unitLength type="narrow">
-			<compoundUnit type="10p-1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-9">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-12">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-15">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-18">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-21">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-24">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p9">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p12">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p15">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p18">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p21">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p24">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p4">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p5">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p7">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p8">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
 			<compoundUnit type="per">
 				<compoundUnitPattern>{0}/{1}</compoundUnitPattern>
-			</compoundUnit>
-			<compoundUnit type="power2">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="one">↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
-			</compoundUnit>
-			<compoundUnit type="power3">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="one">↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
 			</compoundUnit>
 			<compoundUnit type="times">
 				<compoundUnitPattern>{0}{1}</compoundUnitPattern>
@@ -18445,11 +16649,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other" draft="contributed">{0} in²</unitPattern>
 				<perUnitPattern draft="contributed">{0}/in²</perUnitPattern>
 			</unit>
-			<unit type="area-dunam">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
 			<unit type="concentr-karat">
 				<displayName draft="contributed">K</displayName>
 				<unitPattern count="one" draft="contributed">{0} K</unitPattern>
@@ -18479,16 +16678,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName draft="contributed">promille</displayName>
 				<unitPattern count="one" draft="contributed">{0}‰</unitPattern>
 				<unitPattern count="other" draft="contributed">{0}‰</unitPattern>
-			</unit>
-			<unit type="concentr-permyriad">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="concentr-mole">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="consumption-liter-per-kilometer">
 				<displayName draft="contributed">l/km</displayName>
@@ -18562,18 +16751,13 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="digital-bit">
 				<displayName draft="contributed">bit</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
+				<unitPattern count="one" draft="contributed">{0} bit</unitPattern>
 				<unitPattern count="other" draft="contributed">{0} bits</unitPattern>
 			</unit>
 			<unit type="duration-century">
 				<displayName draft="contributed">eeuwen</displayName>
 				<unitPattern count="one" draft="contributed">{0} eeuw</unitPattern>
 				<unitPattern count="other" draft="contributed">{0} eeuwen</unitPattern>
-			</unit>
-			<unit type="duration-decade">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="duration-year">
 				<displayName>jr</displayName>
@@ -18682,31 +16866,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="one" draft="contributed">{0} kWh</unitPattern>
 				<unitPattern count="other" draft="contributed">{0} kWh</unitPattern>
 			</unit>
-			<unit type="energy-electronvolt">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="energy-british-thermal-unit">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="energy-therm-us">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="force-pound-force">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="force-newton">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
 			<unit type="frequency-gigahertz">
 				<displayName draft="contributed">GHz</displayName>
 				<unitPattern count="one" draft="contributed">{0} GHz</unitPattern>
@@ -18727,40 +16886,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="one" draft="contributed">{0} Hz</unitPattern>
 				<unitPattern count="other" draft="contributed">{0} Hz</unitPattern>
 			</unit>
-			<unit type="graphics-em">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
 			<unit type="graphics-pixel">
 				<displayName draft="contributed">px</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="graphics-megapixel">
 				<displayName draft="contributed">MP</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="graphics-pixel-per-centimeter">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="graphics-pixel-per-inch">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="graphics-dot-per-centimeter">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="graphics-dot-per-inch">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="length-kilometer">
 				<displayName>km</displayName>
@@ -18867,30 +16997,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="one" draft="contributed">{0} pt</unitPattern>
 				<unitPattern count="other" draft="contributed">{0} pt</unitPattern>
 			</unit>
-			<unit type="length-solar-radius">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
 			<unit type="light-lux">
 				<displayName draft="contributed">lx</displayName>
 				<unitPattern count="one" draft="contributed">{0} lx</unitPattern>
 				<unitPattern count="other" draft="contributed">{0} lx</unitPattern>
-			</unit>
-			<unit type="light-candela">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="light-lumen">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="light-solar-luminosity">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="mass-metric-ton">
 				<displayName draft="contributed">t</displayName>
@@ -18951,21 +17061,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="one" draft="contributed">{0} CD</unitPattern>
 				<unitPattern count="other" draft="contributed">{0} CD</unitPattern>
 			</unit>
-			<unit type="mass-dalton">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="mass-earth-mass">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="mass-solar-mass">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
 			<unit type="power-gigawatt">
 				<displayName draft="contributed">GW</displayName>
 				<unitPattern count="one" draft="contributed">{0} GW</unitPattern>
@@ -19011,11 +17106,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="one" draft="contributed">{0} inHg</unitPattern>
 				<unitPattern count="other" draft="contributed">{0} inHg</unitPattern>
 			</unit>
-			<unit type="pressure-bar">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
 			<unit type="pressure-millibar">
 				<displayName draft="contributed">mbar</displayName>
 				<unitPattern count="one" draft="contributed">{0} mbar</unitPattern>
@@ -19026,25 +17116,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="one" draft="contributed">{0} atm</unitPattern>
 				<unitPattern count="other" draft="contributed">{0} atm</unitPattern>
 			</unit>
-			<unit type="pressure-pascal">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
 			<unit type="pressure-hectopascal">
 				<displayName draft="contributed">hPa</displayName>
 				<unitPattern count="one" draft="contributed">{0} hPa</unitPattern>
 				<unitPattern count="other" draft="contributed">{0} hPa</unitPattern>
-			</unit>
-			<unit type="pressure-kilopascal">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="pressure-megapascal">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="speed-kilometer-per-hour">
 				<displayName>km/u</displayName>
@@ -19085,16 +17160,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName draft="contributed">K</displayName>
 				<unitPattern count="one" draft="contributed">{0} K</unitPattern>
 				<unitPattern count="other" draft="contributed">{0} K</unitPattern>
-			</unit>
-			<unit type="torque-pound-force-foot">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="torque-newton-meter">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="volume-cubic-kilometer">
 				<displayName draft="contributed">km³</displayName>
@@ -19217,7 +17282,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other" draft="contributed">{0} fl oz</unitPattern>
 			</unit>
 			<unit type="volume-fluid-ounce-imperial">
-				<displayName draft="contributed">↑↑↑</displayName>
 				<unitPattern count="one" draft="contributed">{0} fl ozIm</unitPattern>
 				<unitPattern count="other" draft="contributed">{0} fl ozIm</unitPattern>
 			</unit>
@@ -19230,11 +17294,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName draft="contributed">tl</displayName>
 				<unitPattern count="one" draft="contributed">{0} tl</unitPattern>
 				<unitPattern count="other" draft="contributed">{0} tl</unitPattern>
-			</unit>
-			<unit type="volume-barrel">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="one" draft="contributed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<coordinateUnit>
 				<displayName>windstreek</displayName>
@@ -19266,24 +17325,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<listPatternPart type="middle">{0}, {1}</listPatternPart>
 			<listPatternPart type="end">{0} of {1}</listPatternPart>
 			<listPatternPart type="2">{0} of {1}</listPatternPart>
-		</listPattern>
-		<listPattern type="or-narrow">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
-		</listPattern>
-		<listPattern type="or-short">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
-		</listPattern>
-		<listPattern type="standard-narrow">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
 		</listPattern>
 		<listPattern type="standard-short">
 			<listPatternPart type="start">{0}, {1}</listPatternPart>
@@ -19328,8 +17369,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		<characterLabelPattern type="scripts">schriften — {0}</characterLabelPattern>
 		<characterLabelPattern type="strokes" count="one">{0} streek</characterLabelPattern>
 		<characterLabelPattern type="strokes" count="other">{0} streken</characterLabelPattern>
-		<characterLabelPattern type="subscript">↑↑↑</characterLabelPattern>
-		<characterLabelPattern type="superscript">↑↑↑</characterLabelPattern>
 		<characterLabel type="activities">activiteit</characterLabel>
 		<characterLabel type="african_scripts">Afrikaans schrift</characterLabel>
 		<characterLabel type="american_scripts">Amerikaans schrift</characterLabel>

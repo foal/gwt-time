@@ -127,7 +127,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="dar">다르그와어</language>
 			<language type="dav">타이타어</language>
 			<language type="de">독일어</language>
-			<language type="de_AT">↑↑↑</language>
 			<language type="de_CH">고지 독일어(스위스)</language>
 			<language type="del">델라웨어어</language>
 			<language type="den">슬라브어</language>
@@ -151,18 +150,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="el">그리스어</language>
 			<language type="elx">엘람어</language>
 			<language type="en">영어</language>
-			<language type="en_AU">↑↑↑</language>
-			<language type="en_CA">↑↑↑</language>
-			<language type="en_GB">↑↑↑</language>
-			<language type="en_GB" alt="short">↑↑↑</language>
-			<language type="en_US">↑↑↑</language>
-			<language type="en_US" alt="short">↑↑↑</language>
 			<language type="enm">중세 영어</language>
 			<language type="eo">에스페란토어</language>
 			<language type="es">스페인어</language>
-			<language type="es_419">↑↑↑</language>
 			<language type="es_ES">스페인어(유럽)</language>
-			<language type="es_MX">↑↑↑</language>
 			<language type="et">에스토니아어</language>
 			<language type="eu">바스크어</language>
 			<language type="ewo">이원도어</language>
@@ -177,8 +168,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="fo">페로어</language>
 			<language type="fon">폰어</language>
 			<language type="fr">프랑스어</language>
-			<language type="fr_CA">↑↑↑</language>
-			<language type="fr_CH">↑↑↑</language>
 			<language type="frc">케이준 프랑스어</language>
 			<language type="frm">중세 프랑스어</language>
 			<language type="fro">고대 프랑스어</language>
@@ -421,7 +410,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="pro">고대 프로방스어</language>
 			<language type="ps">파슈토어</language>
 			<language type="pt">포르투갈어</language>
-			<language type="pt_BR">↑↑↑</language>
 			<language type="pt_PT">포르투갈어(유럽)</language>
 			<language type="qu">케추아어</language>
 			<language type="quc">키체어</language>
@@ -570,9 +558,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="zgh">표준 모로코 타마지트어</language>
 			<language type="zh">중국어</language>
 			<language type="zh" alt="menu">중국어(만다린)</language>
-			<language type="zh_Hans">↑↑↑</language>
 			<language type="zh_Hans" alt="long">중국어(만다린, 간체)</language>
-			<language type="zh_Hant">↑↑↑</language>
 			<language type="zh_Hant" alt="long">중국어(만다린, 번체)</language>
 			<language type="zu">줄루어</language>
 			<language type="zun">주니어</language>
@@ -871,7 +857,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<territory type="FR">프랑스</territory>
 			<territory type="GA">가봉</territory>
 			<territory type="GB">영국</territory>
-			<territory type="GB" alt="short">영국</territory>
 			<territory type="GD">그레나다</territory>
 			<territory type="GE">조지아</territory>
 			<territory type="GF">프랑스령 기아나</territory>
@@ -1038,7 +1023,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<territory type="UN">국제연합</territory>
 			<territory type="UN" alt="short">유엔</territory>
 			<territory type="US">미국</territory>
-			<territory type="US" alt="short">미국</territory>
 			<territory type="UY">우루과이</territory>
 			<territory type="UZ">우즈베키스탄</territory>
 			<territory type="VA">바티칸 시국</territory>
@@ -1060,11 +1044,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<territory type="ZW">짐바브웨</territory>
 			<territory type="ZZ">알려지지 않은 지역</territory>
 		</territories>
-		<subdivisions>
-			<subdivision type="gbeng">잉글랜드</subdivision>
-			<subdivision type="gbsct">스코틀랜드</subdivision>
-			<subdivision type="gbwls">웨일즈</subdivision>
-		</subdivisions>
 		<variants>
 			<variant type="1901" draft="contributed">전통 독일어 표기법</variant>
 			<variant type="1994" draft="provisional">표준 레지아어 표기법</variant>
@@ -1294,13 +1273,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		</parseLenients>
 		<parseLenients scope="general" level="lenient">
 			<parseLenient sample="." draft="contributed">[.․。︒﹒．｡]</parseLenient>
-			<parseLenient sample="’" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="%" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="‰" draft="contributed">↑↑↑</parseLenient>
 			<parseLenient sample="$" draft="contributed">[\$﹩＄$]</parseLenient>
 			<parseLenient sample="£" draft="contributed">[£₤]</parseLenient>
-			<parseLenient sample="¥" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="₩" draft="contributed">↑↑↑</parseLenient>
 			<parseLenient sample="₹" draft="contributed">[₨₹{Rp}{Rs}]</parseLenient>
 		</parseLenients>
 		<parseLenients scope="number" level="lenient">
@@ -1458,196 +1432,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 								<cyclicName type="10" draft="contributed">유</cyclicName>
 								<cyclicName type="11" draft="contributed">술</cyclicName>
 								<cyclicName type="12" draft="contributed">해</cyclicName>
-							</cyclicNameWidth>
-						</cyclicNameContext>
-					</cyclicNameSet>
-					<cyclicNameSet type="days">
-						<cyclicNameContext type="format">
-							<cyclicNameWidth type="abbreviated">
-								<cyclicName type="1" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="2" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="3" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="4" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="5" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="6" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="7" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="8" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="9" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="10" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="11" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="12" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="13" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="14" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="15" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="16" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="17" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="18" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="19" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="20" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="21" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="22" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="23" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="24" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="25" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="26" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="27" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="28" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="29" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="30" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="31" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="32" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="33" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="34" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="35" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="36" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="37" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="38" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="39" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="40" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="41" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="42" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="43" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="44" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="45" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="46" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="47" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="48" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="49" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="50" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="51" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="52" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="53" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="54" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="55" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="56" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="57" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="58" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="59" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="60" draft="contributed">↑↑↑</cyclicName>
-							</cyclicNameWidth>
-							<cyclicNameWidth type="narrow">
-								<cyclicName type="1" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="2" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="3" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="4" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="5" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="6" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="7" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="8" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="9" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="10" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="11" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="12" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="13" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="14" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="15" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="16" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="17" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="18" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="19" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="20" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="21" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="22" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="23" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="24" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="25" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="26" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="27" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="28" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="29" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="30" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="31" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="32" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="33" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="34" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="35" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="36" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="37" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="38" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="39" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="40" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="41" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="42" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="43" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="44" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="45" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="46" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="47" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="48" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="49" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="50" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="51" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="52" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="53" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="54" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="55" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="56" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="57" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="58" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="59" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="60" draft="contributed">↑↑↑</cyclicName>
-							</cyclicNameWidth>
-							<cyclicNameWidth type="wide">
-								<cyclicName type="1" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="2" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="3" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="4" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="5" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="6" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="7" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="8" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="9" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="10" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="11" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="12" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="13" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="14" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="15" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="16" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="17" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="18" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="19" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="20" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="21" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="22" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="23" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="24" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="25" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="26" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="27" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="28" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="29" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="30" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="31" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="32" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="33" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="34" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="35" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="36" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="37" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="38" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="39" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="40" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="41" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="42" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="43" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="44" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="45" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="46" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="47" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="48" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="49" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="50" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="51" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="52" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="53" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="54" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="55" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="56" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="57" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="58" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="59" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="60" draft="contributed">↑↑↑</cyclicName>
 							</cyclicNameWidth>
 						</cyclicNameContext>
 					</cyclicNameSet>
@@ -3232,13 +3016,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</calendar>
 			<calendar type="japanese">
 				<eras>
-					<eraNames>
-						<era type="232" draft="contributed">↑↑↑</era>
-						<era type="233" draft="contributed">↑↑↑</era>
-						<era type="234" draft="contributed">↑↑↑</era>
-						<era type="235" draft="contributed">↑↑↑</era>
-						<era type="236" draft="contributed">↑↑↑</era>
-					</eraNames>
 					<eraAbbr>
 						<era type="0">다이카 (645 ~ 650)</era>
 						<era type="1">하쿠치 (650 ~ 671)</era>
@@ -3478,13 +3255,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<era type="235">헤이세이</era>
 						<era type="236" draft="contributed">레이와</era>
 					</eraAbbr>
-					<eraNarrow>
-						<era type="232" draft="contributed">↑↑↑</era>
-						<era type="233" draft="contributed">↑↑↑</era>
-						<era type="234" draft="contributed">↑↑↑</era>
-						<era type="235" draft="contributed">↑↑↑</era>
-						<era type="236" draft="contributed">↑↑↑</era>
-					</eraNarrow>
 				</eras>
 				<dateTimeFormats>
 					<availableFormats>
@@ -3618,9 +3388,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="year-short">
 				<displayName>년</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0}년 후</relativeTimePattern>
 				</relativeTime>
@@ -3630,9 +3397,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="year-narrow">
 				<displayName>년</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0}년 후</relativeTimePattern>
 				</relativeTime>
@@ -3654,9 +3418,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="quarter-short">
 				<displayName>분기</displayName>
-				<relative type="-1" draft="contributed">↑↑↑</relative>
-				<relative type="0" draft="contributed">↑↑↑</relative>
-				<relative type="1" draft="contributed">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0}분기 후</relativeTimePattern>
 				</relativeTime>
@@ -3666,9 +3427,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="quarter-narrow">
 				<displayName>분기</displayName>
-				<relative type="-1" draft="contributed">↑↑↑</relative>
-				<relative type="0" draft="contributed">↑↑↑</relative>
-				<relative type="1" draft="contributed">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0}분기 후</relativeTimePattern>
 				</relativeTime>
@@ -3690,9 +3448,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="month-short">
 				<displayName>월</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0}개월 후</relativeTimePattern>
 				</relativeTime>
@@ -3702,9 +3457,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="month-narrow">
 				<displayName>월</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0}개월 후</relativeTimePattern>
 				</relativeTime>
@@ -3727,9 +3479,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="week-short">
 				<displayName>주</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0}주 후</relativeTimePattern>
 				</relativeTime>
@@ -3740,9 +3489,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="week-narrow">
 				<displayName>주</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0}주 후</relativeTimePattern>
 				</relativeTime>
@@ -3776,11 +3522,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="day-short">
 				<displayName>일</displayName>
-				<relative type="-2" draft="contributed">↑↑↑</relative>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
-				<relative type="2" draft="contributed">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0}일 후</relativeTimePattern>
 				</relativeTime>
@@ -3790,11 +3531,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="day-narrow">
 				<displayName>일</displayName>
-				<relative type="-2" draft="contributed">↑↑↑</relative>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
-				<relative type="2" draft="contributed">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0}일 후</relativeTimePattern>
 				</relativeTime>
@@ -4137,7 +3873,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="second-short">
 				<displayName>초</displayName>
-				<relative type="0" draft="contributed">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0}초 후</relativeTimePattern>
 				</relativeTime>
@@ -4147,7 +3882,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="second-narrow">
 				<displayName>초</displayName>
-				<relative type="0" draft="contributed">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0}초 후</relativeTimePattern>
 				</relativeTime>
@@ -6451,7 +6185,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<percentSign>%</percentSign>
 			<plusSign draft="contributed">+</plusSign>
 			<minusSign draft="contributed">-</minusSign>
-			<approximatelySign>↑↑↑</approximatelySign>
 			<exponential>E</exponential>
 			<superscriptingExponent>×</superscriptingExponent>
 			<perMille>‰</perMille>
@@ -6555,7 +6288,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>아프가니스탄 아프가니</displayName>
 				<displayName count="other">아프가니스탄 아프가니</displayName>
 				<symbol draft="contributed">AFN</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ALL">
 				<displayName>알바니아 레크</displayName>
@@ -6566,7 +6298,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>아르메니아 드람</displayName>
 				<displayName count="other">아르메니아 드람</displayName>
 				<symbol draft="contributed">AMD</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ANG">
 				<displayName>네덜란드령 안틸레스 길더</displayName>
@@ -6627,7 +6358,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>아제르바이잔 마나트</displayName>
 				<displayName count="other">아제르바이잔 마나트</displayName>
 				<symbol draft="contributed">AZN</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BAD">
 				<displayName>보스니아-헤르체고비나 디나르</displayName>
@@ -6978,7 +6708,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>가나 시디</displayName>
 				<displayName count="other">가나 시디</displayName>
 				<symbol draft="contributed">GHS</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GIP">
 				<displayName>지브롤터 파운드</displayName>
@@ -7948,9 +7677,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<compoundUnitPattern1>세제곱{0}</compoundUnitPattern1>
 				<compoundUnitPattern1 count="other">세제곱{0}</compoundUnitPattern1>
 			</compoundUnit>
-			<compoundUnit type="times">
-				<compoundUnitPattern>↑↑↑</compoundUnitPattern>
-			</compoundUnit>
 			<unit type="acceleration-g-force">
 				<displayName>중력가속도</displayName>
 				<unitPattern count="other">{0} 중력가속도</unitPattern>
@@ -8048,10 +7774,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>‰</displayName>
 				<unitPattern count="other">{0}‰</unitPattern>
 			</unit>
-			<unit type="concentr-permyriad">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="concentr-mole">
 				<displayName>몰</displayName>
 				<unitPattern count="other">{0}몰</unitPattern>
@@ -8119,10 +7841,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<unit type="duration-century">
 				<displayName>세기</displayName>
 				<unitPattern count="other">{0}세기</unitPattern>
-			</unit>
-			<unit type="duration-decade">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="duration-year">
 				<displayName>년</displayName>
@@ -8248,35 +7966,24 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0}헤르츠</unitPattern>
 			</unit>
 			<unit type="graphics-em">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}em</unitPattern>
 			</unit>
 			<unit type="graphics-pixel">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}px</unitPattern>
 			</unit>
 			<unit type="graphics-megapixel">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}MP</unitPattern>
 			</unit>
 			<unit type="graphics-pixel-per-centimeter">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}ppcm</unitPattern>
 			</unit>
 			<unit type="graphics-pixel-per-inch">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}ppi</unitPattern>
 			</unit>
-			<unit type="graphics-dot-per-centimeter">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="graphics-dot-per-inch">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}dpi</unitPattern>
 			</unit>
 			<unit type="graphics-dot">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}dot</unitPattern>
 			</unit>
 			<unit type="length-earth-radius">
@@ -8549,7 +8256,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0}켈빈</unitPattern>
 			</unit>
 			<unit type="torque-pound-force-foot">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}lbf⋅ft</unitPattern>
 			</unit>
 			<unit type="torque-newton-meter">
@@ -8706,100 +8412,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</coordinateUnit>
 		</unitLength>
 		<unitLength type="short">
-			<compoundUnit type="10p-1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-9">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-12">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-15">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-18">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-21">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-24">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p9">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p12">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p15">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p18">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p21">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p24">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p4">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p5">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p7">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p8">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
 			<compoundUnit type="per">
 				<compoundUnitPattern>{0}/{1}</compoundUnitPattern>
-			</compoundUnit>
-			<compoundUnit type="power2">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
-			</compoundUnit>
-			<compoundUnit type="power3">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
 			</compoundUnit>
 			<compoundUnit type="times">
 				<compoundUnitPattern>{0}⋅{1}</compoundUnitPattern>
@@ -8901,12 +8515,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>‰</displayName>
 				<unitPattern count="other">{0}‰</unitPattern>
 			</unit>
-			<unit type="concentr-permyriad">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="concentr-mole">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}mol</unitPattern>
 			</unit>
 			<unit type="consumption-liter-per-kilometer">
@@ -9077,11 +8686,9 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0}섬</unitPattern>
 			</unit>
 			<unit type="force-pound-force">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}lbf</unitPattern>
 			</unit>
 			<unit type="force-newton">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}N</unitPattern>
 			</unit>
 			<unit type="frequency-gigahertz">
@@ -9129,7 +8736,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0}dpi</unitPattern>
 			</unit>
 			<unit type="graphics-dot">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}dot</unitPattern>
 			</unit>
 			<unit type="length-earth-radius">
@@ -9230,15 +8836,12 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0}lx</unitPattern>
 			</unit>
 			<unit type="light-candela">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}cd</unitPattern>
 			</unit>
 			<unit type="light-lumen">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}lm</unitPattern>
 			</unit>
 			<unit type="light-solar-luminosity">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}L☉</unitPattern>
 			</unit>
 			<unit type="mass-metric-ton">
@@ -9302,7 +8905,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0}M☉</unitPattern>
 			</unit>
 			<unit type="mass-grain">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}grain</unitPattern>
 			</unit>
 			<unit type="power-gigawatt">
@@ -9402,11 +9004,9 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0}K</unitPattern>
 			</unit>
 			<unit type="torque-pound-force-foot">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}lbf⋅ft</unitPattern>
 			</unit>
 			<unit type="torque-newton-meter">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}N⋅m</unitPattern>
 			</unit>
 			<unit type="volume-cubic-kilometer">
@@ -9523,31 +9123,24 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0}bbl</unitPattern>
 			</unit>
 			<unit type="volume-dessert-spoon">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}dstspn</unitPattern>
 			</unit>
 			<unit type="volume-dessert-spoon-imperial">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}dstspn Imp</unitPattern>
 			</unit>
 			<unit type="volume-drop">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}drop</unitPattern>
 			</unit>
 			<unit type="volume-dram">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}dram fl</unitPattern>
 			</unit>
 			<unit type="volume-jigger">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}jigger</unitPattern>
 			</unit>
 			<unit type="volume-pinch">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}pinch</unitPattern>
 			</unit>
 			<unit type="volume-quart-imperial">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0}qt Imp.</unitPattern>
 			</unit>
 			<coordinateUnit>
@@ -9559,103 +9152,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</coordinateUnit>
 		</unitLength>
 		<unitLength type="narrow">
-			<compoundUnit type="10p-1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-9">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-12">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-15">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-18">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-21">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-24">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p9">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p12">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p15">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p18">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p21">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p24">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p4">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p5">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p7">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p8">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
 			<compoundUnit type="per">
 				<compoundUnitPattern>{0}/{1}</compoundUnitPattern>
-			</compoundUnit>
-			<compoundUnit type="power2">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
-			</compoundUnit>
-			<compoundUnit type="power3">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
-			</compoundUnit>
-			<compoundUnit type="times">
-				<compoundUnitPattern>↑↑↑</compoundUnitPattern>
 			</compoundUnit>
 			<unit type="acceleration-g-force">
 				<displayName draft="contributed">g-force</displayName>
@@ -9985,24 +9483,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<listPatternPart type="middle">{0}, {1}</listPatternPart>
 			<listPatternPart type="end">{0} 또는 {1}</listPatternPart>
 			<listPatternPart type="2">{0} 또는 {1}</listPatternPart>
-		</listPattern>
-		<listPattern type="or-narrow">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
-		</listPattern>
-		<listPattern type="or-short">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
-		</listPattern>
-		<listPattern type="standard-narrow">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
 		</listPattern>
 		<listPattern type="standard-short">
 			<listPatternPart type="start">{0}, {1}</listPatternPart>

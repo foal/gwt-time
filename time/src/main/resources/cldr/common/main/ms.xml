@@ -98,7 +98,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="chy">Cheyenne</language>
 			<language type="ckb">Kurdi Sorani</language>
 			<language type="ckb" alt="menu">Kurdi, Tengah</language>
-			<language type="ckb" alt="variant">↑↑↑</language>
 			<language type="co">Corsica</language>
 			<language type="cop">Coptic</language>
 			<language type="crh">Turki Krimea</language>
@@ -480,7 +479,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		<scripts>
 			<script type="Adlm" draft="contributed">Adlam</script>
 			<script type="Aghb" draft="contributed">Kaukasia Albania</script>
-			<script type="Ahom" draft="contributed">↑↑↑</script>
 			<script type="Arab">Arab</script>
 			<script type="Arab" alt="variant">Perso-Arab</script>
 			<script type="Aran" draft="contributed">Nastaliq</script>
@@ -909,7 +907,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<territory type="SX">Sint Maarten</territory>
 			<territory type="SY">Syria</territory>
 			<territory type="SZ">Swaziland</territory>
-			<territory type="SZ" alt="variant">Swaziland</territory>
 			<territory type="TA">Tristan da Cunha</territory>
 			<territory type="TC">Kepulauan Turks dan Caicos</territory>
 			<territory type="TD">Chad</territory>
@@ -956,11 +953,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<territory type="ZW">Zimbabwe</territory>
 			<territory type="ZZ">Wilayah Tidak Diketahui</territory>
 		</territories>
-		<subdivisions>
-			<subdivision type="gbeng">England</subdivision>
-			<subdivision type="gbsct">Scotland</subdivision>
-			<subdivision type="gbwls">Wales</subdivision>
-		</subdivisions>
 		<variants>
 			<variant type="1901">Sistem ejaan Jerman Tradisional</variant>
 			<variant type="1994">Sistem ejaan Resia standard</variant>
@@ -1202,7 +1194,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 	</localeDisplayNames>
 	<characters>
 		<exemplarCharacters>[a b c d e f g h i j k l m n o p q r s t u v w x y z]</exemplarCharacters>
-		<exemplarCharacters type="auxiliary" draft="contributed">↑↑↑</exemplarCharacters>
 		<exemplarCharacters type="index">[A B C D E F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
 		<exemplarCharacters type="numbers">[\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9]</exemplarCharacters>
 		<exemplarCharacters type="punctuation">[\- ‐ ‑ – — , ; \: ! ? . … ' ‘ ’ &quot; “ ” ( ) \[ \] § @ * / \&amp; # † ‡ ′ ″]</exemplarCharacters>
@@ -1219,13 +1210,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		</parseLenients>
 		<parseLenients scope="general" level="lenient">
 			<parseLenient sample="." draft="contributed">[.․。︒﹒．｡]</parseLenient>
-			<parseLenient sample="’" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="%" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="‰" draft="contributed">↑↑↑</parseLenient>
 			<parseLenient sample="$" draft="contributed">[\$﹩＄$]</parseLenient>
 			<parseLenient sample="£" draft="contributed">[£₤]</parseLenient>
-			<parseLenient sample="¥" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="₩" draft="contributed">↑↑↑</parseLenient>
 			<parseLenient sample="₹" draft="contributed">[₨₹{Rp}{Rs}]</parseLenient>
 		</parseLenients>
 		<parseLenients scope="number" level="lenient">
@@ -1258,219 +1244,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<era type="0">BE</era>
 					</eraNarrow>
 				</eras>
-				<dateFormats>
-					<dateFormatLength type="full">
-						<dateFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateFormat>
-					</dateFormatLength>
-					<dateFormatLength type="long">
-						<dateFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateFormat>
-					</dateFormatLength>
-					<dateFormatLength type="medium">
-						<dateFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateFormat>
-					</dateFormatLength>
-					<dateFormatLength type="short">
-						<dateFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateFormat>
-					</dateFormatLength>
-				</dateFormats>
-				<dateTimeFormats>
-					<dateTimeFormatLength type="full">
-						<dateTimeFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateTimeFormat>
-					</dateTimeFormatLength>
-					<dateTimeFormatLength type="long">
-						<dateTimeFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateTimeFormat>
-					</dateTimeFormatLength>
-					<dateTimeFormatLength type="medium">
-						<dateTimeFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateTimeFormat>
-					</dateTimeFormatLength>
-					<dateTimeFormatLength type="short">
-						<dateTimeFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateTimeFormat>
-					</dateTimeFormatLength>
-					<availableFormats>
-						<dateFormatItem id="d" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="E" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="Ed" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="Gy" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="GyMMM" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="GyMMMd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="GyMMMEd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="M" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="Md" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="MEd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="MMM" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="MMMd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="MMMEd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="MMMMd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="y" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyy" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyM" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyMd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyMEd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyMMM" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyQQQ" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyQQQQ" draft="contributed">↑↑↑</dateFormatItem>
-					</availableFormats>
-					<intervalFormats>
-						<intervalFormatFallback draft="contributed">↑↑↑</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="d">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Gy">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="h">
-							<greatestDifference id="a" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="H">
-							<greatestDifference id="H" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="hm">
-							<greatestDifference id="a" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Hm">
-							<greatestDifference id="H" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="hmv">
-							<greatestDifference id="a" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Hmv">
-							<greatestDifference id="H" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="hv">
-							<greatestDifference id="a" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Hv">
-							<greatestDifference id="H" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="M">
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Md">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="MEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="MMM">
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="MMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="MMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="y">
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="yM">
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="yMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="yMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="yMMM">
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="yMMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="yMMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="yMMMM">
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-					</intervalFormats>
-				</dateTimeFormats>
 			</calendar>
 			<calendar type="chinese">
 				<months>
@@ -1563,110 +1336,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						</monthWidth>
 					</monthContext>
 				</months>
-				<cyclicNameSets>
-					<cyclicNameSet type="dayParts">
-						<cyclicNameContext type="format">
-							<cyclicNameWidth type="abbreviated">
-								<cyclicName type="1" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="2" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="3" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="4" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="5" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="6" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="7" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="8" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="9" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="10" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="11" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="12" draft="contributed">↑↑↑</cyclicName>
-							</cyclicNameWidth>
-							<cyclicNameWidth type="narrow">
-								<cyclicName type="1" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="2" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="3" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="4" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="5" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="6" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="7" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="8" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="9" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="10" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="11" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="12" draft="contributed">↑↑↑</cyclicName>
-							</cyclicNameWidth>
-							<cyclicNameWidth type="wide">
-								<cyclicName type="1" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="2" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="3" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="4" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="5" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="6" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="7" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="8" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="9" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="10" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="11" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="12" draft="contributed">↑↑↑</cyclicName>
-							</cyclicNameWidth>
-						</cyclicNameContext>
-					</cyclicNameSet>
-					<cyclicNameSet type="days">
-						<cyclicNameContext type="format">
-							<cyclicNameWidth type="abbreviated">
-								<cyclicName type="1" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="2" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="3" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="4" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="5" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="6" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="7" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="8" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="9" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="10" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="11" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="12" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="13" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="14" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="15" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="16" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="17" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="18" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="19" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="20" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="21" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="22" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="23" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="24" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="25" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="26" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="27" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="28" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="29" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="30" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="31" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="32" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="33" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="34" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="35" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="36" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="37" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="38" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="39" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="40" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="41" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="42" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="43" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="44" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="45" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="46" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="47" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="48" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="49" draft="contributed">↑↑↑</cyclicName>
-								<cyclicName type="50" draft="contributed">↑↑↑</cyclicName>
-							</cyclicNameWidth>
-						</cyclicNameContext>
-					</cyclicNameSet>
-				</cyclicNameSets>
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
@@ -2016,15 +1685,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback>{0} – {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B">↑↑↑</greatestDifference>
-							<greatestDifference id="h">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B">↑↑↑</greatestDifference>
-							<greatestDifference id="h">↑↑↑</greatestDifference>
-							<greatestDifference id="m">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d">d–d</greatestDifference>
 						</intervalFormatItem>
@@ -2432,21 +2092,15 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<eras>
 					<eraNames>
 						<era type="0">S.M.</era>
-						<era type="0" alt="variant">↑↑↑</era>
 						<era type="1">TM</era>
-						<era type="1" alt="variant">↑↑↑</era>
 					</eraNames>
 					<eraAbbr>
 						<era type="0">S.M.</era>
-						<era type="0" alt="variant">↑↑↑</era>
 						<era type="1">TM</era>
-						<era type="1" alt="variant">↑↑↑</era>
 					</eraAbbr>
 					<eraNarrow>
 						<era type="0">S.M.</era>
-						<era type="0" alt="variant" draft="contributed">↑↑↑</era>
 						<era type="1">TM</era>
-						<era type="1" alt="variant" draft="contributed">↑↑↑</era>
 					</eraNarrow>
 				</eras>
 				<dateFormats>
@@ -2549,7 +2203,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
 						<dateFormatItem id="MMMEd">E, d MMM</dateFormatItem>
 						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
-						<dateFormatItem id="MMMMW" count="other">↑↑↑</dateFormatItem>
 						<dateFormatItem id="ms">mm:ss</dateFormatItem>
 						<dateFormatItem id="y">y</dateFormatItem>
 						<dateFormatItem id="yM">M-y</dateFormatItem>
@@ -2568,15 +2221,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</appendItems>
 					<intervalFormats>
 						<intervalFormatFallback>{0} – {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B">↑↑↑</greatestDifference>
-							<greatestDifference id="h">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B">↑↑↑</greatestDifference>
-							<greatestDifference id="h">↑↑↑</greatestDifference>
-							<greatestDifference id="m">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d">d–d</greatestDifference>
 						</intervalFormatItem>
@@ -3125,20 +2769,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 							<month type="11">11</month>
 							<month type="12">12</month>
 						</monthWidth>
-						<monthWidth type="wide">
-							<month type="1">↑↑↑</month>
-							<month type="2">↑↑↑</month>
-							<month type="3">↑↑↑</month>
-							<month type="4">↑↑↑</month>
-							<month type="5">↑↑↑</month>
-							<month type="6">↑↑↑</month>
-							<month type="7">↑↑↑</month>
-							<month type="8">↑↑↑</month>
-							<month type="9">↑↑↑</month>
-							<month type="10">↑↑↑</month>
-							<month type="11">↑↑↑</month>
-							<month type="12">↑↑↑</month>
-						</monthWidth>
 					</monthContext>
 					<monthContext type="stand-alone">
 						<monthWidth type="abbreviated">
@@ -3196,80 +2826,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 						<era type="0">AH</era>
 					</eraNarrow>
 				</eras>
-				<dateFormats>
-					<dateFormatLength type="full">
-						<dateFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateFormat>
-					</dateFormatLength>
-					<dateFormatLength type="long">
-						<dateFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateFormat>
-					</dateFormatLength>
-					<dateFormatLength type="medium">
-						<dateFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateFormat>
-					</dateFormatLength>
-					<dateFormatLength type="short">
-						<dateFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateFormat>
-					</dateFormatLength>
-				</dateFormats>
-				<dateTimeFormats>
-					<dateTimeFormatLength type="full">
-						<dateTimeFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateTimeFormat>
-					</dateTimeFormatLength>
-					<dateTimeFormatLength type="long">
-						<dateTimeFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateTimeFormat>
-					</dateTimeFormatLength>
-					<dateTimeFormatLength type="medium">
-						<dateTimeFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateTimeFormat>
-					</dateTimeFormatLength>
-					<dateTimeFormatLength type="short">
-						<dateTimeFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
-						</dateTimeFormat>
-					</dateTimeFormatLength>
-					<availableFormats>
-						<dateFormatItem id="d" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="E" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="Ed" draft="contributed">↑↑↑</dateFormatItem>
-					</availableFormats>
-				</dateTimeFormats>
 			</calendar>
 			<calendar type="japanese">
-				<eras>
-					<eraNames>
-						<era type="232" draft="contributed">↑↑↑</era>
-						<era type="233" draft="contributed">↑↑↑</era>
-						<era type="234" draft="contributed">↑↑↑</era>
-						<era type="235" draft="contributed">↑↑↑</era>
-						<era type="236" draft="contributed">↑↑↑</era>
-					</eraNames>
-					<eraAbbr>
-						<era type="232" draft="contributed">↑↑↑</era>
-						<era type="233" draft="contributed">↑↑↑</era>
-						<era type="234" draft="contributed">↑↑↑</era>
-						<era type="235" draft="contributed">↑↑↑</era>
-						<era type="236" draft="contributed">↑↑↑</era>
-					</eraAbbr>
-					<eraNarrow>
-						<era type="232" draft="contributed">↑↑↑</era>
-						<era type="233" draft="contributed">↑↑↑</era>
-						<era type="234" draft="contributed">↑↑↑</era>
-						<era type="235" draft="contributed">↑↑↑</era>
-						<era type="236" draft="contributed">↑↑↑</era>
-					</eraNarrow>
-				</eras>
 				<dateFormats>
 					<dateFormatLength type="full">
 						<dateFormat>
@@ -3295,193 +2853,24 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<dateTimeFormats>
 					<dateTimeFormatLength type="full">
 						<dateTimeFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
+							<pattern draft="contributed">{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
 					<dateTimeFormatLength type="long">
 						<dateTimeFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
+							<pattern draft="contributed">{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
 					<dateTimeFormatLength type="medium">
 						<dateTimeFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
+							<pattern draft="contributed">{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
 					<dateTimeFormatLength type="short">
 						<dateTimeFormat>
-							<pattern draft="contributed">↑↑↑</pattern>
+							<pattern draft="contributed">{1} {0}</pattern>
 						</dateTimeFormat>
 					</dateTimeFormatLength>
-					<availableFormats>
-						<dateFormatItem id="d" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="E" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="Ed" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="Gy" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="GyMMM" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="GyMMMd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="GyMMMEd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="M" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="Md" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="MEd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="MMM" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="MMMd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="MMMEd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="MMMMd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="y" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyy" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyM" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyMd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyMEd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyMMM" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyMMMd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyMMMEd" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyMMMM" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyQQQ" draft="contributed">↑↑↑</dateFormatItem>
-						<dateFormatItem id="yyyyQQQQ" draft="contributed">↑↑↑</dateFormatItem>
-					</availableFormats>
-					<intervalFormats>
-						<intervalFormatFallback draft="contributed">↑↑↑</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="d">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Gy">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMM">
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="GyMMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="G" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="h">
-							<greatestDifference id="a" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="H">
-							<greatestDifference id="H" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="hm">
-							<greatestDifference id="a" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Hm">
-							<greatestDifference id="H" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="hmv">
-							<greatestDifference id="a" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Hmv">
-							<greatestDifference id="H" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="m" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="hv">
-							<greatestDifference id="a" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="h" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Hv">
-							<greatestDifference id="H" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="M">
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Md">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="MEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="MMM">
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="MMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="MMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="y">
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="yM">
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="yMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="yMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="yMMM">
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="yMMMd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="yMMMEd">
-							<greatestDifference id="d" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="yMMMM">
-							<greatestDifference id="M" draft="contributed">↑↑↑</greatestDifference>
-							<greatestDifference id="y" draft="contributed">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-					</intervalFormats>
 				</dateTimeFormats>
 			</calendar>
 			<calendar type="persian">
@@ -3787,7 +3176,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<field type="day-short">
 				<displayName>hari</displayName>
 				<relative type="-2">kelmarin</relative>
-				<relative type="-1">↑↑↑</relative>
+				<relative type="-1">semalam</relative>
 				<relative type="0">hari ini</relative>
 				<relative type="1">esok</relative>
 				<relative type="2">lusa</relative>
@@ -4121,7 +3510,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="minute-short">
 				<displayName>min</displayName>
-				<relative type="0" draft="contributed">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">dlm {0} min</relativeTimePattern>
 				</relativeTime>
@@ -4131,7 +3519,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="minute-narrow">
 				<displayName>min</displayName>
-				<relative type="0" draft="contributed">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">dlm {0} min</relativeTimePattern>
 				</relativeTime>
@@ -4197,9 +3584,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<long>
 					<standard>Waktu Universal Selaras</standard>
 				</long>
-				<short>
-					<standard draft="contributed">↑↑↑</standard>
-				</short>
 			</zone>
 			<zone type="Etc/Unknown">
 				<exemplarCity>Bandar Tidak Diketahui</exemplarCity>
@@ -6451,28 +5835,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<native draft="contributed">latn</native>
 		</otherNumberingSystems>
 		<minimumGroupingDigits draft="contributed">1</minimumGroupingDigits>
-		<symbols numberSystem="adlm">
-			<timeSeparator draft="contributed">↑↑↑</timeSeparator>
-		</symbols>
-		<symbols numberSystem="arab">
-			<percentSign draft="contributed">↑↑↑</percentSign>
-			<plusSign draft="contributed">↑↑↑</plusSign>
-			<minusSign draft="contributed">↑↑↑</minusSign>
-			<timeSeparator draft="contributed">↑↑↑</timeSeparator>
-		</symbols>
 		<symbols numberSystem="arabext">
 			<decimal draft="contributed">.</decimal>
-			<plusSign draft="contributed">↑↑↑</plusSign>
-			<minusSign draft="contributed">↑↑↑</minusSign>
-		</symbols>
-		<symbols numberSystem="bali">
-			<timeSeparator draft="contributed">↑↑↑</timeSeparator>
-		</symbols>
-		<symbols numberSystem="beng">
-			<timeSeparator draft="contributed">↑↑↑</timeSeparator>
-		</symbols>
-		<symbols numberSystem="brah">
-			<timeSeparator draft="contributed">↑↑↑</timeSeparator>
 		</symbols>
 		<symbols numberSystem="latn">
 			<decimal draft="contributed">.</decimal>
@@ -6481,19 +5845,12 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<percentSign>%</percentSign>
 			<plusSign draft="contributed">+</plusSign>
 			<minusSign draft="contributed">-</minusSign>
-			<approximatelySign>↑↑↑</approximatelySign>
 			<exponential>E</exponential>
 			<superscriptingExponent>×</superscriptingExponent>
 			<perMille>‰</perMille>
 			<infinity>∞</infinity>
 			<nan>NaN</nan>
 			<timeSeparator draft="contributed">:</timeSeparator>
-		</symbols>
-		<symbols numberSystem="olck">
-			<decimal draft="contributed">↑↑↑</decimal>
-		</symbols>
-		<symbols numberSystem="sora">
-			<timeSeparator draft="contributed">↑↑↑</timeSeparator>
 		</symbols>
 		<decimalFormats numberSystem="latn">
 			<decimalFormatLength>
@@ -6576,25 +5933,15 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<unitPattern count="other">{0} {1}</unitPattern>
 		</currencyFormats>
 		<currencies>
-			<currency type="ADP">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="AED">
 				<displayName>Dirham Emiriah Arab Bersatu</displayName>
 				<displayName count="other">Dirham UAE</displayName>
 				<symbol draft="contributed">AED</symbol>
 			</currency>
-			<currency type="AFA">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="AFN">
 				<displayName>Afghani Afghanistan</displayName>
 				<displayName count="other">Afghani Afghanistan</displayName>
 				<symbol draft="contributed">AFN</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="ALK">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ALL">
 				<displayName>Lek Albania</displayName>
@@ -6605,7 +5952,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>Dram Armenia</displayName>
 				<displayName count="other">Dram Armenia</displayName>
 				<symbol draft="contributed">AMD</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ANG">
 				<displayName>Guilder Antillen Belanda</displayName>
@@ -6618,35 +5964,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">AOA</symbol>
 				<symbol alt="narrow" draft="contributed">Kz</symbol>
 			</currency>
-			<currency type="AOK">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="AON">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="AOR">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="ARA">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="ARL">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="ARM">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="ARP">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="ARS">
 				<displayName>Peso Argentina</displayName>
 				<displayName count="other">Peso Argentina</displayName>
 				<symbol draft="contributed">ARS</symbol>
 				<symbol alt="narrow" draft="contributed">$</symbol>
-			</currency>
-			<currency type="ATS">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="AUD">
 				<displayName>Dolar Australia</displayName>
@@ -6663,19 +5985,12 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>Manat Azerbaijan</displayName>
 				<displayName count="other">Manat Azerbaijan</displayName>
 				<symbol draft="contributed">AZN</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BAD">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BAM">
 				<displayName>Mark Boleh Tukar Bosnia-Herzegovina</displayName>
 				<displayName count="other">Mark Boleh Tukar Bosnia-Herzegovina</displayName>
 				<symbol draft="contributed">BAM</symbol>
 				<symbol alt="narrow" draft="contributed">KM</symbol>
-			</currency>
-			<currency type="BAN">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BBD">
 				<displayName>Dolar Barbados</displayName>
@@ -6689,28 +6004,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">BDT</symbol>
 				<symbol alt="narrow" draft="contributed">৳</symbol>
 			</currency>
-			<currency type="BEC">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BEF">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BEL">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BGL">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BGM">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="BGN">
 				<displayName>Lev Bulgaria</displayName>
 				<displayName count="other">Lev Bulgaria</displayName>
 				<symbol draft="contributed">BGN</symbol>
-			</currency>
-			<currency type="BGO">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BHD">
 				<displayName>Dinar Bahrain</displayName>
@@ -6740,38 +6037,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">BOB</symbol>
 				<symbol alt="narrow" draft="contributed">Bs</symbol>
 			</currency>
-			<currency type="BOL">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BOP">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BOV">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BRB">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BRC">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BRE">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="BRL">
 				<displayName>Real Brazil</displayName>
 				<displayName count="other">Real Brazil</displayName>
 				<symbol draft="contributed">R$</symbol>
 				<symbol alt="narrow" draft="contributed">R$</symbol>
-			</currency>
-			<currency type="BRN">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BRR">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BRZ">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BSD">
 				<displayName>Dolar Bahamas</displayName>
@@ -6784,17 +6054,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="other">Ngultrum Bhutan</displayName>
 				<symbol draft="contributed">BTN</symbol>
 			</currency>
-			<currency type="BUK">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="BWP">
 				<displayName>Pula Botswana</displayName>
 				<displayName count="other">Pula Botswana</displayName>
 				<symbol draft="contributed">BWP</symbol>
 				<symbol alt="narrow" draft="contributed">P</symbol>
-			</currency>
-			<currency type="BYB">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BYN">
 				<displayName>Rubel Belarus baharu</displayName>
@@ -6824,22 +6088,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="other">Franc Congo</displayName>
 				<symbol draft="contributed">CDF</symbol>
 			</currency>
-			<currency type="CHE">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="CHF">
 				<displayName>Franc Switzerland</displayName>
 				<displayName count="other">Franc Switzerland</displayName>
 				<symbol draft="contributed">CHF</symbol>
-			</currency>
-			<currency type="CHW">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="CLE">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="CLF">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CLP">
 				<displayName>Peso Chile</displayName>
@@ -6851,9 +6103,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>Yuan China (luar pesisir)</displayName>
 				<displayName count="other">Yuan China (luar pesisir)</displayName>
 				<symbol draft="contributed">CNH</symbol>
-			</currency>
-			<currency type="CNX">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CNY">
 				<displayName>Yuan Cina</displayName>
@@ -6867,20 +6116,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">COP</symbol>
 				<symbol alt="narrow" draft="contributed">$</symbol>
 			</currency>
-			<currency type="COU">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="CRC">
 				<displayName>Colon Costa Rica</displayName>
 				<displayName count="other">Colon Costa Rica</displayName>
 				<symbol draft="contributed">CRC</symbol>
 				<symbol alt="narrow" draft="contributed">₡</symbol>
-			</currency>
-			<currency type="CSD">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="CSK">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CUC">
 				<displayName>Peso Boleh Tukar Cuba</displayName>
@@ -6905,12 +6145,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">CZK</symbol>
 				<symbol alt="narrow" draft="contributed">Kč</symbol>
 			</currency>
-			<currency type="DDM">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="DEM">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="DJF">
 				<displayName>Franc Djibouti</displayName>
 				<displayName count="other">Franc Djibouti</displayName>
@@ -6933,15 +6167,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="other">Dinar Algeria</displayName>
 				<symbol draft="contributed">DZD</symbol>
 			</currency>
-			<currency type="ECS">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="ECV">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="EEK">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="EGP">
 				<displayName>Paun Mesir</displayName>
 				<displayName count="other">Paun Mesir</displayName>
@@ -6953,16 +6178,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="other">Nakfa Eritrea</displayName>
 				<symbol draft="contributed">ERN</symbol>
 			</currency>
-			<currency type="ESA">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="ESB">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="ESP">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="ETB">
 				<displayName>Birr Ethiopia</displayName>
 				<displayName count="other">Birr Ethiopia</displayName>
@@ -6973,9 +6188,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="other">Euro</displayName>
 				<symbol draft="contributed">€</symbol>
 				<symbol alt="narrow" draft="contributed">€</symbol>
-			</currency>
-			<currency type="FIM">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="FJD">
 				<displayName>Dolar Fiji</displayName>
@@ -6989,17 +6201,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">FKP</symbol>
 				<symbol alt="narrow" draft="contributed">£</symbol>
 			</currency>
-			<currency type="FRF">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="GBP">
 				<displayName>Paun British</displayName>
 				<displayName count="other">Paun British</displayName>
 				<symbol draft="contributed">£</symbol>
 				<symbol alt="narrow" draft="contributed">£</symbol>
-			</currency>
-			<currency type="GEK">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GEL">
 				<displayName>Lari Georgia</displayName>
@@ -7007,14 +6213,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">GEL</symbol>
 				<symbol alt="narrow" draft="contributed">₾</symbol>
 			</currency>
-			<currency type="GHC">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="GHS">
 				<displayName>Cedi Ghana</displayName>
 				<displayName count="other">Cedi Ghana</displayName>
 				<symbol draft="contributed">GHS</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GIP">
 				<displayName>Paun Gibraltar</displayName>
@@ -7033,26 +6235,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">GNF</symbol>
 				<symbol alt="narrow" draft="contributed">FG</symbol>
 			</currency>
-			<currency type="GNS">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="GQE">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="GRD">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="GTQ">
 				<displayName>Quetzal Guatemala</displayName>
 				<displayName count="other">Quetzal Guatemala</displayName>
 				<symbol draft="contributed">GTQ</symbol>
 				<symbol alt="narrow" draft="contributed">Q</symbol>
-			</currency>
-			<currency type="GWE">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="GWP">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GYD">
 				<displayName>Dolar Guyana</displayName>
@@ -7071,9 +6258,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="other">Lempira Honduras</displayName>
 				<symbol draft="contributed">HNL</symbol>
 				<symbol alt="narrow" draft="contributed">L</symbol>
-			</currency>
-			<currency type="HRD">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="HRK">
 				<displayName>Kuna Croatia</displayName>
@@ -7098,12 +6282,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">IDR</symbol>
 				<symbol alt="narrow" draft="contributed">Rp</symbol>
 			</currency>
-			<currency type="IEP">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="ILR">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="ILS">
 				<displayName>Syekel Baharu Israel</displayName>
 				<displayName count="other">Syekel baharu Israel</displayName>
@@ -7126,17 +6304,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="other">Rial Iran</displayName>
 				<symbol draft="contributed">IRR</symbol>
 			</currency>
-			<currency type="ISJ">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="ISK">
 				<displayName>Krona Iceland</displayName>
 				<displayName count="other">Krona Iceland</displayName>
 				<symbol draft="contributed">ISK</symbol>
 				<symbol alt="narrow" draft="contributed">kr</symbol>
-			</currency>
-			<currency type="ITL">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="JMD">
 				<displayName>Dolar Jamaica</displayName>
@@ -7182,12 +6354,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="other">Won Korea Utara</displayName>
 				<symbol draft="contributed">KPW</symbol>
 				<symbol alt="narrow" draft="contributed">₩</symbol>
-			</currency>
-			<currency type="KRH">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="KRO">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="KRW">
 				<displayName>Won Korea Selatan</displayName>
@@ -7238,35 +6404,16 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</currency>
 			<currency type="LSL">
 				<displayName>Loti Lesotho</displayName>
-				<displayName count="other" draft="contributed">↑↑↑</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="LTL">
 				<displayName>Litas Lithuania</displayName>
 				<displayName count="other">Litas Lithuania</displayName>
 				<symbol draft="contributed">LTL</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="LTT">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="LUC">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="LUF">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="LUL">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="LVL">
 				<displayName>Lats Latvia</displayName>
 				<displayName count="other">Lats Latvia</displayName>
 				<symbol draft="contributed">LVL</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="LVR">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="LYD">
 				<displayName>Dinar Libya</displayName>
@@ -7277,15 +6424,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>Dirham Maghribi</displayName>
 				<displayName count="other">Dirham Maghribi</displayName>
 				<symbol draft="contributed">MAD</symbol>
-			</currency>
-			<currency type="MAF">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="MCF">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="MDC">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MDL">
 				<displayName>Leu Moldova</displayName>
@@ -7300,19 +6438,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</currency>
 			<currency type="MGF">
 				<displayName draft="contributed">Franc Malagasy</displayName>
-				<displayName count="other" draft="contributed">↑↑↑</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MKD">
 				<displayName>Denar Macedonia</displayName>
 				<displayName count="other">Denar Macedonia</displayName>
 				<symbol draft="contributed">MKD</symbol>
-			</currency>
-			<currency type="MKN">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="MLF">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MMK">
 				<displayName>Kyat Myanma</displayName>
@@ -7341,20 +6471,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="other">Ouguiya Mauritania</displayName>
 				<symbol draft="contributed">MRU</symbol>
 			</currency>
-			<currency type="MTL">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="MTP">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="MUR">
 				<displayName>Rupee Mauritius</displayName>
 				<displayName count="other">Rupee Mauritius</displayName>
 				<symbol draft="contributed">MUR</symbol>
 				<symbol alt="narrow" draft="contributed">Rs</symbol>
-			</currency>
-			<currency type="MVP">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MVR">
 				<displayName>Rufiyaa Maldives</displayName>
@@ -7372,12 +6493,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol>MXN</symbol>
 				<symbol alt="narrow" draft="contributed">$</symbol>
 			</currency>
-			<currency type="MXP">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="MXV">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="MYR">
 				<displayName>Ringgit Malaysia</displayName>
 				<displayName count="other">Ringgit Malaysia</displayName>
@@ -7387,12 +6502,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<currency type="MZE">
 				<displayName draft="contributed">Escudo Mozambique</displayName>
 				<displayName count="other" draft="contributed">Escudo Mozambique</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MZM">
 				<displayName draft="contributed">Metical Mozambique (1980–2006)</displayName>
 				<displayName count="other" draft="contributed">Metical Mozambique (1980–2006)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MZN">
 				<displayName>Metikal Mozambique</displayName>
@@ -7411,17 +6524,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">NGN</symbol>
 				<symbol alt="narrow" draft="contributed">₦</symbol>
 			</currency>
-			<currency type="NIC">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="NIO">
 				<displayName>Cordoba Nicaragua</displayName>
 				<displayName count="other">Cordoba Nicaragua</displayName>
 				<symbol draft="contributed">NIO</symbol>
 				<symbol alt="narrow" draft="contributed">C$</symbol>
-			</currency>
-			<currency type="NLG">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="NOK">
 				<displayName>Krone Norway</displayName>
@@ -7451,16 +6558,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="other">Balboa Panama</displayName>
 				<symbol draft="contributed">PAB</symbol>
 			</currency>
-			<currency type="PEI">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="PEN">
 				<displayName>Sol Peru</displayName>
 				<displayName count="other">Sol Peru</displayName>
 				<symbol draft="contributed">PEN</symbol>
-			</currency>
-			<currency type="PES">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="PGK">
 				<displayName>Kina Papua New Guinea</displayName>
@@ -7485,12 +6586,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">PLN</symbol>
 				<symbol alt="narrow" draft="contributed">zł</symbol>
 			</currency>
-			<currency type="PLZ">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="PTE">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="PYG">
 				<displayName>Guarani Paraguay</displayName>
 				<displayName count="other">Guarani Paraguay</displayName>
@@ -7505,10 +6600,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<currency type="RHD">
 				<displayName draft="contributed">Dolar Rhodesia</displayName>
 				<displayName count="other" draft="contributed">Dolar Rhodesia</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="ROL">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="RON">
 				<displayName>Leu Romania</displayName>
@@ -7526,9 +6617,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="other">Rubel Rusia</displayName>
 				<symbol draft="contributed">RUB</symbol>
 				<symbol alt="narrow" draft="contributed">₽</symbol>
-			</currency>
-			<currency type="RUR">
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="RWF">
 				<displayName>Franc Rwanda</displayName>
@@ -7552,16 +6640,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="other">Rupee Seychelles</displayName>
 				<symbol draft="contributed">SCR</symbol>
 			</currency>
-			<currency type="SDD">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="SDG">
 				<displayName>Paun Sudan</displayName>
 				<displayName count="other">Paun Sudan</displayName>
 				<symbol draft="contributed">SDG</symbol>
-			</currency>
-			<currency type="SDP">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SEK">
 				<displayName>Krona Sweden</displayName>
@@ -7581,12 +6663,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">SHP</symbol>
 				<symbol alt="narrow" draft="contributed">£</symbol>
 			</currency>
-			<currency type="SIT">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="SKK">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="SLL">
 				<displayName>Leone Sierra Leone</displayName>
 				<displayName count="other">Leone Sierra Leone</displayName>
@@ -7603,9 +6679,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">SRD</symbol>
 				<symbol alt="narrow" draft="contributed">$</symbol>
 			</currency>
-			<currency type="SRG">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="SSP">
 				<displayName>Paun Sudan selatan</displayName>
 				<displayName count="other">Paun Sudan selatan</displayName>
@@ -7621,13 +6694,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>Dobra Sao Tome dan Principe</displayName>
 				<displayName count="other">Dobra Sao Tome dan Principe</displayName>
 				<symbol draft="contributed">STN</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="SUR">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="SVC">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SYP">
 				<displayName>Paun Syria</displayName>
@@ -7646,16 +6712,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">THB</symbol>
 				<symbol alt="narrow" draft="contributed">฿</symbol>
 			</currency>
-			<currency type="TJR">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="TJS">
 				<displayName>Somoni Tajikistan</displayName>
 				<displayName count="other">Somoni Tajikistan</displayName>
 				<symbol draft="contributed">TJS</symbol>
-			</currency>
-			<currency type="TMM">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="TMT">
 				<displayName>Manat Turkmenistan</displayName>
@@ -7672,12 +6732,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="other">Pa’anga Tonga</displayName>
 				<symbol draft="contributed">TOP</symbol>
 				<symbol alt="narrow" draft="contributed">T$</symbol>
-			</currency>
-			<currency type="TPE">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="TRL">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="TRY">
 				<displayName>Lira Turki</displayName>
@@ -7709,13 +6763,9 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">UAH</symbol>
 				<symbol alt="narrow" draft="contributed">₴</symbol>
 			</currency>
-			<currency type="UAK">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="UGS">
 				<displayName draft="contributed">Shilling Uganda (1966–1987)</displayName>
 				<displayName count="other" draft="contributed">Shilling Uganda (1966–1987)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="UGX">
 				<displayName>Syiling Uganda</displayName>
@@ -7728,28 +6778,16 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol>USD</symbol>
 				<symbol alt="narrow" draft="contributed">$</symbol>
 			</currency>
-			<currency type="UYI">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="UYP">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="UYU">
 				<displayName>Peso Uruguay</displayName>
 				<displayName count="other">Peso Uruguay</displayName>
 				<symbol draft="contributed">UYU</symbol>
 				<symbol alt="narrow" draft="contributed">$</symbol>
 			</currency>
-			<currency type="UYW">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="UZS">
 				<displayName>Som Uzbekistan</displayName>
 				<displayName count="other">Som Uzbekistan</displayName>
 				<symbol draft="contributed">UZS</symbol>
-			</currency>
-			<currency type="VEB">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="VEF">
 				<displayName>Bolivar Venezuela (2008–2018)</displayName>
@@ -7768,9 +6806,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">₫</symbol>
 				<symbol alt="narrow" draft="contributed">₫</symbol>
 			</currency>
-			<currency type="VNN">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="VUV">
 				<displayName>Vatu Vanuatu</displayName>
 				<displayName count="other">Vatu Vanuatu</displayName>
@@ -7786,97 +6821,30 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="other">Franc CFA BEAC</displayName>
 				<symbol draft="contributed">FCFA</symbol>
 			</currency>
-			<currency type="XAG">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="XAU">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="XBA">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="XBB">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="XBC">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="XBD">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="XCD">
 				<displayName>Dolar Caribbean Timur</displayName>
 				<displayName count="other">Dolar Caribbean Timur</displayName>
 				<symbol draft="contributed">EC$</symbol>
 				<symbol alt="narrow" draft="contributed">$</symbol>
 			</currency>
-			<currency type="XDR">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="XEU">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="XFO">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="XFU">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="XOF">
 				<displayName>Franc CFA BCEAO</displayName>
 				<displayName count="other">Franc CFA BCEAO</displayName>
 				<symbol draft="contributed">CFA</symbol>
-			</currency>
-			<currency type="XPD">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="XPF">
 				<displayName>Franc CFP</displayName>
 				<displayName count="other">Franc CFP</displayName>
 				<symbol draft="contributed">CFPF</symbol>
 			</currency>
-			<currency type="XPT">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="XRE">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="XSU">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="XTS">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="XUA">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="XXX">
 				<displayName>Mata Wang Tidak Diketahui</displayName>
 				<displayName count="other">(mata wang tidak diketahui)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="YDD">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="YER">
 				<displayName>Rial Yaman</displayName>
 				<displayName count="other">Rial Yaman</displayName>
 				<symbol draft="contributed">YER</symbol>
-			</currency>
-			<currency type="YUD">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="YUM">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="YUN">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="YUR">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="ZAL">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ZAR">
 				<displayName>Rand Afrika Selatan</displayName>
@@ -7886,7 +6854,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</currency>
 			<currency type="ZMK">
 				<displayName>Kwacha Zambia (1968–2012)</displayName>
-				<displayName count="other" draft="contributed">↑↑↑</displayName>
 				<symbol draft="contributed">ZMK</symbol>
 			</currency>
 			<currency type="ZMW">
@@ -7895,26 +6862,17 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<symbol draft="contributed">ZMW</symbol>
 				<symbol alt="narrow" draft="contributed">ZK</symbol>
 			</currency>
-			<currency type="ZRN">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="ZRZ">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="ZWD">
 				<displayName draft="contributed">Dolar Zimbabwe (1980–2008)</displayName>
 				<displayName count="other" draft="contributed">Dolar Zimbabwe (1980–2008)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ZWL">
 				<displayName draft="contributed">Dolar Zimbabwe (2009)</displayName>
 				<displayName count="other" draft="contributed">Dolar Zimbabwe (2009)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ZWR">
 				<displayName draft="contributed">Dolar Zimbabwe (2008)</displayName>
 				<displayName count="other" draft="contributed">Dolar Zimbabwe (2008)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 		</currencies>
 		<miscPatterns numberSystem="latn">
@@ -8026,9 +6984,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<compoundUnitPattern1>{0} padu</compoundUnitPattern1>
 				<compoundUnitPattern1 count="other">{0} padu</compoundUnitPattern1>
 			</compoundUnit>
-			<compoundUnit type="times">
-				<compoundUnitPattern>↑↑↑</compoundUnitPattern>
-			</compoundUnit>
 			<unit type="acceleration-g-force">
 				<displayName>daya g</displayName>
 				<unitPattern count="other">{0} daya g</unitPattern>
@@ -8098,10 +7053,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0} inci persegi</unitPattern>
 				<perUnitPattern>{0} setiap inci persegi</perUnitPattern>
 			</unit>
-			<unit type="area-dunam">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="concentr-karat">
 				<displayName>karat</displayName>
 				<unitPattern count="other">{0} karat</unitPattern>
@@ -8129,10 +7080,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<unit type="concentr-permyriad">
 				<displayName>permyriad</displayName>
 				<unitPattern count="other">{0} permyriad</unitPattern>
-			</unit>
-			<unit type="concentr-mole">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="consumption-liter-per-kilometer">
 				<displayName>liter sekilometer</displayName>
@@ -8353,10 +7300,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>bintik seinci</displayName>
 				<unitPattern count="other">{0} bintik seinci</unitPattern>
 			</unit>
-			<unit type="graphics-dot">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="length-earth-radius">
 				<displayName>radius bumi</displayName>
 				<unitPattern count="other">{0} radius bumi</unitPattern>
@@ -8526,10 +7469,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>jisim suria</displayName>
 				<unitPattern count="other">{0} jisim suria</unitPattern>
 			</unit>
-			<unit type="mass-grain">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="power-gigawatt">
 				<displayName>gigawatt</displayName>
 				<unitPattern count="other">{0} gigawatt</unitPattern>
@@ -8565,10 +7504,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<unit type="pressure-inch-ofhg">
 				<displayName>inci raksa</displayName>
 				<unitPattern count="other">{0} inci raksa</unitPattern>
-			</unit>
-			<unit type="pressure-bar">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="pressure-millibar">
 				<displayName>milibar</displayName>
@@ -8731,10 +7666,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>auns cecair</displayName>
 				<unitPattern count="other">{0} auns cecair</unitPattern>
 			</unit>
-			<unit type="volume-fluid-ounce-imperial">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="volume-tablespoon">
 				<displayName>sudu besar</displayName>
 				<unitPattern count="other">{0} sudu besar</unitPattern>
@@ -8765,7 +7696,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="volume-jigger">
 				<displayName>jigger</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="volume-pinch">
 				<displayName>cubit</displayName>
@@ -8784,100 +7714,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</coordinateUnit>
 		</unitLength>
 		<unitLength type="short">
-			<compoundUnit type="10p-1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-9">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-12">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-15">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-18">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-21">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-24">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p9">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p12">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p15">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p18">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p21">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p24">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p4">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p5">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p7">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p8">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
 			<compoundUnit type="per">
 				<compoundUnitPattern>{0}/{1}</compoundUnitPattern>
-			</compoundUnit>
-			<compoundUnit type="power2">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
-			</compoundUnit>
-			<compoundUnit type="power3">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
 			</compoundUnit>
 			<compoundUnit type="times">
 				<compoundUnitPattern>{0}⋅{1}</compoundUnitPattern>
@@ -8951,10 +7789,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0} in²</unitPattern>
 				<perUnitPattern>{0}/in²</perUnitPattern>
 			</unit>
-			<unit type="area-dunam">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="concentr-karat">
 				<displayName>karat</displayName>
 				<unitPattern count="other">{0} kt</unitPattern>
@@ -8978,14 +7812,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<unit type="concentr-permille">
 				<displayName>per seribu</displayName>
 				<unitPattern count="other">{0}‰</unitPattern>
-			</unit>
-			<unit type="concentr-permyriad">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="concentr-mole">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="consumption-liter-per-kilometer">
 				<displayName>liter/km</displayName>
@@ -9142,10 +7968,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>kWh</displayName>
 				<unitPattern count="other">{0} kWh</unitPattern>
 			</unit>
-			<unit type="energy-electronvolt">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="energy-british-thermal-unit">
 				<displayName>utB</displayName>
 				<unitPattern count="other">{0} utB</unitPattern>
@@ -9153,14 +7975,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<unit type="energy-therm-us">
 				<displayName>terma US</displayName>
 				<unitPattern count="other">{0} terma US</unitPattern>
-			</unit>
-			<unit type="force-pound-force">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="force-newton">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="frequency-gigahertz">
 				<displayName>GHz</displayName>
@@ -9206,16 +8020,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>dpi</displayName>
 				<unitPattern count="other">{0} dpi</unitPattern>
 			</unit>
-			<unit type="graphics-dot">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="length-earth-radius">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="length-kilometer">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0} km</unitPattern>
 				<perUnitPattern>{0}/km</perUnitPattern>
 			</unit>
@@ -9229,7 +8034,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0} dm</unitPattern>
 			</unit>
 			<unit type="length-centimeter">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0} cm</unitPattern>
 				<perUnitPattern>{0}/cm</perUnitPattern>
 			</unit>
@@ -9299,25 +8103,12 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>mata</displayName>
 				<unitPattern count="other">{0} mt</unitPattern>
 			</unit>
-			<unit type="length-solar-radius">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="light-lux">
 				<displayName>lux</displayName>
 				<unitPattern count="other">{0} lx</unitPattern>
 			</unit>
-			<unit type="light-candela">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="light-lumen">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="light-solar-luminosity">
 				<displayName>lumonisiti suria</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="mass-metric-ton">
 				<displayName>t</displayName>
@@ -9366,22 +8157,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<unit type="mass-carat">
 				<displayName>karat</displayName>
 				<unitPattern count="other">{0} CD</unitPattern>
-			</unit>
-			<unit type="mass-dalton">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="mass-earth-mass">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="mass-solar-mass">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="mass-grain">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="power-gigawatt">
 				<displayName>GW</displayName>
@@ -9439,14 +8214,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>hPa</displayName>
 				<unitPattern count="other">{0} hPa</unitPattern>
 			</unit>
-			<unit type="pressure-kilopascal">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="pressure-megapascal">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="speed-kilometer-per-hour">
 				<displayName>km/jam</displayName>
 				<unitPattern count="other">{0} kmj</unitPattern>
@@ -9478,10 +8245,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<unit type="temperature-kelvin">
 				<displayName>K</displayName>
 				<unitPattern count="other">{0} K</unitPattern>
-			</unit>
-			<unit type="torque-pound-force-foot">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="torque-newton-meter">
 				<displayName>Nm</displayName>
@@ -9554,10 +8317,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>ekar ka</displayName>
 				<unitPattern count="other">{0} ekar ka</unitPattern>
 			</unit>
-			<unit type="volume-bushel">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="volume-gallon">
 				<displayName>gal</displayName>
 				<unitPattern count="other">{0} gal</unitPattern>
@@ -9584,10 +8343,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>fl oz</displayName>
 				<unitPattern count="other">{0} fl oz</unitPattern>
 			</unit>
-			<unit type="volume-fluid-ounce-imperial">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="volume-tablespoon">
 				<displayName>sudu besar</displayName>
 				<unitPattern count="other">{0} sudu besar</unitPattern>
@@ -9596,37 +8351,16 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>sudu teh</displayName>
 				<unitPattern count="other">{0} sudu teh</unitPattern>
 			</unit>
-			<unit type="volume-barrel">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="volume-dessert-spoon">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="volume-dessert-spoon-imperial">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="volume-drop">
 				<displayName>titis</displayName>
 				<unitPattern count="other">{0} titis</unitPattern>
 			</unit>
 			<unit type="volume-dram">
 				<displayName>dram fl</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="volume-jigger">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="volume-pinch">
 				<displayName>cubit</displayName>
 				<unitPattern count="other">{0} cubit</unitPattern>
-			</unit>
-			<unit type="volume-quart-imperial">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<coordinateUnit>
 				<displayName>arah</displayName>
@@ -9637,103 +8371,8 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</coordinateUnit>
 		</unitLength>
 		<unitLength type="narrow">
-			<compoundUnit type="10p-1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-9">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-12">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-15">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-18">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-21">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p-24">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p9">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p12">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p15">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p18">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p21">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="10p24">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p4">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p5">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p6">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p7">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p8">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
 			<compoundUnit type="per">
 				<compoundUnitPattern>{0}/{1}</compoundUnitPattern>
-			</compoundUnit>
-			<compoundUnit type="power2">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
-			</compoundUnit>
-			<compoundUnit type="power3">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
-			</compoundUnit>
-			<compoundUnit type="times">
-				<compoundUnitPattern>↑↑↑</compoundUnitPattern>
 			</compoundUnit>
 			<unit type="acceleration-g-force">
 				<displayName>daya g</displayName>
@@ -9769,9 +8408,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<unit type="area-square-foot">
 				<unitPattern count="other">{0} ka²</unitPattern>
 			</unit>
-			<unit type="area-dunam">
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="concentr-percent">
 				<displayName>%</displayName>
 				<unitPattern count="other">{0}%</unitPattern>
@@ -9783,10 +8419,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<unit type="duration-century">
 				<displayName>abad</displayName>
 				<unitPattern count="other">{0} abad</unitPattern>
-			</unit>
-			<unit type="duration-decade">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="duration-year">
 				<displayName>thn</displayName>
@@ -9832,47 +8464,9 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0} μs</unitPattern>
 			</unit>
 			<unit type="duration-nanosecond">
-				<displayName draft="contributed">↑↑↑</displayName>
 				<unitPattern count="other">{0} ns</unitPattern>
 			</unit>
-			<unit type="graphics-em">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="graphics-pixel">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="graphics-megapixel">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="graphics-pixel-per-centimeter">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="graphics-pixel-per-inch">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="graphics-dot-per-centimeter">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="graphics-dot-per-inch">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="graphics-dot">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="length-earth-radius">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
 			<unit type="length-kilometer">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="other">{0} km</unitPattern>
 				<perUnitPattern>{0}/km</perUnitPattern>
 			</unit>
@@ -9956,10 +8550,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName>mt</displayName>
 				<unitPattern count="other">{0} mt</unitPattern>
 			</unit>
-			<unit type="length-solar-radius">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
 			<unit type="mass-metric-ton">
 				<displayName>t</displayName>
 				<unitPattern count="other">{0} t</unitPattern>
@@ -10007,18 +8597,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<unit type="mass-carat">
 				<displayName>karat</displayName>
 				<unitPattern count="other">{0} CD</unitPattern>
-			</unit>
-			<unit type="mass-dalton">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="mass-earth-mass">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="mass-solar-mass">
-				<displayName draft="contributed">↑↑↑</displayName>
-				<unitPattern count="other" draft="contributed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="power-kilowatt">
 				<unitPattern count="other" draft="contributed">{0} kW</unitPattern>
@@ -10120,21 +8698,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<listPatternPart type="end">{0}, atau {1}</listPatternPart>
 			<listPatternPart type="2">{0} atau {1}</listPatternPart>
 		</listPattern>
-		<listPattern type="or-narrow">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
-		</listPattern>
-		<listPattern type="or-short">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
-		</listPattern>
 		<listPattern type="standard-narrow">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
 			<listPatternPart type="end">{0}, {1}</listPatternPart>
 			<listPatternPart type="2">{0}, {1}</listPatternPart>
 		</listPattern>
@@ -10297,7 +8861,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		<styleName type="wdth" subtype="87.5">semi dipadatkan</styleName>
 		<styleName type="wdth" subtype="87.5" alt="compressed">semimampat</styleName>
 		<styleName type="wdth" subtype="87.5" alt="narrow">semisempit</styleName>
-		<styleName type="wdth" subtype="100">↑↑↑</styleName>
 		<styleName type="wdth" subtype="112.5">semi dikembangkan</styleName>
 		<styleName type="wdth" subtype="112.5" alt="extended">semi diperluaskan</styleName>
 		<styleName type="wdth" subtype="112.5" alt="wide">semilebar</styleName>

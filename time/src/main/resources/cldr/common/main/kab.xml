@@ -405,7 +405,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="yue" alt="menu" draft="unconfirmed">Tacinwat, Takantunit</language>
 			<language type="zgh" draft="unconfirmed">Tamaziɣt Tizeɣt Tamerrukit</language>
 			<language type="zh">Tacinwat, Tamundarint</language>
-			<language type="zh" alt="menu" draft="unconfirmed">Tacinwat, Tamundarint</language>
 			<language type="zh_Hans" draft="unconfirmed">Tacinwat taḥerfit</language>
 			<language type="zh_Hans" alt="long" draft="unconfirmed">Tacinwat tamundarint taḥerfit</language>
 			<language type="zh_Hant" draft="unconfirmed">Tacinwat tamensayt</language>
@@ -542,7 +541,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="CG" alt="variant" draft="unconfirmed">Kungu (Tagduda)</territory>
 			<territory type="CH">Swis</territory>
 			<territory type="CI">Kuṭ Divwar</territory>
-			<territory type="CI" alt="variant" draft="unconfirmed">↑↑↑</territory>
 			<territory type="CK">Tigzirin n Kuk</territory>
 			<territory type="CL">Cili</territory>
 			<territory type="CM">Kamirun</territory>
@@ -725,7 +723,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="SX" draft="unconfirmed">San Maṛtan(Tamnaḍt tahulandit)</territory>
 			<territory type="SY">Surya</territory>
 			<territory type="SZ">Swazilund</territory>
-			<territory type="SZ" alt="variant" draft="unconfirmed">↑↑↑</territory>
 			<territory type="TA" draft="unconfirmed">Tristan da Kunha</territory>
 			<territory type="TC">Ṭurk d Tegzirin n Kaykus</territory>
 			<territory type="TD">Čad</territory>
@@ -877,7 +874,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<parseLenient sample="’" draft="unconfirmed">['ʼ՚᾽᾿’＇]</parseLenient>
 			<parseLenient sample="%" draft="unconfirmed">[%٪﹪％]</parseLenient>
 			<parseLenient sample="‰" draft="unconfirmed">[؉‰]</parseLenient>
-			<parseLenient sample="$" draft="unconfirmed">↑↑↑</parseLenient>
 			<parseLenient sample="£" draft="unconfirmed">[£₤]</parseLenient>
 			<parseLenient sample="¥" draft="unconfirmed">[¥￥]</parseLenient>
 			<parseLenient sample="₩" draft="unconfirmed">[₩￦]</parseLenient>
@@ -1123,16 +1119,16 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 						<monthWidth type="narrow">
 							<month type="1" draft="unconfirmed">Y</month>
 							<month type="2" draft="unconfirmed">F</month>
-							<month type="3" draft="unconfirmed">↑↑↑</month>
-							<month type="4" draft="unconfirmed">↑↑↑</month>
-							<month type="5" draft="unconfirmed">↑↑↑</month>
-							<month type="6" draft="unconfirmed">↑↑↑</month>
-							<month type="7" draft="unconfirmed">↑↑↑</month>
-							<month type="8" draft="unconfirmed">↑↑↑</month>
-							<month type="9" draft="unconfirmed">↑↑↑</month>
-							<month type="10" draft="unconfirmed">↑↑↑</month>
+							<month type="3" draft="unconfirmed">M</month>
+							<month type="4" draft="unconfirmed">Y</month>
+							<month type="5" draft="unconfirmed">M</month>
+							<month type="6" draft="unconfirmed">Y</month>
+							<month type="7" draft="unconfirmed">Y</month>
+							<month type="8" draft="unconfirmed">Ɣ</month>
+							<month type="9" draft="unconfirmed">C</month>
+							<month type="10" draft="unconfirmed">T</month>
 							<month type="11" draft="unconfirmed">W</month>
-							<month type="12" draft="unconfirmed">↑↑↑</month>
+							<month type="12" draft="unconfirmed">D</month>
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">Yennayer</month>
@@ -1162,7 +1158,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 							<month type="9" draft="unconfirmed">Cte</month>
 							<month type="10" draft="unconfirmed">Tub</month>
 							<month type="11" draft="unconfirmed">Wam</month>
-							<month type="12" draft="unconfirmed">↑↑↑</month>
+							<month type="12" draft="unconfirmed">Duǧ</month>
 						</monthWidth>
 						<monthWidth type="narrow">
 							<month type="1">Y</month>
@@ -1496,7 +1492,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 							<greatestDifference id="d" draft="unconfirmed">d – d</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="Gy">
-							<greatestDifference id="G" draft="unconfirmed">↑↑↑</greatestDifference>
 							<greatestDifference id="y" draft="unconfirmed">y – y G</greatestDifference>
 						</intervalFormatItem>
 						<intervalFormatItem id="GyM">
@@ -1668,7 +1663,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName draft="unconfirmed">sgs.</displayName>
 				<relative type="-1" draft="unconfirmed">ilindi</relative>
 				<relative type="0" draft="unconfirmed">aseggas-a</relative>
-				<relative type="1" draft="unconfirmed">↑↑↑</relative>
+				<relative type="1" draft="unconfirmed">qabel</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="one" draft="unconfirmed">deg {0} sg.</relativeTimePattern>
 					<relativeTimePattern count="other" draft="unconfirmed">deg {0} sg.</relativeTimePattern>
@@ -1730,8 +1725,8 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="month-short">
 				<displayName draft="unconfirmed">yr.</displayName>
-				<relative type="-1" draft="unconfirmed">↑↑↑</relative>
-				<relative type="0" draft="unconfirmed">↑↑↑</relative>
+				<relative type="-1" draft="unconfirmed">ayyur izrin</relative>
+				<relative type="0" draft="unconfirmed">ayyur-a</relative>
 				<relative type="1" draft="unconfirmed">ayyur i d-itteddun</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="one" draft="unconfirmed">deg {0} yr.</relativeTimePattern>
@@ -1744,8 +1739,8 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="month-narrow">
 				<displayName draft="unconfirmed">yr.</displayName>
-				<relative type="-1" draft="unconfirmed">↑↑↑</relative>
-				<relative type="0" draft="unconfirmed">↑↑↑</relative>
+				<relative type="-1" draft="unconfirmed">ayyur izrin</relative>
+				<relative type="0" draft="unconfirmed">ayyur-a</relative>
 				<relative type="1" draft="unconfirmed">ayyur i d-itteddun</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="one" draft="unconfirmed">deg {0} yr.</relativeTimePattern>
@@ -1839,8 +1834,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				</relativeTime>
 			</field>
 			<field type="day-narrow">
-				<displayName draft="unconfirmed">↑↑↑</displayName>
-				<relative type="-1" draft="unconfirmed">↑↑↑</relative>
+				<relative type="-1" draft="unconfirmed">iḍelli</relative>
 				<relative type="0" draft="unconfirmed">ass-a</relative>
 				<relative type="1" draft="unconfirmed">azekka</relative>
 				<relativeTime type="future">
@@ -4466,7 +4460,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<plusSign draft="unconfirmed">+</plusSign>
 			<minusSign draft="unconfirmed">-</minusSign>
 			<approximatelySign draft="unconfirmed">≈</approximatelySign>
-			<exponential draft="unconfirmed">↑↑↑</exponential>
 			<superscriptingExponent draft="unconfirmed">×</superscriptingExponent>
 			<perMille draft="unconfirmed">‰</perMille>
 			<infinity draft="unconfirmed">∞</infinity>
@@ -4553,9 +4546,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<currencyFormatLength>
 				<currencyFormat type="standard">
 					<pattern>#,##0.00¤</pattern>
-				</currencyFormat>
-				<currencyFormat type="accounting">
-					<pattern draft="unconfirmed">↑↑↑</pattern>
 				</currencyFormat>
 			</currencyFormatLength>
 			<currencyFormatLength type="short">
@@ -5178,7 +5168,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<currency type="GBP">
 				<displayName>Apund Aglizi</displayName>
 				<displayName count="one" draft="unconfirmed">Apund aglizi</displayName>
-				<displayName count="other" draft="unconfirmed">↑↑↑</displayName>
+				<displayName count="other" draft="unconfirmed">Apund Aglizi</displayName>
 				<symbol draft="unconfirmed">£</symbol>
 				<symbol alt="narrow" draft="unconfirmed">£</symbol>
 			</currency>
@@ -5615,7 +5605,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>Agiya Amuriṭani</displayName>
 				<displayName count="one" draft="unconfirmed">Ugiya n Muritaniya</displayName>
 				<displayName count="other" draft="unconfirmed">Ugiyaten n Muritaniya</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="MTL">
 				<displayName draft="unconfirmed">Alir n Malt</displayName>
@@ -6582,7 +6571,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<perUnitPattern draft="unconfirmed">{0} i useggas</perUnitPattern>
 			</unit>
 			<unit type="duration-month">
-				<displayName draft="unconfirmed">↑↑↑</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} n wayyur</unitPattern>
 				<unitPattern count="other" draft="unconfirmed">{0} n wayyuren</unitPattern>
 				<perUnitPattern draft="unconfirmed">{0} i wayyur</perUnitPattern>
@@ -7674,18 +7662,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName draft="unconfirmed">km</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0}km</unitPattern>
 				<unitPattern count="other" draft="unconfirmed">{0}km</unitPattern>
-				<perUnitPattern draft="unconfirmed">↑↑↑</perUnitPattern>
 			</unit>
 			<unit type="length-meter">
 				<displayName draft="unconfirmed">m</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0} m</unitPattern>
 				<unitPattern count="other" draft="unconfirmed">{0} m</unitPattern>
-				<perUnitPattern draft="unconfirmed">↑↑↑</perUnitPattern>
-			</unit>
-			<unit type="length-decimeter">
-				<displayName draft="unconfirmed">↑↑↑</displayName>
-				<unitPattern count="one" draft="unconfirmed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="length-centimeter">
 				<displayName draft="unconfirmed">sm</displayName>
@@ -7698,22 +7679,12 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<unitPattern count="other" draft="unconfirmed">{0}mm</unitPattern>
 			</unit>
 			<unit type="length-picometer">
-				<displayName draft="unconfirmed">↑↑↑</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0}pm</unitPattern>
 				<unitPattern count="other" draft="unconfirmed">{0}pm</unitPattern>
 			</unit>
 			<unit type="length-mile">
-				<displayName draft="unconfirmed">↑↑↑</displayName>
 				<unitPattern count="one" draft="unconfirmed">{0}mi</unitPattern>
 				<unitPattern count="other" draft="unconfirmed">{0}mi</unitPattern>
-			</unit>
-			<unit type="length-yard">
-				<displayName draft="unconfirmed">↑↑↑</displayName>
-				<unitPattern count="one" draft="unconfirmed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="length-inch">
-				<perUnitPattern draft="unconfirmed">↑↑↑</perUnitPattern>
 			</unit>
 			<unit type="length-parsec">
 				<displayName draft="unconfirmed">aparsik</displayName>
@@ -7722,13 +7693,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</unit>
 			<unit type="length-light-year">
 				<displayName draft="unconfirmed">gf</displayName>
-				<unitPattern count="one" draft="unconfirmed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">↑↑↑</unitPattern>
-			</unit>
-			<unit type="length-astronomical-unit">
-				<displayName draft="unconfirmed">↑↑↑</displayName>
-				<unitPattern count="one" draft="unconfirmed">↑↑↑</unitPattern>
-				<unitPattern count="other" draft="unconfirmed">↑↑↑</unitPattern>
 			</unit>
 			<unit type="mass-kilogram">
 				<displayName draft="unconfirmed">kg</displayName>
@@ -7787,20 +7751,12 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<listPatternPart type="2" draft="unconfirmed">{0} neɣ {1}</listPatternPart>
 		</listPattern>
 		<listPattern type="or-narrow">
-			<listPatternPart type="start" draft="unconfirmed">↑↑↑</listPatternPart>
-			<listPatternPart type="middle" draft="unconfirmed">↑↑↑</listPatternPart>
 			<listPatternPart type="end" draft="unconfirmed">{0}, neɣ {1}</listPatternPart>
-			<listPatternPart type="2" draft="unconfirmed">↑↑↑</listPatternPart>
 		</listPattern>
 		<listPattern type="or-short">
-			<listPatternPart type="start" draft="unconfirmed">↑↑↑</listPatternPart>
-			<listPatternPart type="middle" draft="unconfirmed">↑↑↑</listPatternPart>
 			<listPatternPart type="end" draft="unconfirmed">{0}, neɣ {1}</listPatternPart>
-			<listPatternPart type="2" draft="unconfirmed">↑↑↑</listPatternPart>
 		</listPattern>
 		<listPattern type="standard-narrow">
-			<listPatternPart type="start" draft="unconfirmed">↑↑↑</listPatternPart>
-			<listPatternPart type="middle" draft="unconfirmed">↑↑↑</listPatternPart>
 			<listPatternPart type="end" draft="unconfirmed">{0}, {1}</listPatternPart>
 			<listPatternPart type="2" draft="unconfirmed">{0}, {1}</listPatternPart>
 		</listPattern>

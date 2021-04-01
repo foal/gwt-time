@@ -58,7 +58,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="awa">阿瓦文</language>
 			<language type="ay">艾馬拉文</language>
 			<language type="az">亞塞拜然文</language>
-			<language type="az" alt="short">亞塞拜然文</language>
 			<language type="ba">巴什客爾文</language>
 			<language type="bal">俾路支文</language>
 			<language type="ban">峇里文</language>
@@ -135,7 +134,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="dar">達爾格瓦文</language>
 			<language type="dav">台塔文</language>
 			<language type="de">德文</language>
-			<language type="de_AT">↑↑↑</language>
 			<language type="de_CH">高地德文（瑞士）</language>
 			<language type="del">德拉瓦文</language>
 			<language type="den">斯拉夫</language>
@@ -161,18 +159,9 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="el">希臘文</language>
 			<language type="elx">埃蘭文</language>
 			<language type="en">英文</language>
-			<language type="en_AU">↑↑↑</language>
-			<language type="en_CA">↑↑↑</language>
-			<language type="en_GB">↑↑↑</language>
-			<language type="en_GB" alt="short">↑↑↑</language>
-			<language type="en_US">↑↑↑</language>
-			<language type="en_US" alt="short">↑↑↑</language>
 			<language type="enm">中古英文</language>
 			<language type="eo">世界文</language>
 			<language type="es">西班牙文</language>
-			<language type="es_419">↑↑↑</language>
-			<language type="es_ES">↑↑↑</language>
-			<language type="es_MX">↑↑↑</language>
 			<language type="esu">中尤皮克文</language>
 			<language type="et">愛沙尼亞文</language>
 			<language type="eu">巴斯克文</language>
@@ -190,8 +179,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="fo">法羅文</language>
 			<language type="fon">豐文</language>
 			<language type="fr">法文</language>
-			<language type="fr_CA">↑↑↑</language>
-			<language type="fr_CH">↑↑↑</language>
 			<language type="frc">卡真法文</language>
 			<language type="frm">中古法文</language>
 			<language type="fro">古法文</language>
@@ -458,8 +445,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="pro">古普羅旺斯文</language>
 			<language type="ps">普什圖文</language>
 			<language type="pt">葡萄牙文</language>
-			<language type="pt_BR">↑↑↑</language>
-			<language type="pt_PT">↑↑↑</language>
 			<language type="qu">蓋楚瓦文</language>
 			<language type="quc">基切文</language>
 			<language type="qug">欽博拉索海蘭蓋丘亞文</language>
@@ -889,7 +874,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="CG" alt="variant">剛果共和國</territory>
 			<territory type="CH">瑞士</territory>
 			<territory type="CI">象牙海岸</territory>
-			<territory type="CI" alt="variant">象牙海岸</territory>
 			<territory type="CK">庫克群島</territory>
 			<territory type="CL">智利</territory>
 			<territory type="CM">喀麥隆</territory>
@@ -930,7 +914,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="FR">法國</territory>
 			<territory type="GA">加彭</territory>
 			<territory type="GB">英國</territory>
-			<territory type="GB" alt="short">英國</territory>
 			<territory type="GD">格瑞那達</territory>
 			<territory type="GE">喬治亞共和國</territory>
 			<territory type="GF">法屬圭亞那</territory>
@@ -1082,7 +1065,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="TJ">塔吉克</territory>
 			<territory type="TK">托克勞群島</territory>
 			<territory type="TL">東帝汶</territory>
-			<territory type="TL" alt="variant">東帝汶</territory>
 			<territory type="TM">土庫曼</territory>
 			<territory type="TN">突尼西亞</territory>
 			<territory type="TO">東加</territory>
@@ -1096,7 +1078,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="UM">美國本土外小島嶼</territory>
 			<territory type="UN">聯合國</territory>
 			<territory type="US">美國</territory>
-			<territory type="US" alt="short">美國</territory>
 			<territory type="UY">烏拉圭</territory>
 			<territory type="UZ">烏茲別克</territory>
 			<territory type="VA">梵蒂岡</territory>
@@ -1118,11 +1099,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="ZW">辛巴威</territory>
 			<territory type="ZZ">未知區域</territory>
 		</territories>
-		<subdivisions>
-			<subdivision type="gbeng">英倫</subdivision>
-			<subdivision type="gbsct">蘇格蘭</subdivision>
-			<subdivision type="gbwls">威爾斯</subdivision>
-		</subdivisions>
 		<variants>
 			<variant type="1901">傳統德語拼字學</variant>
 			<variant type="1994" draft="contributed">標準雷西亞拼字</variant>
@@ -1358,30 +1334,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		<ellipsis type="word-initial">… {0}</ellipsis>
 		<ellipsis type="word-medial">{0} … {1}</ellipsis>
 		<moreInformation>？</moreInformation>
-		<parseLenients scope="date" level="lenient">
-			<parseLenient sample="-" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample=":" draft="contributed">↑↑↑</parseLenient>
-		</parseLenients>
-		<parseLenients scope="general" level="lenient">
-			<parseLenient sample="." draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="’" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="%" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="‰" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="$" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="£" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="¥" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="₩" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="₹" draft="contributed">↑↑↑</parseLenient>
-		</parseLenients>
-		<parseLenients scope="number" level="lenient">
-			<parseLenient sample="-" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="," draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="+" draft="contributed">↑↑↑</parseLenient>
-		</parseLenients>
-		<parseLenients scope="number" level="stricter">
-			<parseLenient sample="," draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="." draft="contributed">↑↑↑</parseLenient>
-		</parseLenients>
 	</characters>
 	<delimiters>
 		<quotationStart>「</quotationStart>
@@ -3931,9 +3883,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="year-short">
 				<displayName>年</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} 年後</relativeTimePattern>
 				</relativeTime>
@@ -3943,9 +3892,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="year-narrow">
 				<displayName>年</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} 年後</relativeTimePattern>
 				</relativeTime>
@@ -4003,9 +3949,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="month-short">
 				<displayName>月</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} 個月後</relativeTimePattern>
 				</relativeTime>
@@ -4015,9 +3958,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="month-narrow">
 				<displayName>月</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} 個月後</relativeTimePattern>
 				</relativeTime>
@@ -4040,9 +3980,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="week-short">
 				<displayName>週</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} 個星期後</relativeTimePattern>
 				</relativeTime>
@@ -4053,9 +3990,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="week-narrow">
 				<displayName>週</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} 個星期後</relativeTimePattern>
 				</relativeTime>
@@ -4089,9 +4023,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="day-short">
 				<displayName>日</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} 日後</relativeTimePattern>
 				</relativeTime>
@@ -4101,9 +4032,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="day-narrow">
 				<displayName>日</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} 日後</relativeTimePattern>
 				</relativeTime>
@@ -6755,7 +6683,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<percentSign>%</percentSign>
 			<plusSign draft="contributed">+</plusSign>
 			<minusSign draft="contributed">-</minusSign>
-			<approximatelySign>↑↑↑</approximatelySign>
 			<exponential>E</exponential>
 			<superscriptingExponent>×</superscriptingExponent>
 			<perMille>‰</perMille>
@@ -6769,7 +6696,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<percentSign>%</percentSign>
 			<plusSign draft="contributed">+</plusSign>
 			<minusSign draft="contributed">-</minusSign>
-			<approximatelySign>↑↑↑</approximatelySign>
 			<exponential>E</exponential>
 			<superscriptingExponent>×</superscriptingExponent>
 			<perMille>‰</perMille>
@@ -8599,9 +8525,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<compoundUnitPattern1>立方{0}</compoundUnitPattern1>
 				<compoundUnitPattern1 count="other">立方{0}</compoundUnitPattern1>
 			</compoundUnit>
-			<compoundUnit type="times">
-				<compoundUnitPattern>↑↑↑</compoundUnitPattern>
-			</compoundUnit>
 			<unit type="acceleration-g-force">
 				<displayName>G 力</displayName>
 				<unitPattern count="other">{0} G 力</unitPattern>
@@ -9451,9 +9374,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<compoundUnit type="power3">
 				<compoundUnitPattern1>立方{0}</compoundUnitPattern1>
 				<compoundUnitPattern1 count="other">立方{0}</compoundUnitPattern1>
-			</compoundUnit>
-			<compoundUnit type="times">
-				<compoundUnitPattern>↑↑↑</compoundUnitPattern>
 			</compoundUnit>
 			<unit type="acceleration-g-force">
 				<displayName>G 力</displayName>
@@ -10305,9 +10225,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<compoundUnitPattern1>立方{0}</compoundUnitPattern1>
 				<compoundUnitPattern1 count="other">立方{0}</compoundUnitPattern1>
 			</compoundUnit>
-			<compoundUnit type="times">
-				<compoundUnitPattern>↑↑↑</compoundUnitPattern>
-			</compoundUnit>
 			<unit type="acceleration-g-force">
 				<unitPattern count="other">{0}G</unitPattern>
 			</unit>
@@ -10731,24 +10648,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<listPatternPart type="middle">{0}、{1}</listPatternPart>
 			<listPatternPart type="end">{0} 或 {1}</listPatternPart>
 			<listPatternPart type="2">{0} 或 {1}</listPatternPart>
-		</listPattern>
-		<listPattern type="or-narrow">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
-		</listPattern>
-		<listPattern type="or-short">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
-		</listPattern>
-		<listPattern type="standard-narrow">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
 		</listPattern>
 		<listPattern type="standard-short">
 			<listPatternPart type="start">{0}、{1}</listPatternPart>

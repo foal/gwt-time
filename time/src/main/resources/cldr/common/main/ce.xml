@@ -42,7 +42,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="awa">авадхи</language>
 			<language type="ay">аймара</language>
 			<language type="az">азербайджанийн</language>
-			<language type="az" alt="short">азербайджанийн</language>
 			<language type="ba">башкирийн</language>
 			<language type="ban">балийн</language>
 			<language type="bas">баса</language>
@@ -106,7 +105,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="en_GB">британин ингалсан</language>
 			<language type="en_GB" alt="short">ингалсан (Британи)</language>
 			<language type="en_US">американ ингалсан</language>
-			<language type="en_US" alt="short">ингалсан (АЦШ)</language>
 			<language type="eo">эсперанто</language>
 			<language type="es">испанхойн</language>
 			<language type="es_419">латинан американ испанхойн</language>
@@ -433,9 +431,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<script type="Hang">хангыль</script>
 			<script type="Hani">китайн</script>
 			<script type="Hans">атта китайн</script>
-			<script type="Hans" alt="stand-alone">атта китайн</script>
 			<script type="Hant">ламастан китайн</script>
-			<script type="Hant" alt="stand-alone">ламастан китайн</script>
 			<script type="Hebr">жугтийн</script>
 			<script type="Hira">хирагана</script>
 			<script type="Hrkt">катакана я хирагана</script>
@@ -582,7 +578,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="FR">Франци</territory>
 			<territory type="GA">Габон</territory>
 			<territory type="GB">Йоккха Британи</territory>
-			<territory type="GB" alt="short">Йоккха Британи</territory>
 			<territory type="GD">Гренада</territory>
 			<territory type="GE">Гуьржийчоь</territory>
 			<territory type="GF">Французийн Гвиана</territory>

@@ -45,9 +45,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="zh">Hainamana</language>
 			<language type="zh" alt="menu">Hainamana Manarini</language>
 			<language type="zh_Hans">Hainamana Māmā</language>
-			<language type="zh_Hans" alt="long">↑↑↑</language>
 			<language type="zh_Hant">Hainamana Tukuiho</language>
-			<language type="zh_Hant" alt="long">↑↑↑</language>
 		</languages>
 		<scripts>
 			<script type="Arab">Arapika</script>
@@ -95,8 +93,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		<exemplarCharacters>[a ā e ē h i ī k m n {ng} o ō p r t u ū w {wh}]</exemplarCharacters>
 		<exemplarCharacters type="auxiliary">[b c d f g j l q s v x y z]</exemplarCharacters>
 		<exemplarCharacters type="index">[A E H I K M N O P R T U W]</exemplarCharacters>
-		<exemplarCharacters type="numbers" draft="contributed">↑↑↑</exemplarCharacters>
-		<exemplarCharacters type="punctuation" draft="contributed">↑↑↑</exemplarCharacters>
 	</characters>
 	<delimiters>
 		<quotationStart>“</quotationStart>
@@ -465,9 +461,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 					</eraNames>
 					<eraAbbr>
 						<era type="0">BCE</era>
-						<era type="0" alt="variant">BCE</era>
 						<era type="1">CE</era>
-						<era type="1" alt="variant">CE</era>
 					</eraAbbr>
 				</eras>
 				<dateFormats>
@@ -637,15 +631,9 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="day-short">
 				<displayName>rā</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 			</field>
 			<field type="day-narrow">
 				<displayName>rā</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 			</field>
 			<field type="weekday">
 				<displayName>rā o te wiki</displayName>
@@ -896,11 +884,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<defaultNumberingSystem draft="contributed">↑↑↑</defaultNumberingSystem>
-		<otherNumberingSystems>
-			<native draft="contributed">↑↑↑</native>
-		</otherNumberingSystems>
-		<minimumGroupingDigits draft="contributed">↑↑↑</minimumGroupingDigits>
 		<symbols numberSystem="latn">
 			<decimal>.</decimal>
 			<group>,</group>
@@ -994,142 +977,43 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<unitPattern count="other">{0} {1}</unitPattern>
 		</currencyFormats>
 		<currencies>
-			<currency type="ANG">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="ARS">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="AWG">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BBD">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BMD">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="BRL">
 				<displayName>Real Parahi</displayName>
 				<displayName count="other">real Parahi</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BSD">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="BZD">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="CAD">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CNY">
 				<displayName>Yuan Haina</displayName>
 				<displayName count="other">yuan Haina</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="CRC">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="CUC">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="CUP">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="DOP">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="EUR">
 				<displayName>Euro</displayName>
 				<displayName count="other">euro</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GBP">
 				<displayName>Pāuna Piritene</displayName>
 				<displayName count="other">pāuna Piritene</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="GTQ">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="HNL">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="HTG">
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="INR">
 				<displayName>Rupī Iniana</displayName>
 				<displayName count="other">rupī Iniana</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="JMD">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="JPY">
 				<displayName>Yen Hapanihi</displayName>
 				<displayName count="other">yen Hapanihi</displayName>
 				<symbol draft="contributed">¥</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="KYD">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="MXN">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="NIO">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="NZD">
 				<displayName>Tāra o Aotearoa</displayName>
 				<displayName count="other">tāra o Aotearoa</displayName>
 				<symbol>$</symbol>
 			</currency>
-			<currency type="PAB">
-				<symbol draft="contributed">↑↑↑</symbol>
-			</currency>
 			<currency type="RUB">
 				<displayName>Rūpera Ruhiana</displayName>
 				<displayName count="other">rūpera Ruhiana</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="TTD">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="USD">
 				<displayName>Tāra US</displayName>
 				<displayName count="other">tāra US</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-			</currency>
-			<currency type="XCD">
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="XXX">
 				<displayName>Moni Tē Mōhiotia</displayName>

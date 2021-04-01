@@ -89,8 +89,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="chr">Kicherokee</language>
 			<language type="chy">Kicheyeni</language>
 			<language type="ckb">Kikurdi cha Sorani</language>
-			<language type="ckb" alt="menu">↑↑↑</language>
-			<language type="ckb" alt="variant">↑↑↑</language>
 			<language type="co">Kikosikani</language>
 			<language type="cop">Kikhufti</language>
 			<language type="crs">Krioli ya Shelisheli</language>
@@ -103,8 +101,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="dar">Kidaragwa</language>
 			<language type="dav">Kitaita</language>
 			<language type="de">Kijerumani</language>
-			<language type="de_AT">↑↑↑</language>
-			<language type="de_CH">↑↑↑</language>
 			<language type="dgr">Kidogrib</language>
 			<language type="dje">Kizarma</language>
 			<language type="dsb">Kisobia cha Chini</language>
@@ -121,17 +117,13 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="eka">Kiekajuk</language>
 			<language type="el">Kigiriki</language>
 			<language type="en">Kiingereza</language>
-			<language type="en_AU">↑↑↑</language>
 			<language type="en_CA">Kiingereza (Canada)</language>
 			<language type="en_GB">Kiingereza (Uingereza)</language>
 			<language type="en_GB" alt="short">Kiingereza (UK)</language>
-			<language type="en_US">↑↑↑</language>
-			<language type="en_US" alt="short">Kiingereza (US)</language>
 			<language type="eo">Kiesperanto</language>
 			<language type="es">Kihispania</language>
 			<language type="es_419">Kihispania (Amerika ya Latini)</language>
 			<language type="es_ES">Kihispania (Ulaya)</language>
-			<language type="es_MX">↑↑↑</language>
 			<language type="et">Kiestonia</language>
 			<language type="eu">Kibaski</language>
 			<language type="ewo">Kiewondo</language>
@@ -145,7 +137,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<language type="fon">Kifon</language>
 			<language type="fr">Kifaransa</language>
 			<language type="fr_CA">Kifaransa (Canada)</language>
-			<language type="fr_CH">↑↑↑</language>
 			<language type="fro">Kifaransa cha Kale</language>
 			<language type="frr">Kifrisia cha Kaskazini</language>
 			<language type="frs">Kifrisia cha Mashariki</language>
@@ -635,7 +626,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<territory type="FR">Ufaransa</territory>
 			<territory type="GA">Gabon</territory>
 			<territory type="GB">Ufalme wa Muungano</territory>
-			<territory type="GB" alt="short">Ufalme wa Muungano</territory>
 			<territory type="GD">Grenada</territory>
 			<territory type="GE">Jojia</territory>
 			<territory type="GF">Guiana ya Ufaransa</territory>
@@ -800,7 +790,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<territory type="UG">Uganda</territory>
 			<territory type="UM">Visiwa Vidogo vya Nje vya Marekani</territory>
 			<territory type="UN">Umoja wa Mataifa</territory>
-			<territory type="UN" alt="short">Umoja wa Mataifa</territory>
 			<territory type="US">Marekani</territory>
 			<territory type="US" alt="short">US</territory>
 			<territory type="UY">Uruguay</territory>
@@ -824,11 +813,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<territory type="ZW">Zimbabwe</territory>
 			<territory type="ZZ">Eneo lisilojulikana</territory>
 		</territories>
-		<subdivisions>
-			<subdivision type="gbeng">Uingereza</subdivision>
-			<subdivision type="gbsct">Uskoti</subdivision>
-			<subdivision type="gbwls">Welisi</subdivision>
-		</subdivisions>
 		<keys>
 			<key type="calendar">Kalenda</key>
 			<key type="cf">Mpangilio wa Sarafu</key>
@@ -985,17 +969,11 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		<moreInformation>?</moreInformation>
 		<parseLenients scope="date" level="lenient">
 			<parseLenient sample="-" draft="contributed">[\--/]</parseLenient>
-			<parseLenient sample=":" draft="contributed">↑↑↑</parseLenient>
 		</parseLenients>
 		<parseLenients scope="general" level="lenient">
 			<parseLenient sample="." draft="contributed">[.․。︒﹒．｡]</parseLenient>
-			<parseLenient sample="’" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="%" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="‰" draft="contributed">↑↑↑</parseLenient>
 			<parseLenient sample="$" draft="contributed">[\$﹩＄$]</parseLenient>
 			<parseLenient sample="£" draft="contributed">[£₤]</parseLenient>
-			<parseLenient sample="¥" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="₩" draft="contributed">↑↑↑</parseLenient>
 			<parseLenient sample="₹" draft="contributed">[₨₹{Rp}{Rs}]</parseLenient>
 		</parseLenients>
 		<parseLenients scope="number" level="lenient">
@@ -1106,15 +1084,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</availableFormats>
 					<intervalFormats>
 						<intervalFormatFallback>{0} – {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B">↑↑↑</greatestDifference>
-							<greatestDifference id="h">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B">↑↑↑</greatestDifference>
-							<greatestDifference id="h">↑↑↑</greatestDifference>
-							<greatestDifference id="m">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d">d – d</greatestDifference>
 						</intervalFormatItem>
@@ -1666,15 +1635,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 					</appendItems>
 					<intervalFormats>
 						<intervalFormatFallback>{0} – {1}</intervalFormatFallback>
-						<intervalFormatItem id="Bh">
-							<greatestDifference id="B">↑↑↑</greatestDifference>
-							<greatestDifference id="h">↑↑↑</greatestDifference>
-						</intervalFormatItem>
-						<intervalFormatItem id="Bhm">
-							<greatestDifference id="B">↑↑↑</greatestDifference>
-							<greatestDifference id="h">↑↑↑</greatestDifference>
-							<greatestDifference id="m">↑↑↑</greatestDifference>
-						</intervalFormatItem>
 						<intervalFormatItem id="d">
 							<greatestDifference id="d">d – d</greatestDifference>
 						</intervalFormatItem>
@@ -1835,9 +1795,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="year-short">
 				<displayName>mwaka</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="one">baada ya mwaka {0}</relativeTimePattern>
 					<relativeTimePattern count="other">baada ya miaka {0}</relativeTimePattern>
@@ -1849,9 +1806,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="year-narrow">
 				<displayName>mwaka</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="one">baada ya mwaka {0}</relativeTimePattern>
 					<relativeTimePattern count="other">baada ya miaka {0}</relativeTimePattern>
@@ -1913,9 +1867,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="month-short">
 				<displayName>mwezi</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="one">baada ya mwezi {0}</relativeTimePattern>
 					<relativeTimePattern count="other">baada ya miezi {0}</relativeTimePattern>
@@ -1927,9 +1878,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="month-narrow">
 				<displayName>mwezi</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="one">baada ya mwezi {0}</relativeTimePattern>
 					<relativeTimePattern count="other">baada ya miezi {0}</relativeTimePattern>
@@ -1956,9 +1904,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="week-short">
 				<displayName>wiki</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="one">baada ya wiki {0}</relativeTimePattern>
 					<relativeTimePattern count="other">baada ya wiki {0}</relativeTimePattern>
@@ -1971,9 +1916,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</field>
 			<field type="week-narrow">
 				<displayName>wiki</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="one">baada ya wiki {0}</relativeTimePattern>
 					<relativeTimePattern count="other">baada ya wiki {0}</relativeTimePattern>
@@ -4819,7 +4761,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="one">afghani ya Afghanistan</displayName>
 				<displayName count="other">afghani za Afghanistan</displayName>
 				<symbol draft="contributed">AFN</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ALL">
 				<displayName>Lek ya Albania</displayName>
@@ -4832,7 +4773,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="one">dram ya Armenia</displayName>
 				<displayName count="other">dram za Armenia</displayName>
 				<symbol draft="contributed">AMD</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ANG">
 				<displayName>Guilder ya Antili za Kiholanzi</displayName>
@@ -4872,7 +4812,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="one">manat ya Azerbaijan</displayName>
 				<displayName count="other">manat za Azerbaijan</displayName>
 				<symbol draft="contributed">AZN</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BAM">
 				<displayName>Convertible Mark ya Bosnia na Hezegovina</displayName>
@@ -5150,7 +5089,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<displayName count="one">cedi ya Ghana</displayName>
 				<displayName count="other">cedi za Ghana</displayName>
 				<symbol draft="contributed">GHS</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GIP">
 				<displayName>Pauni ya Gibraltar</displayName>
@@ -6015,9 +5953,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<compoundUnitPattern1>{0} mchemraba</compoundUnitPattern1>
 				<compoundUnitPattern1 count="one">{0} mchemraba</compoundUnitPattern1>
 				<compoundUnitPattern1 count="other">{0} mchemraba</compoundUnitPattern1>
-			</compoundUnit>
-			<compoundUnit type="times">
-				<compoundUnitPattern>↑↑↑</compoundUnitPattern>
 			</compoundUnit>
 			<unit type="acceleration-g-force">
 				<displayName>mvuto wa graviti</displayName>
@@ -7041,19 +6976,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<compoundUnit type="per">
 				<compoundUnitPattern>{0}/{1}</compoundUnitPattern>
 			</compoundUnit>
-			<compoundUnit type="power2">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="one">↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
-			</compoundUnit>
-			<compoundUnit type="power3">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="one">↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
-			</compoundUnit>
-			<compoundUnit type="times">
-				<compoundUnitPattern>↑↑↑</compoundUnitPattern>
-			</compoundUnit>
 			<unit type="acceleration-g-force">
 				<displayName>mvuto wa graviti</displayName>
 				<unitPattern count="one">G {0}</unitPattern>
@@ -7102,7 +7024,7 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="area-square-meter">
 				<displayName>mita za mraba</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
+				<unitPattern count="one">m² {0}</unitPattern>
 				<unitPattern count="other">m² {0}</unitPattern>
 				<perUnitPattern>{0}/m²</perUnitPattern>
 			</unit>
@@ -7176,8 +7098,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</unit>
 			<unit type="concentr-permyriad">
 				<displayName>permyriadi</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="concentr-mole">
 				<displayName>moli</displayName>
@@ -7422,7 +7342,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">hezi {0}</unitPattern>
 			</unit>
 			<unit type="graphics-em">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">em {0}</unitPattern>
 				<unitPattern count="other">em {0}</unitPattern>
 			</unit>
@@ -7432,27 +7351,22 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">px {0}</unitPattern>
 			</unit>
 			<unit type="graphics-megapixel">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">MP {0}</unitPattern>
 				<unitPattern count="other">MP {0}</unitPattern>
 			</unit>
 			<unit type="graphics-pixel-per-centimeter">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">ppcm {0}</unitPattern>
 				<unitPattern count="other">ppcm {0}</unitPattern>
 			</unit>
 			<unit type="graphics-pixel-per-inch">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">ppi {0}</unitPattern>
 				<unitPattern count="other">ppi {0}</unitPattern>
 			</unit>
 			<unit type="graphics-dot-per-centimeter">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">dpcm {0}</unitPattern>
 				<unitPattern count="other">dpcm {0}</unitPattern>
 			</unit>
 			<unit type="graphics-dot-per-inch">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">dpi {0}</unitPattern>
 				<unitPattern count="other">dpi {0}</unitPattern>
 			</unit>
@@ -7462,7 +7376,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">vitone {0}</unitPattern>
 			</unit>
 			<unit type="length-earth-radius">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">R⊕ {0}</unitPattern>
 				<unitPattern count="other">R⊕ {0}</unitPattern>
 			</unit>
@@ -7582,12 +7495,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">lx {0}</unitPattern>
 			</unit>
 			<unit type="light-candela">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">cd {0}</unitPattern>
 				<unitPattern count="other">cd {0}</unitPattern>
 			</unit>
 			<unit type="light-lumen">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">lm {0}</unitPattern>
 				<unitPattern count="other">lm {0}</unitPattern>
 			</unit>
@@ -7736,7 +7647,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">atm {0}</unitPattern>
 			</unit>
 			<unit type="pressure-pascal">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">Pa {0}</unitPattern>
 				<unitPattern count="other">Pa {0}</unitPattern>
 			</unit>
@@ -7746,12 +7656,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">hPa {0}</unitPattern>
 			</unit>
 			<unit type="pressure-kilopascal">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">kPa {0}</unitPattern>
 				<unitPattern count="other">kPa {0}</unitPattern>
 			</unit>
 			<unit type="pressure-megapascal">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">MPa {0}</unitPattern>
 				<unitPattern count="other">MPa {0}</unitPattern>
 			</unit>
@@ -7796,12 +7704,10 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">{0} K</unitPattern>
 			</unit>
 			<unit type="torque-pound-force-foot">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">lbf⋅ft {0}</unitPattern>
 				<unitPattern count="other">lbf⋅ft {0}</unitPattern>
 			</unit>
 			<unit type="torque-newton-meter">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">N⋅m {0}</unitPattern>
 				<unitPattern count="other">N⋅m {0}</unitPattern>
 			</unit>
@@ -7946,7 +7852,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 				<unitPattern count="other">mapipa {0}</unitPattern>
 			</unit>
 			<unit type="volume-dessert-spoon">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">dstspn {0}</unitPattern>
 				<unitPattern count="other">dstspn {0}</unitPattern>
 			</unit>
@@ -8075,19 +7980,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			</compoundUnit>
 			<compoundUnit type="per">
 				<compoundUnitPattern>{0}/{1}</compoundUnitPattern>
-			</compoundUnit>
-			<compoundUnit type="power2">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="one">↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
-			</compoundUnit>
-			<compoundUnit type="power3">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="one">↑↑↑</compoundUnitPattern1>
-				<compoundUnitPattern1 count="other">↑↑↑</compoundUnitPattern1>
-			</compoundUnit>
-			<compoundUnit type="times">
-				<compoundUnitPattern>↑↑↑</compoundUnitPattern>
 			</compoundUnit>
 			<unit type="acceleration-g-force">
 				<unitPattern count="one">G {0}</unitPattern>
@@ -8339,7 +8231,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 		<listPattern type="or-narrow">
 			<listPatternPart type="start">{0}, {1}</listPatternPart>
 			<listPatternPart type="middle">{0}, {1}</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
 			<listPatternPart type="2">{0} au {1}</listPatternPart>
 		</listPattern>
 		<listPattern type="or-short">
@@ -8349,9 +8240,6 @@ Warnings: All cp values have U+FE0F characters removed. See /annotationsDerived/
 			<listPatternPart type="2">{0} au {1}</listPatternPart>
 		</listPattern>
 		<listPattern type="standard-narrow">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
 			<listPatternPart type="2">{0}, {1}</listPatternPart>
 		</listPattern>
 		<listPattern type="standard-short">

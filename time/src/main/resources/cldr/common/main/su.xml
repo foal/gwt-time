@@ -23,7 +23,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="en">Inggris</language>
 			<language type="en_AU">Inggris Australia</language>
 			<language type="en_CA">Inggris Kanada</language>
-			<language type="en_GB">↑↑↑</language>
 			<language type="en_GB" alt="short">Inggris UK</language>
 			<language type="en_US">Inggris Amerika</language>
 			<language type="en_US" alt="short">Inggris AS</language>
@@ -50,7 +49,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="zh_Hant" alt="long">Tiongkok Mandarin Tradisional</language>
 		</languages>
 		<scripts>
-			<script type="Arab">↑↑↑</script>
 			<script type="Cyrl">Sirilik</script>
 			<script type="Hans">Sederhana</script>
 			<script type="Hans" alt="stand-alone">Han Sederhana</script>
@@ -95,43 +93,9 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		<exemplarCharacters type="index" draft="contributed">[A B C D E É F G H I J K L M N O P Q R S T U V W X Y Z]</exemplarCharacters>
 		<exemplarCharacters type="numbers" draft="contributed">[\- ‑ , . % ‰ + 0 1 2 3 4 5 6 7 8 9]</exemplarCharacters>
 		<exemplarCharacters type="punctuation" draft="contributed">[\- ‐ ‑ – — , ; \: ! ? . … ' ‘ ’ &quot; “ ” ( ) \[ \] § @ * / \&amp; # † ‡ ′ ″]</exemplarCharacters>
-		<ellipsis type="final">↑↑↑</ellipsis>
-		<ellipsis type="initial">↑↑↑</ellipsis>
-		<ellipsis type="medial">↑↑↑</ellipsis>
-		<ellipsis type="word-final">↑↑↑</ellipsis>
-		<ellipsis type="word-initial">↑↑↑</ellipsis>
-		<ellipsis type="word-medial">↑↑↑</ellipsis>
-		<moreInformation>↑↑↑</moreInformation>
-		<parseLenients scope="date" level="lenient">
-			<parseLenient sample="-" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample=":" draft="contributed">↑↑↑</parseLenient>
-		</parseLenients>
-		<parseLenients scope="general" level="lenient">
-			<parseLenient sample="." draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="’" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="%" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="‰" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="$" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="£" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="¥" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="₩" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="₹" draft="contributed">↑↑↑</parseLenient>
-		</parseLenients>
-		<parseLenients scope="number" level="lenient">
-			<parseLenient sample="-" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="," draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="+" draft="contributed">↑↑↑</parseLenient>
-		</parseLenients>
-		<parseLenients scope="number" level="stricter">
-			<parseLenient sample="," draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="." draft="contributed">↑↑↑</parseLenient>
-		</parseLenients>
 	</characters>
 	<delimiters>
-		<quotationStart>↑↑↑</quotationStart>
 		<quotationEnd>”</quotationEnd>
-		<alternateQuotationStart>↑↑↑</alternateQuotationStart>
-		<alternateQuotationEnd>↑↑↑</alternateQuotationEnd>
 	</delimiters>
 	<dates>
 		<calendars>
@@ -192,7 +156,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 							<month type="2">Péb</month>
 							<month type="3">Mar</month>
 							<month type="4">Apr</month>
-							<month type="5">↑↑↑</month>
+							<month type="5">Méi</month>
 							<month type="6">Jun</month>
 							<month type="7">Jul</month>
 							<month type="8">Ags</month>
@@ -231,20 +195,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 						</monthWidth>
 					</monthContext>
 					<monthContext type="stand-alone">
-						<monthWidth type="abbreviated">
-							<month type="1">↑↑↑</month>
-							<month type="2">↑↑↑</month>
-							<month type="3">↑↑↑</month>
-							<month type="4">↑↑↑</month>
-							<month type="5">↑↑↑</month>
-							<month type="6">↑↑↑</month>
-							<month type="7">↑↑↑</month>
-							<month type="8">↑↑↑</month>
-							<month type="9">↑↑↑</month>
-							<month type="10">↑↑↑</month>
-							<month type="11">↑↑↑</month>
-							<month type="12">↑↑↑</month>
-						</monthWidth>
 						<monthWidth type="narrow">
 							<month type="1">J</month>
 							<month type="2">P</month>
@@ -261,17 +211,17 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 						</monthWidth>
 						<monthWidth type="wide">
 							<month type="1">Januari</month>
-							<month type="2">↑↑↑</month>
-							<month type="3">↑↑↑</month>
-							<month type="4">↑↑↑</month>
-							<month type="5">↑↑↑</month>
-							<month type="6">↑↑↑</month>
-							<month type="7">↑↑↑</month>
-							<month type="8">↑↑↑</month>
-							<month type="9">↑↑↑</month>
-							<month type="10">↑↑↑</month>
-							<month type="11">↑↑↑</month>
-							<month type="12">↑↑↑</month>
+							<month type="2">Pébruari</month>
+							<month type="3">Maret</month>
+							<month type="4">April</month>
+							<month type="5">Méi</month>
+							<month type="6">Juni</month>
+							<month type="7">Juli</month>
+							<month type="8">Agustus</month>
+							<month type="9">Séptémber</month>
+							<month type="10">Oktober</month>
+							<month type="11">Nopémber</month>
+							<month type="12">Désémber</month>
 						</monthWidth>
 					</monthContext>
 				</months>
@@ -343,12 +293,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 							<quarter type="3">K3</quarter>
 							<quarter type="4">K4</quarter>
 						</quarterWidth>
-						<quarterWidth type="narrow">
-							<quarter type="1">↑↑↑</quarter>
-							<quarter type="2">↑↑↑</quarter>
-							<quarter type="3">↑↑↑</quarter>
-							<quarter type="4">↑↑↑</quarter>
-						</quarterWidth>
 						<quarterWidth type="wide">
 							<quarter type="1">kuartal ka-1</quarter>
 							<quarter type="2">kuartal ka-2</quarter>
@@ -363,12 +307,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 							<quarter type="3">K3</quarter>
 							<quarter type="4">K4</quarter>
 						</quarterWidth>
-						<quarterWidth type="narrow">
-							<quarter type="1">↑↑↑</quarter>
-							<quarter type="2">↑↑↑</quarter>
-							<quarter type="3">↑↑↑</quarter>
-							<quarter type="4">↑↑↑</quarter>
-						</quarterWidth>
 						<quarterWidth type="wide">
 							<quarter type="1">kuartal ka-1</quarter>
 							<quarter type="2">kuartal ka-2</quarter>
@@ -377,20 +315,10 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 						</quarterWidth>
 					</quarterContext>
 				</quarters>
-				<dayPeriods>
-					<dayPeriodContext type="format">
-						<dayPeriodWidth type="wide">
-							<dayPeriod type="am">↑↑↑</dayPeriod>
-							<dayPeriod type="pm">↑↑↑</dayPeriod>
-						</dayPeriodWidth>
-					</dayPeriodContext>
-				</dayPeriods>
 				<eras>
 					<eraAbbr>
 						<era type="0">SM</era>
-						<era type="0" alt="variant">SM</era>
 						<era type="1">M</era>
-						<era type="1" alt="variant">M</era>
 					</eraAbbr>
 				</eras>
 				<dateFormats>
@@ -459,11 +387,8 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 						</dateTimeFormat>
 					</dateTimeFormatLength>
 					<availableFormats>
-						<dateFormatItem id="Bh">↑↑↑</dateFormatItem>
 						<dateFormatItem id="Bhm">h.mm B</dateFormatItem>
 						<dateFormatItem id="Bhms">h.mm.ss B</dateFormatItem>
-						<dateFormatItem id="d">↑↑↑</dateFormatItem>
-						<dateFormatItem id="E">↑↑↑</dateFormatItem>
 						<dateFormatItem id="EBhm">E h.mm B</dateFormatItem>
 						<dateFormatItem id="EBhms">E h.mm.ss B</dateFormatItem>
 						<dateFormatItem id="Ed">E d</dateFormatItem>
@@ -476,7 +401,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 						<dateFormatItem id="GyMMMd">d MMM y G</dateFormatItem>
 						<dateFormatItem id="GyMMMEd">E, d MMM y G</dateFormatItem>
 						<dateFormatItem id="h">h a</dateFormatItem>
-						<dateFormatItem id="H">↑↑↑</dateFormatItem>
 						<dateFormatItem id="hm">h.mm a</dateFormatItem>
 						<dateFormatItem id="Hm">HH.mm</dateFormatItem>
 						<dateFormatItem id="hms">h.mm.ss a</dateFormatItem>
@@ -488,12 +412,10 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 						<dateFormatItem id="M">L</dateFormatItem>
 						<dateFormatItem id="Md">d/M</dateFormatItem>
 						<dateFormatItem id="MEd">E, d/M</dateFormatItem>
-						<dateFormatItem id="MMM">↑↑↑</dateFormatItem>
 						<dateFormatItem id="MMMd">d MMM</dateFormatItem>
 						<dateFormatItem id="MMMEd">E, d MMM</dateFormatItem>
 						<dateFormatItem id="MMMMd">d MMMM</dateFormatItem>
 						<dateFormatItem id="ms">mm.ss</dateFormatItem>
-						<dateFormatItem id="y">↑↑↑</dateFormatItem>
 						<dateFormatItem id="yM">M/y</dateFormatItem>
 						<dateFormatItem id="yMd">d/M/y</dateFormatItem>
 						<dateFormatItem id="yMEd">E, d/M/y</dateFormatItem>
@@ -513,12 +435,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		<fields>
 			<field type="era">
 				<displayName>éra</displayName>
-			</field>
-			<field type="era-short">
-				<displayName>↑↑↑</displayName>
-			</field>
-			<field type="era-narrow">
-				<displayName>↑↑↑</displayName>
 			</field>
 			<field type="year">
 				<displayName>taun</displayName>
@@ -620,12 +536,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 		</fields>
 		<timeZoneNames>
-			<hourFormat>↑↑↑</hourFormat>
-			<gmtFormat>↑↑↑</gmtFormat>
-			<gmtZeroFormat>↑↑↑</gmtZeroFormat>
-			<regionFormat>↑↑↑</regionFormat>
-			<regionFormat type="daylight">↑↑↑</regionFormat>
-			<regionFormat type="standard">↑↑↑</regionFormat>
 			<fallbackFormat>{1} ({0})</fallbackFormat>
 			<zone type="Etc/UTC">
 				<long>
@@ -714,16 +624,10 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		</timeZoneNames>
 	</dates>
 	<numbers>
-		<defaultNumberingSystem draft="contributed">↑↑↑</defaultNumberingSystem>
-		<otherNumberingSystems>
-			<native draft="contributed">↑↑↑</native>
-		</otherNumberingSystems>
 		<symbols numberSystem="latn">
 			<decimal>,</decimal>
 			<group>.</group>
-			<percentSign>↑↑↑</percentSign>
 			<plusSign>+</plusSign>
-			<minusSign>↑↑↑</minusSign>
 			<timeSeparator draft="contributed">.</timeSeparator>
 		</symbols>
 		<decimalFormats numberSystem="latn">
@@ -733,20 +637,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				</decimalFormat>
 			</decimalFormatLength>
 		</decimalFormats>
-		<scientificFormats numberSystem="latn">
-			<scientificFormatLength>
-				<scientificFormat>
-					<pattern>↑↑↑</pattern>
-				</scientificFormat>
-			</scientificFormatLength>
-		</scientificFormats>
-		<percentFormats numberSystem="latn">
-			<percentFormatLength>
-				<percentFormat>
-					<pattern>↑↑↑</pattern>
-				</percentFormat>
-			</percentFormatLength>
-		</percentFormats>
 		<currencyFormats numberSystem="latn">
 			<currencyFormatLength>
 				<currencyFormat type="standard">

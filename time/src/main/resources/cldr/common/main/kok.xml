@@ -872,37 +872,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		<exemplarCharacters type="index" draft="contributed">[अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ळ]</exemplarCharacters>
 		<exemplarCharacters type="numbers">[\- ‑ , . % ‰ + 0० 1१ 2२ 3३ 4४ 5५ 6६ 7७ 8८ 9९]</exemplarCharacters>
 		<exemplarCharacters type="punctuation" draft="contributed">[\- ‐ ‑ – — , ; \: ! ? . … ' ‘ ’ &quot; “ ” ( ) \[ \] § @ * / \&amp; # † ‡ ′ ″]</exemplarCharacters>
-		<ellipsis type="final">↑↑↑</ellipsis>
-		<ellipsis type="initial">↑↑↑</ellipsis>
-		<ellipsis type="medial">↑↑↑</ellipsis>
-		<ellipsis type="word-final">↑↑↑</ellipsis>
-		<ellipsis type="word-initial">↑↑↑</ellipsis>
-		<ellipsis type="word-medial">↑↑↑</ellipsis>
-		<moreInformation>↑↑↑</moreInformation>
-		<parseLenients scope="date" level="lenient">
-			<parseLenient sample="-" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample=":" draft="contributed">↑↑↑</parseLenient>
-		</parseLenients>
-		<parseLenients scope="general" level="lenient">
-			<parseLenient sample="." draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="’" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="%" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="‰" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="$" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="£" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="¥" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="₩" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="₹" draft="contributed">↑↑↑</parseLenient>
-		</parseLenients>
-		<parseLenients scope="number" level="lenient">
-			<parseLenient sample="-" draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="," draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="+" draft="contributed">↑↑↑</parseLenient>
-		</parseLenients>
-		<parseLenients scope="number" level="stricter">
-			<parseLenient sample="," draft="contributed">↑↑↑</parseLenient>
-			<parseLenient sample="." draft="contributed">↑↑↑</parseLenient>
-		</parseLenients>
 	</characters>
 	<delimiters>
 		<quotationStart>“</quotationStart>
@@ -1192,9 +1161,9 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 							<month type="3">मार्च</month>
 							<month type="4">एप्रील</month>
 							<month type="5">मे</month>
-							<month type="6">↑↑↑</month>
-							<month type="7">↑↑↑</month>
-							<month type="8">↑↑↑</month>
+							<month type="6">जून</month>
+							<month type="7">जुलय</month>
+							<month type="8">ऑगस्ट</month>
 							<month type="9">सप्टेंबर</month>
 							<month type="10">ऑक्टोबर</month>
 							<month type="11">नोव्हेंबर</month>
@@ -1209,7 +1178,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 							<day type="mon">सोमार</day>
 							<day type="tue">मंगळार</day>
 							<day type="wed">बुधवार</day>
-							<day type="thu">↑↑↑</day>
+							<day type="thu">बिरेस्तार</day>
 							<day type="fri">शुक्रार</day>
 							<day type="sat">शेनवार</day>
 						</dayWidth>
@@ -1247,7 +1216,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 							<day type="mon">सोमार</day>
 							<day type="tue">मंगळार</day>
 							<day type="wed">बुधवार</day>
-							<day type="thu">↑↑↑</day>
+							<day type="thu">बिरेस्तार</day>
 							<day type="fri">शुक्रार</day>
 							<day type="sat">शेनवार</day>
 						</dayWidth>
@@ -1265,7 +1234,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 							<day type="mon">सोम</day>
 							<day type="tue">मंगळ</day>
 							<day type="wed">बुध</day>
-							<day type="thu">↑↑↑</day>
+							<day type="thu">बिरे</day>
 							<day type="fri">शुक्र</day>
 							<day type="sat">शेन</day>
 						</dayWidth>
@@ -1274,7 +1243,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 							<day type="mon">सोमार</day>
 							<day type="tue">मंगळार</day>
 							<day type="wed">बुधवार</day>
-							<day type="thu">↑↑↑</day>
+							<day type="thu">बिरेस्तार</day>
 							<day type="fri">शुक्रार</day>
 							<day type="sat">शेनवार</day>
 						</dayWidth>
@@ -1302,23 +1271,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 						</quarterWidth>
 					</quarterContext>
 					<quarterContext type="stand-alone">
-						<quarterWidth type="abbreviated">
-							<quarter type="1">↑↑↑</quarter>
-							<quarter type="2">↑↑↑</quarter>
-							<quarter type="3">↑↑↑</quarter>
-							<quarter type="4">↑↑↑</quarter>
-						</quarterWidth>
 						<quarterWidth type="narrow">
 							<quarter type="1">1</quarter>
 							<quarter type="2">2</quarter>
 							<quarter type="3">3</quarter>
 							<quarter type="4">4</quarter>
-						</quarterWidth>
-						<quarterWidth type="wide">
-							<quarter type="1">↑↑↑</quarter>
-							<quarter type="2">↑↑↑</quarter>
-							<quarter type="3">↑↑↑</quarter>
-							<quarter type="4">↑↑↑</quarter>
 						</quarterWidth>
 					</quarterContext>
 				</quarters>
@@ -1651,9 +1608,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="year-short">
 				<displayName>वर्स</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} वर्सांनीं</relativeTimePattern>
 				</relativeTime>
@@ -1663,9 +1617,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="year-narrow">
 				<displayName>वर्स</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} वर्सांनीं</relativeTimePattern>
 				</relativeTime>
@@ -1717,9 +1668,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="month-short">
 				<displayName>म्हयनो</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} म्हयन्यानीं</relativeTimePattern>
 				</relativeTime>
@@ -1729,9 +1677,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="month-narrow">
 				<displayName>म्हयनो</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} म्हयन्यानीं</relativeTimePattern>
 				</relativeTime>
@@ -1754,12 +1699,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="week-short">
 				<displayName>सप्तक</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
-				<relativeTime type="future">
-					<relativeTimePattern count="other">↑↑↑</relativeTimePattern>
-				</relativeTime>
 				<relativeTime type="past">
 					<relativeTimePattern count="other">{0} सप्तकां आदीं</relativeTimePattern>
 				</relativeTime>
@@ -1767,9 +1706,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="week-narrow">
 				<displayName>सप्तक</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} सप्तकांनीं</relativeTimePattern>
 				</relativeTime>
@@ -1801,9 +1737,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="day-short">
 				<displayName>दीस</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} दिसानीं</relativeTimePattern>
 				</relativeTime>
@@ -1813,9 +1746,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="day-narrow">
 				<displayName>दीस</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} दिसानीं</relativeTimePattern>
 				</relativeTime>
@@ -2166,7 +2096,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				</relativeTime>
 			</field>
 			<field type="second-narrow">
-				<displayName>↑↑↑</displayName>
 				<relativeTime type="future">
 					<relativeTimePattern count="other">{0} सेकंदानीं</relativeTimePattern>
 				</relativeTime>
@@ -4386,7 +4315,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<percentSign>%</percentSign>
 			<plusSign>+</plusSign>
 			<minusSign>-</minusSign>
-			<approximatelySign>↑↑↑</approximatelySign>
 			<exponential>E</exponential>
 			<superscriptingExponent>×</superscriptingExponent>
 			<perMille>‰</perMille>
@@ -4511,7 +4439,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>अफगाण अफगाणी</displayName>
 				<displayName count="other">अफगाण अफगाणीस</displayName>
 				<symbol draft="contributed">AFN</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ALL">
 				<displayName>अल्बेनियन लेक</displayName>
@@ -4522,7 +4449,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>अर्मेनियन ड्राम</displayName>
 				<displayName count="other">अर्मेनियन ड्राम्स</displayName>
 				<symbol draft="contributed">AMD</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ANG">
 				<displayName>नॅदरलँड अँटिलियन गिल्डर</displayName>
@@ -4556,7 +4482,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>अज़रबैजानी मनात</displayName>
 				<displayName count="other">अज़रबैजानी मनात्स</displayName>
 				<symbol draft="contributed">AZN</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BAM">
 				<displayName>बोस्निया-हेर्जेगोविना रुपांतरीत मार्क</displayName>
@@ -4784,7 +4709,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>घानाई सेडी</displayName>
 				<displayName count="other">घानाई सेडीस</displayName>
 				<symbol draft="contributed">GHS</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GIP">
 				<displayName>जिब्राल्टर पावंड</displayName>
@@ -4858,7 +4782,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</currency>
 			<currency type="INR">
 				<displayName>भारतीय रुपया</displayName>
-				<displayName count="other">↑↑↑</displayName>
 				<symbol draft="contributed">₹</symbol>
 				<symbol alt="narrow" draft="contributed">₹</symbol>
 			</currency>
@@ -5751,18 +5674,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>किलोवॅट-वरां</displayName>
 				<unitPattern count="other">{0} किलोवॅट-वरां</unitPattern>
 			</unit>
-			<unit type="energy-electronvolt">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="energy-british-thermal-unit">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="energy-therm-us">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="force-pound-force">
 				<displayName>पावंड ऑफ फोर्स</displayName>
 				<unitPattern count="other">{0} पावंड ऑफ फोर्स</unitPattern>
@@ -5946,10 +5857,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>मिलिग्राम</displayName>
 				<unitPattern count="other">{0} मिलिग्राम</unitPattern>
 			</unit>
-			<unit type="mass-microgram">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="mass-ton">
 				<displayName>टन</displayName>
 				<unitPattern count="other">{0} टन</unitPattern>
@@ -6072,10 +5979,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>नॉट</displayName>
 				<unitPattern count="other">{0} नॉट</unitPattern>
 			</unit>
-			<unit type="temperature-generic">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="temperature-celsius">
 				<displayName>अंश सेल्सियस</displayName>
 				<unitPattern count="other">{0} अंश सेल्सियस</unitPattern>
@@ -6132,7 +6035,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</unit>
 			<unit type="volume-hectoliter">
 				<displayName>हॅक्टोलीटर</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="volume-liter">
 				<displayName>लिटर</displayName>
@@ -6334,11 +6236,9 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<compoundUnitPattern>{0}/{1}</compoundUnitPattern>
 			</compoundUnit>
 			<compoundUnit type="power2">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
 				<compoundUnitPattern1 count="other">{0}²</compoundUnitPattern1>
 			</compoundUnit>
 			<compoundUnit type="power3">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
 				<compoundUnitPattern1 count="other">{0}³</compoundUnitPattern1>
 			</compoundUnit>
 			<compoundUnit type="times">
@@ -7187,24 +7087,14 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<compoundUnitPattern>{0}/{1}</compoundUnitPattern>
 			</compoundUnit>
 			<compoundUnit type="power2">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
 				<compoundUnitPattern1 count="other">{0}²</compoundUnitPattern1>
 			</compoundUnit>
 			<compoundUnit type="power3">
-				<compoundUnitPattern1>↑↑↑</compoundUnitPattern1>
 				<compoundUnitPattern1 count="other">{0}³</compoundUnitPattern1>
 			</compoundUnit>
 			<compoundUnit type="times">
 				<compoundUnitPattern>{0}⋅{1}</compoundUnitPattern>
 			</compoundUnit>
-			<unit type="concentr-percent">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
-			<unit type="consumption-liter-per-100-kilometer">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="other">↑↑↑</unitPattern>
-			</unit>
 			<unit type="duration-year">
 				<displayName>वर्सा</displayName>
 				<unitPattern count="other">{0}व</unitPattern>

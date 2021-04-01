@@ -14,7 +14,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		<localeDisplayPattern>
 			<localePattern draft="contributed">{0} ({1})</localePattern>
 			<localeSeparator draft="contributed">{0}, {1}</localeSeparator>
-			<localeKeyTypePattern>↑↑↑</localeKeyTypePattern>
 		</localeDisplayPattern>
 		<languages>
 			<language type="aa" draft="contributed">afar</language>
@@ -49,7 +48,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="awa" draft="contributed">awadhi</language>
 			<language type="ay" draft="contributed">aymara</language>
 			<language type="az" draft="contributed">aserbeidschanic</language>
-			<language type="az" alt="short">↑↑↑</language>
 			<language type="ba" draft="contributed">baschkir</language>
 			<language type="bal" draft="contributed">belutschi</language>
 			<language type="ban" draft="contributed">balinais</language>
@@ -769,7 +767,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="CG" alt="variant">Congo (republica)</territory>
 			<territory type="CH" draft="contributed">Svizra</territory>
 			<territory type="CI" draft="contributed">Costa d’Ivur</territory>
-			<territory type="CI" alt="variant">Costa d’Ivur</territory>
 			<territory type="CK" draft="contributed">Inslas Cook</territory>
 			<territory type="CL" draft="contributed">Chile</territory>
 			<territory type="CM" draft="contributed">Camerun</territory>
@@ -962,7 +959,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="TJ" draft="contributed">Tadschikistan</territory>
 			<territory type="TK" draft="contributed">Tokelau</territory>
 			<territory type="TL" draft="contributed">Timor da l’Ost</territory>
-			<territory type="TL" alt="variant">Timor da l’Ost</territory>
 			<territory type="TM" draft="contributed">Turkmenistan</territory>
 			<territory type="TN" draft="contributed">Tunesia</territory>
 			<territory type="TO" draft="contributed">Tonga</territory>
@@ -1097,8 +1093,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		<exemplarCharacters type="auxiliary" draft="contributed">[á ă â å ä ā æ ç ĕ ê ë ē í ĭ î ï ī ñ ó ŏ ô ö ø ō œ ú ŭ û ü ū ÿ]</exemplarCharacters>
 		<exemplarCharacters type="index" draft="contributed">[A À B C D E É È F G H I Ì J K L M N O Ò P Q R S T U Ù V W X Y Z]</exemplarCharacters>
 		<exemplarCharacters type="numbers">[. ’ % ‰ + − 0 1 2 3 4 5 6 7 8 9]</exemplarCharacters>
-		<exemplarCharacters type="punctuation" draft="contributed">↑↑↑</exemplarCharacters>
-		<moreInformation>↑↑↑</moreInformation>
 	</characters>
 	<delimiters>
 		<quotationStart draft="contributed">«</quotationStart>
@@ -1826,9 +1820,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</field>
 			<field type="day-short">
 				<displayName>di</displayName>
-				<relative type="-1">↑↑↑</relative>
-				<relative type="0">↑↑↑</relative>
-				<relative type="1">↑↑↑</relative>
 			</field>
 			<field type="day-narrow">
 				<displayName>d</displayName>
@@ -1861,7 +1852,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		<timeZoneNames>
 			<hourFormat>+HH:mm;-HH:mm</hourFormat>
 			<gmtFormat>GMT{0}</gmtFormat>
-			<gmtZeroFormat>↑↑↑</gmtZeroFormat>
 			<regionFormat>temp: {0}</regionFormat>
 			<regionFormat type="daylight">temp da stad: {0}</regionFormat>
 			<regionFormat type="standard">temp normal: {0}</regionFormat>
@@ -1873,9 +1863,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</zone>
 			<zone type="Etc/Unknown">
 				<exemplarCity>citad nunenconuschenta</exemplarCity>
-			</zone>
-			<zone type="Europe/Andorra">
-				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
 			<zone type="America/Anguilla">
 				<exemplarCity draft="contributed">The Valley</exemplarCity>
@@ -1910,23 +1897,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<zone type="America/Cordoba">
 				<exemplarCity draft="contributed">Córdoba</exemplarCity>
 			</zone>
-			<zone type="Europe/Vienna">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
 			<zone type="America/Aruba">
 				<exemplarCity draft="contributed">Oranjestad</exemplarCity>
 			</zone>
-			<zone type="Europe/Mariehamn">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
-			<zone type="Europe/Sarajevo">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
 			<zone type="Europe/Brussels">
 				<exemplarCity>Bruxelles</exemplarCity>
-			</zone>
-			<zone type="Europe/Sofia">
-				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
 			<zone type="Atlantic/Bermuda">
 				<exemplarCity draft="contributed">Bermudas</exemplarCity>
@@ -1952,9 +1927,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<zone type="America/Noronha">
 				<exemplarCity draft="contributed">Fernando de Noronha</exemplarCity>
 			</zone>
-			<zone type="Europe/Minsk">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
 			<zone type="America/Belize">
 				<exemplarCity draft="contributed">Belmopan</exemplarCity>
 			</zone>
@@ -1973,9 +1945,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<zone type="Asia/Urumqi">
 				<exemplarCity draft="contributed">Ürümqi</exemplarCity>
 			</zone>
-			<zone type="America/Costa_Rica">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
 			<zone type="Atlantic/Cape_Verde">
 				<exemplarCity draft="contributed">Cap Verd</exemplarCity>
 			</zone>
@@ -1985,23 +1954,14 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<zone type="Indian/Christmas">
 				<exemplarCity draft="contributed">Flying Fish Cove</exemplarCity>
 			</zone>
-			<zone type="Europe/Berlin">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
 			<zone type="Africa/Djibouti">
 				<exemplarCity draft="contributed">Dschibuti</exemplarCity>
-			</zone>
-			<zone type="Europe/Copenhagen">
-				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
 			<zone type="Africa/Algiers">
 				<exemplarCity draft="contributed">Algier</exemplarCity>
 			</zone>
 			<zone type="Pacific/Galapagos">
 				<exemplarCity draft="contributed">Galápagos</exemplarCity>
-			</zone>
-			<zone type="Europe/Tallinn">
-				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
 			<zone type="Africa/El_Aaiun">
 				<exemplarCity>El Aaiún</exemplarCity>
@@ -2012,17 +1972,8 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<zone type="Atlantic/Canary">
 				<exemplarCity draft="contributed">Inslas Canarias</exemplarCity>
 			</zone>
-			<zone type="Africa/Ceuta">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
-			<zone type="Europe/Madrid">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
 			<zone type="Africa/Addis_Ababa">
 				<exemplarCity draft="contributed">Addis Abeba</exemplarCity>
-			</zone>
-			<zone type="Europe/Helsinki">
-				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
 			<zone type="Pacific/Fiji">
 				<exemplarCity draft="contributed">Fidschi</exemplarCity>
@@ -2042,17 +1993,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<zone type="Atlantic/Faeroe">
 				<exemplarCity draft="contributed">Inslas Feroe</exemplarCity>
 			</zone>
-			<zone type="Europe/Paris">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
 			<zone type="Europe/London">
 				<exemplarCity>Londra</exemplarCity>
 			</zone>
 			<zone type="Europe/Guernsey">
 				<exemplarCity draft="contributed">Saint Peter Port</exemplarCity>
-			</zone>
-			<zone type="Europe/Gibraltar">
-				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
 			<zone type="America/Godthab">
 				<exemplarCity draft="contributed">Godthåb</exemplarCity>
@@ -2072,23 +2017,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<zone type="Asia/Hong_Kong">
 				<exemplarCity draft="contributed">Hongkong</exemplarCity>
 			</zone>
-			<zone type="Europe/Zagreb">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
-			<zone type="Europe/Budapest">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
 			<zone type="Asia/Makassar">
 				<exemplarCity draft="contributed">Macassar</exemplarCity>
 			</zone>
-			<zone type="Europe/Dublin">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
 			<zone type="Europe/Isle_of_Man">
 				<exemplarCity draft="contributed">Douglas</exemplarCity>
-			</zone>
-			<zone type="Indian/Chagos">
-				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
 			<zone type="Asia/Baghdad">
 				<exemplarCity draft="contributed">Bagdad</exemplarCity>
@@ -2132,29 +2065,8 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<zone type="America/St_Lucia">
 				<exemplarCity draft="contributed">Santa Lucia</exemplarCity>
 			</zone>
-			<zone type="Europe/Vaduz">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
-			<zone type="Europe/Vilnius">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
 			<zone type="Europe/Luxembourg">
 				<exemplarCity draft="contributed">Luxemburg</exemplarCity>
-			</zone>
-			<zone type="Europe/Riga">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
-			<zone type="Europe/Monaco">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
-			<zone type="Europe/Chisinau">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
-			<zone type="Europe/Podgorica">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
-			<zone type="Europe/Skopje">
-				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
 			<zone type="Asia/Choibalsan">
 				<exemplarCity draft="contributed">Tschoibalsan</exemplarCity>
@@ -2164,9 +2076,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</zone>
 			<zone type="America/Montserrat">
 				<exemplarCity draft="contributed">Brades</exemplarCity>
-			</zone>
-			<zone type="Europe/Malta">
-				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
 			<zone type="Indian/Maldives">
 				<exemplarCity draft="contributed">Maldivas</exemplarCity>
@@ -2188,12 +2097,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</zone>
 			<zone type="Pacific/Norfolk">
 				<exemplarCity draft="contributed">Kingston</exemplarCity>
-			</zone>
-			<zone type="Europe/Amsterdam">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
-			<zone type="Europe/Oslo">
-				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
 			<zone type="Pacific/Nauru">
 				<exemplarCity draft="contributed">Yaren</exemplarCity>
@@ -2218,9 +2121,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</zone>
 			<zone type="Atlantic/Azores">
 				<exemplarCity draft="contributed">Azoras</exemplarCity>
-			</zone>
-			<zone type="Atlantic/Madeira">
-				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
 			<zone type="Europe/Lisbon">
 				<exemplarCity draft="contributed">Lissabon</exemplarCity>
@@ -2267,26 +2167,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<zone type="Africa/Khartoum">
 				<exemplarCity draft="contributed">Khartum</exemplarCity>
 			</zone>
-			<zone type="Europe/Stockholm">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
 			<zone type="Asia/Singapore">
 				<exemplarCity draft="contributed">Singapur</exemplarCity>
 			</zone>
 			<zone type="Atlantic/St_Helena">
 				<exemplarCity draft="contributed">Sontg’elena</exemplarCity>
-			</zone>
-			<zone type="Europe/Ljubljana">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
-			<zone type="Arctic/Longyearbyen">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
-			<zone type="Europe/Bratislava">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
-			<zone type="Europe/San_Marino">
-				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
 			<zone type="Africa/Mogadishu">
 				<exemplarCity draft="contributed">Mogadischu</exemplarCity>
@@ -2300,9 +2185,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<zone type="America/Grand_Turk">
 				<exemplarCity draft="contributed">Cockburn Town</exemplarCity>
 			</zone>
-			<zone type="Indian/Kerguelen">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
 			<zone type="Africa/Lome">
 				<exemplarCity draft="contributed">Lomé</exemplarCity>
 			</zone>
@@ -2315,20 +2197,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<zone type="Pacific/Tongatapu">
 				<exemplarCity draft="contributed">Nukuʻalofa</exemplarCity>
 			</zone>
-			<zone type="America/Port_of_Spain">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
 			<zone type="Africa/Dar_es_Salaam">
 				<exemplarCity draft="contributed">Daressalam</exemplarCity>
 			</zone>
 			<zone type="Europe/Uzhgorod">
 				<exemplarCity>Uschhorod</exemplarCity>
-			</zone>
-			<zone type="Europe/Kiev">
-				<exemplarCity>↑↑↑</exemplarCity>
-			</zone>
-			<zone type="Europe/Simferopol">
-				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
 			<zone type="Europe/Zaporozhye">
 				<exemplarCity draft="contributed">Saporischja</exemplarCity>
@@ -2371,9 +2244,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</zone>
 			<zone type="Asia/Tashkent">
 				<exemplarCity draft="contributed">Taschkent</exemplarCity>
-			</zone>
-			<zone type="Europe/Vatican">
-				<exemplarCity>↑↑↑</exemplarCity>
 			</zone>
 			<zone type="America/St_Vincent">
 				<exemplarCity draft="contributed">Saint Vincent</exemplarCity>
@@ -2539,76 +2409,61 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>peseta andorrana</displayName>
 				<displayName count="one">peseta andorrana</displayName>
 				<displayName count="other">pesetas andorranas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="AED">
 				<displayName>dirham dals Emirats Arabs Unids</displayName>
 				<displayName count="one">dirham dals Emirats Arabs Unids</displayName>
 				<displayName count="other">dirhams dals Emirats Arabs Unids</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="AFA">
 				<displayName>afgani afgan (1927–2002)</displayName>
 				<displayName count="one">afgani afgan (1927–2002)</displayName>
 				<displayName count="other">afganis afgans (1927–2002)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="AFN">
 				<displayName>afgani afgan</displayName>
 				<displayName count="one">afgani afgan</displayName>
 				<displayName count="other">afganis afgans</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ALK">
 				<displayName>lek albanais (1947–1961)</displayName>
 				<displayName count="one">lek albanais (1947–1961)</displayName>
 				<displayName count="other">leks albanais (1947–1961)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ALL">
 				<displayName>lek albanais</displayName>
 				<displayName count="one">lek albanais</displayName>
 				<displayName count="other">leks albanais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="AMD">
 				<displayName>dram armen</displayName>
 				<displayName count="one">dram armen</displayName>
 				<displayName count="other">drams armens</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ANG">
 				<displayName>flurin da las Antillas Ollandaisas</displayName>
 				<displayName count="one">flurin da las Antillas Ollandaisas</displayName>
 				<displayName count="other">flurins da las Antillas Ollandaisas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="AOA">
 				<displayName>kwanza angolan</displayName>
 				<displayName count="one">kwanza angolan</displayName>
 				<displayName count="other">kwanzas angolans</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="AOK">
 				<displayName>kwanza angolan (1977–1991)</displayName>
 				<displayName count="one">kwanza angolan (1977–1991)</displayName>
 				<displayName count="other">kwanzas angolans (1977–1991)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="AON">
 				<displayName>nov kwanza angolan (1990–2000)</displayName>
 				<displayName count="one">nov kwanza angolan (1990–2000)</displayName>
 				<displayName count="other">novs kwanzas angolans (1990–2000)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="AOR">
 				<displayName>kwanza angolan reagiustà (1995–1999)</displayName>
 				<displayName count="one">kwanza angolan reagiustà (1995–1999)</displayName>
 				<displayName count="other">kwanzas angolans reagiustads (1995–1999)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ARA">
 				<displayName draft="contributed">austral argentin</displayName>
@@ -2624,16 +2479,13 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</currency>
 			<currency type="ARS">
 				<displayName>peso argentin</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">pesos argentins</displayName>
 				<displayName count="other">pesos argentins</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ATS">
 				<displayName>schilling austriac</displayName>
 				<displayName count="one">schilling austriac</displayName>
 				<displayName count="other">schillings austriacs</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="AUD">
 				<displayName>dollar australian</displayName>
@@ -2644,130 +2496,103 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</currency>
 			<currency type="AWG">
 				<displayName>flurin da l’Aruba</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">flurins da l’Aruba</displayName>
 				<displayName count="other">flurins da l’Aruba</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="AZM">
 				<displayName>manat aserbaidschan (1993–2006)</displayName>
 				<displayName count="one">manat aserbaidschan (1993–2006)</displayName>
 				<displayName count="other">manats aserbaidschans (1993–2006)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="AZN">
 				<displayName>manat aserbaidschan</displayName>
 				<displayName count="one">manat aserbaidschan</displayName>
 				<displayName count="other">manats aserbaidschans</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BAD">
 				<displayName>dinar da la Bosnia-Erzegovina (1992–1994)</displayName>
 				<displayName count="one">dinar da la Bosnia-Erzegovina (1992–1994)</displayName>
 				<displayName count="other">dinars da la Bosnia-Erzegovina (1992–1994)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BAM">
 				<displayName>marc convertibel da la Bosnia-Erzegovina</displayName>
 				<displayName count="one">marc convertibel da la Bosnia-Erzegovina</displayName>
 				<displayName count="other">marcs convertibel da la Bosnia-Erzegovina</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BAN">
 				<displayName>nov dinar da la Bosnia-Erzegovina (1994–1997)</displayName>
 				<displayName count="one">nov dinar da la Bosnia-Erzegovina (1994–1997)</displayName>
 				<displayName count="other">novs dinars da la Bosnia-Erzegovina (1994–1997)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BBD">
 				<displayName>dollar da Barbados</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">dollars da Barbados</displayName>
 				<displayName count="other">dollars da Barbados</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BDT">
 				<displayName>taka bangladais</displayName>
 				<displayName count="one">taka bangladais</displayName>
 				<displayName count="other">takas bangladais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BEC">
 				<displayName>franc beltg (convertibel)</displayName>
 				<displayName count="one">franc beltg (convertibel)</displayName>
 				<displayName count="other">francs beltgs (convertibels)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BEF">
 				<displayName>franc beltg</displayName>
 				<displayName count="one">franc beltg</displayName>
 				<displayName count="other">francs beltgs</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BEL">
 				<displayName>franc beltg (finanzial)</displayName>
 				<displayName count="one">franc beltg (finanzial)</displayName>
 				<displayName count="other">francs beltgs (finanzial)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BGL">
 				<displayName>lev bulgar dir</displayName>
 				<displayName count="one">lev bulgar dir</displayName>
 				<displayName count="other">levs bulgars dirs</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BGM">
 				<displayName>lev bulgar socialistic</displayName>
 				<displayName count="one">lev bulgar socialistic</displayName>
 				<displayName count="other">levs bulgars socialistics</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BGN">
 				<displayName>lev bulgar</displayName>
 				<displayName count="one">lev bulgar</displayName>
 				<displayName count="other">levs bulgars</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BGO">
 				<displayName>lev bulgar (1879–1952)</displayName>
 				<displayName count="one">lev bulgar (1879–1952)</displayName>
 				<displayName count="other">levs bulgars (1879–1952)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BHD">
 				<displayName>dinar dal Bahrain</displayName>
 				<displayName count="one">dinar dal Bahrain</displayName>
 				<displayName count="other">dinars dal Bahrain</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BIF">
 				<displayName>franc dal Burundi</displayName>
 				<displayName count="one">franc dal Burundi</displayName>
 				<displayName count="other">francs dal Burundi</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BMD">
 				<displayName>dollar da las Bermudas</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">dollars da las Bermudas</displayName>
 				<displayName count="other">dollars da las Bermudas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BND">
 				<displayName>dollar dal Brunei</displayName>
 				<displayName count="one">dollar dal Brunei</displayName>
 				<displayName count="other">dollars dal Brunei</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BOB">
 				<displayName>boliviano bolivian</displayName>
 				<displayName count="one">boliviano bolivian</displayName>
 				<displayName count="other">bolivianos bolivians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BOL">
 				<displayName draft="contributed">vegl boliviano</displayName>
@@ -2789,10 +2614,8 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</currency>
 			<currency type="BRL">
 				<displayName>real brasilian</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">reals brasilians</displayName>
 				<displayName count="other">reals brasilians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BRN">
 				<displayName draft="contributed">cruzado novo brasilian</displayName>
@@ -2805,55 +2628,43 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</currency>
 			<currency type="BSD">
 				<displayName>dollar da las Bahamas</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">dollars da las Bahamas</displayName>
 				<displayName count="other">dollars da las Bahamas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BTN">
 				<displayName>ngultrum butanais</displayName>
 				<displayName count="one">ngultrum butanais</displayName>
 				<displayName count="other">ngultrums butanais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BUK">
 				<displayName>kyat burmais</displayName>
 				<displayName count="one">kyat burmais</displayName>
 				<displayName count="other">kyats burmais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BWP">
 				<displayName>pula da la Botswana</displayName>
 				<displayName count="one">pula da la Botswana</displayName>
 				<displayName count="other">pulas da la Botswana</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BYB">
 				<displayName>rubel bieloruss (1994–1999)</displayName>
 				<displayName count="one">rubel bieloruss (1994–1999)</displayName>
 				<displayName count="other">rubels bieloruss (1994–1999)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BYN">
 				<displayName>rubel bieloruss</displayName>
 				<displayName count="one">rubel bieloruss</displayName>
 				<displayName count="other">rubels bieloruss</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BYR">
 				<displayName>rubel bieloruss (2000–2016)</displayName>
 				<displayName count="one">rubel bieloruss (2000–2016)</displayName>
 				<displayName count="other">rubels bieloruss (2000–2016)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BZD">
 				<displayName>dollar dal Belize</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">dollars dal Belize</displayName>
 				<displayName count="other">dollars dal Belize</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CAD">
 				<displayName>dollar canadais</displayName>
@@ -2866,13 +2677,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>franc congolais</displayName>
 				<displayName count="one">franc congolais</displayName>
 				<displayName count="other">francs congolais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CHE">
 				<displayName>euro WIR</displayName>
 				<displayName count="one">euro WIR</displayName>
 				<displayName count="other">euros WIR</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CHF">
 				<displayName>franc svizzer</displayName>
@@ -2884,7 +2693,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>franc WIR</displayName>
 				<displayName count="one">franc WIR</displayName>
 				<displayName count="other">francs WIR</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CLE">
 				<displayName draft="contributed">escudo chilen</displayName>
@@ -2894,129 +2702,102 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</currency>
 			<currency type="CLP">
 				<displayName>peso chilen</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">pesos chilens</displayName>
 				<displayName count="other">pesos chilens</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CNH">
 				<displayName>yuan chinais (offshore)</displayName>
 				<displayName count="one">yuan chinais (offshore)</displayName>
 				<displayName count="other">yuans chinais (offshore)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CNX">
 				<displayName draft="unconfirmed">dollar da la banca populara chinaisa</displayName>
 				<displayName count="one" draft="unconfirmed">dollar da la banca populara chinaisa</displayName>
 				<displayName count="other" draft="unconfirmed">dollars da la banca populara chinaisa</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CNY">
 				<displayName>yuan chinais</displayName>
 				<displayName count="one">yuan chinais</displayName>
 				<displayName count="other">yuans chinais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="COP">
 				<displayName>peso columbian</displayName>
 				<displayName count="one">pesos columbians</displayName>
 				<displayName count="other">pesos columbians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="COU">
 				<displayName draft="contributed">unidad de valor real</displayName>
 			</currency>
 			<currency type="CRC">
 				<displayName>colon da la Costa Rica</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">colons da la Costa Rica</displayName>
 				<displayName count="other">colons da la Costa Rica</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CSD">
 				<displayName>dinar serb (2002–2006)</displayName>
 				<displayName count="one">dinar serb (2002–2006)</displayName>
 				<displayName count="other">dinars serbs (2002–2006)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CSK">
 				<displayName>cruna tschecoslovaca</displayName>
 				<displayName count="one">cruna tschecoslovaca</displayName>
 				<displayName count="other">crunas tschecoslovacas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CUC">
 				<displayName>peso cuban convertibel</displayName>
 				<displayName count="one">peso cuban convertibel</displayName>
 				<displayName count="other">pesos cubans convertibels</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CUP">
 				<displayName>peso cuban</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">pesos cubans</displayName>
 				<displayName count="other">pesos cubans</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CVE">
 				<displayName>escudo dal Cap Verd</displayName>
 				<displayName count="one">escudo dal Cap Verd</displayName>
 				<displayName count="other">escudos dal Cap Verd</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CYP">
 				<displayName>glivra cipriota</displayName>
 				<displayName count="one">glivra cipriota</displayName>
 				<displayName count="other">glivras cipriotas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="CZK">
 				<displayName>cruna tscheca</displayName>
 				<displayName count="one">cruna tcheca</displayName>
 				<displayName count="other">crunas tschecas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="DDM">
 				<displayName>marc da la Germania da l’Ost</displayName>
 				<displayName count="one">marc da la Germania da l’Ost</displayName>
 				<displayName count="other">marcs da la Germania da l’Ost</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="DEM">
 				<displayName>marc tudestg</displayName>
 				<displayName count="one">marc tudestg</displayName>
 				<displayName count="other">marcs tudestgs</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="DJF">
 				<displayName>franc dal Dschibuti</displayName>
 				<displayName count="one">franc dal Dschibuti</displayName>
 				<displayName count="other">francs dal Dschibuti</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="DKK">
 				<displayName>cruna danaisa</displayName>
 				<displayName count="one">cruna danaisa</displayName>
 				<displayName count="other">crunas danaisas</displayName>
 				<symbol draft="contributed">DKK</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="DOP">
 				<displayName>peso dominican</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">pesos dominicans</displayName>
 				<displayName count="other">pesos dominicans</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="DZD">
 				<displayName>dinar algerian</displayName>
 				<displayName count="one">dinar algerian</displayName>
 				<displayName count="other">dinars algerians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ECS">
 				<displayName draft="contributed">sucre equadorian</displayName>
@@ -3034,39 +2815,31 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>glivra egipziana</displayName>
 				<displayName count="one">glivra egipziana</displayName>
 				<displayName count="other">glivras egipzianas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ERN">
 				<displayName>nakfa eritreic</displayName>
 				<displayName count="one">nakfa eritreic</displayName>
 				<displayName count="other">nakfas eritreics</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ESA">
 				<displayName>peseta spagnola (conto A)</displayName>
 				<displayName count="one">peseta spagnola (conto A)</displayName>
 				<displayName count="other">pesetas spagnolas (conto A)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ESB">
 				<displayName>peseta spagnola (conto convertibel)</displayName>
 				<displayName count="one">peseta spagnola (conto convertibel)</displayName>
 				<displayName count="other">pesetas spagnolas (conto convertibel)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ESP">
 				<displayName>peseta spagnola</displayName>
 				<displayName count="one">peseta spagnola</displayName>
 				<displayName count="other">pesetas spagnolas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ETB">
 				<displayName>birr etiopic</displayName>
 				<displayName count="one">birr etiopic</displayName>
 				<displayName count="other">birrs etiopics</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="EUR">
 				<displayName>euro</displayName>
@@ -3085,21 +2858,16 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>dollar dal Fidschi</displayName>
 				<displayName count="one">dollar dal Fidschi</displayName>
 				<displayName count="other">dollars dal Fidschi</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="FKP">
 				<displayName>glivra dal Falkland</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">glivras dal Falkland</displayName>
 				<displayName count="other">glivras dal Falkland</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="FRF">
 				<displayName>franc franzos</displayName>
 				<displayName count="one">franc franzos</displayName>
 				<displayName count="other">francs franzos</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GBP">
 				<displayName>glivra britannica</displayName>
@@ -3112,138 +2880,107 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>kupon larit georgian</displayName>
 				<displayName count="one">kupon larit georgian</displayName>
 				<displayName count="other">kupon larits georgians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GEL">
 				<displayName>lari georgian</displayName>
 				<displayName count="one">lari georgian</displayName>
 				<displayName count="other">laris georgians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GHC">
 				<displayName>cedi ghanais (1979–2007)</displayName>
 				<displayName count="one">cedi ghanais (1979–2007)</displayName>
 				<displayName count="other">cedis ghanais (1979–2007)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GHS">
 				<displayName>cedi ghanais</displayName>
 				<displayName count="one">cedi ghanais</displayName>
 				<displayName count="other">cedis ghanais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GIP">
 				<displayName>glivra da Gibraltar</displayName>
 				<displayName count="one">glivra da Gibraltar</displayName>
 				<displayName count="other">glivras da Gibraltar</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GMD">
 				<displayName>dalasi gambic</displayName>
 				<displayName count="one">dalasi gambic</displayName>
 				<displayName count="other">dalasis gambics</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GNF">
 				<displayName>franc da la Guinea</displayName>
 				<displayName count="one">franc da la Guinea</displayName>
 				<displayName count="other">francs da la Guinea</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GNS">
 				<displayName draft="contributed">syli da la Guinea</displayName>
-				<displayName count="one" draft="unconfirmed">↑↑↑</displayName>
+				<displayName count="one" draft="unconfirmed">sylis da la Guinea</displayName>
 				<displayName count="other" draft="unconfirmed">sylis da la Guinea</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="GQE">
 				<displayName draft="contributed">ekwele da la Guinea Equatoriala</displayName>
-				<displayName count="one" draft="unconfirmed">↑↑↑</displayName>
+				<displayName count="one" draft="unconfirmed">ekweles da la Guinea Equatoriala</displayName>
 				<displayName count="other" draft="unconfirmed">ekweles da la Guinea Equatoriala</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="GRD">
 				<displayName>drachma greca</displayName>
 				<displayName count="one">drachma greca</displayName>
 				<displayName count="other">drachmas grecas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GTQ">
 				<displayName>quetzal da la Guatemala</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">quetzals da la Guatemala</displayName>
 				<displayName count="other">quetzals da la Guatemala</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GWE">
 				<displayName draft="contributed">escudo da la Guinea Portugaisa</displayName>
-				<displayName count="one" draft="unconfirmed">↑↑↑</displayName>
+				<displayName count="one" draft="unconfirmed">escudos da la Guinea Portugaisa</displayName>
 				<displayName count="other" draft="unconfirmed">escudos da la Guinea Portugaisa</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="GWP">
 				<displayName>peso da la Guinea-Bissau</displayName>
 				<displayName count="one">peso da la Guinea-Bissau</displayName>
 				<displayName count="other">pesos da la Guinea-Bissau</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GYD">
 				<displayName>dollar da la Guyana</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">dollars da la Guyana</displayName>
 				<displayName count="other">dollars da la Guyana</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="HKD">
 				<displayName>dollar da Hongkong</displayName>
 				<displayName count="one">dollar da Hongkong</displayName>
 				<displayName count="other">dollars da Hongkong</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="HNL">
 				<displayName>lempira hondurian</displayName>
 				<displayName count="one">lempira hondurian</displayName>
 				<displayName count="other">lempiras hondurians</displayName>
 				<symbol draft="contributed">HNL</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="HRD">
 				<displayName>dinar croat</displayName>
 				<displayName count="one">dinar croat</displayName>
 				<displayName count="other">dinars croats</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="HRK">
 				<displayName>kuna croata</displayName>
 				<displayName count="one">kuna croata</displayName>
 				<displayName count="other">kunas croatas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="HTG">
 				<displayName>gourde haitian</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">gourdes haitians</displayName>
 				<displayName count="other">gourdes haitians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="HUF">
 				<displayName>forint ungarais</displayName>
 				<displayName count="one">forint ungarais</displayName>
 				<displayName count="other">forints ungarais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="IDR">
 				<displayName draft="contributed">rupia indonaisa</displayName>
 				<displayName count="one">rupia indonaisa</displayName>
 				<displayName count="other">rupias indonaisas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="IEP">
 				<displayName draft="contributed">glivra indonaisa</displayName>
@@ -3255,39 +2992,31 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName draft="contributed">glivra israeliana</displayName>
 				<displayName count="one">glivra israeliana</displayName>
 				<displayName count="other">glivras israelianas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ILR">
 				<displayName>schekel israelian (1980–1985)</displayName>
 				<displayName count="one">schekel israelian (1980–1985)</displayName>
 				<displayName count="other">schekels israelians (1980–1985)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ILS">
 				<displayName>nov schekel israelian</displayName>
 				<displayName count="one">nov schekel israelian</displayName>
 				<displayName count="other">novs schekels israelians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="INR">
 				<displayName>rupia indica</displayName>
 				<displayName count="one">rupia indica</displayName>
 				<displayName count="other">rupias indicas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="IQD">
 				<displayName>dinar iracais</displayName>
 				<displayName count="one">dinar iracais</displayName>
 				<displayName count="other">dinars iracais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="IRR">
 				<displayName>rial iranais</displayName>
 				<displayName count="one">rial iranais</displayName>
 				<displayName count="other">rials iranais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ISJ">
 				<displayName draft="contributed">veglia cruna islandaisa</displayName>
@@ -3300,13 +3029,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName count="one">cruna islandaisa</displayName>
 				<displayName count="other">crunas islandaisas</displayName>
 				<symbol draft="contributed">ISK</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ITL">
 				<displayName>lira taliana</displayName>
 				<displayName count="one">lira taliana</displayName>
 				<displayName count="other">liras talianas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="JMD">
 				<displayName>dollar giamaican</displayName>
@@ -3319,72 +3046,56 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>dinar jordanic</displayName>
 				<displayName count="one">dinar jordanic</displayName>
 				<displayName count="other">dinars jordanics</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="JPY">
 				<displayName>yen giapunais</displayName>
 				<displayName count="one">yen giapunais</displayName>
 				<displayName count="other">yens giapunais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="KES">
 				<displayName>schilling kenian</displayName>
 				<displayName count="one">schilling kenian</displayName>
 				<displayName count="other">schillings kenians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="KGS">
 				<displayName>som kirgis</displayName>
 				<displayName count="one">som kirgis</displayName>
 				<displayName count="other">soms kirgis</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="KHR">
 				<displayName>riel cambodschan</displayName>
 				<displayName count="one">riel cambodschan</displayName>
 				<displayName count="other">riels cambodschans</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="KMF">
 				<displayName>franc comorian</displayName>
 				<displayName count="one">franc comorian</displayName>
 				<displayName count="other">francs comorians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="KPW">
 				<displayName>won da la Corea dal Nord</displayName>
 				<displayName count="one">won da la Corea dal Nord</displayName>
 				<displayName count="other">wons da la Corea dal Nord</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="KRH">
 				<displayName>hwan da la Corea dal Sid (1953–1962)</displayName>
 				<displayName count="one">hwan da la Corea dal Sid (1953–1962)</displayName>
 				<displayName count="other">hwans da la Corea dal Sid (1953–1962)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="KRO">
 				<displayName>won da la Corea dal Sid (1945–1953)</displayName>
 				<displayName count="one">won da la Corea dal Sid (1945–1953)</displayName>
 				<displayName count="other">wons da la Corea dal Sid (1945–1953)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="KRW">
 				<displayName>won da la Corea dal Sid</displayName>
 				<displayName count="one">won da la Corea dal Sid</displayName>
 				<displayName count="other">wons da la Corea dal Sid</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="KWD">
 				<displayName>dinar dal Kuwait</displayName>
 				<displayName count="one">dinar dal Kuwait</displayName>
 				<displayName count="other">dinars dal Kuwait</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="KYD">
 				<displayName>dollar da las Inslas Cayman</displayName>
@@ -3397,222 +3108,176 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>tenge kasac</displayName>
 				<displayName count="one">tenge kasac</displayName>
 				<displayName count="other">tenges kasacs</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="LAK">
 				<displayName>kip laot</displayName>
 				<displayName count="one">kip laot</displayName>
 				<displayName count="other">kips laots</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="LBP">
 				<displayName>glivra libanaisa</displayName>
 				<displayName count="one">glivra libanaisa</displayName>
 				<displayName count="other">glivras libanaisas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="LKR">
 				<displayName>rupia da la Sri Lanka</displayName>
 				<displayName count="one">rupia da la Sri Lanka</displayName>
 				<displayName count="other">rupias da la Sri Lanka</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="LRD">
 				<displayName>dollar liberian</displayName>
 				<displayName count="one">dollar liberian</displayName>
 				<displayName count="other">dollars liberians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="LSL">
 				<displayName>loti dal Lesotho</displayName>
 				<displayName count="one">loti dal Lesotho</displayName>
 				<displayName count="other">lotis dal Lesotho</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="LTL">
 				<displayName draft="contributed">litas lituan</displayName>
-				<displayName count="one" draft="unconfirmed">↑↑↑</displayName>
+				<displayName count="one" draft="unconfirmed">litas lituans</displayName>
 				<displayName count="other" draft="unconfirmed">litas lituans</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="LTT">
 				<displayName draft="contributed">talonas lituan</displayName>
 				<displayName count="one" draft="unconfirmed">talonas lituan</displayName>
 				<displayName count="other" draft="unconfirmed">talonas lituans</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="LUC">
 				<displayName draft="contributed">franc convertibel luxemburgais</displayName>
-				<displayName count="one" draft="unconfirmed">↑↑↑</displayName>
+				<displayName count="one" draft="unconfirmed">francs convertibels luxemburgais</displayName>
 				<displayName count="other" draft="unconfirmed">francs convertibels luxemburgais</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="LUF">
 				<displayName>franc luxemburgais</displayName>
 				<displayName count="one">franc luxemburgais</displayName>
 				<displayName count="other">francs luxemburgais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="LUL">
 				<displayName>franc finanzial luxemburgais</displayName>
 				<displayName count="one">franc finanzial luxemburgais</displayName>
 				<displayName count="other">francs finanzials luxemburgais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="LVL">
 				<displayName draft="contributed">lats letton</displayName>
 				<displayName count="one" draft="unconfirmed">lats letton</displayName>
 				<displayName count="other" draft="unconfirmed">lats lettons</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="LVR">
 				<displayName>rubel letton</displayName>
 				<displayName count="one">rubel letton</displayName>
 				<displayName count="other">rubels lettons</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="LYD">
 				<displayName>dinar libic</displayName>
 				<displayName count="one">dinar libic</displayName>
 				<displayName count="other">dinars libics</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MAD">
 				<displayName>dirham marocan</displayName>
 				<displayName count="one">dirham marocan</displayName>
 				<displayName count="other">dirhams marocans</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MAF">
 				<displayName>franc marocan</displayName>
 				<displayName count="one">franc marocan</displayName>
 				<displayName count="other">francs marocans</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MCF">
 				<displayName>franc monegass</displayName>
 				<displayName count="one">franc monegass</displayName>
 				<displayName count="other">francs monegass</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MDC">
 				<displayName>cupon moldav</displayName>
 				<displayName count="one">cupon moldav</displayName>
 				<displayName count="other">cupons moldavs</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MDL">
 				<displayName>leu moldav</displayName>
 				<displayName count="one">leu moldav</displayName>
 				<displayName count="other">leus moldavs</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MGA">
 				<displayName>ariary madagasc</displayName>
 				<displayName count="one">ariary madagasc</displayName>
 				<displayName count="other">ariarys madagascs</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MGF">
 				<displayName>franc madagasc</displayName>
 				<displayName count="one">franc madagasc</displayName>
 				<displayName count="other">francs madagascs</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MKD">
 				<displayName>dinar macedon</displayName>
 				<displayName count="one">dinar macedon</displayName>
 				<displayName count="other">dinars macedons</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MKN">
 				<displayName>dinar macedon (1992–1993)</displayName>
 				<displayName count="one">dinar macedon (1992–1993)</displayName>
 				<displayName count="other">dinars macedons (1992–1993)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MLF">
 				<displayName>franc dal Mali</displayName>
 				<displayName count="one">franc dal Mali</displayName>
 				<displayName count="other">francs dal Mali</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MMK">
 				<displayName>kyat dal Myanmar</displayName>
 				<displayName count="one">kyat dal Myanmar</displayName>
 				<displayName count="other">kyats dal Myanmar</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MNT">
 				<displayName>tugrik mongolic</displayName>
 				<displayName count="one">tugrik mongolic</displayName>
 				<displayName count="other">tugriks mongolics</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MOP">
 				<displayName>pataca dal Macao</displayName>
 				<displayName count="one">pataca dal Macao</displayName>
 				<displayName count="other">patacas dal Macao</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MRO">
 				<displayName>ouguiya da la Mauretania (1973–2017)</displayName>
 				<displayName count="one">ouguiya da la Mauretania (1973–2017)</displayName>
 				<displayName count="other">ouguiyas da la Mauretania (1973–2017)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MRU">
 				<displayName>ouguiya da la Mauretania</displayName>
 				<displayName count="one">ouguiya da la Mauretania</displayName>
 				<displayName count="other">ouguiyas da la Mauretania</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MTL">
 				<displayName>lira maltaisa</displayName>
 				<displayName count="one">lira maltaisa</displayName>
 				<displayName count="other">liras maltaisas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MTP">
 				<displayName>glivra maltaisa</displayName>
 				<displayName count="one">glivra maltaisa</displayName>
 				<displayName count="other">glivras maltaisas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MUR">
 				<displayName>rupia dal Mauritius</displayName>
 				<displayName count="one">rupia dal Mauritius</displayName>
 				<displayName count="other">rupias dal Mauritius</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MVP">
 				<displayName>rupia da las Maledivas (1947–1981)</displayName>
 				<displayName count="one">rupia da las Maledivas (1947–1981)</displayName>
 				<displayName count="other">rupias da las Maledivas (1947–1981)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MVR">
 				<displayName>rufiyaa da las Maledivas</displayName>
 				<displayName count="one">rufiyaa da las Maledivas</displayName>
 				<displayName count="other">rufiyaas da las Maledivas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MWK">
 				<displayName>kwacha dal Malawi</displayName>
 				<displayName count="one">kwacha dal Malawi</displayName>
 				<displayName count="other">kwachas dal Malawi</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MXN">
 				<displayName>peso mexican</displayName>
@@ -3631,40 +3296,31 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>ringgit malaisic</displayName>
 				<displayName count="one">ringgit malaisic</displayName>
 				<displayName count="other">ringgits malaisics</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MZE">
 				<displayName>escudo dal Mosambic</displayName>
 				<displayName count="one">escudo dal Mosambic</displayName>
 				<displayName count="other">escudos dal Mosambic</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MZM">
 				<displayName>metical dal Mosambic (1980–2006)</displayName>
 				<displayName count="one">metical dal Mosambic (1980–2006)</displayName>
 				<displayName count="other">meticals dal Mosambic (1980–2006)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="MZN">
 				<displayName>metical dal Mosambic</displayName>
 				<displayName count="one">metical dal Mosambic</displayName>
 				<displayName count="other">meticals dal Mosambic</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="NAD">
 				<displayName>dollar namibian</displayName>
 				<displayName count="one">dollar namibian</displayName>
 				<displayName count="other">dollars namibians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="NGN">
 				<displayName>naira nigeriana</displayName>
 				<displayName count="one">naira nigeriana</displayName>
 				<displayName count="other">nairas nigerianas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="NIC">
 				<displayName draft="contributed">cordoba nicaraguan</displayName>
@@ -3673,56 +3329,45 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>córdoba nicaraguan</displayName>
 				<displayName count="one">córdoba nicaraguan</displayName>
 				<displayName count="other">córdobas nicaraguans</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="NLG">
 				<displayName>flurin ollandais</displayName>
 				<displayName count="one">flurin ollandais</displayName>
 				<displayName count="other">flurins ollandais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="NOK">
 				<displayName>cruna norvegiaisa</displayName>
 				<displayName count="one">cruna norvegiaisa</displayName>
 				<displayName count="other">crunas norvegiaisas</displayName>
 				<symbol draft="contributed">NOK</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="NPR">
 				<displayName>rupia nepalaisa</displayName>
 				<displayName count="one">rupia nepalaisa</displayName>
 				<displayName count="other">rupias nepalaisas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="NZD">
 				<displayName>dollar da la Nova Zelanda</displayName>
 				<displayName count="one">dollar da la Nova Zelanda</displayName>
 				<displayName count="other">dollars da la Nova Zelanda</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="OMR">
 				<displayName>rial da l’Oman</displayName>
 				<displayName count="one">rial da l’Oman</displayName>
 				<displayName count="other">rials da l’Oman</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="PAB">
 				<displayName>balboa dal Panama</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">balboas dal Panama</displayName>
 				<displayName count="other">balboas dal Panama</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="PEI">
 				<displayName draft="contributed">inti peruan</displayName>
 			</currency>
 			<currency type="PEN">
 				<displayName>sol peruan</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">soles peruans</displayName>
 				<displayName count="other">soles peruans</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="PES">
 				<displayName draft="contributed">sol peruan (1863–1965)</displayName>
@@ -3731,100 +3376,79 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>kina da la Papua Nova Guinea</displayName>
 				<displayName count="one">kina da la Papua Nova Guinea</displayName>
 				<displayName count="other">kinas da la Papua Nova Guinea</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="PHP">
 				<displayName>peso filippin</displayName>
 				<displayName count="one">peso filippin</displayName>
 				<displayName count="other">pesos filippins</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="PKR">
 				<displayName>rupia pakistana</displayName>
 				<displayName count="one">rupia pakistana</displayName>
 				<displayName count="other">rupias pakistanas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="PLN">
 				<displayName>zloty polac</displayName>
 				<displayName count="one">zloty polac</displayName>
 				<displayName count="other">zlotys polacs</displayName>
 				<symbol draft="contributed">PLN</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="PLZ">
 				<displayName draft="contributed">zloty polac (1950–1995)</displayName>
 				<displayName count="one" draft="contributed">zloty polac (1950–1995)</displayName>
 				<displayName count="other" draft="contributed">zloty polac (1950–1995)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="PTE">
 				<displayName>escudo portugais</displayName>
 				<displayName count="one">escudo portugais</displayName>
 				<displayName count="other">escudos portugais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="PYG">
 				<displayName>guarani paraguaian</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">guaranis paraguaians</displayName>
 				<displayName count="other">guaranis paraguaians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="QAR">
 				<displayName>rial da Katar</displayName>
 				<displayName count="one">rial da Katar</displayName>
 				<displayName count="other">rials da Katar</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="RHD">
 				<displayName draft="contributed">dollar rodesian</displayName>
-				<displayName count="one" draft="unconfirmed">↑↑↑</displayName>
+				<displayName count="one" draft="unconfirmed">dollars rodesians</displayName>
 				<displayName count="other" draft="unconfirmed">dollars rodesians</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="ROL">
 				<displayName>leu rumen (1952–2006)</displayName>
 				<displayName count="one">leu rumen (1952–2006)</displayName>
 				<displayName count="other">leus rumens (1952–2006)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="RON">
 				<displayName>leu rumen</displayName>
 				<displayName count="one">leu rumen</displayName>
 				<displayName count="other">leus rumens</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="RSD">
 				<displayName>dinar serb</displayName>
 				<displayName count="one">dinar serb</displayName>
 				<displayName count="other">dinars serbs</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="RUB">
 				<displayName>rubel russ</displayName>
 				<displayName count="one">rubel russ</displayName>
 				<displayName count="other">rubels russ</displayName>
 				<symbol draft="contributed">RUB</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
-				<symbol alt="variant" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="RUR">
 				<displayName draft="contributed">rubel russ (vegl)</displayName>
 				<displayName count="one" draft="contributed">rubel russ (vegl)</displayName>
 				<displayName count="other" draft="contributed">rubel russ (vegl)</displayName>
 				<symbol draft="contributed">RUR</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="RWF">
 				<displayName>franc ruandais</displayName>
 				<displayName count="one">franc ruandais</displayName>
 				<displayName count="other">francs ruandais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SAR">
 				<displayName>riyal saudit</displayName>
@@ -3836,84 +3460,67 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>dollar da las Inslas da Salomon</displayName>
 				<displayName count="one">dollar da las Inslas da Salomon</displayName>
 				<displayName count="other">dollars da las Inslas da Salomon</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SCR">
 				<displayName>rupia da las Seychellas</displayName>
 				<displayName count="one">rupia da las Seychellas</displayName>
 				<displayName count="other">rupias da las Seychellas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SDD">
 				<displayName>dinar sudanais (1992–2007)</displayName>
 				<displayName count="one">dinar sudanais (1992–2007)</displayName>
 				<displayName count="other">dinars sudanais (1992–2007)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SDG">
 				<displayName>glivra sudanaisa</displayName>
 				<displayName count="one">glivra sudanaisa</displayName>
 				<displayName count="other">glivras sudanaisas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SDP">
 				<displayName>glivra sudanaisa (1957–1998)</displayName>
 				<displayName count="one">glivra sudanaisa (1957–1998)</displayName>
 				<displayName count="other">glivras sudanaisas (1957–1998)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SEK">
 				<displayName>cruna svedaisa</displayName>
 				<displayName count="one">cruna svedaisa</displayName>
 				<displayName count="other">crunas svedaisas</displayName>
 				<symbol draft="contributed">SEK</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SGD">
 				<displayName>dollar dal Singapur</displayName>
 				<displayName count="one">dollar dal Singapur</displayName>
 				<displayName count="other">dollars dal Singapur</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SHP">
 				<displayName>glivra da Sontg’Elena</displayName>
 				<displayName count="one">glivra da Sontg’Elena</displayName>
 				<displayName count="other">glivras da Sontg’Elena</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SIT">
 				<displayName>tolar sloven</displayName>
 				<displayName count="one">tolar sloven</displayName>
 				<displayName count="other">tolars slovens</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SKK">
 				<displayName>cruna slovaca</displayName>
 				<displayName count="one">cruna slovaca</displayName>
 				<displayName count="other">crunas slovacas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SLL">
 				<displayName>leone da la Sierra Leone</displayName>
 				<displayName count="one">leone da la Sierra Leone</displayName>
 				<displayName count="other">leones da la Sierra Leone</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SOS">
 				<displayName>schilling somalian</displayName>
 				<displayName count="one">schilling somalian</displayName>
 				<displayName count="other">schillings somalians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SRD">
 				<displayName>dollar surinam</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">dollars surinams</displayName>
 				<displayName count="other">dollars surinams</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SRG">
 				<displayName draft="contributed">flurin surinam</displayName>
@@ -3922,27 +3529,21 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>glivra sidsudanaisa</displayName>
 				<displayName count="one">glivra sidsudanaisa</displayName>
 				<displayName count="other">glivras sidsudanaisas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="STD">
 				<displayName draft="contributed">dobra da São Tomé e Principe (1977–2017)</displayName>
 				<displayName count="one" draft="unconfirmed">dobra da São Tomé e Príncipe (1977–2017)</displayName>
 				<displayName count="other" draft="unconfirmed">dobras da São Tomé e Príncipe (1977–2017)</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="STN">
 				<displayName>dobra da São Tomé e Principe</displayName>
 				<displayName count="one">dobra da São Tomé e Príncipe</displayName>
 				<displayName count="other">dobras da São Tomé e Príncipe</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SUR">
 				<displayName>rubel sovietic</displayName>
 				<displayName count="one">rubel sovietic</displayName>
 				<displayName count="other">rubels sovietics</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SVC">
 				<displayName draft="contributed">colon da l’El Salvador</displayName>
@@ -3951,70 +3552,56 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>glivra siriana</displayName>
 				<displayName count="one">glivra siriana</displayName>
 				<displayName count="other">glivras sirianas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="SZL">
 				<displayName>lilangeni dal Swaziland</displayName>
 				<displayName count="one">lilangeni dal Swaziland</displayName>
 				<displayName count="other">emalangenis dal Swaziland</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="THB">
 				<displayName>baht tailandais</displayName>
 				<displayName count="one">baht tailandais</displayName>
 				<displayName count="other">bahts tailandais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="TJR">
 				<displayName>rubel tadschic</displayName>
 				<displayName count="one">rubel tadschic</displayName>
 				<displayName count="other">rubels tadschics</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="TJS">
 				<displayName>somoni tadschic</displayName>
 				<displayName count="one">somoni tadschic</displayName>
 				<displayName count="other">somonis tadschics</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="TMM">
 				<displayName>manat turkmen (1993–2009)</displayName>
 				<displayName count="one">manat turkmen (1993–2009)</displayName>
 				<displayName count="other">manats turkmens (1993–2009)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="TMT">
 				<displayName>manat turkmen</displayName>
 				<displayName count="one">manat turkmen</displayName>
 				<displayName count="other">manats turkmens</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="TND">
 				<displayName>dinar tunesian</displayName>
 				<displayName count="one">dinar tunesian</displayName>
 				<displayName count="other">dinars tunesians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="TOP">
 				<displayName>paʻanga da Tonga</displayName>
 				<displayName count="one">paʻanga da Tonga</displayName>
 				<displayName count="other">pa’angas da Tonga</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="TPE">
 				<displayName>escudo dal Timor</displayName>
 				<displayName count="one">escudo dal Timor</displayName>
 				<displayName count="other">escudos dal Timor</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="TRL">
 				<displayName>lira tirca (1922–2005)</displayName>
 				<displayName count="one">lira tirca (1922–2005)</displayName>
 				<displayName count="other">liras tircas (1922–2005)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="TRY">
 				<displayName>lira tirca</displayName>
@@ -4026,48 +3613,38 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</currency>
 			<currency type="TTD">
 				<displayName>dollar da Trinidad e Tobago</displayName>
-				<displayName count="one">↑↑↑</displayName>
+				<displayName count="one">dollars da Trinidad e Tobago</displayName>
 				<displayName count="other">dollars da Trinidad e Tobago</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="TWD">
 				<displayName>nov dollar taiwanais</displayName>
 				<displayName count="one">nov dollar taiwanais</displayName>
 				<displayName count="other">novs dollars taiwanais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="TZS">
 				<displayName>schilling tansanian</displayName>
 				<displayName count="one">schilling tansanian</displayName>
 				<displayName count="other">schillings tansanians</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="UAH">
 				<displayName>hryvnia ucranaisa</displayName>
 				<displayName count="one">hryvnia ucranaisa</displayName>
 				<displayName count="other">hryvnias ucranaisas</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="UAK">
 				<displayName>karbovanets ucranais</displayName>
 				<displayName count="one">karbovanets ucranais</displayName>
 				<displayName count="other">karbovantsiv ucranais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="UGS">
 				<displayName>schilling ugandais (1966–1987)</displayName>
 				<displayName count="one">schilling ugandais (1966–1987)</displayName>
 				<displayName count="other">schillings ugandais (1966–1987)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="UGX">
 				<displayName>schilling ugandais</displayName>
 				<displayName count="one">schilling ugandais</displayName>
 				<displayName count="other">schillings ugandais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="USD">
 				<displayName>dollar da l’USA</displayName>
@@ -4092,14 +3669,11 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>peso da l’Uruguay</displayName>
 				<displayName count="one">peso da l’Uruguai</displayName>
 				<displayName count="other">pesos da l’Uruguai</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="UZS">
 				<displayName>som usbec</displayName>
 				<displayName count="one">som usbec</displayName>
 				<displayName count="other">soms usbecs</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="VEB">
 				<displayName draft="contributed">bolivar venezuelan (1871–2008)</displayName>
@@ -4111,32 +3685,26 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>bolívar venezuelan</displayName>
 				<displayName count="one">bolívar venezuelan</displayName>
 				<displayName count="other">bolívars venezuelans</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="VND">
 				<displayName>dong vietnamais</displayName>
 				<displayName count="one">dong vietnamais</displayName>
 				<displayName count="other">dongs vietnamais</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="VNN">
 				<displayName>dong vietnamais (1978–1985)</displayName>
 				<displayName count="one">dong vietnamais (1978–1985)</displayName>
 				<displayName count="other">dongs vietnamais (1978–1985)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="VUV">
 				<displayName>vatu dal Vanuatu</displayName>
 				<displayName count="one">vatu dal Vanuatu</displayName>
 				<displayName count="other">vatus dal Vanuatu</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="WST">
 				<displayName>tala da la Samoa</displayName>
 				<displayName count="one">tala da la Samoa</displayName>
 				<displayName count="other">talas da la Samoa</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="XAF">
 				<displayName>franc CFA da l’Africa Centrala</displayName>
@@ -4151,38 +3719,32 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName draft="contributed">aur</displayName>
 				<displayName count="one" draft="unconfirmed">unza d’aur</displayName>
 				<displayName count="other" draft="unconfirmed">unzas d’aur</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="XBA">
 				<displayName draft="contributed">unitad europeica cumponida</displayName>
-				<displayName count="one" draft="unconfirmed">↑↑↑</displayName>
+				<displayName count="one" draft="unconfirmed">unitads europeicas cumponidas</displayName>
 				<displayName count="other" draft="unconfirmed">unitads europeicas cumponidas</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="XBC">
 				<displayName draft="contributed">unitad dal quint europeica (XBC)</displayName>
 				<displayName count="one" draft="unconfirmed">unitad dal quint europeica (XBC)</displayName>
 				<displayName count="other" draft="unconfirmed">unitads dal quint europeicas (XBC)</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="XBD">
 				<displayName draft="contributed">unitad dal quint europeica (XBD)</displayName>
-				<displayName count="one" draft="unconfirmed">↑↑↑</displayName>
+				<displayName count="one" draft="unconfirmed">unitads dal quint europeicas (XBD)</displayName>
 				<displayName count="other" draft="unconfirmed">unitads dal quint europeicas (XBD)</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="XCD">
 				<displayName>dollar da la Caribica Orientala</displayName>
 				<displayName count="one">dollar da la Caribica Orientala</displayName>
 				<displayName count="other">dollars da la Caribica Orientala</displayName>
 				<symbol draft="contributed">EC$</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="XDR">
 				<displayName draft="contributed">dretgs da prelevaziun spezials</displayName>
 				<displayName count="one" draft="unconfirmed">dretg da prelevaziun spezial</displayName>
-				<displayName count="other" draft="unconfirmed">↑↑↑</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
+				<displayName count="other" draft="unconfirmed">dretgs da prelevaziun spezials</displayName>
 			</currency>
 			<currency type="XEU">
 				<displayName draft="unconfirmed">unitad monetara europeica</displayName>
@@ -4192,15 +3754,13 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</currency>
 			<currency type="XFO">
 				<displayName draft="contributed">franc d’aur franzos</displayName>
-				<displayName count="one" draft="unconfirmed">↑↑↑</displayName>
+				<displayName count="one" draft="unconfirmed">francs d’aur franzos</displayName>
 				<displayName count="other" draft="unconfirmed">francs d’aur franzos</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="XFU">
 				<displayName draft="contributed">franc UIC franzos</displayName>
-				<displayName count="one" draft="unconfirmed">↑↑↑</displayName>
+				<displayName count="one" draft="unconfirmed">francs UIC franzos</displayName>
 				<displayName count="other" draft="unconfirmed">francs UIC franzos</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="XOF">
 				<displayName>franc CFA da l’Africa dal Vest</displayName>
@@ -4212,19 +3772,16 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName draft="contributed">palladi</displayName>
 				<displayName count="one" draft="unconfirmed">unza da palladi</displayName>
 				<displayName count="other" draft="unconfirmed">unzas da palladi</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="XPF">
 				<displayName>franc CFP</displayName>
 				<displayName count="one">franc CFP</displayName>
 				<displayName count="other">francs CFP</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="XPT">
 				<displayName draft="contributed">platin</displayName>
 				<displayName count="one" draft="unconfirmed">unza da platin</displayName>
 				<displayName count="other" draft="unconfirmed">unzas da platin</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="XRE">
 				<displayName draft="contributed">fonds RINET</displayName>
@@ -4233,111 +3790,89 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName draft="unconfirmed">zutger</displayName>
 				<displayName count="one" draft="unconfirmed">zutger</displayName>
 				<displayName count="other" draft="unconfirmed">zutgers</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="XTS">
 				<displayName draft="contributed">code per verifitgar la valuta</displayName>
-			</currency>
-			<currency type="XUA">
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="XXX">
 				<displayName>valuta nunenconuschenta</displayName>
 				<displayName count="one">(unitad nunenconuschenta da la valuta)</displayName>
 				<displayName count="other">(valuta nunenconuschenta)</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="YDD">
 				<displayName>dinar jemenit</displayName>
 				<displayName count="one">dinar jemenit</displayName>
 				<displayName count="other">dinars jemenits</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="YER">
 				<displayName>rial jemenit</displayName>
 				<displayName count="one">rial jemenit</displayName>
 				<displayName count="other">rials jemenits</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="YUD">
 				<displayName>dinar jugoslav dir (1966–1990)</displayName>
 				<displayName count="one">dinar jugoslav dir (1966–1990)</displayName>
 				<displayName count="other">dinars jugoslavs dirs (1966–1990)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="YUM">
 				<displayName>nov dinar jugoslav (1994–2002)</displayName>
 				<displayName count="one">nov dinar jugoslav (1994–2002)</displayName>
 				<displayName count="other">novs dinars jugoslavs (1994–2002)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="YUN">
 				<displayName>dinar jugoslav convertibel (1990–1992)</displayName>
 				<displayName count="one">dinar jugoslav convertibel (1990–1992)</displayName>
 				<displayName count="other">dinars jugoslavs convertibels (1990–1992)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="YUR">
 				<displayName>dinar jugoslav refurmà (1992–1993)</displayName>
 				<displayName count="one">dinar jugoslav refurmà (1992–1993)</displayName>
 				<displayName count="other">dinars jugoslavs refurmads (1992–1993)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ZAL">
 				<displayName>rand sidafrican (finanzial)</displayName>
 				<displayName count="one">rand sidafrican (finanzial)</displayName>
 				<displayName count="other">rands sidafricans (finanzial)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ZAR">
 				<displayName>rand sidafrican</displayName>
 				<displayName count="one">rand sidafrican</displayName>
 				<displayName count="other">rands sidafricans</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ZMK">
 				<displayName>kwacha da la Sambia (1968–2012)</displayName>
 				<displayName count="one">kwacha da la Sambia (1968–2012)</displayName>
 				<displayName count="other">kwachas da la Sambia (1968–2012)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ZMW">
 				<displayName>kwacha da la sambia</displayName>
 				<displayName count="one">kwacha da la Sambia</displayName>
 				<displayName count="other">kwachas da la Sambia</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ZRN">
 				<displayName>nov zaire dal Zaire (1993–1998)</displayName>
 				<displayName count="one">nov zaire dal Zaire (1993–1998)</displayName>
 				<displayName count="other">novs zaires dal Zaire (1993–1998)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ZRZ">
 				<displayName draft="contributed">zaire dal Zaire</displayName>
 				<displayName count="one" draft="unconfirmed">zaire dal Zaire (1971–1993)</displayName>
 				<displayName count="other" draft="unconfirmed">zaires dal Zaire (1971–1993)</displayName>
-				<symbol draft="unconfirmed">↑↑↑</symbol>
 			</currency>
 			<currency type="ZWD">
 				<displayName>dollar dal Simbabwe (1980–2008)</displayName>
 				<displayName count="one">dollar dal Simbabwe (1980–2008)</displayName>
 				<displayName count="other">dollars dal Simbabwe (1980–2008)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ZWL">
 				<displayName>dollar dal Simbabwe (2009)</displayName>
 				<displayName count="one">dollar dal Simbabwe (2009)</displayName>
 				<displayName count="other">dollars dal Simbabwe (2009)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ZWR">
 				<displayName>dollar dal Simbabwe (2008)</displayName>
 				<displayName count="one">dollar dal Simbabwe (2008)</displayName>
 				<displayName count="other">dollars dal Simbabwe (2008)</displayName>
-				<symbol draft="contributed">↑↑↑</symbol>
 			</currency>
 		</currencies>
 		<miscPatterns numberSystem="latn">
@@ -4547,12 +4082,10 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<unitPattern count="other">{0} kb</unitPattern>
 			</unit>
 			<unit type="digital-byte">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
+				<unitPattern count="one">{0} byte</unitPattern>
 				<unitPattern count="other">{0} byte</unitPattern>
 			</unit>
 			<unit type="digital-bit">
-				<displayName>↑↑↑</displayName>
 				<unitPattern count="one">{0} bit</unitPattern>
 				<unitPattern count="other">{0} bit</unitPattern>
 			</unit>
@@ -4590,7 +4123,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>secundas</displayName>
 				<unitPattern count="one">{0} sec.</unitPattern>
 				<unitPattern count="other">{0} secs.</unitPattern>
-				<perUnitPattern>↑↑↑</perUnitPattern>
 			</unit>
 			<unit type="duration-millisecond">
 				<displayName>ms</displayName>
@@ -4646,7 +4178,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>liters</displayName>
 				<unitPattern count="one">{0} l</unitPattern>
 				<unitPattern count="other">{0} l</unitPattern>
-				<perUnitPattern>↑↑↑</perUnitPattern>
 			</unit>
 		</unitLength>
 		<unitLength type="narrow">
@@ -4754,52 +4285,22 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<listPatternPart type="2">{0} e {1}</listPatternPart>
 		</listPattern>
 		<listPattern type="or">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
 			<listPatternPart type="end">{0} u {1}</listPatternPart>
 			<listPatternPart type="2">{0} u {1}</listPatternPart>
 		</listPattern>
 		<listPattern type="or-narrow">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
 			<listPatternPart type="end">{0} u {1}</listPatternPart>
 			<listPatternPart type="2">{0} u {1}</listPatternPart>
 		</listPattern>
 		<listPattern type="or-short">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
 			<listPatternPart type="end">{0} u {1}</listPatternPart>
 			<listPatternPart type="2">{0} u {1}</listPatternPart>
-		</listPattern>
-		<listPattern type="standard-narrow">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
-		</listPattern>
-		<listPattern type="standard-short">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
-		</listPattern>
-		<listPattern type="unit">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
 		</listPattern>
 		<listPattern type="unit-narrow">
 			<listPatternPart type="start">{0} {1}</listPatternPart>
 			<listPatternPart type="middle">{0} {1}</listPatternPart>
 			<listPatternPart type="end">{0} {1}</listPatternPart>
 			<listPatternPart type="2">{0} {1}</listPatternPart>
-		</listPattern>
-		<listPattern type="unit-short">
-			<listPatternPart type="start">↑↑↑</listPatternPart>
-			<listPatternPart type="middle">↑↑↑</listPatternPart>
-			<listPatternPart type="end">↑↑↑</listPatternPart>
-			<listPatternPart type="2">↑↑↑</listPatternPart>
 		</listPattern>
 	</listPatterns>
 	<posix>

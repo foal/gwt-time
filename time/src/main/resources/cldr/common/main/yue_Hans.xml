@@ -59,7 +59,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="awa">阿瓦文</language>
 			<language type="ay">艾马拉文</language>
 			<language type="az">亚塞拜然文</language>
-			<language type="az" alt="short">亚塞拜然文</language>
 			<language type="ba">巴什客尔文</language>
 			<language type="bal">俾路支文</language>
 			<language type="ban">峇里文</language>
@@ -876,7 +875,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="CG" alt="variant">刚果共和国</territory>
 			<territory type="CH">瑞士</territory>
 			<territory type="CI">象牙海岸</territory>
-			<territory type="CI" alt="variant">象牙海岸</territory>
 			<territory type="CK">库克群岛</territory>
 			<territory type="CL">智利</territory>
 			<territory type="CM">喀麦隆</territory>
@@ -917,7 +915,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="FR">法国</territory>
 			<territory type="GA">加彭</territory>
 			<territory type="GB">英国</territory>
-			<territory type="GB" alt="short">英国</territory>
 			<territory type="GD">格瑞那达</territory>
 			<territory type="GE">乔治亚共和国</territory>
 			<territory type="GF">法属圭亚那</territory>
@@ -1069,7 +1066,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="TJ">塔吉克</territory>
 			<territory type="TK">托克劳群岛</territory>
 			<territory type="TL">东帝汶</territory>
-			<territory type="TL" alt="variant">东帝汶</territory>
 			<territory type="TM">土库曼</territory>
 			<territory type="TN">突尼西亚</territory>
 			<territory type="TO">东加</territory>
@@ -1083,7 +1079,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="UM">美国本土外小岛屿</territory>
 			<territory type="UN">联合国</territory>
 			<territory type="US">美国</territory>
-			<territory type="US" alt="short">美国</territory>
 			<territory type="UY">乌拉圭</territory>
 			<territory type="UZ">乌兹别克</territory>
 			<territory type="VA">梵蒂冈</territory>
@@ -1105,11 +1100,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="ZW">辛巴威</territory>
 			<territory type="ZZ">未知区域</territory>
 		</territories>
-		<subdivisions>
-			<subdivision type="gbeng">英伦</subdivision>
-			<subdivision type="gbsct">苏格兰</subdivision>
-			<subdivision type="gbwls">威尔斯</subdivision>
-		</subdivisions>
 		<variants>
 			<variant type="1901">传统德语拼字学</variant>
 			<variant type="1994" draft="contributed">标准雷西亚拼字</variant>

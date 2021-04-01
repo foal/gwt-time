@@ -19,9 +19,31 @@ Issues about the adaptation should be reported here at GitHub.
 Pull requests and issues will only be considered so far as matching the behavior of the real Java SE. Additional requested features will be rejected.
 
 ### Time-zone data
-The time-zone database is stored as a pre-compiled dat file that is included in the built jar. The actual time-zone data is located in the base project and updated manually.
+The time-zone database is stored as a pre-compiled dat file that is included in the built jar as a separate dependency. The actual time-zone data is located in the base project and updated manually.
+To load TZDB data add the following dependency:
+```xml
+<dependency>
+	<groupId>org.jresearch.gwt.time</groupId>
+	<artifactId>org.jresearch.gwt.time.tzdb</artifactId>
+</dependency>
+```
+Set the actual vesion for GWT 2.8.2/2.9.0  
+
+Add `<inherits name="org.jresearch.threetenbp.gwt.tzdb.module"/>` to your module.gwt.xml, if you use gwt-maven-plugin form Thomas Broyer (https://github.com/tbroyer/gwt-maven-plugin) it will be done automatically.
 
 ### Localization data
+By default the project supports base Java locales (constant from `java.util.Locale`). To enable all actulal locales (http://cldr.unicode.org) add the following dependency:
+```xml
+<dependency>
+	<groupId>org.jresearch.gwt.locale</groupId>
+	<artifactId>org.jresearch.gwt.locale.cldr</artifactId>
+	<version>1.0.2</version>
+</dependency>
+```
+Check the actual version on project page: https://github.com/foal/gwt-locale-cldr
+
+Add `<inherits name="org.jresearch.gwt.locale.cldr.module"/>` to your module.gwt.xml, if you use gwt-maven-plugin form Thomas Broyer (https://github.com/tbroyer/gwt-maven-plugin) it will be done automatically.
+
 #### Time zone names
 The impementation takes it from the browser with fallback to ZoneId from TZDB
 #### Localized date/time parts (months, weekdays, eras, am/pm)
@@ -32,13 +54,12 @@ The impementation takes it from the browser with falback to `0`, `+`, `-` and `.
 The impementation contains all actual data from CLDR 
 
 ### Using
-
 * For GWT 2.8.2 add the following project dependency to pom.xml
 ```xml
 <dependency>
     <groupId>org.jresearch.gwt.time</groupId>
     <artifactId>org.jresearch.gwt.time</artifactId>
-    <version>1.4.12</version>
+    <version>1.4.17</version>
 </dependency>
 ```
 * For GWT 2.9.0 add the following  project dependency to pom.xml
@@ -46,10 +67,13 @@ The impementation contains all actual data from CLDR
 <dependency>
     <groupId>org.jresearch.gwt.time</groupId>
     <artifactId>org.jresearch.gwt.time</artifactId>
-    <version>2.0.0</version>
+    <version>2.0.5</version>
 </dependency>
 ```
-* Add `<inherits name="org.jresearch.threetenbp.gwt.module"/>` to your module.gwt.xml, if you use gwt-maven-plugin form Thomas Broyer (https://github.com/tbroyer/gwt-maven-plugin) it will be done automatically
+* Add `<inherits name="org.jresearch.threetenbp.gwt.time.module"/>` to your module.gwt.xml, if you use gwt-maven-plugin form Thomas Broyer (https://github.com/tbroyer/gwt-maven-plugin) it will be done automatically.
+
+### Different setups for projects using gwt time
+For more information about possible commbinations see [Different setups for projects using gwt time](https://github.com/foal/gwt-time/wiki/Different-setups-for-projects-using-gwt-time)
 
 ### Unimplemented or partial implemented features
 * Compatibility with J2CL
@@ -58,14 +82,13 @@ The impementation contains all actual data from CLDR
 * Chronology prints as ID (take it from browser)
 * Implementation of `JapaneseChronology`/`JapaneseEra`/`JapaneseDate` in the original project based on `java.util.Calendar` and doesn't works right now.
 * new `JapaneseEra.REIWA` required Java 13 to build (current is Java 8)
-* java.util.Locale implementation may clash with original GWT implementation. See [dicussion on Google Groups](https://groups.google.com/forum/#!msg/Google-Web-Toolkit/D0I1-Oao_V8/k5FEBrxNBQAJ) and similar [issue](https://github.com/gwtproject/gwt/issues/9682) with gwt-commons-lang3 (the class will separate to another project)
+* java.util.Locale emulation may clash with original GWT implementation. See [dicussion on Google Groups](https://groups.google.com/forum/#!msg/Google-Web-Toolkit/D0I1-Oao_V8/k5FEBrxNBQAJ) and similar [issue](https://github.com/gwtproject/gwt/issues/9682) with gwt-commons-lang3. Actual implementation are moved to separate project: https://github.com/foal/gwt-locale
 * Convert to/from `java.util.Calendar`, to/from `java.util.TimeZone`, to/from `java.text.Format` is out of scope of this project
-
 
 #### FAQs
 
 1. What version of Java SE does this project map to?
-This project currently maps to the contents of release Java SE 8u20.
+This project currently maps to the contents of release Java 1.8
 
 2. Will the backport be kept up to date?
 There are no plans for further releases.

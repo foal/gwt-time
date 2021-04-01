@@ -98,7 +98,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="en">инглизча</language>
 			<language type="en_GB">инглизча (Британия)</language>
 			<language type="en_US">инглизча (Америка)</language>
-			<language type="en_US" alt="short">инглизча (АҚШ)</language>
 			<language type="eo">эсперанто</language>
 			<language type="es">испанча</language>
 			<language type="et">эстонча</language>
@@ -338,9 +337,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<script type="Hang">Хангул</script>
 			<script type="Hani">Хан</script>
 			<script type="Hans">Соддалаштирилган</script>
-			<script type="Hans" alt="stand-alone">Соддалаштирилган</script>
 			<script type="Hant">Анъанавий</script>
-			<script type="Hant" alt="stand-alone">Анъанавий</script>
 			<script type="Hebr">Иброний</script>
 			<script type="Hira">Хирагана</script>
 			<script type="Jpan">Япон</script>
@@ -483,7 +480,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="FR">Франция</territory>
 			<territory type="GA">Габон</territory>
 			<territory type="GB">Буюк Британия</territory>
-			<territory type="GB" alt="short">Буюк Британия</territory>
 			<territory type="GD">Гренада</territory>
 			<territory type="GE">Грузия</territory>
 			<territory type="GF">Француз Гвианаси</territory>

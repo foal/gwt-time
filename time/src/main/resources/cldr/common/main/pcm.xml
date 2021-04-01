@@ -27,7 +27,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<language type="asa">Asu Lángwej</language>
 			<language type="ast">Astúriá Lángwej</language>
 			<language type="az">Azẹrbaijáni Lángwej</language>
-			<language type="az" alt="short">Azẹrbaijáni Lángwej</language>
 			<language type="bas">Básaa Lángwej</language>
 			<language type="be">Bẹlarúsiá Lángwej</language>
 			<language type="bem">Bẹ́mba Lángwej</language>
@@ -588,7 +587,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<territory type="TJ">Tajíkstan</territory>
 			<territory type="TK">Tókẹ́lau</territory>
 			<territory type="TL">Íst Tímọ</territory>
-			<territory type="TL" alt="variant">Íst Tímọ</territory>
 			<territory type="TM">Tọkmẹ́nístan</territory>
 			<territory type="TN">Tuníshia</territory>
 			<territory type="TO">Tónga</territory>
@@ -4303,7 +4301,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 		<otherNumberingSystems>
 			<native draft="contributed">latn</native>
 		</otherNumberingSystems>
-		<minimumGroupingDigits draft="contributed">↑↑↑</minimumGroupingDigits>
 		<symbols numberSystem="latn">
 			<decimal>.</decimal>
 			<group>,</group>
@@ -4311,9 +4308,7 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			<percentSign>%</percentSign>
 			<plusSign>+</plusSign>
 			<minusSign>-</minusSign>
-			<approximatelySign>↑↑↑</approximatelySign>
 			<exponential>E</exponential>
-			<superscriptingExponent>↑↑↑</superscriptingExponent>
 			<perMille>‰</perMille>
 			<infinity>∞</infinity>
 			<nan>NaN</nan>
@@ -4447,7 +4442,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName count="one">Afgán afgáni</displayName>
 				<displayName count="other">Afgán afgánis</displayName>
 				<symbol draft="contributed">AFN</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ALL">
 				<displayName>Albéniá Lẹk</displayName>
@@ -4460,7 +4454,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName count="one">Armẹ́nia ́dram</displayName>
 				<displayName count="other">Armẹ́niá drams</displayName>
 				<symbol draft="contributed">AMD</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="ANG">
 				<displayName>Nẹ́dalánds Antílián Gílda</displayName>
@@ -4500,7 +4493,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName count="one">Azẹrbaiján mánat</displayName>
 				<displayName count="other">Azẹrbaiján mánats</displayName>
 				<symbol draft="contributed">AZN</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="BAM">
 				<displayName>Bọ́sniá an Hẹzẹgovína Mak Wé Pẹ́sin Fít Chenj</displayName>
@@ -4768,7 +4760,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName count="one">Ganá sídi</displayName>
 				<displayName count="other">Ganá sídis</displayName>
 				<symbol draft="contributed">GHS</symbol>
-				<symbol alt="narrow" draft="contributed">↑↑↑</symbol>
 			</currency>
 			<currency type="GIP">
 				<displayName>Jibrọ́lta Páund</displayName>
@@ -5543,18 +5534,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 			</compoundUnit>
 			<compoundUnit type="10p24">
 				<unitPrefixPattern>Yóta{0}</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p1">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p2">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p3">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
-			</compoundUnit>
-			<compoundUnit type="1024p4">
-				<unitPrefixPattern>↑↑↑</unitPrefixPattern>
 			</compoundUnit>
 			<compoundUnit type="1024p5">
 				<unitPrefixPattern>Pébi{0}</unitPrefixPattern>
@@ -7025,11 +7004,6 @@ CLDR data files are interpreted according to the LDML specification (http://unic
 				<displayName>dọt</displayName>
 				<unitPattern count="one">{0} dọt</unitPattern>
 				<unitPattern count="other">{0} dọt</unitPattern>
-			</unit>
-			<unit type="length-earth-radius">
-				<displayName>↑↑↑</displayName>
-				<unitPattern count="one">↑↑↑</unitPattern>
-				<unitPattern count="other">↑↑↑</unitPattern>
 			</unit>
 			<unit type="length-kilometer">
 				<displayName>km</displayName>
