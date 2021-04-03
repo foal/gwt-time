@@ -373,13 +373,13 @@
 		<gwt29-typedarrays.ver>1.0.0-RC2</gwt29-typedarrays.ver>
 		<gwt29-nio.ver>1.1</gwt29-nio.ver>
 		<gwt-slf4j.ver>1.0.2</gwt-slf4j.ver>
-		<time.apt.ver>2.0.4</time.apt.ver>
+		<time.apt.ver>2.0.6-SNAPSHOT</time.apt.ver>
 		<gwt.version>2.9.0</gwt.version>
 		<elemental.ver>1.1.0</elemental.ver>
 		<jsinterop-annotations.ver>2.0.0</jsinterop-annotations.ver>
 		<jsinterop-base.ver>1.0.0</jsinterop-base.ver>
 		<gwt29-core.ver>1.0.0-RC1</gwt29-core.ver>
-		<gwt-locale.ver>1.0.3-SNAPSHOT</gwt-locale.ver>
-		<gwt-locale-cldr.ver>1.0.3-SNAPSHOT</gwt-locale-cldr.ver>
+		<gwt-locale.ver>1.0.4-SNAPSHOT</gwt-locale.ver>
+		<gwt-locale-cldr.ver>1.0.4-SNAPSHOT</gwt-locale-cldr.ver>
 	</properties>
 </project>
