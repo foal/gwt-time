@@ -118,7 +118,7 @@
 		<connection>scm:hg:https://helixteamhub.cloud/JRS/projects/gwtTime/repositories/mercurial/gwt-time</connection>
 		<developerConnection>scm:hg:ssh://hth@helixteamhub.cloud/JRS/projects/gwtTime/repositories/mercurial/gwt-time</developerConnection>
 		<url>https://github.com/foal/gwt-time</url>
-		<tag>v2.0.5</tag>
+		<tag>HEAD</tag>
 	</scm>
 	<repositories>
 		<repository>
