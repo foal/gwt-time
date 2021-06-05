@@ -1,0 +1,12 @@
+<module>
+  <!-- Copied from target\classes\org\jresearch\threetenbp\gwt\time -->
+	<inherits name="org.jresearch.gwt.eml.locale.module" />
+	<inherits name="org.jresearch.gwt.time.apt.module" />
+	<inherits name="org.jresearch.gwt.time.apt.data.module" />
+	<inherits name="com.google.gwt.regexp.RegExp" />
+	<inherits name="com.google.gwt.resources.Resources" />
+  <!--test-->
+	<inherits name="org.dominokit.domino.logger.Logging" />
+	<inherits name="org.jresearch.threetenbp.gwt.emu.test" />
+	<set-property name="domino.slf4j.logging.level" value="TRACE" />
+</module>

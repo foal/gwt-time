@@ -10,7 +10,7 @@
 	<artifactId>org.jresearch.gwt.time.demo.time01</artifactId>
 	<packaging>gwt-app</packaging>
 
-	<name>JRS: GWT port of JSR-310 (java.time). Demo. Only time + base locales</name>
+	<name>JRS: GWT port of JSR-310 (java.time). Demo 01. Only time + base locales</name>
 
 
 	<!-- ==================================================================== -->

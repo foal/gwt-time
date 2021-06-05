@@ -11,19 +11,12 @@
 	<packaging>gwt-lib</packaging>
 
 	<name>JRS: GWT port of JSR-310 (java.time), TZDB loader</name>
+	<description>JRS: GWT port of JSR-310 (java.time) based on ThreeTen backport project (https://www.threeten.org/threetenbp)</description>
 
 	<!-- ==================================================================== -->
 	<build>
 		<!-- define build -->
 		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<!-- <source>13</source>
-					<target>13</target> -->
-				</configuration>
-			</plugin>
 			<plugin>
 				<artifactId>maven-dependency-plugin</artifactId>
 				<!-- To correct work of GWT Super source -->
@@ -39,8 +32,6 @@
 				<configuration>
 					<moduleName>org.jresearch.threetenbp.gwt.tzdb.module</moduleName>
 					<moduleShortName>threetenbpTzdbGwt</moduleShortName>
-					<relocateSuperSource>true</relocateSuperSource>
-					<relocateTestSuperSource>true</relocateTestSuperSource>
 					<enableAssertions>false</enableAssertions>
 					<testArgs>
 						<testArg>-testMethodTimeout</testArg>

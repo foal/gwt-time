@@ -15,3 +15,5 @@ utils/src/META-INF/MANIFEST.MF
 **/timing.properties
 **/www-test/**
 pom/verzuj.cmd
+time/src/main/super/
+time/GWT Time tests (Browser, time).launch

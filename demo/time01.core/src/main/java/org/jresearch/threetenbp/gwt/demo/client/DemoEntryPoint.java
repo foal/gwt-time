@@ -13,7 +13,6 @@ import elemental2.dom.DomGlobal;
 
 public class DemoEntryPoint implements EntryPoint {
 
-	@SuppressWarnings("nls")
 	@Override
 	public void onModuleLoad() {
 		DomGlobal.document.getElementById("reportTime").innerHTML = LocalTime.now() != null ? "yes" : "no";

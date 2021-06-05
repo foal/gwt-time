@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.gwtplugins.gwt.eclipse.core.launch.gwtJUnit">
+    <stringAttribute key="com.gwtplugins.gwt.eclipse.core.LOG_LEVEL" value="INFO"/>
+    <booleanAttribute key="com.gwtplugins.gwt.eclipse.core.NOT_HEADLESS" value="false"/>
+    <stringAttribute key="com.gwtplugins.gwt.eclipse.core.OUT_DIR" value="www-test"/>
+    <booleanAttribute key="com.gwtplugins.gwt.eclipse.core.STANDARDS_MODE" value="false"/>
+    <stringAttribute key="com.gwtplugins.gwt.eclipse.core.STYLE" value="OBFUSCATED"/>
+    <stringAttribute key="com.gwtplugins.gwt.eclipse.core.WEB_MODE" value="true"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/org.jresearch.gwt.time/src/test/java/org/jresearch/threetenbp/gwt/emu/java/time/GwtTreetenBpSuite.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.jdt.junit.CONTAINER" value=""/>
+    <booleanAttribute key="org.eclipse.jdt.junit.KEEPRUNNING_ATTR" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.junit.TESTNAME" value=""/>
+    <stringAttribute key="org.eclipse.jdt.junit.TEST_KIND" value="org.eclipse.jdt.junit.loader.junit4"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="com.gwtplugins.gdt.eclipse.maven.mavenClasspathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.jresearch.threetenbp.gwt.emu.java.time.GwtTreetenBpSuite"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="org.jresearch.gwt.time"/>
+</launchConfiguration>
