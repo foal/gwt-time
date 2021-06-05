@@ -11,7 +11,7 @@
 	<packaging>pom</packaging>
 
 	<name>JRS: GWT port of JSR-310 (java.time), POM</name>
-	<version>2.0.7-SNAPSHOT</version>
+	<version>2.0.7</version>
 	<description>JRS: GWT port of JSR-310 (java.time) based on ThreeTen backport project (https://www.threeten.org/threetenbp)</description>
 	<url>https://github.com/foal/gwt-time</url>
 
@@ -117,7 +117,7 @@
 		<connection>scm:hg:https://helixteamhub.cloud/JRS/projects/gwtTime/repositories/mercurial/gwt-time</connection>
 		<developerConnection>scm:hg:ssh://hth@helixteamhub.cloud/JRS/projects/gwtTime/repositories/mercurial/gwt-time</developerConnection>
 		<url>https://github.com/foal/gwt-time</url>
-		<tag>HEAD</tag>
+		<tag>v2.0.7</tag>
 	</scm>
 	<repositories>
 		<repository>
@@ -377,14 +377,14 @@
 		<gwt29-typedarrays.ver>1.0.0-RC2</gwt29-typedarrays.ver>
 		<gwt29-nio.ver>1.1</gwt29-nio.ver>
 		<gwt-slf4j.ver>1.0.2-gwt2.8.2</gwt-slf4j.ver>
-		<time.apt.ver>2.0.6-SNAPSHOT</time.apt.ver>
+		<time.apt.ver>2.0.6</time.apt.ver>
 		<gwt.version>2.9.0</gwt.version>
 		<elemental.ver>1.1.0</elemental.ver>
 		<jsinterop-annotations.ver>2.0.0</jsinterop-annotations.ver>
 		<jsinterop-base.ver>1.0.0</jsinterop-base.ver>
 		<gwt29-core.ver>1.0.0-RC1</gwt29-core.ver>
-		<gwt-locale.ver>1.0.4-SNAPSHOT</gwt-locale.ver>
-		<gwt-locale-cldr.ver>1.0.4-SNAPSHOT</gwt-locale-cldr.ver>
+		<gwt-locale.ver>1.0.4</gwt-locale.ver>
+		<gwt-locale-cldr.ver>1.0.4</gwt-locale-cldr.ver>
 		<gwt-tool-jre-apt.ver>1.0.1-SNAPSHOT</gwt-tool-jre-apt.ver>
 	</properties>
 </project>

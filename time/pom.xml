@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.jresearch.gwt.time</groupId>
         <artifactId>org.jresearch.gwt.time.pom</artifactId>
-		<version>2.0.7-SNAPSHOT</version>
+		<version>2.0.7</version>
         <relativePath>../pom/pom.xml</relativePath>
     </parent>
     <artifactId>org.jresearch.gwt.time</artifactId>
@@ -55,7 +55,7 @@
                             <replacements>
                                 <replacement>
                                     <token>org\.jresearch\.threetenbp\.gwt\.emu\.</token>
-                                    <value/>
+                                    <value />
                                 </replacement>
                             </replacements>
                         </configuration>
