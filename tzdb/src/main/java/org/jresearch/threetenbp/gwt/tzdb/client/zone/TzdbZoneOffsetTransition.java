@@ -46,18 +46,20 @@ public final class TzdbZoneOffsetTransition {
 	/**
 	 * Reads the state from the stream.
 	 *
-	 * @param in the input stream, not null
+	 * @param in
+	 *               the input stream, not null
 	 * @return the created object, not null
-	 * @throws IOException if an error occurs
+	 * @throws IOException
+	 *                         if an error occurs
 	 */
 	static ZoneOffsetTransition readExternal(ByteBuffer in) throws IOException {
-        long epochSecond = Ser.readEpochSec(in);
-        ZoneOffset before = Ser.readOffset(in);
-        ZoneOffset after = Ser.readOffset(in);
-        if (before.equals(after)) {
-            throw new IllegalArgumentException("Offsets must not be equal");
-        }
+		long epochSecond = Ser.readEpochSec(in);
+		ZoneOffset before = Ser.readOffset(in);
+		ZoneOffset after = Ser.readOffset(in);
+		if (before.equals(after)) {
+			throw new IllegalArgumentException("Offsets must not be equal");
+		}
 		return ZoneOffsetTransition.of(LocalDateTime.ofEpochSecond(epochSecond, 0, before), before, after);
-    }
+	}
 
 }

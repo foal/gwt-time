@@ -98,8 +98,16 @@
 			<name>Sherman Shen</name>
 		</contributor>
 		<contributor>
+      <name>Stanislav Spiridonov</name>
+      <url>https://github.com/foal</url>
+    </contributor>
+    <contributor>
 			<name>Philipp Thuerwaechter</name>
 			<url>https://github.com/pithu</url>
+    </contributor>
+    <contributor>
+      <name>Andrey Turbanov</name>
+      <url>https://github.com/turbanoff</url>
 		</contributor>
 		<contributor>
 			<name> Jake Wharton</name>
@@ -361,7 +369,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<linkXRef>false</linkXRef>
-    <tz.database.version>2021a</tz.database.version>
+                <tz.database.version>2021efork</tz.database.version>
     -->
 		<gwt28-typedarrays.ver>1.2</gwt28-typedarrays.ver>
 		<gwt28-nio.ver>1.1</gwt28-nio.ver>
