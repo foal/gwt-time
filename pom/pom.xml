@@ -122,8 +122,7 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:hg:https://helixteamhub.cloud/JRS/projects/gwtTime/repositories/mercurial/gwt-time</connection>
-		<developerConnection>scm:hg:ssh://hth@helixteamhub.cloud/JRS/projects/gwtTime/repositories/mercurial/gwt-time</developerConnection>
+		<developerConnection>scm:git:https://github.com/foal/gwt-time.git</developerConnection>
 		<url>https://github.com/foal/gwt-time</url>
 		<tag>HEAD</tag>
 	</scm>
@@ -378,5 +377,8 @@
 		<gwt-locale.ver>1.0.5-SNAPSHOT</gwt-locale.ver>
 		<gwt-locale-cldr.ver>1.0.5-SNAPSHOT</gwt-locale-cldr.ver>
 		<gwt-tool-jre-apt.ver>1.0.1-SNAPSHOT</gwt-tool-jre-apt.ver>
+
+        <java.version>11</java.version>
+
 	</properties>
 </project>

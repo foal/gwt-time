@@ -1,0 +1,49 @@
+name: Release
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+        distribution: 'zulu'
+        cache: maven
+        gpg-private-key: ${{ secrets.GPG_KEY }} 
+    - uses: s4u/maven-settings-action@v2.5.0
+      with:
+        sonatypeSnapshots: true
+        apacheSnapshots: true
+        servers: |
+          [
+          {
+              "id": "ossrh",
+              "username": "${{ secrets.SONATYPE_USERNAME }}",
+              "password": "${{ secrets.SONATYPE_PASSWORD }}"
+          },
+          {
+              "id": "gpg.passphrase",
+              "username": "fake",
+              "passphrase": "${{ secrets.GPG_PASSPHRASE }}"
+          }
+          ]
+    - name: Set GIT user 
+      run:  |
+        git config --global user.name 'foal' 
+        git config --global user.email 'stas@jresearch.org'
+    - name: Verion update check
+      run: mvn versions:resolve-ranges versions:update-properties -Dincludes=com.jresearchsoft*:*,org.jresearch*:* -B
+      working-directory: pom
+    - name: Release
+      run: mvn release:clean release:prepare release:perform -B -P ci
+      working-directory: pom
+    - name: Push released version to GitHub
+      run: git push && git push --tags
+

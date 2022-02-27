@@ -1,0 +1,80 @@
+name: Build
+
+on:
+  push:
+    branches:
+    - master
+    - GWT29
+  pull_request:
+    types: [opened, synchronize, reopened]
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+        distribution: 'zulu'
+        cache: maven
+    - uses: s4u/maven-settings-action@v2.5.0
+      with:
+        sonatypeSnapshots: true
+        apacheSnapshots: true
+        servers: |
+          [{
+              "id": "ossrh",
+              "username": "${{ secrets.SONATYPE_USERNAME }}",
+              "password": "${{ secrets.SONATYPE_PASSWORD }}"
+          }]        
+    - name: Package and test
+      run: mvn package -U -B
+      working-directory: pom
+    - name: Publish Unit Test Results
+      uses: EnricoMi/publish-unit-test-result-action@v1
+      if: always()
+      with:
+        files: "**/target/surefire-reports/*.xml"
+    - name: Deploy
+      run: mvn deploy -Dmaven.test.skip -B
+      working-directory: pom
+      
+  sonar:
+    name: Run Sonar analysis
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        # Shallow clones should be disabled for a better relevancy of analysis
+        fetch-depth: 0  
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+        distribution: 'zulu'
+        cache: maven
+    - name: Cache SonarCloud packages
+      uses: actions/cache@v1
+      with:
+        path: ~/.sonar/cache
+        key: ${{ runner.os }}-sonar
+        restore-keys: ${{ runner.os }}-sonar
+    - uses: s4u/maven-settings-action@v2.5.0
+      with:
+        sonatypeSnapshots: true
+        apacheSnapshots: true
+        servers: |
+          [{
+              "id": "ossrh",
+              "username": "${{ secrets.SONATYPE_USERNAME }}",
+              "password": "${{ secrets.SONATYPE_PASSWORD }}"
+          }]        
+    - name: Build and analyze
+      env:
+        # Needed to get PR information, if any
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      run: mvn -B -P coverage verify sonar:sonar -Dsonar.projectKey=${{ secrets.SONAR_KEY }}
+      working-directory: pom
