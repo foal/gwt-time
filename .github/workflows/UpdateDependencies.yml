@@ -1,0 +1,36 @@
+name: Update JRS snapshots
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 5 * * *'
+  
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+        distribution: 'zulu'
+        cache: maven
+    - uses: s4u/maven-settings-action@v2.5.0
+      with:
+        sonatypeSnapshots: true
+        apacheSnapshots: true
+        servers: |
+          [{
+              "id": "ossrh",
+              "username": "${{ secrets.SONATYPE_USERNAME }}",
+              "password": "${{ secrets.SONATYPE_PASSWORD }}"
+          }]        
+    - name: Update dependencies
+      run: mvn -B versions:resolve-ranges versions:update-properties -Dincludes=com.jresearchsoft*:*,org.jresearch*:* -DallowSnapshots --builder singlethreaded
+      working-directory: pom
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v3    
+      with:
+        commit-message: Update shapshot dependencies
+        
