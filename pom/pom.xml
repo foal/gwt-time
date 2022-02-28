@@ -98,16 +98,16 @@
 			<name>Sherman Shen</name>
 		</contributor>
 		<contributor>
-      <name>Stanislav Spiridonov</name>
-      <url>https://github.com/foal</url>
-    </contributor>
-    <contributor>
+			<name>Stanislav Spiridonov</name>
+			<url>https://github.com/foal</url>
+		</contributor>
+		<contributor>
 			<name>Philipp Thuerwaechter</name>
 			<url>https://github.com/pithu</url>
-    </contributor>
-    <contributor>
-      <name>Andrey Turbanov</name>
-      <url>https://github.com/turbanoff</url>
+		</contributor>
+		<contributor>
+			<name>Andrey Turbanov</name>
+			<url>https://github.com/turbanoff</url>
 		</contributor>
 		<contributor>
 			<name> Jake Wharton</name>
@@ -205,6 +205,11 @@
 				<groupId>org.jresearch.gwt.time</groupId>
 				<artifactId>org.jresearch.gwt.time.tzdb</artifactId>
 				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.jresearch.gwt.tool.emu.apt</groupId>
+				<artifactId>org.jresearch.gwt.tool.emu.apt.annotation</artifactId>
+				<version>${gwt-tool-jre-apt.ver}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.jresearch.gwt.locale</groupId>
@@ -325,12 +330,12 @@
 
 	<!-- ==================================================================== -->
 	<properties>
-    <!-- Plugin version numbers -->
+	<!-- Plugin version numbers -->
 		<!-- <build-helper-maven-plugin.version>1.12</build-helper-maven-plugin.version>
 		<maven-assembly-plugin.version>3.1.0</maven-assembly-plugin.version>
 		<maven-bundle-plugin.version>4.1.0</maven-bundle-plugin.version>
 		<maven-changes-plugin.version>2.12.1</maven-changes-plugin.version> -->
-    <!-- v3.0.0 does not work with Eclipse -->
+	<!-- v3.0.0 does not work with Eclipse -->
 		<!-- <maven-checkstyle-plugin.version>2.17</maven-checkstyle-plugin.version>
 		<maven-clean-plugin.version>3.1.0</maven-clean-plugin.version>
 		<maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
@@ -355,12 +360,12 @@
 		<maven-toolchains-plugin.version>1.1</maven-toolchains-plugin.version>
 		<nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
 		<bndlib.version>4.1.0</bndlib.version> -->
-    <!-- Properties for maven-compiler-plugin -->
+	<!-- Properties for maven-compiler-plugin -->
 		<!-- <maven.compiler.compilerVersion>1.6</maven.compiler.compilerVersion>
 		<maven.compiler.source>1.6</maven.compiler.source>
 		<maven.compiler.target>1.6</maven.compiler.target>
 		<maven.compiler.fork>true</maven.compiler.fork> -->
-    <!-- Properties for maven-javadoc-plugin -->
+	<!-- Properties for maven-javadoc-plugin -->
 		<!-- <author>false</author>
 		<notimestamp>true</notimestamp>
 		<doclint>none</doclint>
@@ -368,8 +373,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<linkXRef>false</linkXRef>
-                <tz.database.version>2021efork</tz.database.version>
-    -->
+				<tz.database.version>2021efork</tz.database.version>
+	-->
 		<gwt28-typedarrays.ver>1.2</gwt28-typedarrays.ver>
 		<gwt28-nio.ver>1.1</gwt28-nio.ver>
 		<gwt-slf4j.ver>1.0.2-gwt2.8.2</gwt-slf4j.ver>
