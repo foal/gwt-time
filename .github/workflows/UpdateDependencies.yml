@@ -33,4 +33,4 @@ jobs:
       uses: peter-evans/create-pull-request@v3    
       with:
         commit-message: Update shapshot dependencies
-        
+        token: ${{ secrets.PAT }}
