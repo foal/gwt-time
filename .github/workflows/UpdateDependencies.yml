@@ -34,6 +34,7 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3    
       with:
+        branch: gwt28/dep-update
         commit-message: Update shapshot dependencies
         token: ${{ secrets.PAT }}
 
@@ -65,5 +66,6 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3    
       with:
+        branch: gwt29/dep-update
         commit-message: Update shapshot dependencies
         token: ${{ secrets.PAT }}
