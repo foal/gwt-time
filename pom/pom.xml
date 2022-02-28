@@ -381,7 +381,7 @@
 		<time.apt.ver>2.0.7-SNAPSHOT</time.apt.ver>
 		<gwt-locale.ver>1.0.5-SNAPSHOT</gwt-locale.ver>
 		<gwt-locale-cldr.ver>1.0.5-SNAPSHOT</gwt-locale-cldr.ver>
-		<gwt-tool-jre-apt.ver>1.0.1-SNAPSHOT</gwt-tool-jre-apt.ver>
+		<gwt-tool-jre-apt.ver>1.0.3-SNAPSHOT</gwt-tool-jre-apt.ver>
 
         <java.version>11</java.version>
 
