@@ -61,7 +61,7 @@ import org.jresearch.threetenbp.gwt.emu.java.time.zone.ZoneRules;
  * thread-safe.
  */
 // GWT Specific
-@Wrap("org.jresearch.threetenbp.gwt.emu")
+@Wrap("org.jresearch.threetenbp.gwt.emu")  
 public final class StandardZoneRules extends ZoneRules implements Serializable {
 
 	/**

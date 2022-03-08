@@ -8,6 +8,17 @@
   <body>
 
     <!-- types are add, fix, remove, update -->
+    <release version="1.5.2" date="2021-11-08" description="v1.5.2">
+      <action dev="jodastephen" type="update" >
+        Update to time-zone data 2021efork.
+		ThreeTen-Backport now follows a fork of tzdb.
+		The fork provides better comaptibility of data compared to the original tzdb.
+      </action>
+      <action dev="foal" type="fix" >
+        Fix ZoneRules when there are no historic transitions.
+        Fixes #148, #149, #150, #151.
+      </action>
+    </release>
     <release version="1.5.1" date="2021-04-20" description="v1.5.1">
       <action dev="jodastephen" type="update" >
         Update to time-zone data 2021a.

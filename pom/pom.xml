@@ -98,8 +98,16 @@
 			<name>Sherman Shen</name>
 		</contributor>
 		<contributor>
+			<name>Stanislav Spiridonov</name>
+			<url>https://github.com/foal</url>
+		</contributor>
+		<contributor>
 			<name>Philipp Thuerwaechter</name>
 			<url>https://github.com/pithu</url>
+		</contributor>
+		<contributor>
+			<name>Andrey Turbanov</name>
+			<url>https://github.com/turbanoff</url>
 		</contributor>
 		<contributor>
 			<name> Jake Wharton</name>
@@ -114,15 +122,14 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:hg:https://helixteamhub.cloud/JRS/projects/gwtTime/repositories/mercurial/gwt-time</connection>
-		<developerConnection>scm:hg:ssh://hth@helixteamhub.cloud/JRS/projects/gwtTime/repositories/mercurial/gwt-time</developerConnection>
+		<developerConnection>scm:git:https://github.com/foal/gwt-time.git</developerConnection>
 		<url>https://github.com/foal/gwt-time</url>
 		<tag>HEAD</tag>
 	</scm>
 	<repositories>
 		<repository>
 			<id>oss.sonatype.org-snapshot</id>
-			<url>http://oss.sonatype.org/content/repositories/snapshots</url>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>
@@ -198,6 +205,11 @@
 				<groupId>org.jresearch.gwt.time</groupId>
 				<artifactId>org.jresearch.gwt.time.tzdb</artifactId>
 				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.jresearch.gwt.tool.emu.apt</groupId>
+				<artifactId>org.jresearch.gwt.tool.emu.apt.annotation</artifactId>
+				<version>${gwt-tool-jre-apt.ver}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.jresearch.gwt.locale</groupId>
@@ -328,12 +340,12 @@
 
 	<!-- ==================================================================== -->
 	<properties>
-    <!-- Plugin version numbers -->
+	<!-- Plugin version numbers -->
 		<!-- <build-helper-maven-plugin.version>1.12</build-helper-maven-plugin.version>
 		<maven-assembly-plugin.version>3.1.0</maven-assembly-plugin.version>
 		<maven-bundle-plugin.version>4.1.0</maven-bundle-plugin.version>
 		<maven-changes-plugin.version>2.12.1</maven-changes-plugin.version> -->
-    <!-- v3.0.0 does not work with Eclipse -->
+	<!-- v3.0.0 does not work with Eclipse -->
 		<!-- <maven-checkstyle-plugin.version>2.17</maven-checkstyle-plugin.version>
 		<maven-clean-plugin.version>3.1.0</maven-clean-plugin.version>
 		<maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
@@ -358,12 +370,12 @@
 		<maven-toolchains-plugin.version>1.1</maven-toolchains-plugin.version>
 		<nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
 		<bndlib.version>4.1.0</bndlib.version> -->
-    <!-- Properties for maven-compiler-plugin -->
+	<!-- Properties for maven-compiler-plugin -->
 		<!-- <maven.compiler.compilerVersion>1.6</maven.compiler.compilerVersion>
 		<maven.compiler.source>1.6</maven.compiler.source>
 		<maven.compiler.target>1.6</maven.compiler.target>
 		<maven.compiler.fork>true</maven.compiler.fork> -->
-    <!-- Properties for maven-javadoc-plugin -->
+	<!-- Properties for maven-javadoc-plugin -->
 		<!-- <author>false</author>
 		<notimestamp>true</notimestamp>
 		<doclint>none</doclint>
@@ -371,8 +383,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<linkXRef>false</linkXRef>
-    <tz.database.version>2021a</tz.database.version>        
-    -->  
+    <tz.database.version>2021a</tz.database.version>
+    -->
 		<gwt29-regexp.ver>1.0.0-RC1</gwt29-regexp.ver>
 		<gwt29-typedarrays.ver>1.0.0-RC2</gwt29-typedarrays.ver>
 		<gwt29-nio.ver>1.1</gwt29-nio.ver>
@@ -385,6 +397,9 @@
 		<gwt29-core.ver>1.0.0-RC1</gwt29-core.ver>
 		<gwt-locale.ver>1.0.5-SNAPSHOT</gwt-locale.ver>
 		<gwt-locale-cldr.ver>1.0.5-SNAPSHOT</gwt-locale-cldr.ver>
-		<gwt-tool-jre-apt.ver>1.0.1-SNAPSHOT</gwt-tool-jre-apt.ver>
+		<gwt-tool-jre-apt.ver>1.0.3-SNAPSHOT</gwt-tool-jre-apt.ver>
+
+        <java.version>11</java.version>
+
 	</properties>
 </project>
