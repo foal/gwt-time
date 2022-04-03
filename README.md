@@ -2,7 +2,7 @@
 [![Build](https://github.com/foal/gwt-time/actions/workflows/BuildSnapshot.yml/badge.svg)](https://github.com/foal/gwt-time/actions/workflows/BuildSnapshot.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=foal_gwt-time&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=foal_gwt-time)
 
-## GWT java.util.time emulation based on ThreeTen backport project
+## GWT java.time emulation based on ThreeTen backport project
 JSR-310 provides a new date and time library for Java SE 8.
 This project is the port to GWT.
 
