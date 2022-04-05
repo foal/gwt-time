@@ -21,7 +21,7 @@ Issues about the adaptation should be reported here at GitHub.
 Pull requests and issues will only be considered so far as matching the behavior of the real Java SE. Additional requested features will be rejected.
 
 ### Time-zone data
-Current version od TZDB: **2021a**
+Current version od TZDB: **2022agtz**
 The time-zone database is stored as a pre-compiled dat file that is included in the built jar as a separate dependency. The actual time-zone data is located in the base project and updated manually.
 To load TZDB data add the following dependency:
 ```xml
@@ -63,7 +63,7 @@ The impementation contains all actual data from CLDR
 <dependency>
     <groupId>org.jresearch.gwt.time</groupId>
     <artifactId>org.jresearch.gwt.time</artifactId>
-    <version>1.4.18</version>
+    <version>1.4.20</version>
 </dependency>
 ```
 * For GWT 2.9.0 add the following  project dependency to pom.xml
@@ -71,7 +71,7 @@ The impementation contains all actual data from CLDR
 <dependency>
     <groupId>org.jresearch.gwt.time</groupId>
     <artifactId>org.jresearch.gwt.time</artifactId>
-    <version>2.0.6</version>
+    <version>2.0.8</version>
 </dependency>
 ```
 * Add `<inherits name="org.jresearch.threetenbp.gwt.time.module"/>` to your module.gwt.xml, if you use gwt-maven-plugin form Thomas Broyer (https://github.com/tbroyer/gwt-maven-plugin) it will be done automatically.
