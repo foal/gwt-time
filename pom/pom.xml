@@ -11,7 +11,7 @@
 	<packaging>pom</packaging>
 
 	<name>JRS: GWT port of JSR-310 (java.time), POM</name>
-	<version>1.4.21-SNAPSHOT</version>
+	<version>1.4.21</version>
 	<description>JRS: GWT port of JSR-310 (java.time) based on ThreeTen backport project (https://www.threeten.org/threetenbp)</description>
 	<url>https://github.com/foal/gwt-time</url>
 
@@ -126,7 +126,7 @@
 	<scm>
 		<developerConnection>scm:git:https://github.com/foal/gwt-time.git</developerConnection>
 		<url>https://github.com/foal/gwt-time</url>
-		<tag>HEAD</tag>
+		<tag>v1.4.21</tag>
 	</scm>
 	<repositories>
 		<repository>
@@ -383,10 +383,10 @@
 		<gwt28-typedarrays.ver>1.2</gwt28-typedarrays.ver>
 		<gwt28-nio.ver>1.1</gwt28-nio.ver>
 		<gwt-slf4j.ver>1.0.2-gwt2.8.2</gwt-slf4j.ver>
-		<time.apt.ver>2.0.10-SNAPSHOT</time.apt.ver>
-		<gwt-locale.ver>1.0.5-SNAPSHOT</gwt-locale.ver>
-		<gwt-locale-cldr.ver>1.0.5-SNAPSHOT</gwt-locale-cldr.ver>
-		<gwt-tool-jre-apt.ver>1.0.3-SNAPSHOT</gwt-tool-jre-apt.ver>
+		<time.apt.ver>2.0.10</time.apt.ver>
+		<gwt-locale.ver>1.0.5</gwt-locale.ver>
+		<gwt-locale-cldr.ver>1.0.5</gwt-locale-cldr.ver>
+		<gwt-tool-jre-apt.ver>1.0.3</gwt-tool-jre-apt.ver>
 
         <java.version>11</java.version>
 
