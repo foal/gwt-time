@@ -17,10 +17,14 @@ jobs:
         distribution: 'zulu'
         cache: maven
         gpg-private-key: ${{ secrets.GPG_KEY }} 
-    - uses: s4u/maven-settings-action@v2.5.0
+    - name: maven-settings-xml-action
+      uses: whelk-io/maven-settings-xml-action@v20
       with:
-        sonatypeSnapshots: true
-        apacheSnapshots: true
+        repositories: |
+          [
+            { "id": "central", "url": "https://repo.maven.apache.org/maven2", "releases": { "enabled": "true" }, "snapshots": { "enabled": "true"} },
+            { "id": "sonatype-snapshots", "url": "https://oss.sonatype.org/content/repositories/snapshots", "releases": { "enabled": "false" }, "snapshots": { "enabled": "true"} }
+          ]
         servers: |
           [
           {
