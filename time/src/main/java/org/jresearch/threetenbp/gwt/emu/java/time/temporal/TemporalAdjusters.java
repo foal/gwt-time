@@ -285,24 +285,32 @@ public final class TemporalAdjusters {
      */
     public static TemporalAdjuster dayOfWeekInMonth(int ordinal, DayOfWeek dayOfWeek) {
         Objects.requireNonNull(dayOfWeek, "dayOfWeek");
-        int dowValue = dayOfWeek.getValue();
+        return new DayOfWeekInMonth(ordinal, dayOfWeek);
+    }
+    private static final class DayOfWeekInMonth implements TemporalAdjuster {
+        private final int ordinal;
+        private final int dowValue;
+        private DayOfWeekInMonth(int ordinal, DayOfWeek dow) {
+            super();
+            this.ordinal = ordinal;
+            this.dowValue = dow.getValue();
+        }
+        @Override
+        public Temporal adjustInto(Temporal temporal) {
         if (ordinal >= 0) {
-            return (temporal) -> {
                 Temporal temp = temporal.with(DAY_OF_MONTH, 1);
                 int curDow = temp.get(DAY_OF_WEEK);
-                int dowDiff = (dowValue - curDow + 7) % 7;
-                dowDiff += (ordinal - 1L) * 7L;  // safe from overflow
-                return temp.plus(dowDiff, DAYS);
-            };
-        } else {
-            return (temporal) -> {
+                long daysDiff = (dowValue - curDow + 7) % 7;
+                daysDiff += (ordinal - 1L) * 7L;  // safe from overflow
+                return temp.plus(daysDiff, DAYS);
+            } else {
                 Temporal temp = temporal.with(DAY_OF_MONTH, temporal.range(DAY_OF_MONTH).getMaximum());
                 int curDow = temp.get(DAY_OF_WEEK);
-                int daysDiff = dowValue - curDow;
+                long daysDiff = dowValue - curDow;
                 daysDiff = (daysDiff == 0 ? 0 : (daysDiff > 0 ? daysDiff - 7 : daysDiff));
                 daysDiff -= (-ordinal - 1L) * 7L;  // safe from overflow
                 return temp.plus(daysDiff, DAYS);
-            };
+            }
         }
     }
 

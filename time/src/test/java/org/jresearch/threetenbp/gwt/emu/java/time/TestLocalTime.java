@@ -1715,7 +1715,7 @@ public class TestLocalTime extends AbstractDateTimeTest {
 			long i = -3660 * 1000000000L;
 			int hour = 22;
 			int min = 59;
-			int sec = 0;
+            long sec = 0;
 			long nanos = 0;
 
 			@Override
@@ -1725,7 +1725,7 @@ public class TestLocalTime extends AbstractDateTimeTest {
 
 			@Override
 			public Object[] next() {
-				final Object[] ret = new Object[] { i, hour, min, sec, (int) nanos };
+                final Object[] ret = new Object[] {i, hour, min, sec, nanos};
 				i += delta;
 				nanos += delta;
 
@@ -1763,12 +1763,12 @@ public class TestLocalTime extends AbstractDateTimeTest {
 		Iterator<Object[]> data = plusNanos_fromZero();
 		while (data.hasNext()) {
 			Object[] objects = data.next();
-			test_plusNanos_fromZero((Long) objects[0], (Integer) objects[1], (Integer) objects[2], (Integer) objects[3],
-					(Integer) objects[4]);
+			test_plusNanos_fromZero((Long) objects[0], (Integer) objects[1], (Integer) objects[2], (Long) objects[3],
+					(Long) objects[4]);
 		}
 	}
 
-	public void test_plusNanos_fromZero(long nanoseconds, int hour, int min, int sec, int nanos) {
+    public void test_plusNanos_fromZero(long nanoseconds, int hour, int min, long sec, long nanos) {
 		LocalTime base = LocalTime.MIDNIGHT;
 		LocalTime t = base.plusNanos(nanoseconds);
 
@@ -2229,7 +2229,7 @@ public class TestLocalTime extends AbstractDateTimeTest {
 			long i = 3660 * 1000000000L;
 			int hour = 22;
 			int min = 59;
-			int sec = 0;
+            long sec = 0;
 			long nanos = 0;
 
 			@Override
@@ -2239,7 +2239,7 @@ public class TestLocalTime extends AbstractDateTimeTest {
 
 			@Override
 			public Object[] next() {
-				final Object[] ret = new Object[] { i, hour, min, sec, (int) nanos };
+                final Object[] ret = new Object[] {i, hour, min, sec, nanos};
 				i -= delta;
 				nanos += delta;
 
@@ -2278,11 +2278,11 @@ public class TestLocalTime extends AbstractDateTimeTest {
 		while (data.hasNext()) {
 			Object[] objects = data.next();
 			test_minusNanos_fromZero((Long) objects[0], (Integer) objects[1], (Integer) objects[2],
-					(Integer) objects[3], (Integer) objects[4]);
+					(Long) objects[3], (Long) objects[4]);
 		}
 	}
 
-	public void test_minusNanos_fromZero(long nanoseconds, int hour, int min, int sec, int nanos) {
+    public void test_minusNanos_fromZero(long nanoseconds, int hour, int min, long sec, long nanos) {
 		LocalTime base = LocalTime.MIDNIGHT;
 		LocalTime t = base.minusNanos(nanoseconds);
 
