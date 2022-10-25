@@ -9,16 +9,16 @@ jobs:
   updateGWT28:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         ref: 'master'
     - name: Set up JDK
-      uses: actions/setup-java@v2
+      uses: actions/setup-java@v3
       with:
         java-version: '11'
         distribution: 'zulu'
         cache: maven
-    - uses: s4u/maven-settings-action@v2.5.0
+    - uses: s4u/maven-settings-action@v2.7.0
       with:
         sonatypeSnapshots: true
         apacheSnapshots: true
@@ -32,7 +32,7 @@ jobs:
       run: mvn -B versions:resolve-ranges versions:update-properties -Dincludes=com.jresearchsoft*:*,org.jresearch*:* -DallowSnapshots --builder singlethreaded
       working-directory: pom
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v3    
+      uses: peter-evans/create-pull-request@v4    
       with:
         branch: gwt28/dep-update
         commit-message: Update shapshot dependencies
@@ -41,16 +41,16 @@ jobs:
   updateGWT29:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         ref: 'GWT29'
     - name: Set up JDK
-      uses: actions/setup-java@v2
+      uses: actions/setup-java@v3
       with:
         java-version: '11'
         distribution: 'zulu'
         cache: maven
-    - uses: s4u/maven-settings-action@v2.5.0
+    - uses: s4u/maven-settings-action@v2.7.0
       with:
         sonatypeSnapshots: true
         apacheSnapshots: true
@@ -64,7 +64,7 @@ jobs:
       run: mvn -B versions:resolve-ranges versions:update-properties -Dincludes=com.jresearchsoft*:*,org.jresearch*:* -DallowSnapshots --builder singlethreaded
       working-directory: pom
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v3    
+      uses: peter-evans/create-pull-request@v4    
       with:
         branch: gwt29/dep-update
         commit-message: Update shapshot dependencies
