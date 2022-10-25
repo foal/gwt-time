@@ -76,5 +76,5 @@ jobs:
         # Needed to get PR information, if any
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      run: mvn -B -P coverage verify sonar:sonar -Dsonar.projectKey=${{ secrets.SONAR_KEY }}
+      run: mvn -B verify sonar:sonar -Dsonar.projectKey=${{ secrets.SONAR_KEY }} -Dmaven.test.skip
       working-directory: pom
