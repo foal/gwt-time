@@ -10,7 +10,7 @@ use the JSR-310 API on Java SE 6 and 7.
 The backport should be referred to using the "ThreeTen" name.
 The backport is curated by the primary author of the Java 8 date and time library, [Stephen Colebourne](https://www.joda.org/).
 
-ThreeTen-Backport is licensed under the business-friendly [BSD 3-clause license](license.html).
+ThreeTen-Backport is licensed under the business-friendly [BSD-3-Clause license](license.html).
 
 
 ## <i></i> Features
@@ -42,7 +42,7 @@ Various documentation is available:
 
 ## <i></i> Releases
 
-Release 1.6.3 is the latest release.
+Release 1.6.8 is the latest release.
 It is considered to be stable and usable in production.
 
 The project runs on Java SE 6 (or later) and has no [dependencies](dependencies.html).
@@ -58,7 +58,7 @@ Available in [Maven Central](https://search.maven.org/search?q=g:org.threeten%20
 <dependency>
   <groupId>org.threeten</groupId>
   <artifactId>threetenbp</artifactId>
-  <version>1.6.3</version>
+  <version>1.6.8</version>
 </dependency>
 ```
 
