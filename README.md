@@ -63,7 +63,7 @@ The impementation contains all actual data from CLDR
 <dependency>
     <groupId>org.jresearch.gwt.time</groupId>
     <artifactId>org.jresearch.gwt.time</artifactId>
-    <version>1.4.21</version>
+    <version>1.4.22</version>
 </dependency>
 ```
 * For GWT 2.9.0/2.10.0 add the following  project dependency to pom.xml
@@ -71,10 +71,29 @@ The impementation contains all actual data from CLDR
 <dependency>
     <groupId>org.jresearch.gwt.time</groupId>
     <artifactId>org.jresearch.gwt.time</artifactId>
-    <version>2.0.9</version>
+    <version>2.0.10</version>
 </dependency>
 ```
 * Add `<inherits name="org.jresearch.threetenbp.gwt.time.module"/>` to your module.gwt.xml, if you use gwt-maven-plugin form Thomas Broyer (https://github.com/tbroyer/gwt-maven-plugin) it will be done automatically.
+* If you see the **AST compiler error** while using GWT 2.9.0/2.20.0 please disable the JVM asserts. 
+```
+      <plugin>
+        <groupId>net.ltgt.gwt.maven</groupId>
+        <artifactId>gwt-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>test</goal>
+            </goals>
+            <configuration>
+              <!-- disable JVM asserts -->
+              <enableAssertions>false</enableAssertions>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+```
+It is an issue in GWT. More info - https://github.com/foal/gwt-time/issues/14 and https://github.com/gwtproject/gwt/issues/9694.
 
 ### Different setups for projects using gwt time
 For more information about possible commbinations see [Different setups for projects using gwt time](https://github.com/foal/gwt-time/wiki/Different-setups-for-projects-using-gwt-time)
