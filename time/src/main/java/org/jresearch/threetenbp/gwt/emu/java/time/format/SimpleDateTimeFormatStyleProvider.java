@@ -42,7 +42,10 @@ import java.util.stream.Stream;
 import org.jresearch.gwt.time.apt.base.Bases;
 import org.jresearch.gwt.time.apt.base.Chrono;
 import org.jresearch.gwt.time.apt.data.client.PatternCoordinates;
-import org.jresearch.gwt.time.apt.data.client.PatternInfo;
+import org.jresearch.gwt.time.apt.data.client.PatternInfoFull;
+import org.jresearch.gwt.time.apt.data.client.PatternInfoLong;
+import org.jresearch.gwt.time.apt.data.client.PatternInfoMedium;
+import org.jresearch.gwt.time.apt.data.client.PatternInfoShort;
 import org.jresearch.threetenbp.gwt.emu.java.time.chrono.Chronology;
 import org.jresearch.threetenbp.gwt.emu.org.jresearch.threetenbp.gwt.time.client.Support;
 
@@ -143,13 +146,13 @@ final class SimpleDateTimeFormatStyleProvider extends DateTimeFormatStyleProvide
 	private static Map<String, PatternCoordinates[]> getTimeMap(FormatStyle style) {
 		switch (style) {
 		case FULL:
-			return PatternInfo.TIME_FULL_PATTERNS;
+			return PatternInfoFull.TIME_PATTERNS;
 		case LONG:
-			return PatternInfo.TIME_LONG_PATTERNS;
+			return PatternInfoLong.TIME_PATTERNS;
 		case MEDIUM:
-			return PatternInfo.TIME_MEDIUM_PATTERNS;
+			return PatternInfoMedium.TIME_PATTERNS;
 		case SHORT:
-			return PatternInfo.TIME_SHORT_PATTERNS;
+			return PatternInfoShort.TIME_PATTERNS;
 		default:
 			throw new IllegalArgumentException("Unsupported FormatStyle: " + style);
 		}
@@ -158,13 +161,13 @@ final class SimpleDateTimeFormatStyleProvider extends DateTimeFormatStyleProvide
 	private static Map<String, PatternCoordinates[]> getDateMap(FormatStyle style) {
 		switch (style) {
 		case FULL:
-			return PatternInfo.DATE_FULL_PATTERNS;
+			return PatternInfoFull.DATE_PATTERNS;
 		case LONG:
-			return PatternInfo.DATE_LONG_PATTERNS;
+			return PatternInfoLong.DATE_PATTERNS;
 		case MEDIUM:
-			return PatternInfo.DATE_MEDIUM_PATTERNS;
+			return PatternInfoMedium.DATE_PATTERNS;
 		case SHORT:
-			return PatternInfo.DATE_SHORT_PATTERNS;
+			return PatternInfoShort.DATE_PATTERNS;
 		default:
 			throw new IllegalArgumentException("Unsupported FormatStyle: " + style);
 		}
@@ -173,13 +176,13 @@ final class SimpleDateTimeFormatStyleProvider extends DateTimeFormatStyleProvide
 	private static Map<String, PatternCoordinates[]> getDateTimeMap(FormatStyle style) {
 		switch (style) {
 		case FULL:
-			return PatternInfo.DATE_TIME_FULL_PATTERNS;
+			return PatternInfoFull.DATE_TIME_PATTERNS;
 		case LONG:
-			return PatternInfo.DATE_TIME_LONG_PATTERNS;
+			return PatternInfoLong.DATE_TIME_PATTERNS;
 		case MEDIUM:
-			return PatternInfo.DATE_TIME_MEDIUM_PATTERNS;
+			return PatternInfoMedium.DATE_TIME_PATTERNS;
 		case SHORT:
-			return PatternInfo.DATE_TIME_SHORT_PATTERNS;
+			return PatternInfoShort.DATE_TIME_PATTERNS;
 		default:
 			throw new IllegalArgumentException("Unsupported FormatStyle: " + style);
 		}

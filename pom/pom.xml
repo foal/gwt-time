@@ -115,11 +115,11 @@
 		</contributor>
 	</contributors>
 
-  <!-- ==================================================================== -->
+<!-- ==================================================================== -->
 	<licenses>
 		<license>
-      <name>BSD-3-Clause</name>
-      <url>https://raw.githubusercontent.com/ThreeTen/threetenbp/main/LICENSE.txt</url>
+	<name>BSD-3-Clause</name>
+	<url>https://raw.githubusercontent.com/ThreeTen/threetenbp/main/LICENSE.txt</url>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
@@ -334,37 +334,37 @@
 	<properties>
 	<!-- Plugin version numbers -->
 		<!-- <build-helper-maven-plugin.version>1.12</build-helper-maven-plugin.version>
-    <maven-assembly-plugin.version>3.4.2</maven-assembly-plugin.version>
-    <maven-bundle-plugin.version>5.1.8</maven-bundle-plugin.version>
+	<maven-assembly-plugin.version>3.4.2</maven-assembly-plugin.version>
+	<maven-bundle-plugin.version>5.1.8</maven-bundle-plugin.version>
 		<maven-changes-plugin.version>2.12.1</maven-changes-plugin.version> -->
 	<!-- v3.0.0 does not work with Eclipse -->
 		<!-- <maven-checkstyle-plugin.version>2.17</maven-checkstyle-plugin.version>
-    <maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
-    <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
-    <maven-deploy-plugin.version>3.0.0</maven-deploy-plugin.version>
-    <maven-dependency-plugin.version>3.3.0</maven-dependency-plugin.version>
-    <maven-enforcer-plugin.version>3.1.0</maven-enforcer-plugin.version>
-    <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
-    <maven-install-plugin.version>3.0.1</maven-install-plugin.version>
-    <maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
-    <maven-javadoc-plugin.version>3.4.0</maven-javadoc-plugin.version>
-    <maven-jxr-plugin.version>3.2.0</maven-jxr-plugin.version>
-    <maven-plugin-plugin.version>3.6.4</maven-plugin-plugin.version>
-    <maven-pmd-plugin.version>3.17.0</maven-pmd-plugin.version>
-    <maven-project-info-reports-plugin.version>3.4.0</maven-project-info-reports-plugin.version>
+	<maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
+	<maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
+	<maven-deploy-plugin.version>3.0.0</maven-deploy-plugin.version>
+	<maven-dependency-plugin.version>3.3.0</maven-dependency-plugin.version>
+	<maven-enforcer-plugin.version>3.1.0</maven-enforcer-plugin.version>
+	<maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
+	<maven-install-plugin.version>3.0.1</maven-install-plugin.version>
+	<maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
+	<maven-javadoc-plugin.version>3.4.0</maven-javadoc-plugin.version>
+	<maven-jxr-plugin.version>3.2.0</maven-jxr-plugin.version>
+	<maven-plugin-plugin.version>3.6.4</maven-plugin-plugin.version>
+	<maven-pmd-plugin.version>3.17.0</maven-pmd-plugin.version>
+	<maven-project-info-reports-plugin.version>3.4.0</maven-project-info-reports-plugin.version>
 		<maven-release-plugin.version>2.5.3</maven-release-plugin.version>
 		<maven-repository-plugin.version>2.4</maven-repository-plugin.version>
-    <maven-resources-plugin.version>3.3.0</maven-resources-plugin.version>
-    <maven-site-plugin.version>3.12.0</maven-site-plugin.version>
-    <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
-    <maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
-    <maven-surefire-report-plugin.version>3.0.0-M7</maven-surefire-report-plugin.version>
-    <maven-toolchains-plugin.version>3.1.0</maven-toolchains-plugin.version> -->
-    <!-- Other plugins -->
-    <!-- <github-api.version>1.307</github-api.version>
-    <github-release-plugin.version>1.4.0</github-release-plugin.version>
-    <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
-    <reflow-velocity-tools.version>1.2</reflow-velocity-tools.version> -->
+	<maven-resources-plugin.version>3.3.0</maven-resources-plugin.version>
+	<maven-site-plugin.version>3.12.0</maven-site-plugin.version>
+	<maven-source-plugin.version>3.2.1</maven-source-plugin.version>
+	<maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
+	<maven-surefire-report-plugin.version>3.0.0-M7</maven-surefire-report-plugin.version>
+	<maven-toolchains-plugin.version>3.1.0</maven-toolchains-plugin.version> -->
+	<!-- Other plugins -->
+	<!-- <github-api.version>1.307</github-api.version>
+	<github-release-plugin.version>1.4.0</github-release-plugin.version>
+	<nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
+	<reflow-velocity-tools.version>1.2</reflow-velocity-tools.version> -->
 	<!-- Properties for maven-compiler-plugin -->
 		<!-- <maven.compiler.compilerVersion>1.6</maven.compiler.compilerVersion>
 		<maven.compiler.source>1.6</maven.compiler.source>
@@ -378,17 +378,17 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<linkXRef>false</linkXRef>
-    <tz.database.version>2023dgtz</tz.database.version>
+	<tz.database.version>2023dgtz</tz.database.version>
 	-->
 		<gwt28-typedarrays.ver>1.2</gwt28-typedarrays.ver>
 		<gwt28-nio.ver>1.1</gwt28-nio.ver>
 		<gwt-slf4j.ver>1.0.2-gwt2.8.2</gwt-slf4j.ver>
-		<time.apt.ver>2.0.13</time.apt.ver>
+		<time.apt.ver>2.0.14</time.apt.ver>
 		<gwt-locale.ver>1.0.5</gwt-locale.ver>
-		<gwt-locale-cldr.ver>1.0.5</gwt-locale-cldr.ver>
+		<gwt-locale-cldr.ver>1.0.6</gwt-locale-cldr.ver>
 		<gwt-tool-jre-apt.ver>1.0.3</gwt-tool-jre-apt.ver>
 
-        <java.version>11</java.version>
+		<java.version>11</java.version>
 
 	</properties>
 </project>
