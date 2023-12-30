@@ -52,6 +52,7 @@ import org.jresearch.threetenbp.gwt.emu.java.time.temporal.TemporalField;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.TemporalQueries;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.TemporalQuery;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.TemporalUnit;
+import org.jresearch.threetenbp.gwt.emu.java.time.temporal.UnsupportedTemporalTypeException;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.ValueRange;
 import org.jresearch.threetenbp.gwt.emu.java.time.zone.ZoneRules;
 import java.util.Comparator;
@@ -125,7 +126,9 @@ public final class OffsetDateTime
         }
         int cmp = Long.compare(datetime1.toEpochSecond(), datetime2.toEpochSecond());
             if (cmp == 0) {
-                cmp = Long.compare(datetime1.getNano(), datetime2.getNano());
+                //GWT specific
+                //Avoid long comparation due to JS. Here is enought nano from time
+                cmp = datetime1.toLocalTime().getNano() - datetime2.toLocalTime().getNano();
             }
             return cmp;
     }
@@ -302,14 +305,17 @@ public final class OffsetDateTime
             return (OffsetDateTime) temporal;
         }
         try {
-            ZoneOffset offset = ZoneOffset.from(temporal);
-            try {
-                LocalDateTime ldt = LocalDateTime.from(temporal);
-                return OffsetDateTime.of(ldt, offset);
-            } catch (DateTimeException ignore) {
-                Instant instant = Instant.from(temporal);
-                return OffsetDateTime.ofInstant(instant, offset);
-            }
+			ZoneOffset offset = ZoneOffset.from(temporal);
+			// GWT specific - avoid exception driven logic
+			LocalDate localDate = temporal.query(TemporalQueries.localDate());
+			if (localDate != null) {
+				LocalTime localTime = temporal.query(TemporalQueries.localTime());
+				if (localTime != null) {
+					return OffsetDateTime.of(localDate, localTime, offset);
+				}
+			}
+			Instant instant = Instant.from(temporal);
+			return OffsetDateTime.ofInstant(instant, offset);
         } catch (DateTimeException ex) {
             throw new DateTimeException("Unable to obtain OffsetDateTime from TemporalAccessor: " +
                     temporal + ", type " + temporal.getClass().getName());
@@ -503,7 +509,7 @@ public final class OffsetDateTime
     	Objects.requireNonNull(field);
         if (field instanceof ChronoField) {
             switch ((ChronoField) field) {
-                case INSTANT_SECONDS: throw new DateTimeException("Field too large for an int: " + field);
+                case INSTANT_SECONDS: throw new UnsupportedTemporalTypeException("Field too large for an int: " + field);
                 case OFFSET_SECONDS: return getOffset().getTotalSeconds();
             }
             return dateTime.get(field);

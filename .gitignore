@@ -21,3 +21,6 @@
 **/TempTest.java
 /.idea/
 /threetenbp.iml
+time/gwt-unitCache/*
+time/war/*
+time/www-test/*

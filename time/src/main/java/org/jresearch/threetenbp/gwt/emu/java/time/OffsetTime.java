@@ -1128,6 +1128,18 @@ public final class OffsetTime
         return nod - offsetNanos;
     }
 
+    /**
+     * Returns the number of seconds since the 1970-01-01T00:00:00Z.
+     * <p>
+     *
+     * @param date the date used to calculate seconds, not null
+     * @return the number of seconds since the 1970-01-01, positive or negative
+     * @since 9
+     */
+    public long toEpochSecond(LocalDate date) {
+        Objects.requireNonNull(date);
+        return date.toEpochDay() * 86400 + time.toSecondOfDay() - offset.getTotalSeconds();
+    }
     //-----------------------------------------------------------------------
     /**
      * Compares this {@code OffsetTime} to another time.

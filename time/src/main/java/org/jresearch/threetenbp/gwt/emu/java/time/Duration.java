@@ -31,18 +31,19 @@
  */
 package org.jresearch.threetenbp.gwt.emu.java.time;
 
-import static org.jresearch.threetenbp.gwt.emu.java.time.LocalTime.SECONDS_PER_DAY;
-import static org.jresearch.threetenbp.gwt.emu.java.time.LocalTime.SECONDS_PER_HOUR;
-import static org.jresearch.threetenbp.gwt.emu.java.time.LocalTime.SECONDS_PER_MINUTE;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.NANO_OF_SECOND;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoUnit.DAYS;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoUnit.NANOS;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoUnit.SECONDS;
+import static org.jresearch.threetenbp.gwt.emu.java.time.LocalTime.*;
+import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.*;
+import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoUnit.*;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.math.RoundingMode;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Objects;
+
 import org.jresearch.threetenbp.gwt.emu.java.time.format.DateTimeParseException;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoUnit;
@@ -50,10 +51,6 @@ import org.jresearch.threetenbp.gwt.emu.java.time.temporal.Temporal;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.TemporalAmount;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.TemporalUnit;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.UnsupportedTemporalTypeException;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
 
 import com.google.gwt.regexp.shared.MatchResult;
 import com.google.gwt.regexp.shared.RegExp;
@@ -139,7 +136,7 @@ public final class Duration
      * @throws ArithmeticException if the input days exceeds the capacity of {@code Duration}
      */
     public static Duration ofDays(long days) {
-        return create(Math.multiplyExact(days, 86400), 0);
+        return create(Math.multiplyExact(days, SECONDS_PER_DAY), 0);
     }
 
     /**
@@ -154,7 +151,7 @@ public final class Duration
      * @throws ArithmeticException if the input hours exceeds the capacity of {@code Duration}
      */
     public static Duration ofHours(long hours) {
-        return create(Math.multiplyExact(hours, 3600), 0);
+        return create(Math.multiplyExact(hours, SECONDS_PER_HOUR), 0);
     }
 
     /**
@@ -169,7 +166,7 @@ public final class Duration
      * @throws ArithmeticException if the input minutes exceeds the capacity of {@code Duration}
      */
     public static Duration ofMinutes(long minutes) {
-        return create(Math.multiplyExact(minutes, 60), 0);
+        return create(Math.multiplyExact(minutes, SECONDS_PER_MINUTE), 0);
     }
 
     //-----------------------------------------------------------------------
@@ -626,6 +623,7 @@ public final class Duration
      * @param amountToAdd  the amount of the period, measured in terms of the unit, positive or negative
      * @param unit  the unit that the period is measured in, must have an exact duration, not null
      * @return a {@code Duration} based on this duration with the specified duration added, not null
+     * @throws UnsupportedTemporalTypeException if the type of unit is not supported
      * @throws ArithmeticException if numeric overflow occurs
      */
     public Duration plus(long amountToAdd, TemporalUnit unit) {
@@ -634,7 +632,7 @@ public final class Duration
             return plus(Math.multiplyExact(amountToAdd, SECONDS_PER_DAY), 0);
         }
         if (unit.isDurationEstimated()) {
-            throw new DateTimeException("Unit must not have an estimated duration");
+            throw new UnsupportedTemporalTypeException("Unit must not have an estimated duration");
         }
         if (amountToAdd == 0) {
             return this;
@@ -886,7 +884,7 @@ public final class Duration
         if (multiplicand == 1) {
             return this;
         }
-        return create(toSeconds().multiply(BigDecimal.valueOf(multiplicand)));
+        return create(toIntSeconds().multiply(BigDecimal.valueOf(multiplicand)));
      }
 
     /**
@@ -906,16 +904,32 @@ public final class Duration
         if (divisor == 1) {
             return this;
         }
-        return create(toSeconds().divide(BigDecimal.valueOf(divisor), RoundingMode.DOWN));
+        return create(toIntSeconds().divide(BigDecimal.valueOf(divisor), RoundingMode.DOWN));
      }
 
+    /**
+     * Counts the number of times a given Duration occurs within this Duration.
+     * <p>
+     * This instance is immutable and unaffected by this method call.
+     *
+     * @param divisor the value to divide the duration by, positive or negative, not null
+     * @return the number of times a given Duration occurs within this Duration, may be zero
+     *         or negative
+     * @throws ArithmeticException if the divisor is zero
+     * @throws ArithmeticException if numeric overflow occurs
+     * @since 9
+     */
+    public long dividedBy(Duration divisor) {
+        Objects.requireNonNull(divisor, "divisor");
+        return toIntSeconds().divideToIntegralValue(divisor.toIntSeconds()).longValueExact();
+    }
     /**
      * Converts this duration to the total length in seconds and
      * fractional nanoseconds expressed as a {@code BigDecimal}.
      *
      * @return the total length of the duration in seconds, with a scale of 9, not null
      */
-    private BigDecimal toSeconds() {
+    private BigDecimal toIntSeconds() {
         return BigDecimal.valueOf(seconds).add(BigDecimal.valueOf(nanos, 9));
     }
 
@@ -1079,12 +1093,24 @@ public final class Duration
      * <p>
      * This instance is immutable and unaffected by this method call.
      *
-     * @return the number of minutes in the duration, may be negative
+     *
      */
     public long toMinutes() {
         return seconds / SECONDS_PER_MINUTE;
     }
 
+    /**
+     * Gets the number of seconds in this duration.
+     * <p>
+     * This returns the total number of seconds in the duration.
+     * <p>
+     * This instance is immutable and unaffected by this method call.
+     *
+     * @since 9
+     */
+    public long toSeconds() {
+        return seconds;
+    }
     /**
      * Converts this duration to the total length in milliseconds.
      * <p>
@@ -1213,6 +1239,39 @@ public final class Duration
         return nanos;
     }
 
+    //-----------------------------------------------------------------------
+    /**
+     * Returns a copy of this Duration truncated to the specified unit.
+     * <p>
+     * The fields of result under the given unit will be set to zero.
+     * <p>
+     * This instance is immutable and unaffected by this method call.
+     *
+     * @param unit the unit to truncate to, not null
+     * @return a truncated copy of Duration, not null
+     * @throws DateTimeException if the unit is invalid for truncation
+     * @throws UnsupportedTemporalTypeException if the unit is not supported
+     * @since 9
+     */
+    public Duration truncatedTo(TemporalUnit unit) {
+        Objects.requireNonNull(unit, "unit");
+        if (unit == ChronoUnit.NANOS) {
+            return this;
+        } else if (unit == ChronoUnit.SECONDS && (seconds >= 0 || nanos == 0)) {
+            return new Duration(seconds, 0);
+        }
+        Duration unitDuration = unit.getDuration();
+        if (unitDuration.getSeconds() > LocalTime.SECONDS_PER_DAY) {
+            throw new UnsupportedTemporalTypeException("Unit is too large");
+        }
+        long unitNanos = unitDuration.toNanos();
+        if ((LocalTime.NANOS_PER_DAY % unitNanos) != 0) {
+            throw new UnsupportedTemporalTypeException("Can't divide unit into a standard day without remainder");
+        }
+        long dayNanos = (seconds % LocalTime.SECONDS_PER_DAY) * LocalTime.NANOS_PER_SECOND + nanos;
+        long result = (dayNanos / unitNanos) * unitNanos ;
+        return plusNanos(result - dayNanos);
+    }
     //-----------------------------------------------------------------------
     /**
      * Compares this duration to the specified {@code Duration}.

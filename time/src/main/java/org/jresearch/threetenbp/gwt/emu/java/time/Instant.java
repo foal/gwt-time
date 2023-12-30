@@ -328,6 +328,10 @@ public final class Instant
      * @throws DateTimeException if unable to convert to an {@code Instant}
      */
     public static Instant from(TemporalAccessor temporal) {
+        if (temporal instanceof Instant) {
+            return (Instant) temporal;
+        }
+        Objects.requireNonNull(temporal, "temporal");
         try {
             long instantSecs = temporal.getLong(INSTANT_SECONDS);
             int nanoOfSecond = temporal.get(NANO_OF_SECOND);
@@ -675,11 +679,11 @@ public final class Instant
         }
         Duration unitDur = unit.getDuration();
         if (unitDur.getSeconds() > LocalTime.SECONDS_PER_DAY) {
-            throw new DateTimeException("Unit is too large to be used for truncation");
+            throw new UnsupportedTemporalTypeException("Unit is too large to be used for truncation");
         }
         long dur = unitDur.toNanos();
         if ((LocalTime.NANOS_PER_DAY % dur) != 0) {
-            throw new DateTimeException("Unit must divide into a standard day without remainder");
+            throw new UnsupportedTemporalTypeException("Unit must divide into a standard day without remainder");
         }
         long nod = (seconds % LocalTime.SECONDS_PER_DAY) * LocalTime.NANOS_PER_SECOND + nanos;
         long result = Math.floorDiv(nod, dur) * dur;
