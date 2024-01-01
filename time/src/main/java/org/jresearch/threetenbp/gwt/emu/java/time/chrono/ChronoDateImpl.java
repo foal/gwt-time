@@ -31,11 +31,10 @@
  */
 package org.jresearch.threetenbp.gwt.emu.java.time.chrono;
 
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.DAY_OF_MONTH;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.MONTH_OF_YEAR;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.YEAR_OF_ERA;
+import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.*;
 
 import java.io.Serializable;
+
 import org.jresearch.threetenbp.gwt.emu.java.time.DateTimeException;
 import org.jresearch.threetenbp.gwt.emu.java.time.LocalDate;
 import org.jresearch.threetenbp.gwt.emu.java.time.LocalTime;
@@ -43,6 +42,7 @@ import org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoUnit;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.Temporal;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.TemporalAdjuster;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.TemporalUnit;
+import org.jresearch.threetenbp.gwt.emu.java.time.temporal.UnsupportedTemporalTypeException;
 
 /**
  * A date expressed in terms of a standard year-month-day calendar system.
@@ -141,7 +141,7 @@ abstract class ChronoDateImpl<D extends ChronoLocalDate>
 //                case ERAS: throw new DateTimeException("Unable to add era, standard calendar system only has one era");
 //                case FOREVER: return (period == 0 ? this : (period > 0 ? LocalDate.MAX_DATE : LocalDate.MIN_DATE));
             }
-            throw new DateTimeException(unit + " not valid for chronology " + getChronology().getId());
+            throw new UnsupportedTemporalTypeException(unit + " not valid for chronology " + getChronology().getId());
         }
         return (D) ChronoLocalDate.super.plus(amountToAdd, unit);
     }

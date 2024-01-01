@@ -119,7 +119,7 @@ public final class LocalDate
      * There are five 400 year cycles from year zero to 2000.
      * There are 7 leap years from 1970 to 2000.
      */
-    static final long DAYS_0000_TO_1970 = (DAYS_PER_CYCLE * 5L) - (30L * 365L + 7L);
+    public static final long DAYS_0000_TO_1970 = (DAYS_PER_CYCLE * 5L) - (30L * 365L + 7L);
 
     /**
      * The year.

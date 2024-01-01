@@ -31,19 +31,7 @@
  */
 package org.jresearch.threetenbp.gwt.emu.java.time.chrono;
 
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_MONTH;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.ALIGNED_DAY_OF_WEEK_IN_YEAR;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.ALIGNED_WEEK_OF_MONTH;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.ALIGNED_WEEK_OF_YEAR;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.DAY_OF_MONTH;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.DAY_OF_WEEK;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.DAY_OF_YEAR;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.EPOCH_DAY;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.ERA;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.MONTH_OF_YEAR;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.PROLEPTIC_MONTH;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.YEAR;
-import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.YEAR_OF_ERA;
+import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.*;
 import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.TemporalAdjusters.nextOrSame;
 
 import java.io.Serializable;
@@ -53,9 +41,11 @@ import org.jresearch.threetenbp.gwt.emu.java.time.DayOfWeek;
 import org.jresearch.threetenbp.gwt.emu.java.time.Instant;
 import org.jresearch.threetenbp.gwt.emu.java.time.LocalDate;
 import org.jresearch.threetenbp.gwt.emu.java.time.LocalDateTime;
+import org.jresearch.threetenbp.gwt.emu.java.time.LocalTime;
 import org.jresearch.threetenbp.gwt.emu.java.time.Month;
 import org.jresearch.threetenbp.gwt.emu.java.time.Year;
 import org.jresearch.threetenbp.gwt.emu.java.time.ZoneId;
+import org.jresearch.threetenbp.gwt.emu.java.time.ZoneOffset;
 import org.jresearch.threetenbp.gwt.emu.java.time.ZonedDateTime;
 import org.jresearch.threetenbp.gwt.emu.java.time.format.ResolverStyle;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField;
@@ -235,6 +225,54 @@ public final class IsoChronology extends Chronology implements Serializable {
     public LocalDate date(TemporalAccessor temporal) {
         return LocalDate.from(temporal);
     }
+
+	/**
+	 * @since 9
+	 */
+	@Override
+	public long epochSecond(int year, int month, int dayOfMonth, int hour, int minute, int second, ZoneOffset zoneOffset) {
+		YEAR.checkValidValue(year);
+		MONTH_OF_YEAR.checkValidValue(month);
+		DAY_OF_MONTH.checkValidValue(dayOfMonth);
+		HOUR_OF_DAY.checkValidValue(hour);
+		MINUTE_OF_HOUR.checkValidValue(minute);
+		SECOND_OF_MINUTE.checkValidValue(second);
+		Objects.requireNonNull(zoneOffset, "zoneOffset");
+		if (dayOfMonth > 28 && dayOfMonth > maxDays(year, month)) {
+			throw new DateTimeException("Invalid date '" + Month.of(month).name() + " " + dayOfMonth + "'");
+		}
+		long totalDays = 365L * year;
+		// Remove/add leap days
+		if (year >= 0) {
+			totalDays += (year + 3L) / 4 - (year + 99L) / 100 + (year + 399L) / 400;
+		} else {
+			totalDays -= year / -4 - year / -100 + year / -400;
+		}
+		totalDays += (367 * month - 362) / 12;
+		totalDays += dayOfMonth - 1;
+		if (month >= 3) {
+			// Minus one day for Feb.
+			totalDays--;
+			if (IsoChronology.INSTANCE.isLeapYear(year) == false) {
+				// Minus one day for leap
+				totalDays--;
+			}
+		}
+		// Start from 1970
+		totalDays -= LocalDate.DAYS_0000_TO_1970;
+		int timeSeconds = (hour * 60 + minute) * 60 + second - zoneOffset.getTotalSeconds();
+		return Math.addExact(Math.multiplyExact(totalDays, 86400L), timeSeconds);
+	}
+
+	private static int maxDays(int year, int month) {
+		if (month == 2) {
+			return IsoChronology.INSTANCE.isLeapYear(year) ? 29 : 28;
+		}
+		if (month == 4 || month == 6 || month == 9 || month == 11) {
+			return 30;
+		}
+		return 31;
+	}
 
     /**
      * Obtains an ISO local date-time from another date-time object.
