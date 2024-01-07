@@ -908,15 +908,6 @@ public final class Duration
      }
 
     /**
-     * Counts the number of times a given Duration occurs within this Duration.
-     * <p>
-     * This instance is immutable and unaffected by this method call.
-     *
-     * @param divisor the value to divide the duration by, positive or negative, not null
-     * @return the number of times a given Duration occurs within this Duration, may be zero
-     *         or negative
-     * @throws ArithmeticException if the divisor is zero
-     * @throws ArithmeticException if numeric overflow occurs
      * @since 9
      */
     public long dividedBy(Duration divisor) {
@@ -1100,12 +1091,6 @@ public final class Duration
     }
 
     /**
-     * Gets the number of seconds in this duration.
-     * <p>
-     * This returns the total number of seconds in the duration.
-     * <p>
-     * This instance is immutable and unaffected by this method call.
-     *
      * @since 9
      */
     public long toSeconds() {
@@ -1241,16 +1226,6 @@ public final class Duration
 
     //-----------------------------------------------------------------------
     /**
-     * Returns a copy of this Duration truncated to the specified unit.
-     * <p>
-     * The fields of result under the given unit will be set to zero.
-     * <p>
-     * This instance is immutable and unaffected by this method call.
-     *
-     * @param unit the unit to truncate to, not null
-     * @return a truncated copy of Duration, not null
-     * @throws DateTimeException if the unit is invalid for truncation
-     * @throws UnsupportedTemporalTypeException if the unit is not supported
      * @since 9
      */
     public Duration truncatedTo(TemporalUnit unit) {

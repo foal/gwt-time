@@ -251,13 +251,6 @@ public final class LocalDate
 
     //-----------------------------------------------------------------------
     /**
-     * Obtains an instance of {@code LocalDate} from an Instant and zone ID.
-     * <p>
-     *
-     * @param instant  the instant to create the date from, not null
-     * @param zone  the time-zone, which may be an offset, not null
-     * @return the local date, not null
-     * @throws DateTimeException if the result exceeds the supported range
      * @since 9
      */
     public static LocalDate ofInstant(Instant instant, ZoneId zone) {
@@ -1519,13 +1512,6 @@ public final class LocalDate
     }
 
     /**
-     * Returns stream of dates from now to given date (exclusive) with step of 1 day.
-     * <p>
-     * This method is equivalent to {@code datesUntil(endExclusive, Period.ofDays(1))}.
-     *
-     * @param endExclusive  the end date, exclusive, not null
-     * @return a sequential {@code Stream} for the range of {@code LocalDate} values
-     * @throws IllegalArgumentException if end date is before this date
      * @since 9
      */
     public Stream<LocalDate> datesUntil(LocalDate endExclusive) {
@@ -1537,15 +1523,6 @@ public final class LocalDate
         return LongStream.range(start, end).mapToObj(LocalDate::ofEpochDay);
     }
     /**
-     * Returns stream of dates from now to given date (exclusive) with given step.
-     * <p>
-     *
-     * @param endExclusive  the end date, exclusive, not null
-     * @param step  the non-zero, non-negative {@code Period} which represents the step.
-     * @return a sequential {@code Stream} for the range of {@code LocalDate} values
-     * @throws IllegalArgumentException if step is zero, or {@code step.getDays()} and
-     *             {@code step.toTotalMonths()} have opposite sign, or end date is before this date
-     *             and step is positive, or end date is after this date and step is negative
      * @since 9
      */
 	public Stream<LocalDate> datesUntil(LocalDate endExclusive, Period step) {
@@ -1759,12 +1736,6 @@ public final class LocalDate
     }
 
     /**
-     * Converts this {@code LocalDate} to the number of seconds since the
-     * 1970-01-01T00:00:00Z.
-     * <p>
-     * @param time the local time, not null
-     * @param offset the zone offset, not null
-     * @return the number of seconds since the 1970-01-01T00:00:00Z, may be negative
      * @since 9
      */
     public long toEpochSecond(LocalTime time, ZoneOffset offset) {

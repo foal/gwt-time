@@ -302,11 +302,6 @@ public final class LocalTime
     }
 
     /**
-     * Obtains an instance of {@code LocalTime} from an Instant and zone ID.
-     * <p>
-     * @param instant  the instant to create the time from, not null
-     * @param zone  the time-zone, which may be an offset, not null
-     * @return the local time, not null
      * @since 9
      */
      public static LocalTime ofInstant(Instant instant, ZoneId zone) {
@@ -1383,12 +1378,6 @@ public final class LocalTime
     }
 
     /**
-     * Returns the number of seconds since the 1970-01-01T00:00:00Z.
-     * <p>
-     *
-     * @param date the date used to calculate seconds, not null
-     * @param offset the zone offset used to calculate seconds, not null
-     * @return the number of seconds since the 1970-01-01, positive or negative
      * @since 9
      */
     public long toEpochSecond(LocalDate date, ZoneOffset offset) {

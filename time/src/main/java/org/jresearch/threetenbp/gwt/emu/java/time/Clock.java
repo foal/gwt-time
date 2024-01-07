@@ -160,23 +160,6 @@ public abstract class Clock {
 
     //-------------------------------------------------------------------------
     /**
-     * Obtains a clock that returns the current instant ticking in whole milliseconds
-     * using best available system clock.
-     * <p>
-     * This clock will always have the nano-of-second field set to milliseconds part.
-     * This ensures that the visible time ticks in whole milliseconds.
-     * The underlying clock is the best available system clock, equivalent to
-     * using {@link #system(ZoneId)}.
-     * <p>
-     * Implementations may use a caching strategy for performance reasons.
-     * As such, it is possible that the start of the milliseconds observed via this
-     * clock will be later than that observed directly via the underlying clock.
-     * <p>
-     * The returned implementation is immutable, thread-safe and {@code Serializable}.
-     * It is equivalent to {@code tick(system(zone), Duration.ofMillis(1))}.
-     *
-     * @param zone  the time-zone to use to convert the instant to date-time, not null
-     * @return a clock that ticks in whole milliseconds using the specified zone, not null
      * @since 9
      */
     public static Clock tickMillis(ZoneId zone) {

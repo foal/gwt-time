@@ -773,7 +773,6 @@ public abstract class Chronology implements Comparable<Chronology> {
     //---------------------------------------------------------------------
 
     /**
-     * GWT Specific
      * @since 9
      */
 	public long epochSecond(int year, int month, int dayOfMonth, int hour, int minute, int second, ZoneOffset zoneOffset) {
@@ -788,7 +787,6 @@ public abstract class Chronology implements Comparable<Chronology> {
 	}
 
     /**
-     * GWT Specific
      * @since 9
      */
 	public long epochSecond(Era era, int yearOfEra, int month, int dayOfMonth, int hour, int minute, int second, ZoneOffset zoneOffset) {

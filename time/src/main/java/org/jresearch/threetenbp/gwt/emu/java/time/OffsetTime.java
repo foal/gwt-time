@@ -1129,11 +1129,6 @@ public final class OffsetTime
     }
 
     /**
-     * Returns the number of seconds since the 1970-01-01T00:00:00Z.
-     * <p>
-     *
-     * @param date the date used to calculate seconds, not null
-     * @return the number of seconds since the 1970-01-01, positive or negative
      * @since 9
      */
     public long toEpochSecond(LocalDate date) {
