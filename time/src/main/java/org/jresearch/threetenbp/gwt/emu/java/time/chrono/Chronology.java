@@ -782,7 +782,7 @@ public abstract class Chronology implements Comparable<Chronology> {
 		SECOND_OF_MINUTE.checkValidValue(second);
 		long days = date(year, month, dayOfMonth).toEpochDay();
 		long daySeconds = Math.multiplyExact(days, 86400) - zoneOffset.getTotalSeconds();
-		long timeinSeconds = (hour * 60 + minute) * 60 + second;
+		long timeinSeconds = (hour * 60 + minute) * 60l + second;
 		return Math.addExact(daySeconds, timeinSeconds);
 	}
 
