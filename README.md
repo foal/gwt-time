@@ -21,7 +21,7 @@ Issues about the adaptation should be reported here at GitHub.
 Pull requests and issues will only be considered so far as matching the behavior of the real Java SE. Additional requested features will be rejected.
 
 ### Time-zone data
-Current version od TZDB: **2022cgtz**
+Current version od TZDB: **2024agtz**
 The time-zone database is stored as a pre-compiled dat file that is included in the built jar as a separate dependency. The actual time-zone data is located in the base project and updated manually.
 To load TZDB data add the following dependency:
 ```xml
@@ -30,18 +30,18 @@ To load TZDB data add the following dependency:
 	<artifactId>org.jresearch.gwt.time.tzdb</artifactId>
 </dependency>
 ```
-Set the actual vesion for GWT 2.8.2/2.9.0/2.10.0  
+Set the actual vesion for GWT 2.8.2/2.9.0/2.10.1/2.11.0  
 
 Add `<inherits name="org.jresearch.threetenbp.gwt.tzdb.module"/>` to your module.gwt.xml, if you use gwt-maven-plugin form Thomas Broyer (https://github.com/tbroyer/gwt-maven-plugin) it will be done automatically.
 
 ### Localization data
-Current version of CLDR: **41**
+Current version of CLDR: **45**
 By default the project supports base Java locales (constant from `java.util.Locale`). To enable all actulal locales (http://cldr.unicode.org) add the following dependency:
 ```xml
 <dependency>
 	<groupId>org.jresearch.gwt.locale</groupId>
 	<artifactId>org.jresearch.gwt.locale.cldr</artifactId>
-	<version>1.0.5</version>
+	<version>1.0.7</version>
 </dependency>
 ```
 Check the actual version on project page: https://github.com/foal/gwt-locale-cldr
@@ -63,19 +63,19 @@ The impementation contains all actual data from CLDR
 <dependency>
     <groupId>org.jresearch.gwt.time</groupId>
     <artifactId>org.jresearch.gwt.time</artifactId>
-    <version>1.4.22</version>
+    <version>1.4.23</version>
 </dependency>
 ```
-* For GWT 2.9.0/2.10.0 add the following  project dependency to pom.xml
+* For GWT 2.9.0/2.10.1/2.11.0 add the following  project dependency to pom.xml
 ```xml
 <dependency>
     <groupId>org.jresearch.gwt.time</groupId>
     <artifactId>org.jresearch.gwt.time</artifactId>
-    <version>2.0.10</version>
+    <version>2.0.11</version>
 </dependency>
 ```
 * Add `<inherits name="org.jresearch.threetenbp.gwt.time.module"/>` to your module.gwt.xml, if you use gwt-maven-plugin form Thomas Broyer (https://github.com/tbroyer/gwt-maven-plugin) it will be done automatically.
-* If you see the **AST compiler error** while using GWT 2.9.0/2.20.0 please disable the JVM asserts. 
+* If you see the **AST compiler error** while using GWT 2.9.0/2.10.1/2.11.0 please disable the JVM asserts. 
 ```
       <plugin>
         <groupId>net.ltgt.gwt.maven</groupId>
@@ -100,7 +100,7 @@ For more information about possible commbinations see [Different setups for proj
 
 ### Unimplemented or partial implemented features
 * Compatibility with J2CL
-* Updates from Java 9-14
+* Updates from Java 10-14
 * Localization for IsoFields.QUARTER_OF_YEAR (hard code English quarter text)
 * Chronology prints as ID (take it from browser)
 * Implementation of `JapaneseChronology`/`JapaneseEra`/`JapaneseDate` in the original project based on `java.util.Calendar` and doesn't works right now.
