@@ -31,16 +31,9 @@
  */
 package org.jresearch.threetenbp.gwt.emu.java.time;
 
-import static org.jresearch.threetenbp.gwt.emu.java.time.LocalTime.NANOS_PER_MINUTE;
-import static org.jresearch.threetenbp.gwt.emu.java.time.LocalTime.NANOS_PER_SECOND;
+import static org.jresearch.threetenbp.gwt.emu.java.time.LocalTime.*;
 
 import java.io.Serializable;
-import org.jresearch.threetenbp.gwt.emu.java.time.Clock;
-import org.jresearch.threetenbp.gwt.emu.java.time.DateTimeException;
-import org.jresearch.threetenbp.gwt.emu.java.time.Duration;
-import org.jresearch.threetenbp.gwt.emu.java.time.Instant;
-import org.jresearch.threetenbp.gwt.emu.java.time.ZoneId;
-import org.jresearch.threetenbp.gwt.emu.java.time.ZoneOffset;
 import java.util.Objects;
 import java.util.TimeZone;
 
@@ -116,7 +109,7 @@ public abstract class Clock {
      * @return a clock that uses the best available system clock in the UTC zone, not null
      */
     public static Clock systemUTC() {
-        return new SystemClock(ZoneOffset.UTC);
+        return SystemClock.CLOCK_UTC;
     }
 
     /**
@@ -159,9 +152,19 @@ public abstract class Clock {
      */
     public static Clock system(ZoneId zone) {
         Objects.requireNonNull(zone, "zone");
+        if (zone == ZoneOffset.UTC) {
+            return SystemClock.CLOCK_UTC;
+        }
         return new SystemClock(zone);
     }
 
+    //-------------------------------------------------------------------------
+    /**
+     * @since 9
+     */
+    public static Clock tickMillis(ZoneId zone) {
+        return new TickClock(system(zone), NANOS_PER_MILLI);
+    }
     //-------------------------------------------------------------------------
     /**
      * Obtains a clock that returns the current instant ticking in whole seconds
@@ -403,6 +406,7 @@ public abstract class Clock {
      */
     static final class SystemClock extends Clock implements Serializable {
         private static final long serialVersionUID = 6740630888130243051L;
+        static final SystemClock CLOCK_UTC = new SystemClock(ZoneOffset.UTC);
         private final ZoneId zone;
 
         SystemClock(ZoneId zone) {
@@ -414,8 +418,8 @@ public abstract class Clock {
         }
         @Override
         public Clock withZone(ZoneId zone) {
-        	//GWT specific
-        	Objects.requireNonNull(zone);
+            //GWT specific
+            Objects.requireNonNull(zone);
             if (zone.equals(this.zone)) {  // intentional NPE
                 return this;
             }
@@ -452,7 +456,7 @@ public abstract class Clock {
      * This is typically used for testing.
      */
     static final class FixedClock extends Clock implements Serializable {
-       private static final long serialVersionUID = 7430389292664866958L;
+    private static final long serialVersionUID = 7430389292664866958L;
         private final Instant instant;
         private final ZoneId zone;
 
@@ -466,8 +470,8 @@ public abstract class Clock {
         }
         @Override
         public Clock withZone(ZoneId zone) {
-        	//GWT specific
-        	Objects.requireNonNull(zone);
+            //GWT specific
+            Objects.requireNonNull(zone);
             if (zone.equals(this.zone)) {  // intentional NPE
                 return this;
             }
@@ -504,7 +508,7 @@ public abstract class Clock {
      * Implementation of a clock that adds an offset to an underlying clock.
      */
     static final class OffsetClock extends Clock implements Serializable {
-       private static final long serialVersionUID = 2007484719125426256L;
+    private static final long serialVersionUID = 2007484719125426256L;
         private final Clock baseClock;
         private final Duration offset;
 
@@ -518,8 +522,8 @@ public abstract class Clock {
         }
         @Override
         public Clock withZone(ZoneId zone) {
-        	//GWT specific
-        	Objects.requireNonNull(zone);
+            //GWT specific
+            Objects.requireNonNull(zone);
             if (zone.equals(baseClock.getZone())) {  // intentional NPE
                 return this;
             }
@@ -570,8 +574,8 @@ public abstract class Clock {
         }
         @Override
         public Clock withZone(ZoneId zone) {
-        	//GWT specific
-        	Objects.requireNonNull(zone);
+            //GWT specific
+            Objects.requireNonNull(zone);
             if (zone.equals(baseClock.getZone())) {  // intentional NPE
                 return this;
             }

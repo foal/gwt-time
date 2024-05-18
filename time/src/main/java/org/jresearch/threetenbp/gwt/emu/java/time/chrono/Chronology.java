@@ -37,6 +37,7 @@ import org.jresearch.threetenbp.gwt.emu.java.time.Instant;
 import org.jresearch.threetenbp.gwt.emu.java.time.LocalDate;
 import org.jresearch.threetenbp.gwt.emu.java.time.LocalTime;
 import org.jresearch.threetenbp.gwt.emu.java.time.ZoneId;
+import org.jresearch.threetenbp.gwt.emu.java.time.ZoneOffset;
 import org.jresearch.threetenbp.gwt.emu.java.time.format.DateTimeFormatterBuilder;
 import org.jresearch.threetenbp.gwt.emu.java.time.format.ResolverStyle;
 import org.jresearch.threetenbp.gwt.emu.java.time.format.TextStyle;
@@ -48,6 +49,9 @@ import org.jresearch.threetenbp.gwt.emu.java.time.temporal.TemporalQueries;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.TemporalQuery;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.UnsupportedTemporalTypeException;
 import org.jresearch.threetenbp.gwt.emu.java.time.temporal.ValueRange;
+
+import static org.jresearch.threetenbp.gwt.emu.java.time.temporal.ChronoField.*;
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
@@ -765,6 +769,30 @@ public abstract class Chronology implements Comparable<Chronology> {
         }
         fieldValues.put(field, value);
     }
+
+    //---------------------------------------------------------------------
+
+    /**
+     * @since 9
+     */
+	public long epochSecond(int year, int month, int dayOfMonth, int hour, int minute, int second, ZoneOffset zoneOffset) {
+		Objects.requireNonNull(zoneOffset);
+		HOUR_OF_DAY.checkValidValue(hour);
+		MINUTE_OF_HOUR.checkValidValue(minute);
+		SECOND_OF_MINUTE.checkValidValue(second);
+		long days = date(year, month, dayOfMonth).toEpochDay();
+		long daySeconds = Math.multiplyExact(days, 86400) - zoneOffset.getTotalSeconds();
+		long timeinSeconds = (hour * 60 + minute) * 60l + second;
+		return Math.addExact(daySeconds, timeinSeconds);
+	}
+
+    /**
+     * @since 9
+     */
+	public long epochSecond(Era era, int yearOfEra, int month, int dayOfMonth, int hour, int minute, int second, ZoneOffset zoneOffset) {
+		Objects.requireNonNull(era);
+		return epochSecond(prolepticYear(era, yearOfEra), month, dayOfMonth, hour, minute, second, zoneOffset);
+	}
 
     //-----------------------------------------------------------------------
     /**

@@ -146,6 +146,10 @@ public final class LocalTime
      */
     static final long MICROS_PER_DAY = SECONDS_PER_DAY * 1000_000L;
     /**
+     * Nanos per millisecond.
+     */
+    static final long NANOS_PER_MILLI = 1000_000L;
+    /**
      * Nanos per second.
      */
     static final long NANOS_PER_SECOND =  1000_000_000L;
@@ -229,13 +233,7 @@ public final class LocalTime
     public static LocalTime now(Clock clock) {
         Objects.requireNonNull(clock, "clock");
         final Instant now = clock.instant();  // called once
-        ZoneOffset offset = clock.getZone().getRules().getOffset(now);
-        long secsOfDay = now.getEpochSecond() % SECONDS_PER_DAY;
-        secsOfDay = (secsOfDay + offset.getTotalSeconds()) % SECONDS_PER_DAY;
-        if (secsOfDay < 0) {
-            secsOfDay += SECONDS_PER_DAY;
-        }
-        return LocalTime.ofSecondOfDay(secsOfDay, now.getNano());
+        return ofInstant(now, clock.getZone());
     }
 
     //------------------------get-----------------------------------------------
@@ -303,6 +301,21 @@ public final class LocalTime
         return create(hour, minute, second, nanoOfSecond);
     }
 
+    /**
+     * @since 9
+     */
+     public static LocalTime ofInstant(Instant instant, ZoneId zone) {
+         Objects.requireNonNull(instant, "instant");
+         Objects.requireNonNull(zone, "zone");
+
+        ZoneOffset offset = zone.getRules().getOffset(instant);
+        long secsOfDay = instant.getEpochSecond() % SECONDS_PER_DAY;
+        secsOfDay = (secsOfDay + offset.getTotalSeconds()) % SECONDS_PER_DAY;
+        if (secsOfDay < 0) {
+            secsOfDay += SECONDS_PER_DAY;
+        }
+        return LocalTime.ofSecondOfDay(secsOfDay, instant.getNano());
+     }
     //-----------------------------------------------------------------------
     /**
      * Obtains an instance of {@code LocalTime} from a second-of-day value.
@@ -381,8 +394,8 @@ public final class LocalTime
      * @throws DateTimeException if unable to convert to a {@code LocalTime}
      */
     public static LocalTime from(TemporalAccessor temporal) {
-    	//GWT specific
-    	Objects.requireNonNull(temporal);
+        //GWT specific
+        Objects.requireNonNull(temporal);
         LocalTime time = temporal.query(TemporalQueries.localTime());
         if (time == null) {
             throw new DateTimeException("Unable to obtain LocalTime from TemporalAccessor: " +
@@ -561,8 +574,8 @@ public final class LocalTime
      */
     @Override  // override for Javadoc and performance
     public int get(TemporalField field) {
-    	//GWT specific
-    	Objects.requireNonNull(field);
+        //GWT specific
+        Objects.requireNonNull(field);
         if (field instanceof ChronoField) {
             return get0(field);
         }
@@ -593,8 +606,8 @@ public final class LocalTime
      */
     @Override
     public long getLong(TemporalField field) {
-    	//GWT Specific
-    	Objects.requireNonNull(field, "field");
+        //GWT Specific
+        Objects.requireNonNull(field, "field");
         if (field instanceof ChronoField) {
             if (field == NANO_OF_DAY) {
                 return toNanoOfDay();
@@ -608,13 +621,13 @@ public final class LocalTime
     }
 
     private int get0(TemporalField field) {
-    	//GWT specific
-    	Objects.requireNonNull(field);
+        //GWT specific
+        Objects.requireNonNull(field);
         switch ((ChronoField) field) {
             case NANO_OF_SECOND: return nano;
-            case NANO_OF_DAY: throw new DateTimeException("Field too large for an int: " + field);
+            case NANO_OF_DAY: throw new UnsupportedTemporalTypeException("Field too large for an int: " + field);
             case MICRO_OF_SECOND: return nano / 1000;
-            case MICRO_OF_DAY: throw new DateTimeException("Field too large for an int: " + field);
+            case MICRO_OF_DAY: throw new UnsupportedTemporalTypeException("Field too large for an int: " + field);
             case MILLI_OF_SECOND: return nano / 1000_000;
             case MILLI_OF_DAY: return (int) (toNanoOfDay() / 1000_000);
             case SECOND_OF_MINUTE: return second;
@@ -691,8 +704,8 @@ public final class LocalTime
      */
     @Override
     public LocalTime with(TemporalAdjuster adjuster) {
-    	//GWT specific
-    	Objects.requireNonNull(adjuster);
+        //GWT specific
+        Objects.requireNonNull(adjuster);
         // optimizations
         if (adjuster instanceof LocalTime) {
             return (LocalTime) adjuster;
@@ -898,18 +911,18 @@ public final class LocalTime
      * @throws DateTimeException if unable to truncate
      */
     public LocalTime truncatedTo(TemporalUnit unit) {
-    	//GWT specific
-    	Objects.requireNonNull(unit);
+        //GWT specific
+        Objects.requireNonNull(unit);
         if (unit == ChronoUnit.NANOS) {
             return this;
         }
         Duration unitDur = unit.getDuration();
         if (unitDur.getSeconds() > SECONDS_PER_DAY) {
-            throw new DateTimeException("Unit is too large to be used for truncation");
+            throw new UnsupportedTemporalTypeException("Unit is too large to be used for truncation");
         }
         long dur = unitDur.toNanos();
         if ((NANOS_PER_DAY % dur) != 0) {
-            throw new DateTimeException("Unit must divide into a standard day without remainder");
+            throw new UnsupportedTemporalTypeException("Unit must divide into a standard day without remainder");
         }
         long nod = toNanoOfDay();
         return ofNanoOfDay((nod / dur) * dur);
@@ -934,8 +947,8 @@ public final class LocalTime
      */
     @Override
     public LocalTime plus(TemporalAmount amount) {
-    	//GWT specific
-    	Objects.requireNonNull(amount);
+        //GWT specific
+        Objects.requireNonNull(amount);
         return (LocalTime) amount.addTo(this);
     }
 
@@ -956,8 +969,8 @@ public final class LocalTime
      */
     @Override
     public LocalTime plus(long amountToAdd, TemporalUnit unit) {
-    	//GWT specific
-    	Objects.requireNonNull(unit);
+        //GWT specific
+        Objects.requireNonNull(unit);
         if (unit instanceof ChronoUnit) {
             ChronoUnit f = (ChronoUnit) unit;
             switch (f) {
@@ -1092,8 +1105,8 @@ public final class LocalTime
      */
     @Override
     public LocalTime minus(TemporalAmount amount) {
-    	//GWT specific
-    	Objects.requireNonNull(amount);
+        //GWT specific
+        Objects.requireNonNull(amount);
         return (LocalTime) amount.subtractFrom(this);
     }
 
@@ -1114,8 +1127,8 @@ public final class LocalTime
      */
     @Override
     public LocalTime minus(long amountToSubtract, TemporalUnit unit) {
-    	//GWT specific
-    	Objects.requireNonNull(unit);
+        //GWT specific
+        Objects.requireNonNull(unit);
         return (amountToSubtract == Long.MIN_VALUE ? plus(Long.MAX_VALUE, unit).plus(1, unit) : plus(-amountToSubtract, unit));
     }
 
@@ -1202,8 +1215,8 @@ public final class LocalTime
     @SuppressWarnings("unchecked")
     @Override
     public <R> R query(TemporalQuery<R> query) {
-    	//GWT specific
-    	Objects.requireNonNull(query);
+        //GWT specific
+        Objects.requireNonNull(query);
         if (query == TemporalQueries.precision()) {
             return (R) NANOS;
         } else if (query == TemporalQueries.localTime()) {
@@ -1364,6 +1377,14 @@ public final class LocalTime
         return total;
     }
 
+    /**
+     * @since 9
+     */
+    public long toEpochSecond(LocalDate date, ZoneOffset offset) {
+        Objects.requireNonNull(date);
+        Objects.requireNonNull(offset);
+        return date.toEpochDay() * 86400 + toSecondOfDay() - offset.getTotalSeconds();
+    }
     //-----------------------------------------------------------------------
     /**
      * Compares this {@code LocalTime} to another time.
@@ -1377,8 +1398,8 @@ public final class LocalTime
      */
     @Override
     public int compareTo(LocalTime other) {
-    	//GWT specific
-    	Objects.requireNonNull(other);
+        //GWT specific
+        Objects.requireNonNull(other);
         int cmp = Integer.compare(hour, other.hour);
         if (cmp == 0) {
             cmp = Integer.compare(minute, other.minute);

@@ -94,7 +94,7 @@ public final class DecimalStyle {
 	// GWT Specific
 	public static Set<Locale> getAvailableLocales() {
 		Locale[] locales = Support.supportedLocalesOfNumberFormat(Locale.getAvailableLocales());
-		HashSet<Locale> result = new HashSet<>();
+		HashSet<Locale> result = new HashSet<>(locales.length);
 		Collections.addAll(result, locales);
 		return result;
 	}

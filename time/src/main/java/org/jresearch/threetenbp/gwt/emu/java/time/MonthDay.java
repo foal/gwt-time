@@ -616,6 +616,7 @@ public final class MonthDay
      * @param other  the other month-day to compare to, not null
      * @return the comparator value, negative if less, positive if greater
      */
+    @Override
     public int compareTo(MonthDay other) {
     	//GWT specific
     	Objects.requireNonNull(other);

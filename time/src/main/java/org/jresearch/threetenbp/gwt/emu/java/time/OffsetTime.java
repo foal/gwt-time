@@ -1128,6 +1128,13 @@ public final class OffsetTime
         return nod - offsetNanos;
     }
 
+    /**
+     * @since 9
+     */
+    public long toEpochSecond(LocalDate date) {
+        Objects.requireNonNull(date);
+        return date.toEpochDay() * 86400 + time.toSecondOfDay() - offset.getTotalSeconds();
+    }
     //-----------------------------------------------------------------------
     /**
      * Compares this {@code OffsetTime} to another time.

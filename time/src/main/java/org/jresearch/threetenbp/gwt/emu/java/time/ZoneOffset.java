@@ -581,7 +581,7 @@ public final class ZoneOffset
         if (field == OFFSET_SECONDS) {
             return totalSeconds;
         } else if (field instanceof ChronoField) {
-            throw new DateTimeException("Unsupported field: " + field);
+            throw new UnsupportedTemporalTypeException("Unsupported field: " + field);
         }
         return field.getFrom(this);
     }
