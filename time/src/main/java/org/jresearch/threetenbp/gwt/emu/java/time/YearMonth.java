@@ -616,7 +616,7 @@ public final class YearMonth
             f.checkValidValue(newValue);
             switch (f) {
                 case MONTH_OF_YEAR: return withMonth((int) newValue);
-                case PROLEPTIC_MONTH: return plusMonths(newValue - getLong(PROLEPTIC_MONTH));
+                case PROLEPTIC_MONTH: return plusMonths(newValue - getProlepticMonth());
                 case YEAR_OF_ERA: return withYear((int) (year < 1 ? 1 - newValue : newValue));
                 case YEAR: return withYear((int) newValue);
                 case ERA: return (getLong(ERA) == newValue ? this : withYear(1 - year));

@@ -387,6 +387,8 @@ public final class LocalDateTime
             return (LocalDateTime) temporal;
         } else if (temporal instanceof ZonedDateTime) {
             return ((ZonedDateTime) temporal).toLocalDateTime();
+        } else if (temporal instanceof OffsetDateTime) {
+            return ((OffsetDateTime) temporal).toLocalDateTime();
         }
         try {
             LocalDate date = LocalDate.from(temporal);

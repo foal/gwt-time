@@ -35,6 +35,7 @@ Various documentation is available:
 
 * The [Javadoc](apidocs/index.html)
 * The [change notes](changes-report.html) for each release
+* The [security](security.html) issues page
 * The [GitHub](https://github.com/ThreeTen/threetenbp) source repository
 * The mechanism to [update](update-tzdb.html) the time-zone information
 
@@ -42,7 +43,7 @@ Various documentation is available:
 
 ## <i></i> Releases
 
-Release 1.6.8 is the latest release.
+Release 1.6.9 is the latest release.
 It is considered to be stable and usable in production.
 
 The project runs on Java SE 6 (or later) and has no [dependencies](dependencies.html).

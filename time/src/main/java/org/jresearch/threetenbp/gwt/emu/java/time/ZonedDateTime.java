@@ -727,7 +727,7 @@ public final class ZonedDateTime
     	Objects.requireNonNull(field);
         if (field instanceof ChronoField) {
             switch ((ChronoField) field) {
-                case INSTANT_SECONDS: throw new DateTimeException("Field too large for an int: " + field);
+                case INSTANT_SECONDS: throw new UnsupportedTemporalTypeException("Field too large for an int: " + field);
                 case OFFSET_SECONDS: return getOffset().getTotalSeconds();
             }
             return dateTime.get(field);
@@ -1111,6 +1111,9 @@ public final class ZonedDateTime
             return resolveLocal(LocalDateTime.of(dateTime.toLocalDate(), (LocalTime) adjuster));
         } else if (adjuster instanceof LocalDateTime) {
             return resolveLocal((LocalDateTime) adjuster);
+        } else if (adjuster instanceof OffsetDateTime) {
+            OffsetDateTime odt = (OffsetDateTime) adjuster;
+            return ofLocal(odt.toLocalDateTime(), zone, odt.getOffset());
         } else if (adjuster instanceof Instant) {
             Instant instant = (Instant) adjuster;
             return create(instant.getEpochSecond(), instant.getNano(), zone);

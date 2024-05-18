@@ -66,6 +66,8 @@ import org.jresearch.threetenbp.gwt.emu.java.time.temporal.ValueRange;
 import org.jresearch.threetenbp.gwt.emu.java.time.zone.ZoneOffsetTransition;
 import org.jresearch.threetenbp.gwt.emu.java.time.zone.ZoneRules;
 import java.util.Objects;
+import java.util.stream.LongStream;
+import java.util.stream.Stream;
 
 /**
  * A date without a time-zone in the ISO-8601 calendar system,
@@ -117,7 +119,7 @@ public final class LocalDate
      * There are five 400 year cycles from year zero to 2000.
      * There are 7 leap years from 1970 to 2000.
      */
-    static final long DAYS_0000_TO_1970 = (DAYS_PER_CYCLE * 5L) - (30L * 365L + 7L);
+    public static final long DAYS_0000_TO_1970 = (DAYS_PER_CYCLE * 5L) - (30L * 365L + 7L);
 
     /**
      * The year.
@@ -177,10 +179,7 @@ public final class LocalDate
     public static LocalDate now(Clock clock) {
         Objects.requireNonNull(clock, "clock");
         final Instant now = clock.instant();  // called once
-        ZoneOffset offset = clock.getZone().getRules().getOffset(now);
-        long epochSec = now.getEpochSecond() + offset.getTotalSeconds();  // overflow caught later
-        long epochDay = Math.floorDiv(epochSec, SECONDS_PER_DAY);
-        return LocalDate.ofEpochDay(epochDay);
+        return ofInstant(now, clock.getZone());
     }
 
     //-----------------------------------------------------------------------
@@ -250,6 +249,18 @@ public final class LocalDate
         return create(year, moy, dom);
     }
 
+    //-----------------------------------------------------------------------
+    /**
+     * @since 9
+     */
+    public static LocalDate ofInstant(Instant instant, ZoneId zone) {
+        Objects.requireNonNull(instant, "instant");
+        Objects.requireNonNull(zone, "zone");
+        ZoneOffset offset = zone.getRules().getOffset(instant);
+        long epochSec = instant.getEpochSecond() + offset.getTotalSeconds();  // overflow caught later
+        long epochDay = Math.floorDiv(epochSec, SECONDS_PER_DAY);
+        return LocalDate.ofEpochDay(epochDay);
+    }
     //-----------------------------------------------------------------------
     /**
      * Obtains an instance of {@code LocalDate} from the epoch day count.
@@ -573,11 +584,11 @@ public final class LocalDate
             case ALIGNED_DAY_OF_WEEK_IN_YEAR: return ((getDayOfYear() - 1) % 7) + 1;
             case DAY_OF_MONTH: return day;
             case DAY_OF_YEAR: return getDayOfYear();
-            case EPOCH_DAY: throw new DateTimeException("Field too large for an int: " + field);
+            case EPOCH_DAY: throw new UnsupportedTemporalTypeException("Field too large for an int: " + field);
             case ALIGNED_WEEK_OF_MONTH: return ((day - 1) / 7) + 1;
             case ALIGNED_WEEK_OF_YEAR: return ((getDayOfYear() - 1) / 7) + 1;
             case MONTH_OF_YEAR: return month;
-            case PROLEPTIC_MONTH: throw new DateTimeException("Field too large for an int: " + field);
+            case PROLEPTIC_MONTH: throw new UnsupportedTemporalTypeException("Field too large for an int: " + field);
             case YEAR_OF_ERA: return (year >= 1 ? year : 1 - year);
             case YEAR: return year;
             case ERA: return (year >= 1 ? 1 : 0);
@@ -1500,6 +1511,71 @@ public final class LocalDate
         return Period.of(Math.toIntExact(years), months, days);
     }
 
+    /**
+     * @since 9
+     */
+    public Stream<LocalDate> datesUntil(LocalDate endExclusive) {
+        long end = endExclusive.toEpochDay();
+        long start = toEpochDay();
+        if (end < start) {
+            throw new IllegalArgumentException("Given date " + endExclusive + "is before current");
+        }
+        return LongStream.range(start, end).mapToObj(LocalDate::ofEpochDay);
+    }
+    /**
+     * @since 9
+     */
+	public Stream<LocalDate> datesUntil(LocalDate endExclusive, Period step) {
+		if (step.isZero()) {
+			throw new IllegalArgumentException("step is zero");
+		}
+		long end = endExclusive.toEpochDay();
+		long start = toEpochDay();
+		long until = end - start;
+		if (until == 0) {
+			return Stream.empty();
+		}
+		long months = step.toTotalMonths();
+		long days = step.getDays();
+		if ((months < 0 && days > 0) || (months > 0 && days < 0)) {
+			throw new IllegalArgumentException("period months and days are of opposite sign");
+		}
+		int sign = months > 0 || days > 0 ? 1 : -1;
+		if (sign < 0 ^ until < 0) {
+			throw new IllegalArgumentException(endExclusive + (sign < 0 ? " > " : " < ") + this);
+		}
+		if (months == 0) {
+			//Calculate from days only
+			long steps = (until - sign) / days;
+			return LongStream.rangeClosed(0, steps)
+				.mapToObj(n -> LocalDate.ofEpochDay(start + n * days));
+		}
+		long steps = countSteps(end, until, months, days, sign);
+		return LongStream.rangeClosed(0, steps)
+			.mapToObj(n -> this.plusMonths(months * n).plusDays(days * n));
+	}
+
+	private long countSteps(long end, long daysUntilEnd, long monthsPart, long daysPart, int sign) {
+		// 1600 and 48699 is used to calculate days per month 365.2425/12 is the same as 48699/1600
+		long steps = daysUntilEnd * 1600 / (monthsPart * 48699 + daysPart * 1600) + 1;
+		long addMonths = monthsPart * steps;
+		long addDays = daysPart * steps;
+		long maxAddMonths = sign > 0
+			? MAX.getProlepticMonth() - getProlepticMonth()
+			: getProlepticMonth() - MIN.getProlepticMonth();
+		// adjust steps estimation
+		if (addMonths * sign > maxAddMonths
+			|| (plusMonths(addMonths).toEpochDay() + addDays) * sign >= end * sign) {
+			steps--;
+			addMonths -= monthsPart;
+			addDays -= daysPart;
+			if (addMonths * sign > maxAddMonths
+				|| (plusMonths(addMonths).toEpochDay() + addDays) * sign >= end * sign) {
+				steps--;
+			}
+		}
+		return steps;
+	}
     //-----------------------------------------------------------------------
     /**
      * Combines this date with a time to create a {@code LocalDateTime}.
@@ -1659,6 +1735,16 @@ public final class LocalDate
         return total - DAYS_0000_TO_1970;
     }
 
+    /**
+     * @since 9
+     */
+    public long toEpochSecond(LocalTime time, ZoneOffset offset) {
+        Objects.requireNonNull(time, "time");
+        Objects.requireNonNull(offset, "offset");
+        long secs = toEpochDay() * SECONDS_PER_DAY + time.toSecondOfDay();
+        secs -= offset.getTotalSeconds();
+        return secs;
+    }
     //-----------------------------------------------------------------------
     /**
      * Compares this date to another date.

@@ -352,26 +352,26 @@
 	<maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
 	<maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
 	<maven-deploy-plugin.version>3.0.0</maven-deploy-plugin.version>
-	<maven-dependency-plugin.version>3.3.0</maven-dependency-plugin.version>
+	<maven-dependency-plugin.version>3.4.0</maven-dependency-plugin.version>
 	<maven-enforcer-plugin.version>3.1.0</maven-enforcer-plugin.version>
 	<maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
-	<maven-install-plugin.version>3.0.1</maven-install-plugin.version>
-	<maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
-	<maven-javadoc-plugin.version>3.4.0</maven-javadoc-plugin.version>
-	<maven-jxr-plugin.version>3.2.0</maven-jxr-plugin.version>
-	<maven-plugin-plugin.version>3.6.4</maven-plugin-plugin.version>
-	<maven-pmd-plugin.version>3.17.0</maven-pmd-plugin.version>
+	<maven-install-plugin.version>3.1.0</maven-install-plugin.version>
+	<maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
+	<maven-javadoc-plugin.version>3.4.1</maven-javadoc-plugin.version>
+	<maven-jxr-plugin.version>3.3.0</maven-jxr-plugin.version>
+	<maven-plugin-plugin.version>3.7.0</maven-plugin-plugin.version>
+	<maven-pmd-plugin.version>3.19.0</maven-pmd-plugin.version>
 	<maven-project-info-reports-plugin.version>3.4.0</maven-project-info-reports-plugin.version>
 		<maven-release-plugin.version>2.5.3</maven-release-plugin.version>
 		<maven-repository-plugin.version>2.4</maven-repository-plugin.version>
 	<maven-resources-plugin.version>3.3.0</maven-resources-plugin.version>
-	<maven-site-plugin.version>3.12.0</maven-site-plugin.version>
+	<maven-site-plugin.version>3.12.1</maven-site-plugin.version>
 	<maven-source-plugin.version>3.2.1</maven-source-plugin.version>
 	<maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
 	<maven-surefire-report-plugin.version>3.0.0-M7</maven-surefire-report-plugin.version>
 	<maven-toolchains-plugin.version>3.1.0</maven-toolchains-plugin.version> -->
 	<!-- Other plugins -->
-	<!-- <github-api.version>1.307</github-api.version>
+	<!-- <github-api.version>1.314</github-api.version>
 	<github-release-plugin.version>1.4.0</github-release-plugin.version>
 	<nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
 	<reflow-velocity-tools.version>1.2</reflow-velocity-tools.version> -->
@@ -388,20 +388,20 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<linkXRef>false</linkXRef>
-	<tz.database.version>2023dgtz</tz.database.version>
+    <tz.database.version>2024agtz</tz.database.version>
     -->
 		<gwt29-regexp.ver>1.0.0-RC1</gwt29-regexp.ver>
 		<gwt29-typedarrays.ver>1.0.0-RC2</gwt29-typedarrays.ver>
 		<gwt29-nio.ver>1.1</gwt29-nio.ver>
 		<gwt-slf4j.ver>1.0.2-gwt2.8.2</gwt-slf4j.ver>
-		<time.apt.ver>2.0.14</time.apt.ver>
+		<time.apt.ver>2.0.15</time.apt.ver>
 		<gwt.version>2.9.0</gwt.version>
 		<elemental.ver>1.1.0</elemental.ver>
 		<jsinterop-annotations.ver>2.0.0</jsinterop-annotations.ver>
 		<jsinterop-base.ver>1.0.0</jsinterop-base.ver>
 		<gwt29-core.ver>1.0.0-RC1</gwt29-core.ver>
 		<gwt-locale.ver>1.0.5</gwt-locale.ver>
-		<gwt-locale-cldr.ver>1.0.6</gwt-locale-cldr.ver>
+		<gwt-locale-cldr.ver>1.0.7</gwt-locale-cldr.ver>
 		<gwt-tool-jre-apt.ver>1.0.3</gwt-tool-jre-apt.ver>
 
 		<java.version>11</java.version>

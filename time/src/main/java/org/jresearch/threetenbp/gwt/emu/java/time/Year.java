@@ -862,6 +862,7 @@ public final class Year
      * @param other  the other year to compare to, not null
      * @return the comparator value, negative if less, positive if greater
      */
+    @Override
     public int compareTo(Year other) {
     	//GWT specific
     	Objects.requireNonNull(other);
