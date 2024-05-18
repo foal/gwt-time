@@ -383,9 +383,9 @@
 		<gwt28-typedarrays.ver>1.2</gwt28-typedarrays.ver>
 		<gwt28-nio.ver>1.1</gwt28-nio.ver>
 		<gwt-slf4j.ver>1.0.2-gwt2.8.2</gwt-slf4j.ver>
-		<time.apt.ver>2.0.14</time.apt.ver>
+		<time.apt.ver>2.0.15</time.apt.ver>
 		<gwt-locale.ver>1.0.5</gwt-locale.ver>
-		<gwt-locale-cldr.ver>1.0.6</gwt-locale-cldr.ver>
+		<gwt-locale-cldr.ver>1.0.7</gwt-locale-cldr.ver>
 		<gwt-tool-jre-apt.ver>1.0.3</gwt-tool-jre-apt.ver>
 
 		<java.version>11</java.version>
