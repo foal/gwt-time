@@ -84,7 +84,7 @@ if (typeof Intl == 'object' && typeof Intl.DateTimeFormat == 'function'  && type
 			var result = [];
 			const region = standalone ? new Intl.DateTimeFormat(locale, { weekday: style }) : new Intl.DateTimeFormat(locale, { weekday: style, day: 'numeric' });
 			for (i = 1; i <= 7; i++) {
-				const date = new Date(Date.UTC(2020, 5, i, 6, 0, 0));
+				const date = new Date(2020, 5, i, 12);
 				result.push(region.formatToParts(date).find(checkWeekday).value);
 			}
 			return result;
