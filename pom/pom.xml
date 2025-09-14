@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.jresearch</groupId>
 		<artifactId>org.jresearch.pom</artifactId>
-		<version>30-SNAPSHOT</version>
+		<version>31</version>
 	</parent>
 	<groupId>org.jresearch.gwt.time</groupId>
 	<artifactId>org.jresearch.gwt.time.pom</artifactId>
@@ -459,9 +459,9 @@
 		<gwt28-typedarrays.ver>1.2</gwt28-typedarrays.ver>
 		<gwt28-nio.ver>1.1</gwt28-nio.ver>
 		<gwt-slf4j.ver>1.0.2-gwt2.8.2</gwt-slf4j.ver>
-		<time.apt.ver>2.0.15</time.apt.ver>
+		<time.apt.ver>2.0.17</time.apt.ver>
 		<gwt-locale.ver>1.0.5</gwt-locale.ver>
-		<gwt-locale-cldr.ver>1.0.7</gwt-locale-cldr.ver>
+		<gwt-locale-cldr.ver>1.0.8</gwt-locale-cldr.ver>
 		<gwt-tool-jre-apt.ver>1.0.3</gwt-tool-jre-apt.ver>
 
 		<java.version>11</java.version>
