@@ -137,16 +137,16 @@ if (typeof Intl == 'object' && typeof Intl.DateTimeFormat == 'function'  && type
 if (typeof Intl == 'object' && typeof Intl.DateTimeFormat == 'function'  && typeof Intl.DateTimeFormat().formatToParts == 'function') {
 	displayAmpm = function(style, locale) {
 		try {
-			var result = [];
-			const region = new Intl.DateTimeFormat(locale, { dayPeriod: style, hour: 'numeric', hour12: 'false' });
-			var date = new Date(Date.UTC(2020, 5, 4, 6, 0, 0));
-			result.push(region.formatToParts(date).find(checkAmpm).value);
-			date = new Date(Date.UTC(2020, 5, 4, 16, 0, 0));
-			result.push(region.formatToParts(date).find(checkAmpm).value);
+			let result = [];
+			const region = new Intl.DateTimeFormat(locale, { timeStyle: style, hour12: true });
+			const date01 = new Date(Date.UTC(2020, 5, 4, 6, 0, 0));
+			result.push(region.formatToParts(date01).find(checkAmpm).value);
+			const date02 = new Date(Date.UTC(2020, 5, 4, 16, 0, 0));
+			result.push(region.formatToParts(date02).find(checkAmpm).value);
 			return result;
 		} catch (e) {
 			console.error("Error while call displayMonths with style %s, locale %s: %s", style, locale, e);
-			return [];
+			return ["AM", "PM"];
 		}
 	};
 } else {

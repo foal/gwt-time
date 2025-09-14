@@ -60,7 +60,7 @@ public class SupportJs {
 	public static native String[] displayEras(String style, String locale);
 
 	/**
-	 * @param style  - "narrow", "short", "long"
+	 * @param style  - "full", "short"
 	 * @param locale - language tag
 	 */
 	@Nonnull
