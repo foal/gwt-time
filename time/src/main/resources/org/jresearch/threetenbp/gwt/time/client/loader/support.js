@@ -137,7 +137,7 @@ if (typeof Intl == 'object' && typeof Intl.DateTimeFormat == 'function'  && type
 if (typeof Intl == 'object' && typeof Intl.DateTimeFormat == 'function'  && typeof Intl.DateTimeFormat().formatToParts == 'function') {
 	displayAmpm = function(style, locale) {
 		try {
-			let result = [];
+			var result = [];
 			const region = new Intl.DateTimeFormat(locale, { timeStyle: style, hour12: true });
 			const date01 = new Date(Date.UTC(2020, 5, 4, 6, 0, 0));
 			result.push(region.formatToParts(date01).find(checkAmpm).value);
