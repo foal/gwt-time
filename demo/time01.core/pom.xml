@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.jresearch.gwt.time</groupId>
 		<artifactId>org.jresearch.gwt.time.pom</artifactId>
-		<version>1.4.24</version>
+		<version>1.4.25-SNAPSHOT</version>
 		<relativePath>../../pom/pom.xml</relativePath>
 	</parent>
 	<artifactId>org.jresearch.gwt.time.demo.time01</artifactId>
