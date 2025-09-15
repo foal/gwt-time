@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.jresearch</groupId>
 		<artifactId>org.jresearch.pom</artifactId>
-		<version>31</version>
+		<version>32</version>
 	</parent>
 	<groupId>org.jresearch.gwt.time</groupId>
 	<artifactId>org.jresearch.gwt.time.pom</artifactId>
@@ -128,18 +128,6 @@
 		<url>https://github.com/foal/gwt-time</url>
 		<tag>HEAD</tag>
 	</scm>
-	<repositories>
-		<repository>
-			<id>oss.sonatype.org-snapshot</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
 	<!-- ==================================================================== -->
 	<build>
 		<!-- <resources>
