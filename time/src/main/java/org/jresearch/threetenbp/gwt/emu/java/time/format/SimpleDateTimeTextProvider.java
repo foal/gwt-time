@@ -318,7 +318,7 @@ final class SimpleDateTimeTextProvider extends DateTimeTextProvider {
         if (field == AMPM_OF_DAY) {
             Map<TextStyle, Map<Long, String>> styleMap = new HashMap<TextStyle, Map<Long,String>>();
 
-			String[] array = Support.displayAmpm("long", locale.toLanguageTag());
+			String[] array = Support.displayAmpm("full", locale.toLanguageTag());
             Map<Long, String> map = new HashMap<Long, String>();
 			map.put(0L, array[AM]);
 			map.put(1L, array[PM]);
@@ -329,12 +329,6 @@ final class SimpleDateTimeTextProvider extends DateTimeTextProvider {
 			map.put(0L, array[AM]);
 			map.put(1L, array[PM]);
 			styleMap.put(TextStyle.SHORT, map);
-
-			array = Support.displayAmpm("narrow", locale.toLanguageTag());
-			map = new HashMap<Long, String>();
-			map.put(0L, array[AM]);
-			map.put(1L, array[PM]);
-			styleMap.put(TextStyle.NARROW, map);
 
             return createLocaleStore(styleMap);
         }
@@ -436,11 +430,12 @@ final class SimpleDateTimeTextProvider extends DateTimeTextProvider {
             this.valueTextMap = valueTextMap;
             Map<TextStyle, List<Entry<String, Long>>> map = new HashMap<TextStyle, List<Entry<String,Long>>>();
             List<Entry<String, Long>> allList = new ArrayList<Map.Entry<String,Long>>();
+            outer:
             for (TextStyle style : valueTextMap.keySet()) {
                 Map<String, Entry<String, Long>> reverse = new HashMap<String, Map.Entry<String,Long>>();
                 for (Map.Entry<Long, String> entry : valueTextMap.get(style).entrySet()) {
                     if (reverse.put(entry.getValue(), createEntry(entry.getValue(), entry.getKey())) != null) {
-                        continue;  // not parsable, try next style
+                        continue outer;  // not parsable, try next style
                     }
                 }
                 List<Entry<String, Long>> list = new ArrayList<Map.Entry<String,Long>>(reverse.values());

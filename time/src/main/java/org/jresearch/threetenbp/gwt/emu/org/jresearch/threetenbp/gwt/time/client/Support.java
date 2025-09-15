@@ -113,7 +113,7 @@ public class Support {
 	}
 
 	/**
-	 * @param style  - "narrow", "short", "long"
+	 * @param style  - "full", "short"
 	 * @param locale - language tag
 	 */
 	@Nonnull
@@ -128,14 +128,14 @@ public class Support {
 
 	@Nonnull
 	public static Locale[] supportedLocalesOfDateTimeFormat(Locale[] locales) {
-		String[] a = Stream.of(locales).map(l -> l.toLanguageTag()).filter(l -> !"und".equalsIgnoreCase(l)).toArray(String[]::new);
+		String[] a = Stream.of(locales).map(Locale::toLanguageTag).filter(l -> !"und".equalsIgnoreCase(l)).toArray(String[]::new);
 		String[] supportedLocales = SupportJs.supportedLocalesOfDateTimeFormat(a);
 		return Stream.of(supportedLocales).map(Support::jsRootToJava).map(Locale::forLanguageTag).toArray(Locale[]::new);
 	}
 
 	@Nonnull
 	public static Locale[] supportedLocalesOfNumberFormat(Locale[] locales) {
-		String[] a = Stream.of(locales).map(l -> l.toLanguageTag()).filter(l -> !"und".equalsIgnoreCase(l)).toArray(String[]::new);
+		String[] a = Stream.of(locales).map(Locale::toLanguageTag).filter(l -> !"und".equalsIgnoreCase(l)).toArray(String[]::new);
 		String[] supportedLocales = SupportJs.supportedLocalesOfNumberFormat(a);
 		return Stream.of(supportedLocales).map(Support::jsRootToJava).map(Locale::forLanguageTag).toArray(Locale[]::new);
 	}

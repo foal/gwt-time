@@ -14,7 +14,6 @@
 *.jar
 *.war
 *.ear
-/*.launch
 /*.dic
 /*.mvn/
 
@@ -24,3 +23,4 @@
 time/gwt-unitCache/*
 time/war/*
 time/www-test/*
+time/src/main/super/*

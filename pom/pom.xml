@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.jresearch</groupId>
 		<artifactId>org.jresearch.pom</artifactId>
-		<version>29-SNAPSHOT</version>
+		<version>32</version>
 	</parent>
 	<groupId>org.jresearch.gwt.time</groupId>
 	<artifactId>org.jresearch.gwt.time.pom</artifactId>
@@ -128,18 +128,6 @@
 		<url>https://github.com/foal/gwt-time</url>
 		<tag>HEAD</tag>
 	</scm>
-	<repositories>
-		<repository>
-			<id>oss.sonatype.org-snapshot</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
 	<!-- ==================================================================== -->
 	<build>
 		<!-- <resources>
@@ -258,6 +246,73 @@
 				<artifactId>gwt-regexp</artifactId>
 				<version>${gwt29-regexp.ver}</version>
 			</dependency>
+			<!-- From corparate POM -->
+            <dependency>
+                <groupId>com.google.code.findbugs</groupId>
+                <artifactId>jsr305</artifactId>
+                <version>${jsr305-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.jsinterop</groupId>
+                <artifactId>jsinterop-annotations</artifactId>
+                <version>${jsinterop-annotations-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.gwt</groupId>
+                <artifactId>gwt-user</artifactId>
+                <version>${gwt-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.gwt</groupId>
+                <artifactId>gwt-dev</artifactId>
+                <version>${gwt-version}</version>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>commons-logging</artifactId>
+                        <groupId>commons-logging</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>jcl-over-slf4j</artifactId>
+                <version>${slf4j-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback-classic-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.jetty.websocket</groupId>
+                <artifactId>websocket-client</artifactId>
+                <version>${jetty-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.elemental2</groupId>
+                <artifactId>elemental2-dom</artifactId>
+                <version>${elemental2-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.elemental2</groupId>
+                <artifactId>elemental2-core</artifactId>
+                <version>${elemental2-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.jsinterop</groupId>
+                <artifactId>base</artifactId>
+                <version>${jsinterop-base-version}</version>
+            </dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -342,6 +397,15 @@
 
 	<!-- ==================================================================== -->
 	<properties>
+        <jsinterop-base-version>1.0.0</jsinterop-base-version>
+        <elemental2-version>1.2.3</elemental2-version>
+        <jetty-version>9.2.14.v20151106</jetty-version>
+        <logback-classic-version>1.2.13</logback-classic-version>
+        <junit-version>4.13.2</junit-version>
+        <gwt-version>2.9.0</gwt-version>
+        <jsinterop-annotations-version>2.0.0</jsinterop-annotations-version>
+        <slf4j-version>1.7.36</slf4j-version>
+        <jsr305-version>3.0.2</jsr305-version>
 	<!-- Plugin version numbers -->
 		<!-- <build-helper-maven-plugin.version>1.12</build-helper-maven-plugin.version>
 	<maven-assembly-plugin.version>3.4.2</maven-assembly-plugin.version>
@@ -388,20 +452,17 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<linkXRef>false</linkXRef>
-    <tz.database.version>2024agtz</tz.database.version>
+    <tz.database.version>2025bgtz</tz.database.version>
     -->
 		<gwt29-regexp.ver>1.0.0-RC1</gwt29-regexp.ver>
 		<gwt29-typedarrays.ver>1.0.0-RC2</gwt29-typedarrays.ver>
 		<gwt29-nio.ver>1.1</gwt29-nio.ver>
-		<gwt-slf4j.ver>1.0.2-gwt2.8.2</gwt-slf4j.ver>
-		<time.apt.ver>2.0.15</time.apt.ver>
-		<gwt.version>2.9.0</gwt.version>
-		<elemental.ver>1.1.0</elemental.ver>
-		<jsinterop-annotations.ver>2.0.0</jsinterop-annotations.ver>
-		<jsinterop-base.ver>1.0.0</jsinterop-base.ver>
-		<gwt29-core.ver>1.0.0-RC1</gwt29-core.ver>
+		<gwt-slf4j.ver>1.0.4</gwt-slf4j.ver>
+        <gwt29-core.ver>1.0.0-RC1</gwt29-core.ver>
+
+		<time.apt.ver>2.0.17</time.apt.ver>
 		<gwt-locale.ver>1.0.5</gwt-locale.ver>
-		<gwt-locale-cldr.ver>1.0.7</gwt-locale-cldr.ver>
+		<gwt-locale-cldr.ver>1.0.8</gwt-locale-cldr.ver>
 		<gwt-tool-jre-apt.ver>1.0.3</gwt-tool-jre-apt.ver>
 
 		<java.version>11</java.version>

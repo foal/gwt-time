@@ -8,13 +8,11 @@ syntax: glob
 **/gwt-unitCache/**
 **/.externalToolBuilders/**
 */war/**
-flexess/src/META-INF/MANIFEST.MF
 app/src/META-INF/MANIFEST.MF
 utils/src/META-INF/MANIFEST.MF
 **/rebel.xml
 **/timing.properties
 **/www-test/**
 pom/verzuj.cmd
-time/src/main/super/
-time/GWT Time tests (Browser, time).launch
+time/src/main/super/**
 **/.factorypath
