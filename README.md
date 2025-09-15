@@ -21,7 +21,7 @@ Issues about the adaptation should be reported here at GitHub.
 Pull requests and issues will only be considered so far as matching the behavior of the real Java SE. Additional requested features will be rejected.
 
 ### Time-zone data
-Current version od TZDB: **2024agtz**
+Current version od TZDB: **2025bgtz**
 The time-zone database is stored as a pre-compiled dat file that is included in the built jar as a separate dependency. The actual time-zone data is located in the base project and updated manually.
 To load TZDB data add the following dependency:
 ```xml
@@ -35,13 +35,13 @@ Set the actual vesion for GWT 2.8.2/2.9.0/2.10.1/2.11.0
 Add `<inherits name="org.jresearch.threetenbp.gwt.tzdb.module"/>` to your module.gwt.xml, if you use gwt-maven-plugin form Thomas Broyer (https://github.com/tbroyer/gwt-maven-plugin) it will be done automatically.
 
 ### Localization data
-Current version of CLDR: **45**
+Current version of CLDR: **47**
 By default the project supports base Java locales (constant from `java.util.Locale`). To enable all actulal locales (http://cldr.unicode.org) add the following dependency:
 ```xml
 <dependency>
 	<groupId>org.jresearch.gwt.locale</groupId>
 	<artifactId>org.jresearch.gwt.locale.cldr</artifactId>
-	<version>1.0.7</version>
+	<version>1.0.8</version>
 </dependency>
 ```
 Check the actual version on project page: https://github.com/foal/gwt-locale-cldr
@@ -63,7 +63,7 @@ The impementation contains all actual data from CLDR
 <dependency>
     <groupId>org.jresearch.gwt.time</groupId>
     <artifactId>org.jresearch.gwt.time</artifactId>
-    <version>1.4.23</version>
+    <version>1.4.24</version>
 </dependency>
 ```
 * For GWT 2.9.0/2.10.1/2.11.0 add the following  project dependency to pom.xml
@@ -71,7 +71,7 @@ The impementation contains all actual data from CLDR
 <dependency>
     <groupId>org.jresearch.gwt.time</groupId>
     <artifactId>org.jresearch.gwt.time</artifactId>
-    <version>2.0.11</version>
+    <version>2.0.12</version>
 </dependency>
 ```
 * Add `<inherits name="org.jresearch.threetenbp.gwt.time.module"/>` to your module.gwt.xml, if you use gwt-maven-plugin form Thomas Broyer (https://github.com/tbroyer/gwt-maven-plugin) it will be done automatically.
@@ -139,15 +139,3 @@ Pull requests must _not_ be copied from the JDK, because the GPL license is inco
 * check out [APT project](https://github.com/foal/gwt-time-apt) and INSTALL (`mvn clean install`) it.
 * check out this project
 * `mvn clean install`
-* The project use the parent pom located on Sonatype snapshot repository.
-```xml
-<repositories>
-    <repository>
-        <id>oss.sonatype.org-snapshot</id>
-        <url>http://oss.sonatype.org/content/repositories/snapshots</url>
-        <releases><enabled>false</enabled></releases>
-        <snapshots><enabled>true</enabled></snapshots>
-    </repository>
-</repositories>
-```
-or download directly https://oss.sonatype.org/content/repositories/snapshots/org/jresearch/org.jresearch.pom/29-SNAPSHOT/
